@@ -41,7 +41,7 @@
     }
   ],
   "url": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es",
-  "manifest": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest/download/module.json",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json",
   "download": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest/download/translate-dnd5e-sdr2-es.zip",
   "bugs": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/issues",
   "readme": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/README.md",
