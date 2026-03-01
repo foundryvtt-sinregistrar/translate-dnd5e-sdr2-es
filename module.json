@@ -1,0 +1,43 @@
+{
+  "id": "translate-dnd5e-sdr2-es",
+  "title": "Translation: Español [D&D5e] SRD 5.2.1",
+  "description": "Traducciones de compendios dnd5e al español usando Babele.",
+  "version": "1.13.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "5.2.1",
+          "verified": "5.2.5"
+        },
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.7.5",
+          "verified": "2.7.5"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/converters.js",
+    "scripts/babele-register.js"
+  ],
+  "authors": [
+    {
+      "name": "foundryvtt-sinregistrar"
+    }
+  ]
+}
