@@ -17,7 +17,11 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 - —
 
 ### Changed
-- —
+- Reworked GitHub Release workflow:
+  - Releases are now generated as **Draft** by default to allow validation before publication.
+  - Automated module packaging using `dev-tools/buildScripts/build_release.py` (git archive–based build).
+  - Release asset now exclusively uploads `dist/translate-dnd5e-sdr2-es.zip`.
+  - Added explicit `permissions: contents: write` to prevent GitHub Actions permission failures.
 
 ### Fixed
 - —
