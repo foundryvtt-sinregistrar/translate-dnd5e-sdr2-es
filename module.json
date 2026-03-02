@@ -1,12 +1,16 @@
 {
   "id": "translate-dnd5e-sdr2-es",
-  "title": "Translation: Español [D&D5e] SRD 5.2.1",
-  "description": "Traducciones de compendios dnd5e al español usando Babele.",
-  "version": "1.13.0",
+  "title": "TDSRD2.module.name",
+  "description": "TDSRD2.module.description",
+  "version": "1.13.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351"
   },
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "es", "name": "Español", "path": "lang/es.json" }
+  ],
   "relationships": {
     "systems": [
       {
