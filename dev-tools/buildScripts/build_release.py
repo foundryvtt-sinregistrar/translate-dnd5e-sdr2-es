@@ -15,12 +15,18 @@ Usage:
 -Uso recomendado (release “limpia”)
   python dev-tools/buildScripts/build_release.py
 
+-Uso solo el versionado
+  python dev-tools/buildScripts/build_release.py --no-alias
+
   python dev-tools/buildScripts/build_release.py --dist dist --ref HEAD
 
 - Si estás en develop con cambios locales y quieres probar igual
   python dev-tools/buildScripts/build_release.py --allow-dirty
 
   python dev-tools/buildScripts/build_release.py --name translate-dnd5e-sdr2-es
+
+Extra:
+- Also creates a non-versioned alias ZIP: <id>.zip (same content as the versioned one)
 """
 
 from __future__ import annotations
@@ -53,7 +59,6 @@ def git_repo_root(start: Path) -> Path:
 
 
 def ensure_clean_worktree(repo_root: Path) -> None:
-    # Porcelain status is stable for parsing
     status = run(["git", "status", "--porcelain"], cwd=repo_root)
     if status.strip():
         raise RuntimeError(
@@ -82,8 +87,6 @@ def load_module_meta(module_json_path: Path) -> tuple[str, str]:
 
 def build_zip(repo_root: Path, ref: str, zip_path: Path, prefix: str) -> None:
     zip_path.parent.mkdir(parents=True, exist_ok=True)
-
-    # `git archive` writes file directly
     subprocess.run(
         ["git", "archive", "--format=zip", f"--prefix={prefix}/", "-o", str(zip_path), ref],
         cwd=str(repo_root),
@@ -95,15 +98,16 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Build a clean FoundryVTT module ZIP using git archive.")
     ap.add_argument("--dist", default="dist", help="Directorio de salida (relativo al repo root).")
     ap.add_argument("--ref", default="HEAD", help="Git ref a empaquetar (HEAD, tag, commit, etc.).")
-    ap.add_argument(
-        "--name",
-        default="",
-        help="Nombre base del ZIP (si vacío usa module.json:id).",
-    )
+    ap.add_argument("--name", default="", help="Nombre base del ZIP (si vacío usa module.json:id).")
     ap.add_argument(
         "--allow-dirty",
         action="store_true",
         help="Permite generar el ZIP aunque haya cambios sin commitear.",
+    )
+    ap.add_argument(
+        "--no-alias",
+        action="store_true",
+        help="No genera el ZIP adicional sin versión (<id>.zip).",
     )
 
     args = ap.parse_args()
@@ -117,25 +121,31 @@ def main() -> int:
             ensure_clean_worktree(repo_root)
 
         base_name = args.name.strip() if args.name.strip() else mod_id
-
-        # Common naming: <id>-<version>.zip (sin 'v' para evitar dobles)
-        zip_name = f"{base_name}-{version}.zip"
         dist_dir = (repo_root / args.dist).resolve()
-        zip_path = dist_dir / zip_name
+        dist_dir.mkdir(parents=True, exist_ok=True)
 
-        build_zip(repo_root=repo_root, ref=args.ref, zip_path=zip_path, prefix=base_name)
+        # 1) Versioned ZIP: <id>-<version>.zip
+        zip_versioned = dist_dir / f"{base_name}-{version}.zip"
+        build_zip(repo_root=repo_root, ref=args.ref, zip_path=zip_versioned, prefix=base_name)
+
+        # 2) Alias ZIP: <id>.zip (same content)
+        zip_alias = dist_dir / f"{base_name}.zip"
+        if not args.no_alias:
+            build_zip(repo_root=repo_root, ref=args.ref, zip_path=zip_alias, prefix=base_name)
 
         # Print result
-        size_bytes = zip_path.stat().st_size
-        size_mb = size_bytes / (1024 * 1024)
-        print(f"OK: {zip_path}")
-        print(f"Tamaño: {size_mb:.2f} MB")
+        def print_zip(p: Path, label: str) -> None:
+            size_mb = p.stat().st_size / (1024 * 1024)
+            print(f"{label}: {p}  ({size_mb:.2f} MB)")
+
+        print_zip(zip_versioned, "OK (versioned)")
+        if not args.no_alias:
+            print_zip(zip_alias, "OK (alias)")
         print(f"Ref: {args.ref}")
         print(f"Prefix: {base_name}/")
         return 0
 
     except subprocess.CalledProcessError as e:
-        # Show stderr if available
         err = ""
         try:
             err = e.stderr.decode() if isinstance(e.stderr, (bytes, bytearray)) else (e.stderr or "")
