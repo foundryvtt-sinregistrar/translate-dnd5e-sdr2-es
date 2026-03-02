@@ -1,19 +1,20 @@
 # Developer Documentation
 
-## Design Philosophy
+## Design Goals
 
--   Preserve original IDs
--   Preserve UUID references
--   Maintain macro integrity
--   Enable forward compatibility with future dnd5e updates
+- Preserve original IDs and document structure
+- Preserve Foundry macros (`@UUID`, `@Embed`, `&Reference`, inline rolls)
+- Keep translations resilient to upstream dnd5e updates
+- Prefer *mapping-first* + *converter-second* for maintainability
 
-## Mapping Strategy
+## Converters
 
-Each compendium defines: - folders - entries - mapping rules
+- `activities` — translate activities by ID while preserving structure
+- `mergeEffects` — merge effects without breaking IDs
+- `advancementById` — translate advancement blocks by ID
 
-Converters: - activities - mergeEffects - advancementById
+## Normalization
 
-## Normalization Layer
-
-Version 7 includes: - Glossary replacements - Regex rules - Macro
-protection - Structural Title Case policy
+Normalization is applied after translation to enforce canonical terminology and safe typographic cleanup while protecting:
+- Macros and inline rolls
+- `<table>` blocks and headings

@@ -1,3 +1,4 @@
 # Ignorar carpetas que empiezan por _
 _*/
+_*
 .idea

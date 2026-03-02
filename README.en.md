@@ -1,12 +1,11 @@
-# 🇬🇧 D&D 5e SRD 2024 -- Spanish Translation (Babele)
+# 🇬🇧 D&D 5e SRD 2024 – Spanish Translation (Babele)
 
-![Foundry v13](https://img.shields.io/badge/Foundry-v13-green) ![dnd5e
-5.2.x](https://img.shields.io/badge/dnd5e-5.2.x-blue) ![Babele
-Required](https://img.shields.io/badge/Babele-required-orange) ![SRD
-5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
+![Foundry v13](https://img.shields.io/badge/Foundry-v13-green)
+![dnd5e 5.2.x](https://img.shields.io/badge/dnd5e-5.2.x-blue)
+![Babele Required](https://img.shields.io/badge/Babele-required-orange)
+![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
 
-Full Spanish translation of SRD 5.2.x (2024 rules compatible)
-compendiums for the dnd5e system in Foundry VTT.
+Full Spanish translation of **SRD 5.2.x (2024 rules compatible)** compendiums for the **dnd5e** system in **Foundry VTT**, implemented using **Babele** and a *mapping-first + converter-second* architecture with advanced semantic normalization.
 
 ------------------------------------------------------------------------
 
@@ -65,33 +64,41 @@ translate-dnd5e-sdr2-es/
 
 ## 🚀 Installation
 
-### 🔹 Option 1 — Download ZIP
+### Option 1 — Download ZIP
 
-1. Go to the **Releases** section of the repository.
-2. Download the `.zip` file for the **latest version** or any **specific version** you want.
-3. Extract into:
+1. Go to the repository **Releases** page.
+2. Download the `.zip` for the **latest** release or a **specific** version.
+3. Extract to:
 
-   FoundryVTT/Data/modules/
+```
+FoundryVTT/Data/modules/
+```
 
 4. Enable the module in Foundry.
-5. Activate the translation in Babele.
+5. Enable the translation via Babele.
 
 ---
 
-### 🔹 Option 2 — Install directly from Foundry (Manifest URL)
+### Option 2 — Install from Foundry (Manifest URL)
 
-1. In Foundry, go to **Add-on Modules → Install Module → Install from Manifest URL**.
-2. Use the following URL:
+1. In Foundry → **Add-on Modules → Install Module → Install from Manifest URL**
+2. Paste this URL:
 
-   https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json
+```
+https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json
+```
 
 3. Install the module.
-4. Enable it and activate the translation via Babele.
+4. Enable it and activate the translation in Babele.
 
-------------------------------------------------------------------------
+---
 
-## 📜 License
+## 📜 Changelog
 
-Based exclusively on SRD 5.2.1 content.
+See: **CHANGELOG.md**
 
-Generated on 2026-03-02 10:20:40 UTC
+---
+
+## 👤 Author
+
+foundryvtt-sinregistrar

@@ -100,6 +100,12 @@ translate-dnd5e-sdr2-es/
 
 Contenido basado exclusivamente en SRD 5.2.1.
 
-------------------------------------------------------------------------
+---
 
-Generado el 2026-03-02 10:06:36 UTC
+## 📜 Changelog
+
+Consulta: **CHANGELOG.md**
+
+## 👤 Autor
+
+foundryvtt-sinregistrar
