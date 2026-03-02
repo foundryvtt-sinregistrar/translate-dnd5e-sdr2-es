@@ -71,9 +71,28 @@ translate-dnd5e-sdr2-es/
 
 ## 🚀 Instalación
 
-1.  Copiar en FoundryVTT/Data/modules/
-2.  Activar módulo
-3.  Activar traducción en Babele
+### 🔹 Opción 1 — Descargar ZIP
+
+1. Ir a la sección **Releases** del repositorio.
+2. Descargar el fichero `.zip` de la **última versión** o de la **versión deseada**.
+3. Descomprimir en:
+
+   FoundryVTT/Data/modules/
+
+4. Activar el módulo desde Foundry.
+5. Activar la traducción desde Babele.
+
+---
+
+### 🔹 Opción 2 — Instalación directa desde Foundry (URL)
+
+1. En Foundry, ir a **Add-on Modules → Install Module → Install from Manifest URL**.
+2. Introducir la siguiente URL:
+
+   https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json
+
+4. Instalar el módulo.
+4. Activarlo y habilitar la traducción desde Babele.
 
 ------------------------------------------------------------------------
 
