@@ -1,7 +1,7 @@
 # Permisos
-# chmod +x dev-tools/build/build-zip.sh
+# chmod +x dev-tools/buildScripts/build-zip.sh
 # Ejecucion desde la raiz el proyecto
-# ./dev-tools/build/build-zip.sh
+# ./dev-tools/buildScripts/build-zip.sh
 
 #!/usr/bin/env bash
 set -euo pipefail

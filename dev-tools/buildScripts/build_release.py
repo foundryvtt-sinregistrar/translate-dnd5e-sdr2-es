@@ -13,14 +13,14 @@ Key points:
 
 Usage:
 -Uso recomendado (release “limpia”)
-  python dev-tools/build/build_release.py
+  python dev-tools/buildScripts/build_release.py
 
-  python dev-tools/build/build_release.py --dist dist --ref HEAD
+  python dev-tools/buildScripts/build_release.py --dist dist --ref HEAD
 
 - Si estás en develop con cambios locales y quieres probar igual
-  python dev-tools/build/build_release.py --allow-dirty
+  python dev-tools/buildScripts/build_release.py --allow-dirty
 
-  python dev-tools/build/build_release.py --name translate-dnd5e-sdr2-es
+  python dev-tools/buildScripts/build_release.py --name translate-dnd5e-sdr2-es
 """
 
 from __future__ import annotations

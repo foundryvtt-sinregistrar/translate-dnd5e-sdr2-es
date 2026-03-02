@@ -1,5 +1,5 @@
 # Ejecucion desde la raiz el proyecto
-# powershell -ExecutionPolicy Bypass -File .\dev-tools\build\build-zip.ps1
+# powershell -ExecutionPolicy Bypass -File .\dev-tools\buildScriptsºbuild-zip.ps1
 #Requires -Version 5.1
 $ErrorActionPreference = "Stop"
 
