@@ -17,7 +17,11 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 - —
 
 ### Changed
-- —
+- Reworked GitHub Release workflow:
+  - Releases are now generated as **Draft** by default to allow validation before publication.
+  - Automated module packaging using `dev-tools/buildScripts/build_release.py` (git archive–based build).
+  - Release asset now exclusively uploads `dist/translate-dnd5e-sdr2-es.zip`.
+  - Added explicit `permissions: contents: write` to prevent GitHub Actions permission failures.
 
 ### Fixed
 - —
@@ -43,7 +47,7 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 ### Changed
 - Cleaned and normalized `README.md` and `README.en.md` (UTF-8 encoding fix).
 - Marketplace-ready documentation structure.
-- Updated module version to 1.13.2.
+- Updated module version to 1.13.3.
 
 ### Fixed
 - Fixed UTF-8 encoding issues causing corrupted characters in README.
