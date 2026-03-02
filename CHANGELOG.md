@@ -20,6 +20,24 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 - —
 
 ---
+
+## [1.13.3] - 2026-03-02
+
+### Added
+- Added CC-BY 4.0 compliant `LICENSE`.
+- Added explicit marketplace legal disclaimers.
+- Added non-affiliation statement with Wizards of the Coast.
+- Added explicit confirmation that no non-SRD content is included.
+
+### Changed
+- Cleaned and normalized `README.md` and `README.en.md` (UTF-8 encoding fix).
+- Marketplace-ready documentation structure.
+- Updated module version to 1.13.3.
+
+### Fixed
+- Fixed UTF-8 encoding issues causing corrupted characters in README.
+---
+
 ## [1.13.1] - 2026-03-02
 ### Added
 - Added module i18n support via `lang/en.json` and `lang/es.json`.
@@ -27,8 +45,8 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ### Changed
 - `title` and `description` now use localization keys (`TDSRD2.module.name`, `TDSRD2.module.description`).
-
 ---
+
 ## [1.13.0] - 2026-03-02
 
 ### Compatibility
