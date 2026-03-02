@@ -5,9 +5,25 @@
 ![Babele Required](https://img.shields.io/badge/Babele-required-orange)
 ![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
 
-Full Spanish translation of **SRD 5.2.x (2024 rules compatible)** compendiums for the **dnd5e** system in **Foundry VTT**, implemented using **Babele** and a *mapping-first + converter-second* architecture with advanced semantic normalization.
+### This module is not affiliated with Wizards of the Coast.
+### This module does not include non-SRD content.
+
+This module contains translations of material released under the  
+**Creative Commons Attribution 4.0 International License (CC-BY 4.0).**
+
+Dungeons & Dragons SRD 5.2.1 © Wizards of the Coast LLC.
 
 ------------------------------------------------------------------------
+## 📦 Description
+
+Spanish translation of the official **D&D 5e SRD 5.2.x (2024 rules compatible)**  
+compendiums for the Foundry VTT **dnd5e** system.
+
+Implemented using **Babele** with architecture:
+
+Mapping First → Converter Second → Normalization Layer
+
+---
 
 ## 📦 Module Contents
 
@@ -90,6 +106,15 @@ https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-e
 
 3. Install the module.
 4. Enable it and activate the translation in Babele.
+
+---
+
+## 📜 License
+
+This project contains only material released under  
+**Creative Commons Attribution 4.0 (CC-BY 4.0).**
+
+No proprietary or non-SRD content is included.
 
 ---
 

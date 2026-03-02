@@ -5,7 +5,22 @@
 Required](https://img.shields.io/badge/Babele-required-orange) ![SRD
 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
 
-Traducción completa al español de los compendios SRD 5.2.x (2024 rules compatible) del sistema dnd5e para Foundry VTT, implementada mediante Babele y una arquitectura mapping-first + converter-second con normalización semántica avanzada.
+### Este módulo no está afiliado a Wizards of the Coast.
+### Este módulo no incluye contenido fuera del SRD.
+
+Este módulo contiene traducciones de material publicado bajo la licencia **Creative Commons Attribution 4.0 International License (CC-BY 4.0)**.
+
+Dungeons & Dragons SRD 5.2.1 © Wizards of the Coast LLC.
+
+---
+
+## 📦 Descripción
+
+Traducción al español de los compendios oficiales del **SRD 5.2.x (compatible con reglas 2024)** del sistema **dnd5e** para Foundry VTT.
+
+Implementado mediante **Babele** con arquitectura:
+
+Mapping First → Converter Second → Normalization Layer
 
 ------------------------------------------------------------------------
 
@@ -98,7 +113,9 @@ translate-dnd5e-sdr2-es/
 
 ## 📜 Licencia
 
-Contenido basado exclusivamente en SRD 5.2.1.
+Este proyecto contiene exclusivamente material publicado bajo **Creative Commons Attribution 4.0 (CC-BY 4.0)**.
+
+No incluye contenido propietario fuera del SRD.
 
 ---
 
