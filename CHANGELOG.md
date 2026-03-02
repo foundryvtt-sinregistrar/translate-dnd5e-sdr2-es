@@ -1,9 +1,7 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
-
 The format is based on **Keep a Changelog**, and this project follows a custom versioning scheme:
-
 **MAJOR.FOUNDRY.PATCH**
 
 - **MAJOR** → Breaking structural changes
@@ -11,9 +9,7 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 - **PATCH** → Improvements, fixes, and incremental updates
 
 ---
-
 ## [Unreleased]
-
 ### Added
 - —
 
@@ -24,7 +20,15 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 - —
 
 ---
+## [1.13.1] - 2026-03-02
+### Added
+- Added module i18n support via `lang/en.json` and `lang/es.json`.
+- Added `languages` section to `module.json` so Foundry can load translations.
 
+### Changed
+- `title` and `description` now use localization keys (`TDSRD2.module.name`, `TDSRD2.module.description`).
+
+---
 ## [1.13.0] - 2026-03-02
 
 ### Compatibility
