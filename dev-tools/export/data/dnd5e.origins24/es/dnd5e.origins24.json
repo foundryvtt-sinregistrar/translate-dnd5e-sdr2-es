@@ -1,0 +1,841 @@
+{
+  "label": "Orígenes de personaje",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancementById"
+    }
+  },
+  "folders": {
+    "Backgrounds": "Trasfondos",
+    "Dragonborn": "Dracónido",
+    "Dwarf": "Enano",
+    "Elf": "Elfo",
+    "Gnome": "Gnomo",
+    "Goliath": "Goliat",
+    "Halfling": "Mediano",
+    "Human": "Humano",
+    "Orc": "Orco",
+    "Species": "Especies",
+    "Tiefling": "Tiflin",
+    "Traits": "Rasgos"
+  },
+  "entries": {
+    "phbbgAcolyte0000": {
+      "name": "Acólito",
+      "description": "<p><strong>Puntuaciones de característica:</strong> inteligencia, sabiduría, carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado en la magia} (Clérigo)</p><p><strong>Competencias en habilidades:</strong> Perspicacia y Religión</p><p><strong>Competencia con herramientas:</strong> Útiles de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Útiles de calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Libro} (oraciones), @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo sagrado}, @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergamino} (10 hojas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 po; o (B) 50 po</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgAcolyte0000 inline classes=\"free-rules-embed\"]</p>",
+      "advancement": {
+        "kDI6zoUamHzFTvHG": {
+          "title": "Mejora de puntuaciones por trasfondo",
+          "hint": "Tu trasfondo te permite aumentar tus puntuaciones de inteligencia, sabiduría y carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+        },
+        "Lk1ScjOCqRDtX2Tg": {
+          "title": "Competencias del trasfondo",
+          "hint": "Tu trasfondo te otorga competencia en Perspicacia y Religión. También te otorga competencia con los útiles de calígrafo."
+        },
+        "ygyW1bVUTnCnjxY2": {
+          "title": "Dote del trasfondo",
+          "hint": "Tu trasfondo te otorga la dote Iniciado en la magia (Clérigo)."
+        },
+        "McRHkSL3WnG2Po7g": {
+          "title": "Elige idiomas",
+          "hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que tiras o eliges de la tabla de Idiomas estándar."
+        }
+      }
+    },
+    "phbbgCriminal000": {
+      "name": "Criminal",
+      "description": "<p><strong>Puntuaciones de característica:</strong> destreza, constitución, inteligencia</p><p><strong>Dote:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftAlert000000]{Alerta}</p><p><strong>Competencias en habilidades:</strong> Juego de Manos y Sigilo</p><p><strong>Competencia con herramientas:</strong> Herramientas de ladrón</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagas}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Herramientas de ladrón}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Palanca}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Bolsas}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropas de viajero}, 16 PO; o (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgCriminal000 inline classes=\"free-rules-embed\"]</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "8gFHAigaFboVUSgH": {
+          "title": "Mejora de puntuaciones de característica del trasfondo",
+          "hint": "Tu trasfondo te permite aumentar tus puntuaciones de destreza, constitución y carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+        },
+        "WJA48TLxfqlc3ygz": {
+          "title": "Dote del trasfondo",
+          "hint": "Tu trasfondo te otorga la dote Alerta."
+        },
+        "CdiCt0Cr9bP9FQNO": {
+          "title": "Competencias del trasfondo",
+          "hint": "Tu trasfondo te otorga competencia en Juego de Manos y Sigilo. También te otorga competencia con Herramientas de ladrón."
+        },
+        "pLGiyOjTP7nwuwTl": {
+          "title": "Elegir idiomas",
+          "hint": "Tu personaje conoce al menos tres idiomas: Común más otros dos que elijas o determines en la tabla de Idiomas estándar."
+        }
+      }
+    },
+    "phbbgSage0000000": {
+      "name": "Sabio",
+      "description": "<p><strong>Puntuaciones de característica:</strong> constitución, inteligencia, sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado en la magia} (Mago)</p><p><strong>Competencias en habilidades:</strong> Arcana e Historia</p><p><strong>Competencia con herramientas:</strong> Útiles de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Útiles de calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Libro} (historia), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergamino} (8 hojas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 PO; o (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "3O61L5uTy5jRCqJb": {
+          "title": "Mejora de puntuaciones de característica del trasfondo",
+          "hint": "Tu trasfondo te permite aumentar tus puntuaciones de constitución, inteligencia y sabiduría; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+        },
+        "DMd8rikwPlZdpP1l": {
+          "title": "Competencias del trasfondo",
+          "hint": "Tu trasfondo te otorga competencia en Arcana e Historia. También te otorga competencia con Útiles de calígrafo."
+        },
+        "kKt7VMmZUuRr35dP": {
+          "title": "Dote del trasfondo",
+          "hint": "Tu trasfondo te otorga la dote Iniciado en la magia (Mago)."
+        },
+        "pLGiyOjTP7nwuwTl": {
+          "title": "Elegir idiomas",
+          "hint": "Tu personaje conoce al menos tres idiomas: Común más otros dos que elijas o determines en la tabla de Idiomas estándar."
+        }
+      }
+    },
+    "phbbgSoldier0000": {
+      "name": "Soldado",
+      "description": "<p><strong>Puntuaciones de característica:</strong> fuerza, destreza, constitución</p><p><strong>Dote:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Atacante salvaje}</p><p><strong>Competencias en habilidades:</strong> Atletismo e Intimidación</p><p><strong>Competencia con herramientas:</strong> <em>Elige un tipo de</em> <em>Juego de azar</em> (ver @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Lanza}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Arco corto}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Flechas}, Juego de azar (el mismo elegido antes), @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Equipo de curación}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Carcaj}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropas de viajero}, 14 PO; o (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000 inline classes=\"free-rules-embed\"]</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5hLHlmqxzoAta0uf": {
+          "title": "Mejora de puntuaciones de característica del trasfondo",
+          "hint": "Tu trasfondo te permite aumentar tus puntuaciones de fuerza, destreza y constitución; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+        },
+        "y4FZ4I6wU0F8DEjO": {
+          "title": "Competencias del trasfondo",
+          "hint": "Tu trasfondo te otorga competencia en Atletismo e Intimidación. También te otorga competencia con cualquier Juego de azar."
+        },
+        "tk8CFgIW7fXL0mlu": {
+          "title": "Dote del trasfondo",
+          "hint": "Tu trasfondo te otorga la dote Atacante salvaje."
+        },
+        "pLGiyOjTP7nwuwTl": {
+          "title": "Elegir idiomas",
+          "hint": "Tu personaje conoce al menos tres idiomas: Común más otros dos que elijas o determines en la tabla de Idiomas estándar."
+        }
+      }
+    },
+    "phbspAbyssalTief": {
+      "name": "Tiefling, abisal",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"abyssal\">Abisal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Rasgos de tiefling</h3><p><strong>Tipo de criatura</strong>: Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 3–4 pies de altura), elegido cuando seleccionas esta especie</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como tiefling, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Legado infernal.</strong> Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el legado).</p><p><strong>Presencia de otro mundo.</strong> Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Taumaturgia}. Cuando lo lanzas con este rasgo, el conjuro usa la misma característica de lanzamiento de conjuros que usas para tu rasgo Legado infernal.</p><table><caption>Rasgos del legado abisal</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño de veneno. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Rociada de veneno}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Rayo de enfermedad}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Sujetar persona}</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 3–4 pies de altura)"
+        },
+        "T8T6H9TudTleafUL": {
+          "title": "Rasgos de tiefling",
+          "hint": ""
+        },
+        "V8h8fLg4XG1QGewy": {
+          "title": "Rasgos de tiefling abisal",
+          "hint": "Tienes Resistencia al daño de veneno."
+        },
+        "VhCiGFOLtG8H93jy": {
+          "title": "Rasgos de tiefling abisal",
+          "hint": "inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo."
+        },
+        "KwcwntR3Ai0R5iPN": {
+          "title": "Rasgos de tiefling abisal",
+          "hint": "inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo."
+        },
+        "9iZufhdzY3XN7Em3": {
+          "title": "Rasgos de tiefling abisal",
+          "hint": "inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo."
+        },
+        "YENpPevreTnGrRVK": {
+          "title": "Presencia de otro mundo",
+          "hint": ""
+        }
+      }
+    },
+    "phbspChthonicTie": {
+      "name": "Tiefling, ctónico",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Ctónico</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Rasgos de tiefling</h3><p><strong>Tipo de criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 3–4 pies de altura), elegido cuando seleccionas esta especie</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como tiefling, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Legado infernal.</strong> Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el legado).</p><p><strong>Presencia de otro mundo.</strong> Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Taumaturgia}. Cuando lo lanzas con este rasgo, el conjuro usa la misma característica de lanzamiento de conjuros que usas para tu rasgo Legado infernal.</p><table><caption>Legados infernales</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño necrótico. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Toque gélido}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{Falsa vida}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Rayo debilitador}</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 3–4 pies de altura)"
+        },
+        "T8T6H9TudTleafUL": {
+          "title": "Rasgos de tiefling",
+          "hint": ""
+        },
+        "kcfmKwJkaV9btwJU": {
+          "title": "Presencia de otro mundo",
+          "hint": ""
+        },
+        "O6M9VGAwHx9Kkfhj": {
+          "title": "Rasgos de tiefling ctónico",
+          "hint": "Tienes Resistencia al daño necrótico."
+        },
+        "pIi692Cevlw7qZRe": {
+          "title": "Rasgos de tiefling ctónico",
+          "hint": "inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo."
+        },
+        "DU7Y6D1IJSSgObJK": {
+          "title": "Rasgos de tiefling ctónico",
+          "hint": "inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo."
+        },
+        "R0k1RmQximNOQw1R": {
+          "title": "Rasgos de tiefling ctónico",
+          "hint": "inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo."
+        }
+      }
+    },
+    "phbspDragonborn0": {
+      "name": "Dracónido",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDragonborn0 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dragonborn-traits\">Rasgos de dracónido</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 5–7 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como dracónido, tienes los siguientes rasgos especiales.</p><p><strong>Ascendencia dracónica.</strong> Tu linaje proviene de un dragón progenitor. Elige el tipo de dragón de la tabla de Ancestros dracónicos. Tu elección afecta a tus rasgos de Arma de aliento y Resistencia al daño, así como a tu apariencia.</p><table><caption>Ancestros dracónicos</caption><thead><tr><td>Dragón</td><td>Tipo de daño</td><td>Dragón</td><td>Tipo de daño</td></tr></thead><tbody><tr><td>Negro</td><td>Ácido</td><td>Dorado</td><td>Fuego</td></tr><tr><td>Azul</td><td>Relámpago</td><td>Verde</td><td>Veneno</td></tr><tr><td>Latón</td><td>Fuego</td><td>Rojo</td><td>Fuego</td></tr><tr><td>Bronce</td><td>Relámpago</td><td>Plateado</td><td>Frío</td></tr><tr><td>Cobrizo</td><td>Ácido</td><td>Blanco</td><td>Frío</td></tr></tbody></table><p><strong>Arma de aliento.</strong> Cuando realizas la acción de Ataque en tu turno, puedes reemplazar uno de tus ataques por una exhalación de energía mágica en un Cono de 15 pies o en una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez). Cada criatura en esa área debe hacer una tirada de salvación de destreza (CD 8 + tu modificador de constitución + tu Bonificador por competencia). Con una salvación fallida, la criatura sufre 1d10 de daño del tipo determinado por tu rasgo Ascendencia dracónica. Con una salvación exitosa, sufre la mitad del daño. Este daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de aliento un número de veces igual a tu Bonificador por competencia, y recuperas todos los usos gastados cuando terminas un Descanso largo.</p><p><strong>Resistencia al daño. </strong>Tienes Resistencia al tipo de daño determinado por tu rasgo Ascendencia dracónica.</p><p><strong>Visión en la oscuridad. </strong>Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Vuelo dracónico.</strong> Cuando alcanzas el nivel 5, puedes canalizar magia dracónica para otorgarte vuelo temporal. Como Acción adicional, te brotan alas espectrales en la espalda que duran 10 minutos o hasta que las retraigas (sin acción requerida) o tengas la condición incapacitado. Durante ese tiempo, tienes una Velocidad de vuelo igual a tu Velocidad. Tus alas parecen estar formadas por la misma energía que tu Arma de aliento. Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "65BqBxGcj6z4S803": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 5–7 pies de altura)"
+        },
+        "XA1fKbmfBiCHnVzs": {
+          "title": "Arma de aliento",
+          "hint": ""
+        },
+        "raWgGHnxSicEwTb9": {
+          "title": "Ascendencia dracónica",
+          "hint": ""
+        },
+        "8maGZKJ9TOIgNR80": {
+          "title": "Resistencia al daño",
+          "hint": "Tienes Resistencia al tipo de daño determinado por tu rasgo Ascendencia dracónica."
+        },
+        "jOGAWKkPIAbshOpo": {
+          "title": "Vuelo dracónico",
+          "hint": ""
+        }
+      }
+    },
+    "phbspDrow0000000": {
+      "name": "Elfo, drow",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"drow\">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Rasgos de elfo</h3><p><strong>Tipo de criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 5–6 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como elfo, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Linaje élfico. </strong>Perteneces a un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso largo. También puedes lanzarlo usando cualquier espacio de conjuro que tengas del nivel apropiado. inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el linaje).</p><table><caption>Rasgos del linaje drow</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>El alcance de tu visión en la oscuridad aumenta a 120 pies. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Luces danzantes}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fuego feérico}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Oscuridad}</td></tr></tbody></table><p><strong>Ascendencia feérica.</strong> Tienes Ventaja en las tiradas de salvación para evitar o terminar la condición &amp;Reference[Charmed].</p><p><strong>Sentidos agudos.</strong> Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir, y la magia no puede ponerte a dormir. Puedes completar un Descanso largo en 4 horas si pasas ese tiempo en una meditación similar al trance, durante la cual mantienes la consciencia.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 5–6 pies de altura)"
+        },
+        "boHzoT53gYPvJ9o2": {
+          "title": "Rasgos de elfo",
+          "hint": ""
+        },
+        "nccRK77cXNtEHCHX": {
+          "title": "Sentidos agudos",
+          "hint": "Tienes competencia en Perspicacia, Percepción o Supervivencia."
+        },
+        "LWGXpgeZc3PwUgTg": {
+          "title": "Rasgos drow",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como característica de lanzamiento de conjuros."
+        },
+        "hIn6cR8fRweVWhTp": {
+          "title": "Rasgos drow",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como característica de lanzamiento de conjuros."
+        },
+        "18x2qczDE0MerZfa": {
+          "title": "Rasgos drow",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como característica de lanzamiento de conjuros."
+        }
+      }
+    },
+    "phbspDwarf000000": {
+      "name": "Enano",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dwarf-traits\">Rasgos de enano</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 4–5 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como enano, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes visión en la oscuridad con un alcance de 120 pies.</p><p><strong>Resistencia enana.</strong> Tienes Resistencia al daño por Veneno. También tienes Ventaja en las tiradas de salvación para evitar o terminar la condición envenenado.</p><p><strong>Dureza enana.</strong> Tu máximo de Puntos de Golpe aumenta en 1, y vuelve a aumentar en 1 cada vez que subes de nivel.</p><p><strong>Conocimiento pétreo.</strong> Como Acción adicional, obtienes Sentido sísmico con un alcance de 60 pies durante 10 minutos. Debes estar sobre una superficie de piedra o tocando una superficie de piedra para usar este Sentido sísmico. La piedra puede ser natural o trabajada. Puedes usar esta Acción adicional un número de veces igual a tu Bonificador por competencia, y recuperas todos los usos gastados cuando terminas un Descanso largo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "6HdONjMD4UozXSfC": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 4–5 pies de altura)"
+        },
+        "PphNMhWLl5mEgAZf": {
+          "title": "Rasgos de enano",
+          "hint": ""
+        },
+        "S3kro3b0bq0Ks6Y8": {
+          "title": "Resistencia enana",
+          "hint": "Tienes Resistencia al daño por Veneno."
+        }
+      }
+    },
+    "phbspForestGnome": {
+      "name": "Gnomo, del bosque",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Rasgos de gnomo</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Pequeño (aprox. 3–4 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como gnomo, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Astucia gnómica.</strong> Tienes Ventaja en las tiradas de salvación de inteligencia, sabiduría y carisma.</p><p><strong>Linaje gnómico.</strong> Formas parte de un linaje que te otorga habilidades sobrenaturales. Sea cual sea el linaje que elijas, inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros que lances con este rasgo (elige la característica cuando selecciones el linaje):</p><p><strong>Gnomo del bosque.</strong> Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Ilusión menor}. Además, siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Hablar con los animales}. Puedes lanzarlo sin gastar un espacio de conjuro un número de veces igual a tu Bonificador por competencia, y recuperas todos los usos gastados cuando terminas un Descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzar el conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "title": "Tamaño",
+          "hint": "Pequeño (aprox. 3–4 pies de altura)"
+        },
+        "LcGnqnqKYFw0PcE9": {
+          "title": "Rasgos de gnomo",
+          "hint": ""
+        },
+        "KIOe7GcuEGboouMQ": {
+          "title": "Conjuro del linaje de gnomo del bosque",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como característica de lanzamiento de conjuros."
+        },
+        "5ENIyYfAxcpuh426": {
+          "title": "Truco del linaje de gnomo del bosque",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como característica de lanzamiento de conjuros."
+        }
+      }
+    },
+    "phbspGoliath0000": {
+      "name": "Goliat",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"goliath-traits\">Rasgos de goliat</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 7–8 pies de altura)</p><p><strong>Velocidad:</strong> 35 pies</p><p>Como goliat, tienes los siguientes rasgos especiales.</p><p><strong>Ascendencia gigante.</strong> Desciendes de gigantes. Elige uno de los siguientes beneficios —un don sobrenatural de tu linaje—; puedes usar el beneficio elegido un número de veces igual a tu Bonificador por competencia, y recuperas todos los usos gastados cuando terminas un Descanso largo:</p><p><strong>Paso de la nube (Gigante de las nubes). </strong>Como Acción adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Ardor del fuego (Gigante de fuego).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligir 1d10 de daño de Fuego a ese objetivo.</p><p><strong>Frío de la escarcha (Gigante de escarcha).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligir 1d6 de daño de Frío a ese objetivo y reducir su Velocidad en 10 pies hasta el inicio de tu siguiente turno.</p><p><strong>Golpe de la colina (Gigante de las colinas). </strong>Cuando impactas a una criatura Grande o menor con una tirada de ataque y le infliges daño, puedes imponerle la condición &amp;Reference[Prone].</p><p><strong>Resistencia pétrea (Gigante de piedra).</strong> Cuando recibes daño, puedes usar tu Reacción para tirar 1d12. Suma tu modificador de constitución al resultado y reduce el daño en esa cantidad.</p><p><strong>Trueno de la tormenta (Gigante de tormenta).</strong> Cuando una criatura situada a 60 pies o menos de ti te inflige daño, puedes usar tu Reacción para infligirle 1d8 de daño de Trueno.</p><p><strong>Forma grande.</strong> A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como Acción adicional si estás en un espacio lo bastante amplio. Esta transformación dura 10 minutos o hasta que la finalices (no requiere acción). Durante ese tiempo, tienes Ventaja en las pruebas de fuerza y tu Velocidad aumenta en 10 pies. Una vez que uses este rasgo, no podrás volver a usarlo hasta que termines un Descanso largo.</p><p><strong>constitución poderosa.</strong> Tienes Ventaja en cualquier prueba de característica que hagas para terminar la condición agarrado. Además, cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "LETPMtBLvmzWUUb0": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 7–8 pies de altura)"
+        },
+        "PZxMcT5tVtvvf62P": {
+          "title": "Rasgos de goliat",
+          "hint": ""
+        },
+        "LrdYfRLrRlgsZrNn": {
+          "title": "Ascendencia gigante",
+          "hint": "Desciendes de gigantes. Elige uno de los siguientes beneficios —un don sobrenatural de tu linaje—; puedes usar el beneficio elegido un número de veces igual a tu Bonificador por competencia, y recuperas todos los usos gastados cuando terminas un Descanso largo."
+        },
+        "9cKoMls1KVDsdD4A": {
+          "title": "Rasgos de goliat",
+          "hint": ""
+        }
+      }
+    },
+    "phbspHalfling000": {
+      "name": "Mediano",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"halfling-traits\">Rasgos de mediano</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Pequeño (aprox. 2–3 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como mediano, tienes los siguientes rasgos especiales.</p><p><strong>Valiente.</strong> Tienes Ventaja en las tiradas de salvación para evitar o terminar la condición asustado.</p><p><strong>Agilidad de mediano.</strong> Puedes moverte a través del espacio de cualquier criatura que sea al menos una categoría de tamaño mayor que tú, pero no puedes terminar tu movimiento en ese mismo espacio.</p><p><strong>Suerte.</strong> Cuando sacas un 1 en el d20 de una prueba de D20, puedes volver a tirar el dado y debes usar el nuevo resultado.</p><p><strong>Sigilo natural.</strong> Puedes realizar la acción Esconderse incluso cuando solo estás Oscurecido por una criatura que sea al menos una categoría de tamaño mayor que tú.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "GYp1vi82hSEoe3mO": {
+          "title": "Tamaño",
+          "hint": "Pequeño (aprox. 2–3 pies de altura)"
+        },
+        "GFHErdA52SfUBvB5": {
+          "title": "Rasgos de mediano",
+          "hint": ""
+        }
+      }
+    },
+    "phbspHighElf0000": {
+      "name": "Elfo, Alto",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"high-elves\">Elfos altos</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Rasgos de elfo</h3><p><strong>Tipo de criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 5–6 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como elfo, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes Visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Linaje élfico. </strong>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de ese modo cuando terminas un Descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. inteligencia, sabiduría o carisma es tu característica para lanzar conjuros con este rasgo (eliges la característica cuando seleccionas el linaje).</p><table><caption>Rasgos del linaje de elfo alto</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación}. Cada vez que terminas un Descanso largo, puedes reemplazar ese truco por otro truco de la @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{lista de conjuros de mago}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Paso brumoso}</td></tr></tbody></table><p><strong>Ascendencia feérica.</strong> Tienes Ventaja en las tiradas de salvación para evitar o terminar la condición &amp;Reference[Charmed].</p><p><strong>Sentidos agudos.</strong> Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir y la magia no puede obligarte a dormir. Puedes completar un Descanso largo en 4 horas si pasas ese tiempo en una meditación similar a un trance, durante la cual permaneces consciente.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 5–6 pies de altura)"
+        },
+        "boHzoT53gYPvJ9o2": {
+          "title": "Rasgos de elfo",
+          "hint": ""
+        },
+        "wyzOrBj4qIVsCKc7": {
+          "title": "Sentidos agudos",
+          "hint": "Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia."
+        },
+        "hraql8YRB41ssDA6": {
+          "title": "Rasgos de elfo alto",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como tu característica para lanzar conjuros."
+        },
+        "iztB4GPENKXiA72M": {
+          "title": "Rasgos de elfo alto",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como tu característica para lanzar conjuros."
+        },
+        "1LZlC6uInez1oV7n": {
+          "title": "Rasgos de elfo alto",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como tu característica para lanzar conjuros."
+        }
+      }
+    },
+    "phbspHuman000000": {
+      "name": "Humano",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Rasgos de humano</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 2–4 pies de altura), elegido al seleccionar esta especie</p><p><strong>Velocidad: </strong>30 pies</p><p>Como humano, tienes los siguientes rasgos especiales.</p><p><strong>Ingenioso. </strong>Obtienes Inspiración heroica cada vez que terminas un Descanso largo.</p><p><strong>Hábil. </strong>Obtienes competencia en una habilidad de tu elección.</p><p><strong>Versátil.</strong> Obtienes una dote de Origen de tu elección (ver capítulo 5). Se recomienda Hábil.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "dLxv96vt2B2KOEe2": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 2–4 pies de altura), elegido al seleccionar esta especie"
+        },
+        "2H3yQa0PfjBgXw2W": {
+          "title": "Rasgos de humano",
+          "hint": ""
+        },
+        "xIdIaWtTj1cBERln": {
+          "title": "Hábil",
+          "hint": "Obtienes competencia en una habilidad de tu elección."
+        },
+        "KB8IQLwyuL6SOFnv": {
+          "title": "Versátil",
+          "hint": "Obtienes una dote de Origen de tu elección. Se recomienda Hábil."
+        }
+      }
+    },
+    "phbspInfernalTie": {
+      "name": "Tiefling, Infernal",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"infernal\">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Rasgos de tiefling</h3><p><strong>Tipo de criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 3–4 pies de altura), elegido al seleccionar esta especie</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como tiefling, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes Visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Legado infernal.</strong> Eres el receptor de un legado que te concede habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de ese modo cuando terminas un Descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. inteligencia, sabiduría o carisma es tu característica para lanzar conjuros con este rasgo (eliges la característica cuando seleccionas el legado).</p><p><strong>Presencia sobrenatural.</strong> Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Taumaturgia}. Cuando lo lanzas con este rasgo, el conjuro utiliza la misma característica para lanzar conjuros que uses para tu rasgo Legado infernal.</p><table><caption>Legados infernales</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño de Fuego. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Rayo de fuego}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Reprensión infernal}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Oscuridad}</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 4–7 pies de altura) o Pequeño (aprox. 3–4 pies de altura)"
+        },
+        "T8T6H9TudTleafUL": {
+          "title": "Rasgos de tiefling",
+          "hint": ""
+        },
+        "bD2XFMWGPkFJLr2w": {
+          "title": "Presencia sobrenatural",
+          "hint": ""
+        },
+        "9V9xGP0Fsqh3NDsB": {
+          "title": "Rasgos de tiefling infernal",
+          "hint": "Tienes Resistencia al daño de Fuego."
+        },
+        "gMovXMwHeD9cCL99": {
+          "title": "Rasgos de tiefling infernal",
+          "hint": "inteligencia, sabiduría o carisma es tu característica para lanzar conjuros con este rasgo."
+        },
+        "ol3SWLw2FTNEiXrb": {
+          "title": "Rasgos de tiefling infernal",
+          "hint": "inteligencia, sabiduría o carisma es tu característica para lanzar conjuros con este rasgo."
+        },
+        "cj8h25IH0Zvdy3Bm": {
+          "title": "Rasgos de tiefling infernal",
+          "hint": "inteligencia, sabiduría o carisma es tu característica para lanzar conjuros con este rasgo."
+        }
+      }
+    },
+    "phbspOrc00000000": {
+      "name": "Orco",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"orc-traits\">Rasgos de orco</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (aprox. 6–7 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como orco, tienes los siguientes rasgos especiales.</p><p><strong>Arrebato de adrenalina. </strong>Puedes realizar la acción Correr como Acción adicional. Cuando lo haces, obtienes un número de puntos de golpe temporales igual a tu Bonificador por competencia. Puedes usar este rasgo un número de veces igual a tu Bonificador por competencia y recuperas todos los usos gastados cuando terminas un Descanso corto o largo.</p><p><strong>Visión en la oscuridad.</strong> Tienes Visión en la oscuridad con un alcance de 120 pies.</p><p><strong>Aguante implacable.</strong> Cuando tus Puntos de Golpe se reducen a 0 pero no mueres al instante, puedes quedarte con 1 Punto de golpe en su lugar. Una vez que usas este rasgo, no puedes volver a hacerlo hasta que termines un Descanso largo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "B2sUOuY0KhoULqlX": {
+          "title": "Tamaño",
+          "hint": "Mediano (aprox. 6–7 pies de altura)"
+        },
+        "C2ehwp5W2SMJ88Wy": {
+          "title": "Rasgos de orco",
+          "hint": ""
+        }
+      }
+    },
+    "phbspRockGnome00": {
+      "name": "Gnomo, de las rocas",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Rasgos de gnomo</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Pequeño (aprox. 3–4 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como gnomo, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes Visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Astucia gnómica.</strong> Tienes Ventaja en las tiradas de salvación de inteligencia, sabiduría y carisma.</p><p><strong>Linaje gnómico.</strong> Formas parte de un linaje que te concede habilidades sobrenaturales. Sea cual sea el linaje que elijas, inteligencia, sabiduría o carisma es tu característica para lanzar conjuros con este rasgo (eliges la característica cuando seleccionas el linaje):</p><p><strong>Gnomo de las rocas.</strong> Conoces los trucos @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Remendar} y @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación}. Además, puedes dedicar 10 minutos a lanzar <em>Prestidigitación</em> para crear un diminuto dispositivo mecánico (CA 5, 1 PG), como un juguete, encendedor o caja de música. Cuando creas el dispositivo, determinas su función eligiendo uno de los efectos de <em>Prestidigitación</em>; el dispositivo produce ese efecto cada vez que tú u otra criatura usa una Acción adicional para activarlo tocándolo. Si el efecto elegido tiene opciones internas, eliges una de ellas al crear el dispositivo. Por ejemplo, si eliges el efecto de encender-apagar, determinas si el dispositivo enciende o apaga fuego; no hace ambas cosas. Puedes tener hasta tres de estos dispositivos a la vez, y cada uno se descompone 8 horas después de su creación o cuando lo desmontas tocándolo como acción Utilizar.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "title": "Tamaño",
+          "hint": "Pequeño (aprox. 3–4 pies de altura)"
+        },
+        "LcGnqnqKYFw0PcE9": {
+          "title": "Rasgos de gnomo",
+          "hint": ""
+        },
+        "RNvJhB97kaJrZTfU": {
+          "title": "Rasgos de gnomo de las rocas",
+          "hint": "inteligencia, sabiduría o carisma puede elegirse como tu característica para lanzar conjuros."
+        }
+      }
+    },
+    "phbsptAbyssalLeg": {
+      "name": "Legado Infernal, Abisal",
+      "description": "<p>Eres el receptor de un legado que te concede habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de mayor nivel, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro apropiado que tengas. inteligencia, sabiduría o carisma es tu característica para el lanzamiento de conjuros con este rasgo (elige la característica cuando selecciones el legado).</p><h3 data-anchor=\"abyssal\">Abisal</h3><p>La entropía del Abismo, el caos de Pandemonium y la desesperación de Carceri llaman a los tieflings que poseen el legado abisal. Cuernos, pelaje, colmillos y olores peculiares son rasgos físicos comunes entre estos tieflings, muchos de los cuales llevan sangre demoníaca en sus venas.</p><table><caption>Rasgos del Legado Abisal</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño de Veneno. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Nota de Foundry</strong></p><p>La Resistencia y los conjuros se te otorgan automáticamente y se te pedirá que elijas la característica para el lanzamiento de conjuros durante el avance.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptAdrenaline": {
+      "name": "Arremetida de Adrenalina",
+      "description": "<p>Puedes realizar la acción Correr como Acción Adicional. Cuando lo haces, obtienes una cantidad de puntos de golpe temporales igual a tu Bono de Competencia. Puedes usar este rasgo un número de veces igual a tu Bono de Competencia y recuperas todos los usos gastados cuando terminas un Descanso Corto o un Descanso Largo.</p>",
+      "activities": {
+        "jN5Zo6mDXll3c4Cz": {
+          "name": "Arremetida de Adrenalina: Correr"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptBrave00000": {
+      "name": "Valentía",
+      "description": "<p>Tienes Ventaja en las tiradas de salvación que realizas para evitar o finalizar la condición &amp;Reference[Frightened].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptBreathWeap": {
+      "name": "Arma de Aliento",
+      "description": "<p>Cuando realizas la acción Atacar en tu turno, puedes reemplazar uno de tus ataques por una exhalación de energía mágica en forma de un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (eliges la forma cada vez). Cada criatura en esa área debe realizar una tirada de salvación de destreza (CD 8 + tu modificador de constitución + tu Bono de Competencia). Con una salvación fallida, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Con una salvación exitosa, recibe la mitad del daño. Este daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes usar esta Arma de Aliento un número de veces igual a tu Bono de Competencia y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Nota de Foundry</strong></p><p>Las actividades <strong>Arma de Aliento (Cono)</strong> y <strong>Arma de Aliento (Línea)</strong> están configuradas con su tipo de plantilla e incluyen todos los tipos de daño. El daño también escala a medida que subes de nivel.</p><p>Puedes seleccionar el tipo de daño en el cuadro de diálogo de la tirada de daño. Recordará tu elección posteriormente. Puedes editar las actividades para eliminar otros tipos de daño y omitir esta selección.</p></section>",
+      "activities": {
+        "dxCRYmNSSGp6L2yh": {
+          "name": "Arma de Aliento (Cono)"
+        },
+        "iyK44COq6gbdbkc2": {
+          "name": "Arma de Aliento (Línea)"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptChthonicLe": {
+      "name": "Legado Infernal, Ctónico",
+      "description": "<p>Eres el receptor de un legado que te concede habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de mayor nivel, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro apropiado que tengas. inteligencia, sabiduría o carisma es tu característica para el lanzamiento de conjuros con este rasgo (elige la característica cuando selecciones el legado).</p><h3 data-anchor=\"chthonic\">Ctónico</h3><p>Los tieflings que poseen el legado ctónico sienten no solo la atracción de Carceri, sino también la codicia de Gehenna y la penumbra de Hades. Algunos de estos tieflings tienen un aspecto cadavérico. Otros poseen la belleza antinatural de una súcubo, o comparten rasgos físicos con una bruja nocturna, un yugoloth u otro ancestro infernal Neutral Malvado.</p><table><caption>Rasgos del Legado Ctónico</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño Necrótico. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Nota de Foundry</strong></p><p>La Resistencia y los conjuros se te otorgan automáticamente y se te pedirá que elijas la característica para el lanzamiento de conjuros durante el avance.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptCloudsJaun": {
+      "name": "Paso de Nube",
+      "description": "<p>Como Acción Adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p>",
+      "activities": {
+        "t4npBWLqABsnPZwL": {
+          "name": "Paso de Nube"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptDraconicFl": {
+      "name": "Vuelo dracónico",
+      "description": "<p>Cuando alcanzas el nivel de personaje 5, puedes canalizar magia dracónica para obtener vuelo temporal. Como Acción adicional, te brotan alas espectrales en la espalda que duran 10 minutos o hasta que retraigas las alas (no requiere acción) o tengas la condición incapacitado. Durante ese tiempo, tienes una Velocidad de vuelo igual a tu Velocidad. Tus alas parecen estar hechas de la misma energía que tu Arma de aliento. Una vez uses este rasgo, no puedes volver a hacerlo hasta que termines un Descanso Largo.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto activo para el seguimiento, pero no otorga automáticamente la Velocidad de vuelo.</p></section>",
+      "activities": {
+        "FrsJbUcch66Cr7OZ": {
+          "name": "Vuelo dracónico"
+        }
+      },
+      "effects": {
+        "waI4oHqhpbKUem0M": {
+          "name": "Vuelo dracónico"
+        }
+      }
+    },
+    "phbsptDrowElfLin": {
+      "name": "Linaje Élfico, Drow",
+      "description": "<p>Formas parte de un linaje que te concede habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de mayor nivel, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro apropiado que tengas. inteligencia, sabiduría o carisma es tu característica para el lanzamiento de conjuros con este rasgo (elige la característica cuando selecciones el linaje).</p><h3>Rasgos del Linaje Drow</h3><table><thead><tr><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>El alcance de tu Visión en la Oscuridad aumenta a 120 pies. Además, conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights}.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota de Foundry</strong></p><p>Recibirás automáticamente los rasgos y conjuros correspondientes cuando selecciones la especie y a medida que subas de nivel.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptDwarvenRes": {
+      "name": "Resistencia Enana",
+      "description": "<p>Tienes Resistencia al daño por Veneno. También tienes Ventaja en las tiradas de salvación que realizas para evitar o finalizar la condición envenenado.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te otorgará automáticamente la Resistencia al daño por Veneno, pero no la Ventaja en las tiradas de salvación para evitar/finalizar la condición envenenado.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptDwarvenTou": {
+      "name": "Robustez Enana",
+      "description": "<p>Tu máximo de Puntos de Golpe aumenta en 1 y vuelve a aumentar en 1 cada vez que subes de nivel.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Nota de Foundry</strong></p><p>El aumento del máximo de Puntos de Golpe se gestiona automáticamente en cada nivel.</p></section>",
+      "activities": {},
+      "effects": {
+        "Na7W3p67eT9YqW87": {
+          "name": "Robustez Enana"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptFeyAncestr": {
+      "name": "Ascendencia Feérica",
+      "description": "<p>Tienes Ventaja en las tiradas de salvación que realizas para evitar o finalizar la condición &amp;Reference[Charmed].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptFiresBurn0": {
+      "name": "Ardor del Fuego",
+      "description": "<p>Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d10 de daño por Fuego.</p>",
+      "activities": {
+        "002cv19dj8WGzSl2": {
+          "name": "Arder"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptForestGnom": {
+      "name": "Linaje Gnómico, del Bosque",
+      "description": "<p>Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}. Además, siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals}. Puedes lanzarlo sin gastar un espacio de conjuro un número de veces igual a tu Bono de Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo. También puedes usar cualquier espacio de conjuro apropiado que tengas para lanzarlo.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Los lanzamientos gratuitos están incluidos en el conjuro.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptFrostsChil": {
+      "name": "Escarcha Helada",
+      "description": "<p>Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d6 de daño por Frío y reducir su Velocidad en 10 pies hasta el inicio de tu siguiente turno.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Active Effect que puede utilizarse para el seguimiento y reduce su Velocidad en 10.</p></section>",
+      "activities": {
+        "6goWQaWLexUqgig8": {
+          "name": "Helar"
+        }
+      },
+      "effects": {
+        "YHKgdj2KIbQRBZWW": {
+          "name": "Helado"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptGiantAnces": {
+      "name": "Ascendencia Gigante",
+      "description": "<p>Desciendes de Gigantes. Elige uno de los siguientes beneficios—un don sobrenatural de tu linaje; puedes usar el beneficio elegido un número de veces igual a tu Bono de Competencia y recuperas todos los usos gastados cuando terminas un Descanso Largo:</p><p><strong>Desplazamiento de las Nubes (Gigante de las Nubes). </strong>Como Acción Adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Ardor del Fuego (Gigante del Fuego).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d10 de daño por Fuego.</p><p><strong>Escarcha Helada (Gigante de Hielo).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d6 de daño por Frío y reducir su Velocidad en 10 pies hasta el inicio de tu siguiente turno.</p><p><strong>Golpe Atronador (Gigante de las Colinas). </strong>Cuando impactas a una criatura Grande o menor con una tirada de ataque y le infliges daño, puedes hacer que ese objetivo sufra la condición Prone.</p><p><strong>Resistencia Pétrea (Gigante de Piedra).</strong> Cuando recibes daño, puedes usar tu Reacción para tirar 1d12. Suma tu modificador de constitución al resultado y reduce el daño en esa cantidad.</p><p><strong>Trueno de la Tormenta (Gigante de la Tormenta).</strong> Cuando recibes daño de una criatura a 60 pies o menos de ti, puedes usar tu Reacción para infligir 1d8 de daño por Trueno a esa criatura.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptGnomishCun": {
+      "name": "Astucia Gnómica",
+      "description": "<p>Tienes Ventaja en las tiradas de salvación de inteligencia, sabiduría y carisma.</p>",
+      "activities": {},
+      "effects": {
+        "KNWLGPsZSHtINp6L": {
+          "name": "Astucia Gnómica"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptHalflingNi": {
+      "name": "Agilidad Mediana",
+      "description": "<p>Puedes moverte a través del espacio de cualquier criatura que sea de un tamaño mayor que tú, pero no puedes terminar tu movimiento en ese mismo espacio.</p>",
+      "activities": {},
+      "effects": {
+        "HtNoV5usxEadPbqp": {
+          "name": "Agilidad Mediana"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptHighElfLin": {
+      "name": "Linaje Élfico, Alto Elfo",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esta manera cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro del nivel apropiado que tengas. inteligencia, sabiduría o carisma es tu característica para lanzar conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el linaje).</p><table><caption>Rasgos del Linaje de Alto Elfo</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación}. Cada vez que terminas un Descanso Largo, puedes reemplazar ese truco por otro truco de la lista de conjuros de mago.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota de Foundry</strong></p><p>Recibirás automáticamente los rasgos y conjuros correspondientes cuando selecciones la especie y al subir de nivel.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptHillsTumbl": {
+      "name": "Derribo de las Colinas",
+      "description": "<p>Cuando impactas a una criatura Grande o menor con una tirada de ataque y le infliges daño, puedes hacer que ese objetivo sufra la condición &amp;Reference[Prone].</p>",
+      "activities": {
+        "I2wKOUDxhIb5hHb7": {
+          "name": "Derribo de las Colinas"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptInfernalLe": {
+      "name": "Legado Infernal",
+      "description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esta manera cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro del nivel apropiado que tengas. inteligencia, sabiduría o carisma es tu característica para lanzar conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el legado).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>El legado infernal conecta a los tieflings no solo con Gehenna, sino también con los Nueve Infiernos y los campos de batalla en llamas de Aqueronte. Cuernos, espinas, colas, ojos dorados y un tenue olor a azufre o humo son rasgos físicos comunes de estos tieflings, la mayoría de los cuales trazan su linaje hasta los diablos.</p><table><caption>Rasgos del Legado Infernal</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño de Fuego. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Nota de Foundry</strong></p><p>La Resistencia y los conjuros se te otorgan automáticamente y se te pedirá que elijas la característica para lanzar conjuros durante el avance.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptKeenSenses": {
+      "name": "Sentidos Agudos",
+      "description": "<p>Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá que elijas la habilidad tras seleccionar esta especie.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptLargeForm0": {
+      "name": "Forma Grande",
+      "description": "<p>A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como Acción Adicional si estás en un espacio lo suficientemente amplio. Esta transformación dura 10 minutos o hasta que la finalices (no requiere acción). Durante ese tiempo, tienes Ventaja en las pruebas de fuerza y tu Velocidad aumenta en 10 pies. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza el aumento de Velocidad y la Ventaja en las pruebas de fuerza.</p></section>",
+      "activities": {
+        "5jJ0wfYo2b4k26Em": {
+          "name": "Agrandar"
+        }
+      },
+      "effects": {
+        "QI7POclNlvX9a8VD": {
+          "name": "Forma Grande"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptLuck000000": {
+      "name": "Suerte",
+      "description": "<p>Cuando obtienes un 1 en el d20 de una Prueba de D20, puedes volver a tirar el dado, y debes usar el nuevo resultado.</p>",
+      "activities": {},
+      "effects": {
+        "k1FDpZEBCHzRsFSA": {
+          "name": "Suerte"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptNaturallyS": {
+      "name": "Sigiloso por Naturaleza",
+      "description": "<p>Puedes realizar la acción &amp;Reference[Hide]{Esconderse} incluso cuando estés Oscurecido únicamente por una criatura que sea al menos una categoría de tamaño mayor que tú.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptOtherworld": {
+      "name": "Presencia de Otro Mundo",
+      "description": "<p>Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}. Cuando lo lanzas mediante este rasgo, el conjuro utiliza la misma característica para lanzar conjuros que empleas para tu rasgo de Legado Infernal.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando se te conceda este conjuro, podrás elegir tu característica para lanzar conjuros.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptPowerfulBu": {
+      "name": "constitución Poderosa",
+      "description": "<p>Tienes Ventaja en cualquier prueba de característica que realices para poner fin a la condición &amp;Reference[Grappled apply=false]{Agarrado}. Además, se te considera de una categoría de tamaño mayor a efectos de determinar tu capacidad de carga.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta automáticamente tu tamaño al calcular la capacidad de carga.</p></section>",
+      "activities": {},
+      "effects": {
+        "ge1u3EIFvsoj3jZu": {
+          "name": "constitución Poderosa"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptRelentless": {
+      "name": "Resistencia Implacable",
+      "description": "<p>Cuando quedas reducido a 0 Puntos de Golpe pero no mueres instantáneamente, puedes quedar en su lugar con 1 Punto de Golpe. Una vez que uses este rasgo, no podrás volver a usarlo hasta que completes un Descanso Largo.</p>",
+      "activities": {
+        "DULUqgjDy0u99UKM": {
+          "name": "Resistir Implacablemente"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptResourcefu": {
+      "name": "Ingenioso",
+      "description": "<p>Obtienes Inspiración Heroica cada vez que completas un Descanso Largo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptRockGnomeL": {
+      "name": "Linaje gnómico, de las rocas",
+      "description": "<p>Conoces los trucos @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Remendar} y @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación}. Además, puedes dedicar 10 minutos a lanzar <em>Prestidigitación</em> para crear un diminuto dispositivo mecánico (CA 5, 1 PG), como un juguete, un encendedor o una caja de música. Cuando creas el dispositivo, determinas su función eligiendo uno de los efectos de <em>Prestidigitación</em>; el dispositivo produce ese efecto cada vez que tú u otra criatura use una Acción Adicional para activarlo con un toque. Si el efecto elegido tiene varias opciones, eliges una de ellas al crear el dispositivo. Por ejemplo, si eliges el efecto de encender/apagar del conjuro, determinas si el dispositivo enciende o apaga fuego; no puede hacer ambas cosas. Puedes tener hasta tres dispositivos de este tipo al mismo tiempo, y cada uno se desintegra 8 horas después de su creación o cuando lo desmontas con un toque como acción de Utilizar.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptSkillful00": {
+      "name": "Hábil",
+      "description": "<p>Obtienes competencia en una habilidad a tu elección.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá que elijas la habilidad cuando selecciones esta Especie.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptStonecunni": {
+      "name": "Afinidad con la piedra",
+      "description": "<p>Como Acción Adicional, obtienes &amp;Reference[Tremorsense]{Sentido de vibraciones} con un alcance de 60 pies durante 10 minutos. Debes estar sobre una superficie de piedra o en contacto con ella para usar este sentido. La piedra puede ser natural o trabajada. Puedes usar esta Acción Adicional un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando completes un Descanso Largo.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye los usos limitados y un Efecto Activo que te concede 60 pies de Sentido de vibraciones. No actualiza automáticamente la configuración de visión del Token.</p></section>",
+      "activities": {
+        "NTjnXm1AYqdOUJOB": {
+          "name": "Afinidad con la piedra"
+        }
+      },
+      "effects": {
+        "SAbuNo2AO3XXtkdv": {
+          "name": "Afinidad con la piedra"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptStonesEndu": {
+      "name": "Resistencia pétrea",
+      "description": "<p>Cuando recibes daño, puedes usar tu Reacción para tirar 1d12. Suma tu modificador de constitución al resultado y reduce el daño en esa cantidad.</p>",
+      "activities": {
+        "vrWhAQ6Bj4gznxHq": {
+          "name": "Resistencia pétrea"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptStormsThun": {
+      "name": "Trueno de la tormenta",
+      "description": "<p>Cuando recibes daño de una criatura a 60 pies o menos de ti, puedes usar tu Reacción para infligir 1d8 de daño de Trueno a esa criatura.</p>",
+      "activities": {
+        "3eWfDnXfYJVJqT1z": {
+          "name": "Trueno de la tormenta"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptTrance0000": {
+      "name": "Trance",
+      "description": "<p>No necesitas dormir y la magia no puede hacer que te duermas. Puedes completar un Descanso Largo en 4 horas si pasas ese tiempo en una meditación similar a un trance, durante la cual permaneces consciente.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptVersatile0": {
+      "name": "Versátil",
+      "description": "<p>Obtienes una dote de Origen a tu elección. @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Experto} es una opción recomendada.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá que elijas la dote cuando selecciones esta Especie.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptWoodElfLin": {
+      "name": "Linaje élfico, elfo del bosque",
+      "description": "<p>Formas parte de un linaje que te concede habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se indica en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas esta capacidad cuando completas un Descanso Largo. También puedes lanzarlo usando cualquier espacio de conjuro que tengas del nivel apropiado. inteligencia, sabiduría o carisma es tu característica para lanzar conjuros con este rasgo (elige la característica cuando selecciones el linaje).</p><table><caption>Rasgos del linaje del elfo del bosque</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tu Velocidad aumenta a 35 pies. Además, conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidismo}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Zancada larga}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pasar sin rastro}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota de Foundry</strong></p><p>Los rasgos y conjuros correspondientes se te conceden automáticamente al seleccionar la especie y al subir de nivel.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbspWoodElf0000": {
+      "name": "Elfo, Silvano",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"wood-elves\">Elfos Silvanos</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspWoodElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Rasgos de Elfo</h3><p><strong>Tipo de criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (aproximadamente 5–6 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Elfo, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Linaje Élfico. </strong>Perteneces a un linaje que te concede habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de mayor nivel, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso Largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro apropiado que tengas. inteligencia, sabiduría o carisma es tu característica para el lanzamiento de conjuros con este rasgo (elige la característica cuando selecciones el linaje).</p><table><caption>Rasgos del Linaje de Elfo Silvano</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tu Velocidad aumenta a 35 pies. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Longstrider}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pass without Trace}</td></tr></tbody></table><p><strong>Ascendencia Feérica.</strong> Tienes Ventaja en las tiradas de salvación que realizas para evitar o finalizar la condición &amp;Reference[Charmed].</p><p><strong>Sentidos Agudos.</strong> Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir y la magia no puede hacerte dormir. Puedes completar un Descanso Largo en 4 horas si pasas ese tiempo en una meditación similar a un trance, durante la cual permaneces consciente.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "title": "Tamaño",
+          "hint": "Mediano (aproximadamente 5–6 pies de altura)"
+        },
+        "boHzoT53gYPvJ9o2": {
+          "title": "Rasgos de Elfo",
+          "hint": ""
+        },
+        "YFS9oEa9Iw1molNm": {
+          "title": "Rasgos de Elfo Silvano",
+          "hint": ""
+        },
+        "FRJszO7cYchbaGzt": {
+          "title": "Rasgos de Elfo Silvano",
+          "hint": "inteligencia, sabiduría o carisma es tu característica para el lanzamiento de conjuros con este rasgo."
+        },
+        "zFsEPXauTgmYxqiJ": {
+          "title": "Rasgos de Elfo Silvano",
+          "hint": "inteligencia, sabiduría o carisma es tu característica para el lanzamiento de conjuros con este rasgo."
+        },
+        "RwuXccrKfMuuWLKr": {
+          "title": "Sentidos Agudos",
+          "hint": "Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3944 @@
+{
+  "label": "Orígenes de personaje ES",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancementById"
+    }
+  },
+  "folders": {},
+  "entries": {
+    "phbbgAcolyte0000": {
+      "name": "Acolyte",
+      "description": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate} (Cleric)</p><p><strong>Skill Proficiencies:</strong> Insight and Religion</p><p><strong>Tool Proficiency:</strong> Calligrapher's Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher's Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book} (prayers), @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (10 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgAcolyte0000 inline classes=\"free-rules-embed\"]</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "kDI6zoUamHzFTvHG",
+          "type": "AbilityScoreImprovement",
+          "configuration": {
+            "cap": 2,
+            "fixed": {
+              "str": 0,
+              "dex": 0,
+              "con": 0,
+              "int": 0,
+              "wis": 0,
+              "cha": 0
+            },
+            "locked": [
+              "str",
+              "dex",
+              "con"
+            ],
+            "points": 3,
+            "recommendation": null
+          },
+          "value": {
+            "type": "asi"
+          },
+          "level": 0,
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        {
+          "_id": "Lk1ScjOCqRDtX2Tg",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "tool:art:calligrapher",
+              "skills:ins",
+              "skills:rel"
+            ],
+            "choices": []
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies."
+        },
+        {
+          "_id": "ygyW1bVUTnCnjxY2",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftMagicInitia"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Background Feat",
+          "hint": "Your background grants you the Magic Initiate (Cleric) feat."
+        },
+        {
+          "_id": "McRHkSL3WnG2Po7g",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "languages:standard:common"
+            ],
+            "choices": [
+              {
+                "count": 2,
+                "pool": [
+                  "languages:standard:*"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      ]
+    },
+    "phbbgCriminal000": {
+      "name": "Criminal",
+      "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftAlert000000]{Alert}</p><p><strong>Skill Proficiencies:</strong> Sleight of Hand and Stealth</p><p><strong>Tool Proficiency:</strong> Thieves' Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 16 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgCriminal000 inline classes=\"free-rules-embed\"]</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "8gFHAigaFboVUSgH",
+          "type": "AbilityScoreImprovement",
+          "configuration": {
+            "cap": 2,
+            "fixed": {
+              "str": 0,
+              "dex": 0,
+              "con": 0,
+              "int": 0,
+              "wis": 0,
+              "cha": 0
+            },
+            "locked": [
+              "str",
+              "wis",
+              "cha"
+            ],
+            "points": 3,
+            "recommendation": null
+          },
+          "value": {
+            "type": "asi"
+          },
+          "level": 0,
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        {
+          "_id": "WJA48TLxfqlc3ygz",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftAlert000000"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Background Feat",
+          "hint": "Your backgrounds you the Alert feat."
+        },
+        {
+          "_id": "CdiCt0Cr9bP9FQNO",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "tool:thief",
+              "skills:slt",
+              "skills:ste"
+            ],
+            "choices": [
+              {
+                "count": 1,
+                "pool": []
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Sleight of Hand and Stealth. It also grants you proficiency with Thieves' Tools."
+        },
+        {
+          "_id": "pLGiyOjTP7nwuwTl",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "languages:standard:common"
+            ],
+            "choices": [
+              {
+                "count": 2,
+                "pool": [
+                  "languages:standard:*"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      ]
+    },
+    "phbbgSage0000000": {
+      "name": "Sage",
+      "description": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate} (Wizard)</p><p><strong>Skill Proficiencies:</strong> Arcana and History</p><p><strong>Tool Proficiency:</strong> Calligrapher's Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher's Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book} (history), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (8 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "3O61L5uTy5jRCqJb",
+          "type": "AbilityScoreImprovement",
+          "configuration": {
+            "cap": 2,
+            "fixed": {
+              "str": 0,
+              "dex": 0,
+              "con": 0,
+              "int": 0,
+              "wis": 0,
+              "cha": 0
+            },
+            "locked": [
+              "str",
+              "dex",
+              "cha"
+            ],
+            "points": 3,
+            "recommendation": null
+          },
+          "value": {
+            "type": "asi"
+          },
+          "level": 0,
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        {
+          "_id": "DMd8rikwPlZdpP1l",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "tool:art:calligrapher",
+              "skills:arc",
+              "skills:his"
+            ],
+            "choices": []
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Arcana and History. It also grants you proficiency with Calligrapher's Supplies."
+        },
+        {
+          "_id": "kKt7VMmZUuRr35dP",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftMagicInitia"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Background Feat",
+          "hint": "Your backgrounds grants you the Magic Initiate (Wizard) feat."
+        },
+        {
+          "_id": "pLGiyOjTP7nwuwTl",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "languages:standard:common"
+            ],
+            "choices": [
+              {
+                "count": 2,
+                "pool": [
+                  "languages:standard:*"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      ]
+    },
+    "phbbgSoldier0000": {
+      "name": "Soldier",
+      "description": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Constitution</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Savage Attacker}</p><p><strong>Skill Proficiencies:</strong> Athletics and Intimidation</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of</em> <em>Gaming Set</em> (see @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter 6})</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, Gaming Set (same as above), @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Healer's Kit}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 14 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000 inline classes=\"free-rules-embed\"]</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "5hLHlmqxzoAta0uf",
+          "type": "AbilityScoreImprovement",
+          "configuration": {
+            "cap": 2,
+            "fixed": {
+              "str": 0,
+              "dex": 0,
+              "con": 0,
+              "int": 0,
+              "wis": 0,
+              "cha": 0
+            },
+            "locked": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "points": 3,
+            "recommendation": null
+          },
+          "value": {
+            "type": "asi"
+          },
+          "level": 0,
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Strength, Dexterity, and Constitution scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        {
+          "_id": "y4FZ4I6wU0F8DEjO",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "skills:ath",
+              "skills:itm"
+            ],
+            "choices": [
+              {
+                "count": 1,
+                "pool": [
+                  "tool:game:*"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Athletics and Intimidation. It also grants you proficiency with any Gaming Set."
+        },
+        {
+          "_id": "tk8CFgIW7fXL0mlu",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftSavageAttac"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Background Feat",
+          "hint": "Your background grants you the Savage Attacker feat."
+        },
+        {
+          "_id": "pLGiyOjTP7nwuwTl",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "languages:standard:common"
+            ],
+            "choices": [
+              {
+                "count": 2,
+                "pool": [
+                  "languages:standard:*"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      ]
+    },
+    "phbspAbyssalTief": {
+      "name": "Tiefling, Abyssal",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Tiefling Traits</h3><p><strong>Creature Type</strong>: Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you have the following special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "lskxIeib6rIreZ1h",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "sm",
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        {
+          "_id": "T8T6H9TudTleafUL",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptOtherworld",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptAbyssalLeg",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Tiefling Traits",
+          "hint": ""
+        },
+        {
+          "_id": "V8h8fLg4XG1QGewy",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "dr:poison"
+            ],
+            "choices": []
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 1,
+          "title": "Abyssal Tiefling Traits",
+          "hint": "You have Resistance to Poison damage."
+        },
+        {
+          "_id": "VhCiGFOLtG8H93jy",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplPoisonSpra"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 1,
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        {
+          "_id": "KwcwntR3Ai0R5iPN",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplRayofSickn"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 3,
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        {
+          "_id": "9iZufhdzY3XN7Em3",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplHoldPerson"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 5,
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        {
+          "_id": "YENpPevreTnGrRVK",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplThaumaturg"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 0,
+          "title": "Otherworldly Presence",
+          "hint": ""
+        }
+      ]
+    },
+    "phbspChthonicTie": {
+      "name": "Tiefling, Chthonic",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Tiefling Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you have the following special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "lskxIeib6rIreZ1h",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "sm",
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        {
+          "_id": "T8T6H9TudTleafUL",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptOtherworld",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptChthonicLe",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Tiefling Traits",
+          "hint": ""
+        },
+        {
+          "_id": "kcfmKwJkaV9btwJU",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplThaumaturg"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 0,
+          "title": "Otherworldly Presence",
+          "hint": ""
+        },
+        {
+          "_id": "O6M9VGAwHx9Kkfhj",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "dr:necrotic"
+            ],
+            "choices": []
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 1,
+          "title": "Chthonic Tiefling Traits",
+          "hint": "You have Resistance to Necrotic damage."
+        },
+        {
+          "_id": "pIi692Cevlw7qZRe",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplChillTouch"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 1,
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        {
+          "_id": "DU7Y6D1IJSSgObJK",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplFalseLife0"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 3,
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        {
+          "_id": "R0k1RmQximNOQw1R",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplRayofEnfee"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 5,
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        }
+      ]
+    },
+    "phbspDragonborn0": {
+      "name": "Dragonborn",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDragonborn0 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dragonborn-traits\">Dragonborn Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 5–7 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Dragonborn, you have these special traits.</p><p><strong>Draconic Ancestry.</strong> Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.</p><table><caption>Draconic Ancestors</caption><thead><tr><td>Dragon</td><td>Damage Type</td><td>Dragon</td><td>Damage Type</td></tr></thead><tbody><tr><td>Black</td><td>Acid</td><td>Gold</td><td>Fire</td></tr><tr><td>Blue</td><td>Lightning</td><td>Green</td><td>Poison</td></tr><tr><td>Brass</td><td>Fire</td><td>Red</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td><td>Silver</td><td>Cold</td></tr><tr><td>Copper</td><td>Acid</td><td>White</td><td>Cold</td></tr></tbody></table><p><strong>Breath Weapon.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Damage Resistance. </strong>You have Resistance to the damage type determined by your Draconic Ancestry trait.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Draconic Flight.</strong> When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "65BqBxGcj6z4S803",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 5–7 feet tall)"
+        },
+        {
+          "_id": "XA1fKbmfBiCHnVzs",
+          "type": "ScaleValue",
+          "configuration": {
+            "identifier": "breath",
+            "type": "dice",
+            "distance": {
+              "units": ""
+            },
+            "scale": {
+              "0": {
+                "number": 1,
+                "faces": 10,
+                "modifiers": []
+              },
+              "5": {
+                "number": 2,
+                "faces": 10,
+                "modifiers": []
+              },
+              "11": {
+                "number": 3,
+                "faces": 10,
+                "modifiers": []
+              },
+              "17": {
+                "number": 4,
+                "faces": 10,
+                "modifiers": []
+              }
+            }
+          },
+          "value": {},
+          "title": "Breath Weapon",
+          "hint": ""
+        },
+        {
+          "_id": "raWgGHnxSicEwTb9",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptBreathWeap"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Draconic Ancestry",
+          "hint": ""
+        },
+        {
+          "_id": "8maGZKJ9TOIgNR80",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [],
+            "choices": [
+              {
+                "count": 1,
+                "pool": [
+                  "dr:acid",
+                  "dr:cold",
+                  "dr:fire",
+                  "dr:lightning",
+                  "dr:poison"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Damage Resistance",
+          "hint": "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+        },
+        {
+          "_id": "jOGAWKkPIAbshOpo",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptDraconicFl",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 5,
+          "title": "Draconic Flight",
+          "hint": ""
+        }
+      ]
+    },
+    "phbspDrow0000000": {
+      "name": "Elf, Drow",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"drow\">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Drow Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "5w2FaHXRKiN7v1rE",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        {
+          "_id": "boHzoT53gYPvJ9o2",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptFeyAncestr"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptKeenSenses"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptTrance0000"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptDrowElfLin"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Elf Traits",
+          "hint": ""
+        },
+        {
+          "_id": "nccRK77cXNtEHCHX",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [],
+            "choices": [
+              {
+                "count": 1,
+                "pool": [
+                  "skills:ins",
+                  "skills:prc",
+                  "skills:sur"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        {
+          "_id": "LWGXpgeZc3PwUgTg",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplDancingLig"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 1,
+          "title": "Drow Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        {
+          "_id": "hIn6cR8fRweVWhTp",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplFaerieFire"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 3,
+          "title": "Drow Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        {
+          "_id": "18x2qczDE0MerZfa",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplDarkness00"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 5,
+          "title": "Drow Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      ]
+    },
+    "phbspDwarf000000": {
+      "name": "Dwarf",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dwarf-traits\">Dwarf Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 4–5 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Dwarf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 120 feet.</p><p><strong>Dwarven Resilience.</strong> You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p><p><strong>Dwarven Toughness.</strong> Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.</p><p><strong>Stonecunning.</strong> As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "6HdONjMD4UozXSfC",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 4–5 feet tall)"
+        },
+        {
+          "_id": "PphNMhWLl5mEgAZf",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptDwarvenRes"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptDwarvenTou"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptStonecunni"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Dwarf Traits",
+          "hint": ""
+        },
+        {
+          "_id": "S3kro3b0bq0Ks6Y8",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "dr:poison"
+            ],
+            "choices": []
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Dwarven Resilience",
+          "hint": "You have Resistance to Poison damage."
+        }
+      ]
+    },
+    "phbspForestGnome": {
+      "name": "Gnome, Forest",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Gnome Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 3–4 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Gnome, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Gnomish Cunning.</strong> You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p><p><strong>Gnomish Lineage.</strong> You are part of a lineage that grants you supernatural abilities. Whichever lineage you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):</p><p><strong>Forest Gnome.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "O7gYRGMSW3atQ2Yc",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "sm"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Small (about 3-4 feet tall)"
+        },
+        {
+          "_id": "LcGnqnqKYFw0PcE9",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptGnomishCun"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptForestGnom"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Gnome Traits",
+          "hint": ""
+        },
+        {
+          "_id": "KIOe7GcuEGboouMQ",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplSpeakwithA",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "@prof",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 0,
+          "title": "Forest Gnome Lineage Spell",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        {
+          "_id": "5ENIyYfAxcpuh426",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplMinorIllus"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 0,
+          "title": "Forest Gnome Lineage Cantrip",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      ]
+    },
+    "phbspGoliath0000": {
+      "name": "Goliath",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"goliath-traits\">Goliath Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 7–8 feet tall)</p><p><strong>Speed:</strong> 35 feet</p><p>As a Goliath, you have these special traits.</p><p><strong>Giant Ancestry.</strong> You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</p><p><strong>Cloud's Jaunt (Cloud Giant). </strong>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p><p><strong>Fire's Burn (Fire Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</p><p><strong>Frost's Chill (Frost Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p><p><strong>Hill's Tumble (Hill Giant). </strong>When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the &amp;Reference[Prone] condition.</p><p><strong>Stone's Endurance (Stone Giant).</strong> When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p><p><strong>Storm's Thunder (Storm Giant).</strong> When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</p><p><strong>Large Form.</strong> Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.</p><p><strong>Powerful Build.</strong> You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "LETPMtBLvmzWUUb0",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 7-8 feet tall)"
+        },
+        {
+          "_id": "PZxMcT5tVtvvf62P",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptGiantAnces",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptPowerfulBu",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Goliath Traits",
+          "hint": ""
+        },
+        {
+          "_id": "LrdYfRLrRlgsZrNn",
+          "type": "ItemChoice",
+          "configuration": {
+            "choices": {
+              "0": {
+                "count": 1,
+                "replacement": false
+              }
+            },
+            "allowDrops": false,
+            "type": "feat",
+            "pool": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptCloudsJaun"
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptFiresBurn0"
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptFrostsChil"
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptHillsTumbl"
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptStonesEndu"
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptStormsThun"
+              }
+            ],
+            "spell": null,
+            "restriction": {
+              "type": "race",
+              "list": []
+            }
+          },
+          "value": {
+            "added": {},
+            "replaced": {}
+          },
+          "title": "Giant Ancestry",
+          "hint": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+        },
+        {
+          "_id": "9cKoMls1KVDsdD4A",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptLargeForm0"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 5,
+          "title": "Goliath Traits",
+          "hint": ""
+        }
+      ]
+    },
+    "phbspHalfling000": {
+      "name": "Halfling",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"halfling-traits\">Halfling Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 2–3 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Halfling, you have these special traits.</p><p><strong>Brave.</strong> You have Advantage on saving throws you make to avoid or end the Frightened condition.</p><p><strong>Halfling Nimbleness.</strong> You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.</p><p><strong>Luck.</strong> When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p><p><strong>Naturally Stealthy.</strong> You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "GYp1vi82hSEoe3mO",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "sm"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Small (about 2-3 feet tall)"
+        },
+        {
+          "_id": "GFHErdA52SfUBvB5",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptBrave00000",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptHalflingNi",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptLuck000000",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptNaturallyS",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Halfling Traits",
+          "hint": ""
+        }
+      ]
+    },
+    "phbspHighElf0000": {
+      "name": "Elf, High",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"high-elves\">High Elves</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard spell list}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the Charmed condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "5w2FaHXRKiN7v1rE",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        {
+          "_id": "boHzoT53gYPvJ9o2",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptFeyAncestr"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptKeenSenses"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptTrance0000"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptHighElfLin"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Elf Traits",
+          "hint": ""
+        },
+        {
+          "_id": "wyzOrBj4qIVsCKc7",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [],
+            "choices": [
+              {
+                "count": 1,
+                "pool": [
+                  "skills:ins",
+                  "skills:prc",
+                  "skills:sur"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        {
+          "_id": "hraql8YRB41ssDA6",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplPrestidigi"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 1,
+          "title": "High Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        {
+          "_id": "iztB4GPENKXiA72M",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplDetectMagi"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 3,
+          "title": "High Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        {
+          "_id": "1LZlC6uInez1oV7n",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplMistyStep0"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 5,
+          "title": "High Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      ]
+    },
+    "phbspHuman000000": {
+      "name": "Human",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Human Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</p><p><strong>Speed: </strong>30 feet</p><p>As a Human, you have these special traits.</p><p><strong>Resourceful. </strong>You gain Heroic Inspiration whenever you finish a Long Rest.</p><p><strong>Skillful. </strong>You gain proficiency in one skill of your choice.</p><p><strong>Versatile.</strong> You gain an Origin feat of your choice (see chapter 5). Skilled is recommended.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "dLxv96vt2B2KOEe2",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "sm",
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+        },
+        {
+          "_id": "2H3yQa0PfjBgXw2W",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptResourcefu",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptSkillful00",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptVersatile0",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Human Traits",
+          "hint": ""
+        },
+        {
+          "_id": "xIdIaWtTj1cBERln",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [],
+            "choices": [
+              {
+                "count": 1,
+                "pool": [
+                  "skills:*"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Skillful",
+          "hint": "You gain proficiency in one skill of your choice."
+        },
+        {
+          "_id": "KB8IQLwyuL6SOFnv",
+          "type": "ItemChoice",
+          "configuration": {
+            "choices": {
+              "0": {
+                "count": 1,
+                "replacement": false
+              }
+            },
+            "allowDrops": true,
+            "type": "feat",
+            "pool": [
+              {
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftAlert000000"
+              },
+              {
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftMagicInitia"
+              },
+              {
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftSavageAttac"
+              },
+              {
+                "uuid": "Compendium.dnd5e.feats24.Item.phbftSkilled0000"
+              }
+            ],
+            "spell": null,
+            "restriction": {
+              "type": "feat",
+              "subtype": "origin",
+              "list": []
+            }
+          },
+          "value": {
+            "added": {},
+            "replaced": {}
+          },
+          "title": "Versatile",
+          "hint": "You gain an Origin feat of your choice. Skillful is recommended."
+        }
+      ]
+    },
+    "phbspInfernalTie": {
+      "name": "Tiefling, Infernal",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"infernal\">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Tiefling Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you have the following special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Fire damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "lskxIeib6rIreZ1h",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "sm",
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        {
+          "_id": "T8T6H9TudTleafUL",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptOtherworld",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptInfernalLe",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Tiefling Traits",
+          "hint": ""
+        },
+        {
+          "_id": "bD2XFMWGPkFJLr2w",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplThaumaturg"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 0,
+          "title": "Otherworldly Presence",
+          "hint": ""
+        },
+        {
+          "_id": "9V9xGP0Fsqh3NDsB",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [
+              "dr:fire"
+            ],
+            "choices": []
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 1,
+          "title": "Infernal Tiefling Traits",
+          "hint": "You have Resistance to Fire damage."
+        },
+        {
+          "_id": "gMovXMwHeD9cCL99",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplFireBolt00"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 1,
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        {
+          "_id": "ol3SWLw2FTNEiXrb",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplHellishReb"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 3,
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        {
+          "_id": "cj8h25IH0Zvdy3Bm",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplDarkness00"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 5,
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        }
+      ]
+    },
+    "phbspOrc00000000": {
+      "name": "Orc",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"orc-traits\">Orc Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 6–7 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Orc, you have these special traits.</p><p><strong>Adrenaline Rush. </strong>You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.</p><p><strong>Darkvision.</strong> You have Darkvision with a range of 120 feet.</p><p><strong>Relentless Endurance.</strong> When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "B2sUOuY0KhoULqlX",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 6-7 feet tall)"
+        },
+        {
+          "_id": "C2ehwp5W2SMJ88Wy",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptAdrenaline",
+                "optional": false
+              },
+              {
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptRelentless",
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Orc Traits",
+          "hint": ""
+        }
+      ]
+    },
+    "phbspRockGnome00": {
+      "name": "Gnome, Rock",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Gnome Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 3–4 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Gnome, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Gnomish Cunning.</strong> You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p><p><strong>Gnomish Lineage.</strong> You are part of a lineage that grants you supernatural abilities. Whichever lineage you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):</p><p><strong>Rock Gnome.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrips. In addition, you can spend 10 minutes casting <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from <em>Prestidigitation</em>; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "O7gYRGMSW3atQ2Yc",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "sm"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Small (about 3-4 feet tall)"
+        },
+        {
+          "_id": "LcGnqnqKYFw0PcE9",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptGnomishCun"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptRockGnomeL"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Gnome Traits",
+          "hint": ""
+        },
+        {
+          "_id": "RNvJhB97kaJrZTfU",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplMending000"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplPrestidigi"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 0,
+          "title": "Rock Gnome Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      ]
+    },
+    "phbspWoodElf0000": {
+      "name": "Elf, Wood",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"wood-elves\">Wood Elves</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspWoodElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Wood Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Your Speed increases to 35 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Longstrider}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pass without Trace}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the Charmed condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+      "effects": [],
+      "advancement": [
+        {
+          "_id": "5w2FaHXRKiN7v1rE",
+          "type": "Size",
+          "configuration": {
+            "sizes": [
+              "med"
+            ]
+          },
+          "level": 0,
+          "title": "",
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        {
+          "_id": "boHzoT53gYPvJ9o2",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptFeyAncestr"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptKeenSenses"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptTrance0000"
+              },
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.origins24.Item.phbsptWoodElfLin"
+              }
+            ],
+            "optional": false,
+            "spell": null
+          },
+          "value": {},
+          "level": 0,
+          "title": "Elf Traits",
+          "hint": ""
+        },
+        {
+          "_id": "YFS9oEa9Iw1molNm",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplDruidcraft"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [],
+              "uses": {
+                "max": "",
+                "per": "",
+                "requireSlot": false
+              },
+              "prepared": 0
+            }
+          },
+          "value": {},
+          "level": 1,
+          "title": "Wood Elf Traits",
+          "hint": ""
+        },
+        {
+          "_id": "FRJszO7cYchbaGzt",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplLongstride"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [
+                "int",
+                "wis",
+                "cha"
+              ],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 3,
+          "title": "Wood Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        {
+          "_id": "zFsEPXauTgmYxqiJ",
+          "type": "ItemGrant",
+          "configuration": {
+            "items": [
+              {
+                "optional": false,
+                "uuid": "Compendium.dnd5e.spells24.Item.phbsplPasswithou"
+              }
+            ],
+            "optional": false,
+            "spell": {
+              "ability": [],
+              "uses": {
+                "max": "1",
+                "per": "lr",
+                "requireSlot": false
+              },
+              "method": "spell",
+              "prepared": 2
+            }
+          },
+          "value": {},
+          "level": 5,
+          "title": "Wood Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        {
+          "_id": "RwuXccrKfMuuWLKr",
+          "type": "Trait",
+          "configuration": {
+            "mode": "default",
+            "allowReplacements": false,
+            "grants": [],
+            "choices": [
+              {
+                "count": 1,
+                "pool": [
+                  "skills:ins",
+                  "skills:prc",
+                  "skills:sur"
+                ]
+              }
+            ]
+          },
+          "value": {
+            "chosen": []
+          },
+          "level": 0,
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        }
+      ]
+    },
+    "phbsptAbyssalLeg": {
+      "name": "Fiendish Legacy, Abyssal",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptAdrenaline": {
+      "name": "Adrenaline Rush",
+      "description": "<p>You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.</p>",
+      "activities": [
+        {
+          "type": "heal",
+          "name": "Adrenaline Rush: Dash",
+          "_id": "jN5Zo6mDXll3c4Cz",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false,
+            "condition": ""
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "self",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "healing": {
+            "number": null,
+            "denomination": 0,
+            "types": [
+              "temphp"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": "@prof"
+          },
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptBrave00000": {
+      "name": "Brave",
+      "description": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Frightened] condition.</p>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptBreathWeap": {
+      "name": "Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Foundry Note</strong></p><p>The <strong>Breath Weapon (Cone)</strong> and <strong>Breath Weapon (Line)</strong> activities are both configured for their template type and include each type of damage. The damage also scales as you level up.</p><p>You can select the damage type in the damage roll's dialog box. It will remember your damage choice afterwards. You can edit the activities to remove the other damage types to skip this.</p></section>",
+      "activities": [
+        {
+          "type": "save",
+          "name": "Breath Weapon (Cone)",
+          "_id": "dxCRYmNSSGp6L2yh",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false,
+            "condition": ""
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false,
+              "max": ""
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": "cone",
+              "size": "15",
+              "count": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "creature",
+              "special": ""
+            },
+            "override": false,
+            "prompt": true
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "damage": {
+            "parts": [
+              {
+                "custom": {
+                  "enabled": true,
+                  "formula": "@scale.dragonborn.breath"
+                },
+                "number": null,
+                "denomination": 0,
+                "bonus": "",
+                "types": [
+                  "acid",
+                  "cold",
+                  "fire",
+                  "poison",
+                  "lightning"
+                ],
+                "scaling": {
+                  "number": 1
+                }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": [
+              "dex"
+            ],
+            "dc": {
+              "calculation": "con",
+              "formula": ""
+            }
+          },
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        },
+        {
+          "type": "save",
+          "name": "Breath Weapon (Line)",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false,
+            "condition": ""
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "count": "",
+              "type": "line",
+              "size": "30",
+              "width": "5"
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "creature",
+              "special": ""
+            },
+            "override": false,
+            "prompt": true
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "damage": {
+            "parts": [
+              {
+                "custom": {
+                  "enabled": true,
+                  "formula": "@scale.dragonborn.breath"
+                },
+                "number": null,
+                "denomination": 0,
+                "bonus": "",
+                "types": [
+                  "acid",
+                  "cold",
+                  "fire",
+                  "poison",
+                  "lightning"
+                ],
+                "scaling": {
+                  "number": 1
+                }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": [
+              "dex"
+            ],
+            "dc": {
+              "calculation": "con",
+              "formula": ""
+            }
+          },
+          "_id": "iyK44COq6gbdbkc2",
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptChthonicLe": {
+      "name": "Fiendish Legacy, Chthonic",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.</p><table><caption>Chthonic Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptCloudsJaun": {
+      "name": "Cloud's Jaunt",
+      "description": "<p>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p>",
+      "activities": [
+        {
+          "type": "utility",
+          "name": "Cloud's Jaunt",
+          "_id": "t4npBWLqABsnPZwL",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false,
+            "condition": ""
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "ft",
+            "special": "",
+            "value": "30"
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "space",
+              "special": "Unoccupied space"
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "roll": {
+            "prompt": false,
+            "visible": false,
+            "name": "",
+            "formula": ""
+          },
+          "img": "systems/dnd5e/icons/svg/trait-saves.svg",
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptDraconicFl": {
+      "name": "Draconic Flight",
+      "description": "<p>When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking but it does not automatically grant the Fly Speed.</p></section>",
+      "activities": [
+        {
+          "type": "utility",
+          "name": "Draconic Flight",
+          "_id": "FrsJbUcch66Cr7OZ",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false,
+            "condition": ""
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "minute",
+            "concentration": false,
+            "override": false,
+            "value": "10"
+          },
+          "effects": [
+            {
+              "_id": "waI4oHqhpbKUem0M",
+              "level": {}
+            }
+          ],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "self"
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "roll": {
+            "prompt": false,
+            "visible": false,
+            "name": "",
+            "formula": ""
+          },
+          "img": "systems/dnd5e/icons/svg/damage/slashing.svg",
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [
+        {
+          "name": "Draconic Flight",
+          "img": "icons/magic/holy/angel-wings-gray.webp",
+          "origin": "Compendium.dnd5e.origins24.Item.phbsptDraconicFl",
+          "transfer": false,
+          "_id": "waI4oHqhpbKUem0M",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.344",
+            "systemId": "dnd5e",
+            "systemVersion": "4.4.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptDrowElfLin": {
+      "name": "Elven Lineage, Drow",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><h3>Drow Lineage Features</h3><table><thead><tr><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights} cantrip.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptDwarvenRes": {
+      "name": "Dwarven Resilience",
+      "description": "<p>You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted Resistance to Poison damage but not Advantage on saving throws to avoid/end the Poisoned condition.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptDwarvenTou": {
+      "name": "Dwarven Toughness",
+      "description": "<p>Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Foundry Note</strong></p><p>The Hit Point maximum increase is handled automatically each level.</p></section>",
+      "activities": [],
+      "effects": [
+        {
+          "name": "Dwarven Toughness",
+          "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
+          "_id": "Na7W3p67eT9YqW87",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.attributes.hp.bonuses.level",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.344",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptFeyAncestr": {
+      "name": "Fey Ancestry",
+      "description": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptFiresBurn0": {
+      "name": "Fire's Burn",
+      "description": "<p>When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</p>",
+      "activities": [
+        {
+          "type": "damage",
+          "name": "Burn",
+          "_id": "002cv19dj8WGzSl2",
+          "sort": 0,
+          "activation": {
+            "type": "",
+            "value": null,
+            "override": false,
+            "condition": "When you hit a target with an attack roll and deal damage to it"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "spec",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "1",
+              "type": "creature",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "damage": {
+            "critical": {
+              "allow": false
+            },
+            "parts": [
+              {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "number": 1,
+                "denomination": 10,
+                "bonus": "",
+                "types": [
+                  "fire"
+                ],
+                "scaling": {
+                  "number": 1
+                }
+              }
+            ]
+          },
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptForestGnom": {
+      "name": "Gnomish Lineage, Forest",
+      "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The free castings are included in the spell.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptFrostsChil": {
+      "name": "Frost's Chill",
+      "description": "<p>When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking and reduces their Speed by 10.</p></section>",
+      "activities": [
+        {
+          "type": "damage",
+          "name": "Chill",
+          "_id": "6goWQaWLexUqgig8",
+          "sort": 0,
+          "activation": {
+            "type": "",
+            "value": null,
+            "override": false,
+            "condition": "When you hit a target with an attack roll and deal damage to it"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [
+            {
+              "_id": "YHKgdj2KIbQRBZWW",
+              "level": {}
+            }
+          ],
+          "range": {
+            "override": false,
+            "units": "spec",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "1",
+              "type": "creature",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "damage": {
+            "critical": {
+              "allow": false
+            },
+            "parts": [
+              {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "number": 1,
+                "denomination": 6,
+                "bonus": "",
+                "types": [
+                  "cold"
+                ],
+                "scaling": {
+                  "number": 1
+                }
+              }
+            ]
+          },
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [
+        {
+          "name": "Chilled",
+          "img": "icons/magic/water/heart-ice-freeze.webp",
+          "origin": "Compendium.dnd5e.origins24.Item.phbsptFrostsChil",
+          "transfer": false,
+          "_id": "YHKgdj2KIbQRBZWW",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "-10",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.burrow",
+              "mode": 2,
+              "value": "-10",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.climb",
+              "mode": 2,
+              "value": "-10",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.fly",
+              "mode": 2,
+              "value": "-10",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.swim",
+              "mode": 2,
+              "value": "-10",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": 1,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.344",
+            "systemId": "dnd5e",
+            "systemVersion": "4.4.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptGiantAnces": {
+      "name": "Giant Ancestry",
+      "description": "<p>You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</p><p><strong>Cloud's Jaunt (Cloud Giant). </strong>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p><p><strong>Fire's Burn (Fire Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</p><p><strong>Frost's Chill (Frost Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p><p><strong>Hill's Tumble (Hill Giant). </strong>When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.</p><p><strong>Stone's Endurance (Stone Giant).</strong> When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p><p><strong>Storm's Thunder (Storm Giant).</strong> When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</p>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptGnomishCun": {
+      "name": "Gnomish Cunning",
+      "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
+      "activities": [],
+      "effects": [
+        {
+          "name": "Gnomish Cunning",
+          "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+          "origin": "Compendium.dnd5e.origins24.Item.phbsptGnomishCun",
+          "_id": "KNWLGPsZSHtINp6L",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.abilities.int.save.roll.mode",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            },
+            {
+              "key": "system.abilities.wis.save.roll.mode",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            },
+            {
+              "key": "system.abilities.cha.save.roll.mode",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.9",
+            "createdTime": 1760131706242,
+            "modifiedTime": 1760131741049,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptHalflingNi": {
+      "name": "Halfling Nimbleness",
+      "description": "<p>You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.</p>",
+      "activities": [],
+      "effects": [
+        {
+          "name": "Halfling Nimbleness",
+          "img": "icons/skills/movement/figure-running-gray.webp",
+          "origin": "Compendium.dnd5e.origins24.Item.phbsptHalflingNi",
+          "_id": "HtNoV5usxEadPbqp",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "flags.dnd5e.halflingNimbleness",
+              "mode": 5,
+              "value": "true",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.350",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.0",
+            "createdTime": 1762280399491,
+            "modifiedTime": 1762280421329,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptHighElfLin": {
+      "name": "Elven Lineage, High Elf",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptHillsTumbl": {
+      "name": "Hill's Tumble",
+      "description": "<p>When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the &amp;Reference[Prone] condition.</p>",
+      "activities": [
+        {
+          "type": "utility",
+          "name": "Hill's Tumble",
+          "_id": "I2wKOUDxhIb5hHb7",
+          "sort": 0,
+          "activation": {
+            "type": "",
+            "value": null,
+            "override": false,
+            "condition": "When you hit a Large or smaller creature with an attack roll and deal damage to it"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "spec",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "1",
+              "type": "creature",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "roll": {
+            "prompt": false,
+            "visible": false,
+            "name": "",
+            "formula": ""
+          },
+          "img": "systems/dnd5e/icons/svg/damage/slashing.svg",
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptInfernalLe": {
+      "name": "Fiendish Legacy, Infernal",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.</p><table><caption>Infernal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Fire damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptKeenSenses": {
+      "name": "Keen Senses",
+      "description": "<p>You have proficiency in the Insight, Perception, or Survival skill.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice after selecting this species.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptLargeForm0": {
+      "name": "Large Form",
+      "description": "<p>Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the increase to your Speed and the Advantage on Strength checks.</p></section>",
+      "activities": [
+        {
+          "type": "utility",
+          "name": "Enlarge",
+          "_id": "5jJ0wfYo2b4k26Em",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false,
+            "condition": ""
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "minute",
+            "concentration": false,
+            "override": false,
+            "value": "10"
+          },
+          "effects": [
+            {
+              "_id": "QI7POclNlvX9a8VD",
+              "level": {}
+            }
+          ],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "self",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "roll": {
+            "prompt": false,
+            "visible": false,
+            "name": "",
+            "formula": ""
+          },
+          "img": "systems/dnd5e/icons/svg/size.svg",
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [
+        {
+          "name": "Large Form",
+          "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+          "origin": "Compendium.dnd5e.origins24.Item.phbsptLargeForm0",
+          "transfer": false,
+          "_id": "QI7POclNlvX9a8VD",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.348",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.9",
+            "createdTime": 1725810985123,
+            "modifiedTime": 1760131436359,
+            "lastModifiedBy": "dnd5ebuilder0000",
+            "exportSource": null
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptLuck000000": {
+      "name": "Luck",
+      "description": "<p>When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p>",
+      "activities": [],
+      "effects": [
+        {
+          "name": "Luck",
+          "img": "icons/commodities/flowers/clover.webp",
+          "origin": "Compendium.dnd5e.origins24.Item.phbsptLuck000000",
+          "_id": "k1FDpZEBCHzRsFSA",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "flags.dnd5e.halflingLucky",
+              "mode": 5,
+              "value": "true",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.344",
+            "systemId": "dnd5e",
+            "systemVersion": "4.4.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptNaturallyS": {
+      "name": "Naturally Stealthy",
+      "description": "<p>You can take the &amp;Reference[Hide] action even when you are obscured only by a creature that is at least one size larger than you.</p>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptOtherworld": {
+      "name": "Otherworldly Presence",
+      "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish legacy trait.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you're granted this spell it will allow you to choose your spellcasting ability.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptPowerfulBu": {
+      "name": "Powerful Build",
+      "description": "<p>You have Advantage on any ability check you make to end the &amp;Reference[Grappled apply=false] condition. You also count as one size larger when determining your carrying capacity.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically upgrades your size when determining carrying capacity.</p></section>",
+      "activities": [],
+      "effects": [
+        {
+          "name": "Powerful Build",
+          "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+          "_id": "ge1u3EIFvsoj3jZu",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "flags.dnd5e.powerfulBuild",
+              "mode": 5,
+              "value": "true",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.344",
+            "systemId": "dnd5e",
+            "systemVersion": "4.4.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptRelentless": {
+      "name": "Relentless Endurance",
+      "description": "<p>When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.</p>",
+      "activities": [
+        {
+          "type": "heal",
+          "name": "Relentlessly Endure",
+          "_id": "DULUqgjDy0u99UKM",
+          "sort": 0,
+          "activation": {
+            "type": "",
+            "value": null,
+            "override": false,
+            "condition": "When you are reduced to 0 Hit Points but not killed outright"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "self",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "healing": {
+            "number": null,
+            "denomination": 0,
+            "types": [
+              "healing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": "1"
+          },
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptResourcefu": {
+      "name": "Resourceful",
+      "description": "<p>You gain Heroic Inspiration whenever you finish a Long Rest.</p>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptRockGnomeL": {
+      "name": "Gnomish Lineage, Rock",
+      "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation} cantrips. In addition, you can spend 10 minutes casting <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from <em>Prestidigitation</em>; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.</p>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptSkillful00": {
+      "name": "Skillful",
+      "description": "<p>You gain proficiency in one skill of your choice.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for this choice when you select this Species.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptStonecunni": {
+      "name": "Stonecunning",
+      "description": "<p>As a Bonus Action, you gain &amp;Reference[Tremorsense] with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Foundry Note</strong></p><p>This feature includes the limited uses and an Active Effect that grants you the 60 feet of Tremorsense. It does not automatically update your Token's vision settings.</p></section>",
+      "activities": [
+        {
+          "type": "utility",
+          "name": "Stonecunning",
+          "_id": "NTjnXm1AYqdOUJOB",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false,
+            "condition": ""
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "minute",
+            "concentration": false,
+            "override": false,
+            "value": "10"
+          },
+          "effects": [
+            {
+              "_id": "SAbuNo2AO3XXtkdv",
+              "level": {}
+            }
+          ],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "self"
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "roll": {
+            "prompt": false,
+            "visible": false,
+            "name": "",
+            "formula": ""
+          },
+          "img": "systems/dnd5e/icons/svg/items/tool.svg",
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [
+        {
+          "name": "Stonecunning",
+          "img": "icons/skills/trades/construction-mason-stonecutter-sculpture.webp",
+          "origin": "Compendium.dnd5e.origins24.Item.phbsptStonecunni",
+          "transfer": false,
+          "_id": "SAbuNo2AO3XXtkdv",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.attributes.senses.tremorsense",
+              "mode": 2,
+              "value": "60",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.344",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.0",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "advancement": []
+    },
+    "phbsptStonesEndu": {
+      "name": "Stone's Endurance",
+      "description": "<p>When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p>",
+      "activities": [
+        {
+          "type": "heal",
+          "_id": "vrWhAQ6Bj4gznxHq",
+          "sort": 0,
+          "activation": {
+            "type": "reaction",
+            "value": null,
+            "override": false,
+            "condition": "When you take damage"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "self",
+            "special": ""
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "",
+              "type": "self",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "healing": {
+            "number": 1,
+            "denomination": 12,
+            "types": [
+              "healing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": "@abilities.con.mod"
+          },
+          "name": "",
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptStormsThun": {
+      "name": "Storm's Thunder",
+      "description": "<p>When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</p>",
+      "activities": [
+        {
+          "type": "damage",
+          "name": "Storm's Thunder",
+          "_id": "3eWfDnXfYJVJqT1z",
+          "sort": 0,
+          "activation": {
+            "type": "reaction",
+            "value": null,
+            "override": false,
+            "condition": "When you take damage from a creature within 60 feet of you"
+          },
+          "consumption": {
+            "scaling": {
+              "allowed": false
+            },
+            "spellSlot": true,
+            "targets": [
+              {
+                "type": "itemUses",
+                "value": "1",
+                "target": "",
+                "scaling": {}
+              }
+            ]
+          },
+          "description": {
+            "chatFlavor": ""
+          },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": {
+            "override": false,
+            "units": "ft",
+            "special": "",
+            "value": "60"
+          },
+          "target": {
+            "template": {
+              "contiguous": false,
+              "units": "ft",
+              "type": ""
+            },
+            "affects": {
+              "choice": false,
+              "count": "1",
+              "type": "creature",
+              "special": ""
+            },
+            "override": false,
+            "prompt": false
+          },
+          "uses": {
+            "spent": 0,
+            "recovery": [],
+            "max": ""
+          },
+          "damage": {
+            "critical": {
+              "allow": false
+            },
+            "parts": [
+              {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "number": 1,
+                "denomination": 8,
+                "bonus": "",
+                "types": [
+                  "thunder"
+                ],
+                "scaling": {
+                  "number": 1
+                }
+              }
+            ]
+          },
+          "flags": {},
+          "visibility": {
+            "level": {},
+            "requireAttunement": false,
+            "requireIdentification": false,
+            "requireMagic": false
+          }
+        }
+      ],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptTrance0000": {
+      "name": "Trance",
+      "description": "<p>You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptVersatile0": {
+      "name": "Versatile",
+      "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice. @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Skilled} is recommended.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice when you select this Species.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    },
+    "phbsptWoodElfLin": {
+      "name": "Elven Lineage, Wood Elf",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Wood Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>Your Speed increases to 35 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Longstrider}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pass without Trace}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>",
+      "activities": [],
+      "effects": [],
+      "advancement": []
+    }
+  }
+}

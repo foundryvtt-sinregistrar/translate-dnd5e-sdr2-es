@@ -1,0 +1,582 @@
+Mecánicas Generales
+{
+  "Ability": "Característica",
+  "Ability Score": "Puntuación de característica",
+  "Ability Modifier": "Modificador de característica",
+  "Ability Check": "Prueba de característica",
+  "Saving Throw": "Tirada de salvación",
+  "Death Saving Throw": "Tirada de salvación contra muerte",
+  "Attack Roll": "Tirada de ataque",
+  "Damage Roll": "Tirada de daño",
+  "Hit Points": "Puntos de golpe",
+  "Temporary Hit Points": "Puntos de golpe temporales",
+  "Armor Class": "Clase de Armadura",
+  "AC": "CA",
+  "Proficiency Bonus": "Bonificador por competencia",
+  "Proficiency": "Competencia",
+  "Expertise": "Pericia",
+  "Advantage": "Ventaja",
+  "Disadvantage": "Desventaja",
+  "Short Rest": "Descanso corto",
+  "Long Rest": "Descanso largo",
+  "Reaction": "Reacción",
+  "Bonus Action": "Acción adicional",
+  "Action": "Acción",
+  "Free Action": "Acción gratuita",
+  "Movement": "Movimiento",
+  "Speed": "Velocidad",
+  "Initiative": "Iniciativa",
+  "Challenge Rating": "Valor de desafío",
+  "CR": "VD"
+}
+
+⚔️ 2️⃣ Condiciones
+{
+  "Blinded": "Cegado",
+  "Charmed": "Hechizado",
+  "Deafened": "Ensordecido",
+  "Frightened": "Asustado",
+  "Grappled": "Agarrado",
+  "Incapacitated": "Incapacitado",
+  "Invisible": "Invisible",
+  "Paralyzed": "Paralizado",
+  "Petrified": "Petrificado",
+  "Poisoned": "Envenenado",
+  "Prone": "Derribado",
+  "Restrained": "Restringido",
+  "Stunned": "Aturdido",
+  "Unconscious": "Inconsciente",
+  "Exhaustion": "Agotamiento"
+}
+
+🔥 3️⃣ Tipos de Daño
+{
+  "Acid": "Ácido",
+  "Bludgeoning": "Contundente",
+  "Cold": "Frío",
+  "Fire": "Fuego",
+  "Force": "Fuerza",
+  "Lightning": "Relámpago",
+  "Necrotic": "Necrótico",
+  "Piercing": "Perforante",
+  "Poison": "Veneno",
+  "Psychic": "Psíquico",
+  "Radiant": "Radiante",
+  "Slashing": "Cortante",
+  "Thunder": "Trueno"
+}
+
+🛡️ 4️⃣ Estados de Resistencia
+{
+  "Resistance": "Resistencia",
+  "Damage Resistance": "Resistencia al daño",
+  "Immunity": "Inmunidad",
+  "Damage Immunity": "Inmunidad al daño",
+  "Vulnerability": "Vulnerabilidad",
+  "Condition Immunity": "Inmunidad a condición"
+}
+
+🧙 5️⃣ Magia
+{
+  "Spell": "Conjuro",
+  "Spell Slot": "Espacio de conjuro",
+  "Spellcasting": "Conjuración",
+  "Spellcasting Ability": "Característica para conjurar",
+  "Spell Save DC": "CD de salvación de conjuro",
+  "Cantrip": "Truco",
+  "Ritual": "Ritual",
+  "Concentration": "Concentración",
+  "Material Component": "Componente material",
+  "Somatic Component": "Componente somático",
+  "Verbal Component": "Componente verbal",
+  "Duration": "Duración",
+  "Range": "Alcance",
+  "Casting Time": "Tiempo de lanzamiento",
+  "Upcast": "Lanzar a nivel superior"
+}
+
+🧩 6️⃣ Weapon Mastery (5.2+ importante para ti)
+
+Ya que estás trabajando con Barbarian y Weapon Mastery:
+
+{
+  "Weapon Mastery": "Maestría con armas",
+  "Mastery Property": "Propiedad de maestría",
+  "Simple Weapon": "Arma sencilla",
+  "Martial Weapon": "Arma marcial",
+  "Melee Weapon": "Arma cuerpo a cuerpo",
+  "Ranged Weapon": "Arma a distancia",
+  "Light": "Ligera",
+  "Heavy": "Pesada",
+  "Two-Handed": "A dos manos",
+  "Versatile": "Versátil",
+  "Finesse": "Sutileza",
+  "Thrown": "Arrojadiza",
+  "Reach": "Alcance extendido"
+}
+
+🧠 7️⃣ Características (Ability Scores)
+{
+  "Strength": "Fuerza",
+  "Dexterity": "Destreza",
+  "Constitution": "Constitución",
+  "Intelligence": "Inteligencia",
+  "Wisdom": "Sabiduría",
+  "Charisma": "Carisma"
+}
+
+📦 8️⃣ Tipos de Objeto
+{
+  "Wondrous Item": "Objeto maravilloso",
+  "Adventuring Gear": "Equipo de aventurero",
+  "Armor": "Armadura",
+  "Shield": "Escudo",
+  "Weapon": "Arma",
+  "Potion": "Poción",
+  "Scroll": "Pergamino",
+  "Ring": "Anillo",
+  "Rod": "Vara",
+  "Staff": "Bastón",
+  "Wand": "Varita"
+}
+
+🎯 9️⃣ Uso recomendado en normalization_map
+
+Si lo vas a usar como mapa de normalización para evitar inconsistencias tipo:
+
+"Hit Point" → "Hit Points"
+
+"HP" → "Hit Points"
+
+"Armour Class" → "Armor Class"
+
+Puedes añadir variantes:
+
+{
+  "HP": "Hit Points",
+  "Hit Point": "Hit Points",
+  "Armour Class": "Armor Class",
+  "Saving Throws": "Saving Throw"
+}
+
+Clases Base
+{
+  "Barbarian": "Bárbaro",
+  "Bard": "Bardo",
+  "Cleric": "Clérigo",
+  "Druid": "Druida",
+  "Fighter": "Guerrero",
+  "Monk": "Monje",
+  "Paladin": "Paladín",
+  "Ranger": "Explorador",
+  "Rogue": "Pícaro",
+  "Sorcerer": "Hechicero",
+  "Warlock": "Brujo",
+  "Wizard": "Mago"
+}
+
+🏹 2️⃣ Subclases Principales (Core / PHB / 5.2)
+Bárbaro
+{
+  "Path of the Berserker": "Senda del Berserker",
+  "Path of the Wild Heart": "Senda del Corazón Salvaje",
+  "Path of the World Tree": "Senda del Árbol del Mundo",
+  "Path of the Zealot": "Senda del Fanático"
+}
+
+Guerrero
+{
+  "Champion": "Campeón",
+  "Battle Master": "Maestro de Batalla",
+  "Eldritch Knight": "Caballero Arcano"
+}
+
+Clérigo
+{
+  "Life Domain": "Dominio de la Vida",
+  "Light Domain": "Dominio de la Luz",
+  "War Domain": "Dominio de la Guerra",
+  "Trickery Domain": "Dominio del Engaño",
+  "Knowledge Domain": "Dominio del Conocimiento",
+  "Nature Domain": "Dominio de la Naturaleza",
+  "Tempest Domain": "Dominio de la Tempestad"
+}
+
+Mago
+{
+  "School of Evocation": "Escuela de Evocación",
+  "School of Illusion": "Escuela de Ilusión",
+  "School of Necromancy": "Escuela de Nigromancia",
+  "School of Abjuration": "Escuela de Abjuración",
+  "School of Conjuration": "Escuela de Conjuración",
+  "School of Divination": "Escuela de Adivinación",
+  "School of Enchantment": "Escuela de Encantamiento",
+  "School of Transmutation": "Escuela de Transmutación"
+}
+
+Paladín
+{
+  "Oath of Devotion": "Juramento de Devoción",
+  "Oath of Vengeance": "Juramento de Venganza",
+  "Oath of the Ancients": "Juramento de los Antiguos",
+  "Oath of Glory": "Juramento de Gloria"
+}
+
+Pícaro
+{
+  "Thief": "Ladrón",
+  "Assassin": "Asesino",
+  "Arcane Trickster": "Embaucador Arcano",
+  "Soulknife": "Hoja del Alma"
+}
+
+🧩 3️⃣ Rasgos Comunes de Clase
+{
+  "Extra Attack": "Ataque adicional",
+  "Rage": "Ira",
+  "Unarmored Defense": "Defensa sin armadura",
+  "Reckless Attack": "Ataque temerario",
+  "Danger Sense": "Sentido del peligro",
+  "Brutal Strike": "Golpe brutal",
+  "Channel Divinity": "Canalizar Divinidad",
+  "Divine Smite": "Castigo Divino",
+  "Sneak Attack": "Ataque furtivo",
+  "Cunning Action": "Acción astuta",
+  "Second Wind": "Segundo aliento",
+  "Action Surge": "Arremetida de acción",
+  "Indomitable": "Indomable",
+  "Ki": "Ki",
+  "Flurry of Blows": "Ráfaga de golpes",
+  "Divine Sense": "Sentido divino",
+  "Lay on Hands": "Imposición de manos",
+  "Wild Shape": "Forma salvaje",
+  "Bardic Inspiration": "Inspiración bárdica",
+  "Metamagic": "Metamagia",
+  "Eldritch Invocations": "Invocaciones sobrenaturales",
+  "Pact Boon": "Don del pacto",
+  "Arcane Recovery": "Recuperación arcana"
+}
+
+⚔️ 4️⃣ Weapon Mastery (5.2+)
+{
+  "Weapon Mastery": "Maestría con armas",
+  "Mastery Property": "Propiedad de maestría",
+  "Cleave": "Hender",
+  "Graze": "Rozar",
+  "Nick": "Corte rápido",
+  "Push": "Empujar",
+  "Sap": "Debilitar",
+  "Slow": "Ralentizar",
+  "Topple": "Derribar",
+  "Vex": "Hostigar"
+}
+
+📈 5️⃣ Términos Estructurales de Clase
+{
+  "Class Feature": "Rasgo de clase",
+  "Subclass Feature": "Rasgo de subclase",
+  "Level": "Nivel",
+  "Hit Die": "Dado de golpe",
+  "Hit Dice": "Dados de golpe",
+  "Primary Ability": "Característica principal",
+  "Multiclassing": "Multiclase",
+  "Ability Score Improvement": "Mejora de puntuación de característica",
+  "ASI": "Mejora de puntuación de característica"
+}
+
+🧠 6️⃣ Competencias
+{
+  "Armor Proficiencies": "Competencia con armaduras",
+  "Weapon Proficiencies": "Competencia con armas",
+  "Tool Proficiencies": "Competencia con herramientas",
+  "Skill Proficiencies": "Competencia con habilidades",
+  "Saving Throw Proficiencies": "Competencia en tiradas de salvación"
+}
+
+🔧 7️⃣ Opciones de Mejora y Progresión
+{
+  "Feat": "Dote",
+  "Fighting Style": "Estilo de combate",
+  "Fighting Styles": "Estilos de combate",
+  "Subclass": "Subclase",
+  "Spellcasting Feature": "Rasgo de conjuración"
+}
+
+JSON — Clases (incluye Artificer)
+{
+  "Artificer": "Artífice",
+  "Barbarian": "Bárbaro",
+  "Bard": "Bardo",
+  "Cleric": "Clérigo",
+  "Druid": "Druida",
+  "Fighter": "Guerrero",
+  "Monk": "Monje",
+  "Paladin": "Paladín",
+  "Ranger": "Explorador",
+  "Rogue": "Pícaro",
+  "Sorcerer": "Hechicero",
+  "Warlock": "Brujo",
+  "Wizard": "Mago"
+}
+
+2) JSON — Subclases (PHB + XGtE + TCoE)
+
+Incluye nombres “clásicos” (PHB 2014) + los de Xanathar + Tasha. (Algunos nombres pueden variar según edición/traducción; aquí te doy una opción consistente para normalización.)
+
+Artífice (TCoE / E:RftLW)
+{
+  "Alchemist": "Alquimista",
+  "Armorer": "Armero",
+  "Artillerist": "Artillero",
+  "Battle Smith": "Forjabatallas"
+}
+
+Bárbaro
+{
+  "Path of the Berserker": "Senda del Berserker",
+  "Path of the Totem Warrior": "Senda del Guerrero Tótem",
+  "Path of the Ancestral Guardian": "Senda del Guardián Ancestral",
+  "Path of the Storm Herald": "Senda del Heraldo de la Tormenta",
+  "Path of the Zealot": "Senda del Fanático",
+  "Path of the Beast": "Senda de la Bestia",
+  "Path of Wild Magic": "Senda de la Magia Salvaje"
+}
+
+Bardo
+{
+  "College of Lore": "Colegio del Saber",
+  "College of Valor": "Colegio del Valor",
+  "College of Glamour": "Colegio del Glamur",
+  "College of Swords": "Colegio de las Espadas",
+  "College of Whispers": "Colegio de los Susurros",
+  "College of Eloquence": "Colegio de la Elocuencia",
+  "College of Creation": "Colegio de la Creación"
+}
+
+Clérigo
+{
+  "Knowledge Domain": "Dominio del Conocimiento",
+  "Life Domain": "Dominio de la Vida",
+  "Light Domain": "Dominio de la Luz",
+  "Nature Domain": "Dominio de la Naturaleza",
+  "Tempest Domain": "Dominio de la Tempestad",
+  "Trickery Domain": "Dominio del Engaño",
+  "War Domain": "Dominio de la Guerra",
+  "Forge Domain": "Dominio de la Forja",
+  "Grave Domain": "Dominio de la Tumba",
+  "Order Domain": "Dominio del Orden",
+  "Peace Domain": "Dominio de la Paz",
+  "Twilight Domain": "Dominio del Crepúsculo"
+}
+
+Druida
+{
+  "Circle of the Land": "Círculo de la Tierra",
+  "Circle of the Moon": "Círculo de la Luna",
+  "Circle of Dreams": "Círculo de los Sueños",
+  "Circle of the Shepherd": "Círculo del Pastor",
+  "Circle of Spores": "Círculo de las Esporas",
+  "Circle of Stars": "Círculo de las Estrellas",
+  "Circle of Wildfire": "Círculo del Fuego Salvaje"
+}
+
+Guerrero
+{
+  "Champion": "Campeón",
+  "Battle Master": "Maestro de Batalla",
+  "Eldritch Knight": "Caballero Arcano",
+  "Arcane Archer": "Arquero Arcano",
+  "Cavalier": "Caballero",
+  "Samurai": "Samurái",
+  "Psi Warrior": "Guerrero Psiónico",
+  "Rune Knight": "Caballero de Runas"
+}
+
+Monje
+{
+  "Way of the Open Hand": "Senda de la Mano Abierta",
+  "Way of Shadow": "Senda de la Sombra",
+  "Way of the Four Elements": "Senda de los Cuatro Elementos",
+  "Way of the Drunken Master": "Senda del Maestro Borracho",
+  "Way of the Kensei": "Senda del Kensei",
+  "Way of the Sun Soul": "Senda del Alma del Sol",
+  "Way of Mercy": "Senda de la Misericordia",
+  "Way of the Astral Self": "Senda del Ser Astral"
+}
+
+Paladín
+{
+  "Oath of Devotion": "Juramento de Devoción",
+  "Oath of the Ancients": "Juramento de los Antiguos",
+  "Oath of Vengeance": "Juramento de Venganza",
+  "Oath of Conquest": "Juramento de Conquista",
+  "Oath of Redemption": "Juramento de Redención",
+  "Oath of Glory": "Juramento de Gloria",
+  "Oath of the Watchers": "Juramento de los Vigilantes"
+}
+
+Explorador (Ranger)
+{
+  "Hunter": "Cazador",
+  "Beast Master": "Señor de las Bestias",
+  "Gloom Stalker": "Acechador Umbrío",
+  "Horizon Walker": "Caminante del Horizonte",
+  "Monster Slayer": "Cazador de Monstruos",
+  "Fey Wanderer": "Errante Feérico",
+  "Swarmkeeper": "Guardián de Enjambres"
+}
+
+Pícaro (Rogue)
+{
+  "Thief": "Ladrón",
+  "Assassin": "Asesino",
+  "Arcane Trickster": "Embaucador Arcano",
+  "Inquisitive": "Inquisidor",
+  "Mastermind": "Mente Maestra",
+  "Scout": "Explorador",
+  "Swashbuckler": "Espadachín",
+  "Phantom": "Fantasma",
+  "Soulknife": "Hoja del Alma"
+}
+
+Hechicero (Sorcerer)
+{
+  "Draconic Bloodline": "Linaje Dracónico",
+  "Wild Magic": "Magia Salvaje",
+  "Divine Soul": "Alma Divina",
+  "Shadow Magic": "Magia Sombría",
+  "Storm Sorcery": "Hechicería de Tormenta",
+  "Aberrant Mind": "Mente Aberrante",
+  "Clockwork Soul": "Alma Mecánica"
+}
+
+Brujo (Warlock)
+{
+  "The Archfey": "El Archifeérico",
+  "The Fiend": "El Infernal",
+  "The Great Old One": "El Gran Antiguo",
+  "The Celestial": "El Celestial",
+  "The Hexblade": "El Hoja Maldita",
+  "The Fathomless": "El Insondable",
+  "The Genie": "El Genio"
+}
+
+Mago (Wizard)
+{
+  "School of Abjuration": "Escuela de Abjuración",
+  "School of Conjuration": "Escuela de Conjuración",
+  "School of Divination": "Escuela de Adivinación",
+  "School of Enchantment": "Escuela de Encantamiento",
+  "School of Evocation": "Escuela de Evocación",
+  "School of Illusion": "Escuela de Ilusión",
+  "School of Necromancy": "Escuela de Nigromancia",
+  "School of Transmutation": "Escuela de Transmutación",
+  "Bladesinging": "Canto de Hoja",
+  "War Magic": "Magia de Guerra",
+  "Order of Scribes": "Orden de los Escribas",
+  "School of Chronurgy": "Escuela de Cronurgia",
+  "School of Graviturgy": "Escuela de Graviturgia"
+}
+
+3) JSON — Rasgos/terminología de clase y progresión (XGtE/TCoE incluidos)
+Estructura y progresión
+{
+  "Class Feature": "Rasgo de clase",
+  "Subclass Feature": "Rasgo de subclase",
+  "Optional Class Features": "Rasgos de clase opcionales",
+  "Level": "Nivel",
+  "Hit Die": "Dado de golpe",
+  "Hit Dice": "Dados de golpe",
+  "Primary Ability": "Característica principal",
+  "Multiclassing": "Multiclase",
+  "Ability Score Improvement": "Mejora de puntuación de característica",
+  "ASI": "Mejora de puntuación de característica",
+  "Feat": "Dote",
+  "Fighting Style": "Estilo de combate",
+  "Fighting Styles": "Estilos de combate"
+}
+
+Rasgos “core” muy comunes (para normalizar títulos)
+{
+  "Extra Attack": "Ataque adicional",
+  "Rage": "Ira",
+  "Unarmored Defense": "Defensa sin armadura",
+  "Reckless Attack": "Ataque temerario",
+  "Danger Sense": "Sentido del peligro",
+  "Brutal Critical": "Crítico brutal",
+  "Relentless Rage": "Ira implacable",
+  "Feral Instinct": "Instinto feroz",
+  "Primal Champion": "Campeón primigenio",
+
+  "Channel Divinity": "Canalizar Divinidad",
+  "Divine Domain": "Dominio divino",
+  "Turn Undead": "Ahuyentar a los muertos vivientes",
+  "Destroy Undead": "Destruir muertos vivientes",
+
+  "Divine Smite": "Castigo divino",
+  "Lay on Hands": "Imposición de manos",
+  "Divine Sense": "Sentido divino",
+  "Aura of Protection": "Aura de protección",
+  "Aura of Courage": "Aura de valor",
+
+  "Sneak Attack": "Ataque furtivo",
+  "Cunning Action": "Acción astuta",
+  "Uncanny Dodge": "Esquiva asombrosa",
+  "Evasion": "Evasión",
+  "Reliable Talent": "Talento fiable",
+
+  "Second Wind": "Segundo aliento",
+  "Action Surge": "Acción adicional",
+  "Indomitable": "Indomable",
+
+  "Ki": "Ki",
+  "Unarmored Movement": "Movimiento sin armadura",
+  "Flurry of Blows": "Ráfaga de golpes",
+  "Patient Defense": "Defensa paciente",
+  "Step of the Wind": "Paso del viento",
+  "Stunning Strike": "Golpe aturdidor",
+  "Deflect Missiles": "Desviar proyectiles",
+  "Slow Fall": "Caída lenta",
+  "Extra Attack (Monk)": "Ataque adicional (monje)",
+
+  "Spellcasting": "Conjuración",
+  "Ritual Casting": "Lanzamiento ritual",
+  "Metamagic": "Metamagia",
+  "Arcane Recovery": "Recuperación arcana",
+  "Bardic Inspiration": "Inspiración bárdica",
+  "Wild Shape": "Forma salvaje",
+  "Eldritch Invocations": "Invocaciones sobrenaturales",
+  "Pact Boon": "Don del pacto"
+}
+
+Términos XGtE / TCoE muy usados como títulos
+{
+  "Primal Awareness": "Conciencia primigenia",
+  "Deft Explorer": "Explorador diestro",
+  "Favored Foe": "Enemigo predilecto",
+  "Favored Enemy": "Enemigo predilecto",
+  "Natural Explorer": "Explorador natural",
+
+  "Magical Tinkering": "Cachivache mágico",
+  "Infuse Item": "Infundir objeto",
+  "Infusions": "Infusiones",
+  "The Right Tool for the Job": "La herramienta adecuada para el trabajo",
+
+  "Expanded Spell List": "Lista de conjuros ampliada",
+  "Additional Spells": "Conjuros adicionales",
+  "Bonus Proficiencies": "Competencias adicionales"
+}
+
+4) JSON — Weapon Mastery (por si lo cruzas con PHB 2024 / dnd5e 5.2+)
+{
+  "Weapon Mastery": "Maestría con armas",
+  "Mastery Property": "Propiedad de maestría",
+  "Cleave": "Hender",
+  "Graze": "Rozar",
+  "Nick": "Corte rápido",
+  "Push": "Empujar",
+  "Sap": "Debilitar",
+  "Slow": "Ralentizar",
+  "Topple": "Derribar",
+  "Vex": "Hostigar"
+}

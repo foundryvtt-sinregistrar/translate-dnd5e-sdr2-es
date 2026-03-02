@@ -1,0 +1,230 @@
+{
+  "label": "Dotes",
+  "mapping": {
+  },
+  "folders": {
+    "Epic Boon Feats": "Dotes de bendición épica",
+    "Fighting Style Feats": "Dotes de estilo de combate",
+    "General Feats": "Dotes generales",
+    "Origin Feats": "Dotes de origen"
+  },
+  "entries": {
+    "phbBoonofCombatP": {
+      "name": "Don de destreza en combate",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 una puntuación de característica de tu elección, hasta un máximo de 30.</p><p><strong>Puntería sin igual.</strong> Cuando fallas con una tirada de ataque, puedes impactar en su lugar. Una vez que uses este beneficio, no puedes volver a usarlo hasta el inicio de tu siguiente turno.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofDimensi": {
+      "name": "Don de viaje dimensional",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 una puntuación de característica de tu elección, hasta un máximo de 30.</p><p><strong>Pasos centelleantes.</strong> Inmediatamente después de realizar la Acción de Ataque o la Acción Mágica, puedes teletransportarte hasta 30 pies a un espacio desocupado que puedas ver.</p>",
+      "activities": {
+        "2nds7MCSvJOeZ3Ar": {
+          "name": "Teletransporte"
+        }
+      },
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofFate000": {
+      "name": "Don del destino",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 una puntuación de característica de tu elección, hasta un máximo de 30.</p><p><strong>Mejorar el destino.</strong> Cuando tú u otra criatura a 60 pies o menos de ti tenga éxito o fracase en una prueba de d20, puedes tirar 2d4 y aplicar el total obtenido como bonificador o penalizador a la tirada de d20. Una vez que uses este beneficio, no puedes volver a usarlo hasta que tires Iniciativa o finalices un Descanso corto o un Descanso largo.</p>",
+      "activities": {
+        "BSFYZ98EvNknWsaE": {
+          "name": "Mejorar el Destino"
+        }
+      },
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofIrresis": {
+      "name": "Don de ofensiva irresistible",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 tu puntuación de fuerza o destreza, hasta un máximo de 30.</p><p><strong>Superar defensas.</strong> El daño Contundente, Perforante y Cortante que infliges siempre ignora la Resistencia.</p><p><strong>Golpe abrumador.</strong> Cuando sacas un 20 en el d20 para una tirada de ataque, puedes infligir daño adicional al objetivo igual a la puntuación de característica aumentada por esta dote. El tipo de daño adicional es el mismo que el del ataque.</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Los efectos de esta dote no están automatizados. El daño adicional puede añadirse en el campo de Bonificador situacional del cuadro de diálogo de la tirada de daño.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofSpellRe": {
+      "name": "Don de recuerdo de conjuros",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 tu puntuación de inteligencia, sabiduría o carisma, hasta un máximo de 30.</p><p><strong>Lanzamiento gratuito.</strong> Siempre que lances un conjuro usando un espacio de conjuro de nivel 1–4, tira [[/r 1d4]]. Si el número obtenido coincide con el nivel del espacio, el espacio no se gasta.</p><section class=\"secret\" id=\"secret-KMAFFZCOzi6Cuemh\"><p><strong>Nota de Foundry</strong></p><p>Si el número coincide, desmarca la opción de Consumo al usar el conjuro.</p></section>",
+      "activities": {
+        "mN72GMXgdNXQJhJN": {
+          "name": "Tirada de Lanzamiento Gratuito"
+        }
+      },
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofTruesig": {
+      "name": "Don de visión veraz",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 una puntuación de característica de tu elección, hasta un máximo de 30.</p><p><strong>Visión veraz.</strong> Tienes Visión veraz con un alcance de 60 pies.</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que te otorga Visión veraz con un alcance de 60 pies.</p></section>",
+      "activities": {},
+      "effects": {
+        "IY36CpEENqnz03c5": {
+          "name": "Don de Visión Veraz"
+        }
+      },
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonoftheNigh": {
+      "name": "Don del espíritu nocturno",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 una puntuación de característica de tu elección, hasta un máximo de 30.</p><p><strong>Fundirse con las sombras.</strong> Mientras estés en Luz tenue u Oscuridad, puedes aplicarte la condición &amp;Reference[Invisible] como una Acción adicional. La condición termina en ti inmediatamente después de que realices una Acción, una Acción adicional o una Reacción.</p><p><strong>Forma sombría.</strong> Mientras estés en Luz tenue u Oscuridad, tienes Resistencia a todo el daño excepto Psíquico y Radiante.</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>El Efecto Activo de <strong>Don del espíritu nocturno</strong> incluye las Resistencias, pero debes activarlo/desactivarlo en la pestaña de Efectos de tu ficha.</p><p>La actividad <strong>Fundirse con las sombras</strong> incluye un Efecto Activo que aplica la condición invisible.</p></section>",
+      "activities": {
+        "z2BNb47xtdCmqViA": {
+          "name": "Fundirse con las Sombras"
+        }
+      },
+      "effects": {
+        "f6JofmGpxquX9bqb": {
+          "name": "Don del Espíritu Nocturno"
+        },
+        "Zusz9sywPycPxb1N": {
+          "name": "Fundido con las Sombras"
+        }
+      },
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbfstArchery000": {
+      "name": "Tiro con arco",
+      "description": "<p><em>(Prerrequisito: Rasgo de Estilo de combate)</em></p><p>Obtienes un bonificador de +2 a las tiradas de ataque que realices con armas a distancia.</p><section id=\"secret-n13Z6zR2u0CiIA7D\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que añade el bonificador a las tiradas de ataque con armas a distancia.</p></section>",
+      "activities": {},
+      "effects": {
+        "kigkIjyf2OGWqdVU": {
+          "name": "Estilo: Tiro con Arco"
+        }
+      },
+      "advancement": {}
+    },
+    "phbfstDefense000": {
+      "name": "Defensa",
+      "description": "<p><em>(Prerrequisito: Rasgo de Estilo de combate)</em></p><p>Mientras lleves Armadura ligera, media o pesada, obtienes un bonificador de +1 a la Clase de Armadura.</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que proporciona el bonificador a la Clase de Armadura. Desactívalo cuando no lleves armadura.</p></section>",
+      "activities": {},
+      "effects": {
+        "W0ObItz7sS8ZJ09Y": {
+          "name": "Defensa"
+        }
+      },
+      "advancement": {}
+    },
+    "phbfstGreatWeapo": {
+      "name": "Combate con arma a dos manos",
+      "description": "<p><em>(Prerrequisito: Rasgo de Estilo de combate)</em></p><p>Cuando tiras el daño de un ataque que realizas con un arma cuerpo a cuerpo que empuñas con dos manos, puedes tratar cualquier 1 o 2 en un dado de daño como un 3. El arma debe tener la propiedad A dos manos o Versátil para obtener este beneficio.</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este efecto no está automatizado.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbfstTwoWeaponF": {
+      "name": "Combate con dos armas",
+      "description": "<p><em>(Prerrequisito: Rasgo de Estilo de combate)</em></p><p>Cuando realizas un ataque adicional como resultado de usar un arma que tiene la propiedad Ligera, puedes añadir tu modificador de característica al daño de ese ataque si no lo estabas añadiendo ya al daño.</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo no está automatizado. Puedes añadir tu modificador en el campo de Bonificador situacional de la tirada de daño.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbftAbilityScor": {
+      "name": "Mejora de puntuación de característica",
+      "description": "<p><em>Dote general (Prerrequisito: Nivel 4+)</em></p><p>Aumenta en 2 una puntuación de característica de tu elección, o aumenta en 1 dos puntuaciones de característica de tu elección. Esta dote no puede aumentar una puntuación de característica por encima de 20.</p><p><strong>Repetible.</strong> Puedes escoger esta dote más de una vez.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "cDQbaWgvyIw3Q6Ew": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbftAlert000000": {
+      "name": "Alerta",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Competencia con Iniciativa.</strong> Cuando tiras Iniciativa, puedes añadir tu Bonificador por competencia a la tirada.</p><p><strong>Intercambio de iniciativa.</strong> Inmediatamente después de tirar Iniciativa, puedes intercambiar tu Iniciativa con la Iniciativa de un aliado dispuesto en el mismo combate. No puedes hacer este intercambio si tú o el aliado tenéis la condición &amp;Reference[Incapacitated].</p><section id=\"secret-yzfXk3D5M1jv9ixH\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye automáticamente el bonificador a tu Iniciativa.</p></section>",
+      "activities": {},
+      "effects": {
+        "uvZy4Zzi0oPd54qs": {
+          "name": "Alerta"
+        }
+      },
+      "advancement": {}
+    },
+    "phbftGrappler000": {
+      "name": "Luchador",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Mejora de puntuación de característica.</strong> Aumenta en 1 tu puntuación de fuerza o destreza, hasta un máximo de 20.</p><p><strong>Puñetazo y agarre.</strong> Cuando impactas a una criatura con un Golpe sin armas como parte de la Acción de Ataque en tu turno, puedes usar tanto la opción de daño como la de Agarre. Solo puedes usar este beneficio una vez por turno.</p><p><strong>Ventaja en el ataque.</strong> Tienes Ventaja en las tiradas de ataque contra una criatura &amp;Reference[Grappled] por ti.</p><p><strong>Luchador veloz.</strong> No tienes que gastar Movimiento adicional para mover contigo a una criatura si la criatura es de tu tamaño o más pequeña.</p><section class=\"secret\" id=\"secret-LAjjGo55LPacAy8v\"><p><strong>Nota de Foundry</strong></p><p>La Ventaja no está automatizada.</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "LrAuj0THVHMjO158": {
+          "title": "Mejora de Puntuación de Característica",
+          "hint": ""
+        }
+      }
+    },
+    "phbftMagicInitia": {
+      "name": "Iniciado en la magia",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Dos trucos.</strong> Aprendes dos trucos de tu elección de la lista de conjuros de @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druida} o @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard}. inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros de esta dote (elígela cuando selecciones esta dote).</p><p><strong>Conjuro de nivel 1.</strong> Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin un espacio de conjuro, y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.</p><p><strong>Cambio de conjuro.</strong> Siempre que subas de nivel, puedes reemplazar uno de los conjuros que elegiste para esta dote por un conjuro diferente del mismo nivel de la lista elegida.</p><p><strong>Repetible.</strong> Puedes escoger esta dote más de una vez, pero debes elegir una lista de conjuros diferente cada vez.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "ElkyDafWSUXOkPdJ": {
+          "title": "Dos Trucos",
+          "hint": ""
+        },
+        "ZbKHs2FVCkJVNW8p": {
+          "title": "Conjuro de Nivel 1",
+          "hint": ""
+        }
+      }
+    },
+    "phbftSavageAttac": {
+      "name": "Atacante salvaje",
+      "description": "<p>Te has entrenado para asestar golpes especialmente dañinos. Una vez por turno, cuando impactas a un objetivo con un arma, puedes tirar dos veces los dados de daño del arma y usar cualquiera de las dos tiradas contra el objetivo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbftSkilled0000": {
+      "name": "Hábil",
+      "description": "<p>Ganas competencia en cualquier combinación de tres habilidades o herramientas de tu elección.</p><p><strong>Repetible.</strong> Puedes escoger esta dote más de una vez.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "Mm4MAeZK89zGqmyH": {
+          "title": "Rasgos",
+          "hint": ""
+        }
+      }
+    }
+  }
+}
