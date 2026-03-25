@@ -121,7 +121,7 @@
     "dmgBagOfBeansEff": {
       "name": "Bolsa de judías: Efecto",
       "results": {
-        "1-1": "[[/r 5d4#Setas]] setas brotan. Si una criatura come una seta, tira [[/r 1d2#Efecto secundario de la seta]]{cualquier dado}. Con resultado impar, quien la comió debe superar una [[/save ability=con dc=15 format=long]] o sufrir [[/damage 5d6 type=poison]] de daño y tener la condición &amp;Reference[Poisoned] durante 1 hora. Con resultado par, quien la comió obtiene [[/healing 5d6 type=temphp]] durante 1 hora.",
+        "1-1": "[[/r 5d4#Setas]] setas brotan. Si una criatura come una seta, tira [[/r 1d2#Efecto secundario de la seta]]{cualquier dado}. Con resultado impar, quien la comió debe superar una [[/save ability=con dc=15 format=long]] o sufrir [[/damage 5d6 type=poison]] de daño y tener la condición &Reference[Poisoned] durante 1 hora. Con resultado par, quien la comió obtiene [[/healing 5d6 type=temphp]] durante 1 hora.",
         "2-10": "Un géiser entra en erupción y expulsa agua, cerveza, mayonesa, té, vinagre, vino o aceite (a elección del DM) 30 pies en el aire durante [[/r 1d4#Duración del géiser (minutos)]] minutos.",
         "11-20": "Brote un @UUID[Compendium.dnd5e.actors24.Actor.mmTreant00000000]{Treant}. Tira [[/r 1d2#Alineamiento del Treant]]{cualquier dado}. Con resultado impar, el treant es Caótico Malvado. Con resultado par, es Caótico Bueno.",
         "21-30": "Se alza una estatua de piedra animada pero inmóvil con tu apariencia, que profiere amenazas verbales contra ti. Si te alejas y otros se acercan, los describirá como el más vil de los villanos y les indicará que te busquen y ataquen. Si estás en el mismo plano de existencia que la estatua, esta sabe dónde te encuentras. La estatua se vuelve inerte tras 24 horas.",
@@ -197,7 +197,7 @@
         "71-75": "Tienes la condición &amp;Reference[Petrified] hasta el final de tu siguiente turno.",
         "76-80": "Sacas un objeto no mágico del sombrero. Tira [[/r 1d4]] para determinar el objeto: con 1, una @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}; con 2, una @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope} con un @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook} atado a un extremo; con 3, una bolsa de @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}; con 4, una gema con valor de 50 po.",
         "81-85": "Una criatura aparece en un espacio desocupado lo más cerca posible de ti. La criatura no está bajo tu control y actúa como lo haría normalmente, y desaparece tras 1 hora o cuando cae a 0 Puntos de Golpe. Tira [[/r 1d4]] para determinar la criatura: con 1, un @UUID[Compendium.dnd5e.actors24.Actor.mmCamel000000000]{Camel}; con 2, una @UUID[Compendium.dnd5e.actors24.Actor.mmConstrictorSna]{Constrictor Snake}; con 3, un @UUID[Compendium.dnd5e.actors24.Actor.mmElephant000000]{Elephant}; con 4, una @UUID[Compendium.dnd5e.actors24.Actor.mmMule0000000000]{Mule}.",
-        "86-90": "Un Hostil @UUID[Compendium.dnd5e.actors24.Actor.PcZ0QjIG6bHpffp9]{Swarm of Bats} sale volando del sombrero, ocupa tu espacio y te ataca.",
+        "86-90": "Un Hostil @UUID[Compendium.dnd5e.actors24.Actor.mmSwarmOfBats000]{Swarm of Bats} sale volando del sombrero, ocupa tu espacio y te ataca.",
         "91-95": "Se abre en un espacio desocupado a 30 pies o menos de ti un portal vertical, de 10 pies de diámetro, bidireccional, hacia otro plano de existencia, y permanece abierto hasta el final de tu siguiente turno. El DM determina adónde conduce.",
         "96-100": "Sacas un objeto mágico del sombrero. Tira [[/r 1d6]] para determinar su rareza: con 1–3, Común; con 4–5, Poco común; con 6, Raro. El DM elige el objeto, que desaparece tras 1 hora si no se consume o destruye antes."
       }
@@ -314,7 +314,7 @@
         "26-35": "Ambas pociones funcionan, pero sus efectos numéricos y duraciones se reducen a la mitad. Si una poción no tiene efectos numéricos ni duración, en su lugar pierde su efecto.",
         "36-90": "Ambas pociones funcionan con normalidad.",
         "91-99": "Ambas pociones funcionan, pero los efectos numéricos y la duración de una de ellas se <span>duplican</span>. Si ninguna de las pociones tiene nada que duplicar de este modo, funcionan con normalidad.",
-        "100-100": "Solo funciona una poción, pero sus efectos son permanentes. Elige el efecto más simple para hacerlo permanente o el que parezca más divertido. Por ejemplo, una Poción de curación podría aumentar el máximo de Puntos de golpe del bebedor en [[/roll 2d4 + 2]], o una Poción de invisibilidad podría otorgar la condición Invisible indefinidamente. A discreción del DM, un conjuro de Disipar magia o magia similar podría terminar este efecto duradero."
+        "100-100": "Solo funciona una poción, pero sus efectos son permanentes. Elige el efecto más simple para hacerlo permanente o el que parezca más divertido. Por ejemplo, una Poción de curación podría aumentar el máximo de Puntos de golpe del bebedor en [[/roll 2d4 + 2]], o una Poción de invisibilidad podría otorgar la condición Invisible indefinidamente. A discreción del DJ, un conjuro de Disipar magia o magia similar podría terminar este efecto duradero."
       }
     },
     "dmgPotionOfResis": {

@@ -3376,7 +3376,7 @@
         },
         "4PRqCmv0J7XYfEuk": {
           "activities": {},
-          "description": "<p><em>Nivel 1 &amp;Reference[Pergamino de conjuro], Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr inline]</p>",
+          "description": "<p><em>Nivel 1 &amp;Reference[Spell Scroll]{Pergamino de conjuro}, Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr inline]</p>",
           "effects": {},
           "name": "Pergamino de conjuro: Protección contra el Bien y el Mal"
         },
@@ -3752,7 +3752,7 @@
         },
         "i2guMiFsRbXTalfg": {
           "activities": {},
-          "description": "<p><em>Nivel 1 &amp;Reference[Pergamino de conjuro]</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplCreateorDe inline]</p>",
+          "description": "<p><em>Nivel 1 &amp;Reference[Spell Scroll]{Pergamino de conjuro}</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplCreateorDe inline]</p>",
           "effects": {},
           "name": "Pergamino de conjuro: Crear o Destruir Agua"
         },
@@ -3770,7 +3770,7 @@
         },
         "jflCe3EvlJMoKU01": {
           "activities": {},
-          "description": "<p><em>Nivel 1 &amp;Reference[Pergamino de conjuro], Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplDetectMagi inline]</p>",
+          "description": "<p><em>Nivel 1 &amp;Reference[Spell Scroll]{Pergamino de conjuro}, Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplDetectMagi inline]</p>",
           "effects": {},
           "name": "Pergamino de conjuro: Detectar magia"
         },
@@ -3861,7 +3861,7 @@
         },
         "r7p7IwwuFaHcpaD9": {
           "activities": {},
-          "description": "<p><em>Nivel 1 &amp;Reference[Pergamino de conjuro], Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplDetectPois inline]</p>",
+          "description": "<p><em>Nivel 1 &amp;Reference[Spell Scroll]{Pergamino de conjuro}, Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplDetectPois inline]</p>",
           "effects": {},
           "name": "Pergamino de conjuro: Detectar veneno y enfermedad"
         },
@@ -20246,7 +20246,7 @@
         },
         "dbtR7VeVRjL8cMR9": {
           "activities": {},
-          "description": "<p><em>Nivel 1 &amp;Reference[Pergamino de Conjuro], Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplHex0000000 inline]</p>",
+          "description": "<p><em>Nivel 1 &amp;Reference[Spell Scroll]{Pergamino de Conjuro}, Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplHex0000000 inline]</p>",
           "effects": {},
           "name": "Pergamino de Conjuro: Maldición"
         },
@@ -20344,7 +20344,7 @@
         },
         "rkDTVyA0QVQIxnDF": {
           "activities": {},
-          "description": "<p><em>Nivel 1 &amp;Reference[Pergamino de Conjuro], Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplTashasHide inline]</p>",
+          "description": "<p><em>Nivel 1 &amp;Reference[Spell Scroll]{Pergamino de Conjuro}, Requiere Concentración</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplTashasHide inline]</p>",
           "effects": {},
           "name": "Pergamino de Conjuro: Risa horripilante"
         },
@@ -20576,7 +20576,7 @@
         },
         "BhVHHFeOIC8Nejlb": {
           "activities": {},
-          "description": "<p><em>Nivel 3 &amp;Reference[Pergamino de conjuro]</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplDispelMagi inline]</p>",
+          "description": "<p><em>Nivel 3 &amp;Reference[Spell Scroll]{Pergamino de conjuro}</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplDispelMagi inline]</p>",
           "effects": {},
           "name": "Pergamino de conjuro: Disipar magia"
         },
@@ -20619,7 +20619,7 @@
         },
         "CvvG7Qg0BddcY5D9": {
           "activities": {},
-          "description": "<p>Mientras dure, la &amp;Reference[oscuridad] mágica se expande desde un punto dentro del alcance y llena una esfera de 15 pies de radio. La Visión en la oscuridad no puede ver a través de ella, y la luz no mágica no puede iluminarla.</p><p>Alternativamente, lanzas el conjuro sobre un objeto que no esté siendo llevado ni vestido, haciendo que la Oscuridad llene una emanación de 15 pies que se origina en ese objeto. Cubrir el objeto con algo opaco, como un cuenco o yelmo, bloquea la Oscuridad.</p><p>Si el área de este conjuro se solapa con un área de Luz brillante o Luz tenue creada por un conjuro de nivel 2 o inferior, ese otro conjuro se disipa.</p>",
+          "description": "<p>Mientras dure, la &amp;Reference[darkness]{oscuridad} mágica se expande desde un punto dentro del alcance y llena una esfera de 15 pies de radio. La Visión en la oscuridad no puede ver a través de ella, y la luz no mágica no puede iluminarla.</p><p>Alternativamente, lanzas el conjuro sobre un objeto que no esté siendo llevado ni vestido, haciendo que la Oscuridad llene una emanación de 15 pies que se origina en ese objeto. Cubrir el objeto con algo opaco, como un cuenco o yelmo, bloquea la Oscuridad.</p><p>Si el área de este conjuro se solapa con un área de Luz brillante o Luz tenue creada por un conjuro de nivel 2 o inferior, ese otro conjuro se disipa.</p>",
           "effects": {},
           "name": "Oscuridad"
         },
@@ -20683,7 +20683,7 @@
         },
         "KkSFcnsMCTqoNora": {
           "activities": {},
-          "description": "<p>Cada criatura en un cono de 30 pies debe superar una tirada de salvación de sabiduría o soltar lo que esté sosteniendo y quedar &amp;Reference[asustado apply=false] durante la duración.</p><p>Una criatura Asustada realiza la acción &amp;Reference[carrera] y se aleja de ti por la ruta más segura en cada uno de sus turnos, a menos que no tenga a dónde moverse. Si la criatura termina su turno en un espacio donde no tenga línea de visión contigo, realiza una tirada de salvación de sabiduría. Con una salvación exitosa, el conjuro termina para esa criatura.</p>",
+          "description": "<p>Cada criatura en un cono de 30 pies debe superar una tirada de salvación de sabiduría o soltar lo que esté sosteniendo y quedar &amp;Reference[frightened apply=false]{asustado} durante la duración.</p><p>Una criatura Asustada realiza la acción &amp;Reference[dash]{carrera} y se aleja de ti por la ruta más segura en cada uno de sus turnos, a menos que no tenga a dónde moverse. Si la criatura termina su turno en un espacio donde no tenga línea de visión contigo, realiza una tirada de salvación de sabiduría. Con una salvación exitosa, el conjuro termina para esa criatura.</p>",
           "effects": {
             "ijiWLu6EJZmEJPOZ": {
               "name": "Miedo"
@@ -20693,7 +20693,7 @@
         },
         "KnENrjmPLt2w1xbK": {
           "activities": {},
-          "description": "<p>Elige un Humanoide que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de sabiduría o quedar &amp;Reference[paralizado apply=false] durante la duración. Al final de cada uno de sus turnos, el objetivo repite la salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p><p><strong>Uso de un espacio de conjuro de nivel superior.</strong> Puedes afectar a un Humanoide adicional por cada nivel de espacio de conjuro por encima de 2.</p>",
+          "description": "<p>Elige un Humanoide que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de sabiduría o quedar &amp;Reference[paralyzed apply=false]{paralizado} durante la duración. Al final de cada uno de sus turnos, el objetivo repite la salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p><p><strong>Uso de un espacio de conjuro de nivel superior.</strong> Puedes afectar a un Humanoide adicional por cada nivel de espacio de conjuro por encima de 2.</p>",
           "effects": {
             "PklwZi3SKQ3JU2M2": {
               "name": "Paralizado"
