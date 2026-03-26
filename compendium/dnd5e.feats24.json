@@ -1,7 +1,6 @@
 {
   "label": "Dotes",
-  "mapping": {
-  },
+  "mapping": {},
   "folders": {
     "Epic Boon Feats": "Dotes de bendición épica",
     "Fighting Style Feats": "Dotes de estilo de combate",
@@ -193,7 +192,7 @@
     },
     "phbftMagicInitia": {
       "name": "Iniciado en la magia",
-      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Dos trucos.</strong> Aprendes dos trucos de tu elección de la lista de conjuros de @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druida} o @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard}. inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros de esta dote (elígela cuando selecciones esta dote).</p><p><strong>Conjuro de nivel 1.</strong> Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin un espacio de conjuro, y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.</p><p><strong>Cambio de conjuro.</strong> Siempre que subas de nivel, puedes reemplazar uno de los conjuros que elegiste para esta dote por un conjuro diferente del mismo nivel de la lista elegida.</p><p><strong>Repetible.</strong> Puedes escoger esta dote más de una vez, pero debes elegir una lista de conjuros diferente cada vez.</p>",
+      "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Dos trucos.</strong> Aprendes dos trucos de tu elección de la lista de conjuros de @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Lista de conjuros de clérigo}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Lista de conjuros de druida} o @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Lista de conjuros de mago}. inteligencia, sabiduría o carisma es tu característica de lanzamiento de conjuros para los conjuros de esta dote (elígela cuando selecciones esta dote).</p><p><strong>Conjuro de nivel 1.</strong> Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin un espacio de conjuro, y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.</p><p><strong>Cambio de conjuro.</strong> Siempre que subas de nivel, puedes reemplazar uno de los conjuros que elegiste para esta dote por un conjuro diferente del mismo nivel de la lista elegida.</p><p><strong>Repetible.</strong> Puedes escoger esta dote más de una vez, pero debes elegir una lista de conjuros diferente cada vez.</p>",
       "activities": {},
       "effects": {},
       "advancement": {
