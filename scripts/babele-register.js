@@ -39,6 +39,10 @@ Hooks.on("init", () => {
                   label: "Conjuros",
                   path: "dnd5e.spells24.json"
               },
+              "dnd5e.equipment24": {
+                  label: "Equipo",
+                  path: "dnd5e.equipment24.json"
+              },
               "dnd5e.tables24": {
                   label: "Tablas",
                   path: "dnd5e.tables24.json"
