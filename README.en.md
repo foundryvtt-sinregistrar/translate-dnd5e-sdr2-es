@@ -4,6 +4,9 @@
 ![dnd5e 5.2.x](https://img.shields.io/badge/dnd5e-5.2.x-blue)
 ![Babele Required](https://img.shields.io/badge/Babele-required-orange)
 ![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
+[![Latest Release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest)
+[![Downloads Latest Release](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/latest/total?label=latest%20release%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest)
+[![Downloads Total](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/total?label=total%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases)
 
 ### This module is not affiliated with Wizards of the Coast.
 ### This module does not include non-SRD content.
