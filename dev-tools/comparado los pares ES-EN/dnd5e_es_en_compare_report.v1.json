@@ -1,0 +1,1165 @@
+{
+  "generated_at": "2026-03-25T22:27:50.724627Z",
+  "compared_pairs": [
+    {
+      "file_es": "dnd5e.classes24.json",
+      "file_en": "dnd5e.classes24-en.json",
+      "summary": {
+        "entry_count_es": 282,
+        "entry_count_en": 282,
+        "folder_count_es": 28,
+        "folder_count_en": 28,
+        "top_level_keys_es": [
+          "label",
+          "mapping",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 0,
+        "top_entries_with_nested_missing_fields_in_es": [],
+        "folder_value_issues": []
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 1,
+        "top_entries_with_likely_untranslated_strings": [
+          {
+            "id": "phbinvOnewithSha",
+            "name": "Uno con las sombras",
+            "issue_count": 1
+          }
+        ],
+        "examples": [
+          {
+            "id": "phbinvOnewithSha",
+            "name": "Uno con las sombras",
+            "path": "/entries/phbinvOnewithSha/effects/9svfDetqjhsFP3ey/name",
+            "value_es": "Invisible",
+            "value_en": "Invisible"
+          }
+        ]
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 0,
+        "likely_untranslated_strings_in_es": 1,
+        "same_name_count": 0,
+        "html_mismatch_count": 2,
+        "macro_mismatch_count": 6
+      }
+    },
+    {
+      "file_es": "dnd5e.actors24.json",
+      "file_en": "dnd5e.actors24-en.json",
+      "summary": {
+        "entry_count_es": 441,
+        "entry_count_en": 441,
+        "folder_count_es": 30,
+        "folder_count_en": 30,
+        "top_level_keys_es": [
+          "label",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 14,
+        "top_entries_with_nested_missing_fields_in_es": [
+          {
+            "id": "mmPlanetar000000",
+            "name": "Planetar",
+            "missing_field_count": 51
+          },
+          {
+            "id": "mmAdultBrassDrag",
+            "name": "Dragón de latón adulto",
+            "missing_field_count": 30
+          },
+          {
+            "id": "mmAdultBlackDrag",
+            "name": "Dragón negro adulto",
+            "missing_field_count": 23
+          },
+          {
+            "id": "mmAdultBlueDrago",
+            "name": "Dragón azul adulto",
+            "missing_field_count": 22
+          },
+          {
+            "id": "mmCouatl00000000",
+            "name": "Couatl",
+            "missing_field_count": 19
+          },
+          {
+            "id": "mmDeva0000000000",
+            "name": "Deva",
+            "missing_field_count": 13
+          },
+          {
+            "id": "mmEfreeti0000000",
+            "name": "Efreeti",
+            "missing_field_count": 12
+          },
+          {
+            "id": "BeiroLv110000000",
+            "name": "Beiro",
+            "missing_field_count": 8
+          },
+          {
+            "id": "mmAncientBlueDra",
+            "name": "Dragón azul anciano",
+            "missing_field_count": 7
+          },
+          {
+            "id": "mmAncientBlackDr",
+            "name": "Dragón negro anciano",
+            "missing_field_count": 4
+          },
+          {
+            "id": "KruskLv170000000",
+            "name": "Krusk",
+            "missing_field_count": 2
+          },
+          {
+            "id": "MorthosLv0500000",
+            "name": "Morthos",
+            "missing_field_count": 2
+          },
+          {
+            "id": "SefrisLv11000000",
+            "name": "Sefris",
+            "missing_field_count": 2
+          },
+          {
+            "id": "ZannaLv170000000",
+            "name": "Zanna",
+            "missing_field_count": 1
+          }
+        ],
+        "folder_value_issues": [
+          {
+            "id": "MorthosLv1100000",
+            "name": "Morthos",
+            "folder_es": "Level 11"
+          },
+          {
+            "id": "AkraLv0500000000",
+            "name": "Akra",
+            "folder_es": "Level 5"
+          },
+          {
+            "id": "QuillatheLv11000",
+            "name": "Quillathe",
+            "folder_es": "Level 11"
+          },
+          {
+            "id": "MerricLv17000000",
+            "name": "Merric",
+            "folder_es": "Level 17"
+          },
+          {
+            "id": "MerricLv11000000",
+            "name": "Merric",
+            "folder_es": "Level 11"
+          },
+          {
+            "id": "RandalLv17000000",
+            "name": "Randal",
+            "folder_es": "Level 17"
+          },
+          {
+            "id": "BeiroLv010000000",
+            "name": "Beiro",
+            "folder_es": "Level 1"
+          }
+        ]
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 54,
+        "top_entries_with_likely_untranslated_strings": [
+          {
+            "id": "mmStormGiant0000",
+            "name": "Gigante de las tormentas",
+            "issue_count": 8
+          },
+          {
+            "id": "mmTarrasque00000",
+            "name": "Tarasca",
+            "issue_count": 6
+          },
+          {
+            "id": "AothLv0500000000",
+            "name": "Aoth",
+            "issue_count": 5
+          },
+          {
+            "id": "mmIncubus0000000",
+            "name": "Íncubo",
+            "issue_count": 4
+          },
+          {
+            "id": "AothLv1700000000",
+            "name": "Aoth",
+            "issue_count": 3
+          },
+          {
+            "id": "MorthosLv1100000",
+            "name": "Morthos",
+            "issue_count": 3
+          },
+          {
+            "id": "BeiroLv010000000",
+            "name": "Beiro",
+            "issue_count": 2
+          },
+          {
+            "id": "MerricLv11000000",
+            "name": "Merric",
+            "issue_count": 2
+          },
+          {
+            "id": "MerricLv17000000",
+            "name": "Merric",
+            "issue_count": 2
+          },
+          {
+            "id": "QuillatheLv11000",
+            "name": "Quillathe",
+            "issue_count": 2
+          },
+          {
+            "id": "RandalLv17000000",
+            "name": "Randal",
+            "issue_count": 2
+          },
+          {
+            "id": "SefrisLv11000000",
+            "name": "Sefris",
+            "issue_count": 2
+          },
+          {
+            "id": "SefrisLv17000000",
+            "name": "Sefris",
+            "issue_count": 2
+          },
+          {
+            "id": "mmImp00000000000",
+            "name": "Diablillo",
+            "issue_count": 2
+          },
+          {
+            "id": "mmSuccubus000000",
+            "name": "Súcubo",
+            "issue_count": 2
+          }
+        ],
+        "examples": [
+          {
+            "id": "AkraLv0500000000",
+            "name": "Akra",
+            "path": "/entries/AkraLv0500000000/folder",
+            "value_es": "Level 5",
+            "value_en": "Level 5"
+          },
+          {
+            "id": "AothLv0500000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv0500000000/items/dwMaTtPq9jnWmVLG/effects/Oy8fnNNzPmehxXio/name",
+            "value_es": "Shillelagh (1d10)",
+            "value_en": "Shillelagh (1d10)"
+          },
+          {
+            "id": "AothLv0500000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv0500000000/items/dwMaTtPq9jnWmVLG/effects/QPsqj6jfS0iXSrTs/name",
+            "value_es": "Shillelagh (1d8)",
+            "value_en": "Shillelagh (1d8)"
+          },
+          {
+            "id": "AothLv0500000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv0500000000/items/dwMaTtPq9jnWmVLG/effects/X9xoN8qHUiCc4SZR/name",
+            "value_es": "Shillelagh (2d6)",
+            "value_en": "Shillelagh (2d6)"
+          },
+          {
+            "id": "AothLv0500000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv0500000000/items/dwMaTtPq9jnWmVLG/effects/advnpQaBnsbuv02y/name",
+            "value_es": "Shillelagh (1d12)",
+            "value_en": "Shillelagh (1d12)"
+          },
+          {
+            "id": "AothLv0500000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv0500000000/items/hJhbXaZdpO3FQxzb/effects/P7mOjEEGO5el92Be/name",
+            "value_es": "Shillelagh (1d10)",
+            "value_en": "Shillelagh (1d10)"
+          },
+          {
+            "id": "AothLv1100000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv1100000000/items/hJhbXaZdpO3FQxzb/effects/Zx2WWIUQ1dKlbZwB/name",
+            "value_es": "Shillelagh (1d12)",
+            "value_en": "Shillelagh (1d12)"
+          },
+          {
+            "id": "AothLv1700000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv1700000000/items/PeZ9DmQZ5DnhD2xt/effects/7YVMASgXswIFXNs2/name",
+            "value_es": "Nature's Ward: Polar",
+            "value_en": "Nature's Ward: Polar"
+          },
+          {
+            "id": "AothLv1700000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv1700000000/items/PeZ9DmQZ5DnhD2xt/effects/LKxwXqkEIXJR2XAa/name",
+            "value_es": "Nature's Ward: Tropical",
+            "value_en": "Nature's Ward: Tropical"
+          },
+          {
+            "id": "AothLv1700000000",
+            "name": "Aoth",
+            "path": "/entries/AothLv1700000000/items/hJhbXaZdpO3FQxzb/effects/Zx2WWIUQ1dKlbZwB/name",
+            "value_es": "Shillelagh (1d12)",
+            "value_en": "Shillelagh (1d12)"
+          },
+          {
+            "id": "BeiroLv010000000",
+            "name": "Beiro",
+            "path": "/entries/BeiroLv010000000/biography",
+            "value_es": " Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again ",
+            "value_en": " Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again "
+          },
+          {
+            "id": "BeiroLv010000000",
+            "name": "Beiro",
+            "path": "/entries/BeiroLv010000000/folder",
+            "value_es": "Level 1",
+            "value_en": "Level 1"
+          },
+          {
+            "id": "MerricLv11000000",
+            "name": "Merric",
+            "path": "/entries/MerricLv11000000/biography",
+            "value_es": " Merric was once a vigilante, due to her innate sense of street justice. Though her imposing stature makes her a force to be reckoned with in combat, it is her violent outbursts of",
+            "value_en": " Merric was once a vigilante, due to her innate sense of street justice. Though her imposing stature makes her a force to be reckoned with in combat, it is her violent outbursts of"
+          },
+          {
+            "id": "MerricLv11000000",
+            "name": "Merric",
+            "path": "/entries/MerricLv11000000/folder",
+            "value_es": "Level 11",
+            "value_en": "Level 11"
+          },
+          {
+            "id": "MerricLv17000000",
+            "name": "Merric",
+            "path": "/entries/MerricLv17000000/biography",
+            "value_es": " Merric was once a vigilante, due to her innate sense of street justice. Though her imposing stature makes her a force to be reckoned with in combat, it is her violent outbursts of",
+            "value_en": " Merric was once a vigilante, due to her innate sense of street justice. Though her imposing stature makes her a force to be reckoned with in combat, it is her violent outbursts of"
+          },
+          {
+            "id": "MerricLv17000000",
+            "name": "Merric",
+            "path": "/entries/MerricLv17000000/folder",
+            "value_es": "Level 17",
+            "value_en": "Level 17"
+          },
+          {
+            "id": "MorthosLv0100000",
+            "name": "Morthos",
+            "path": "/entries/MorthosLv0100000/items/jyERrKQhMdboctcH/name",
+            "value_es": "Tiefling, Infernal",
+            "value_en": "Tiefling, Infernal"
+          },
+          {
+            "id": "MorthosLv1100000",
+            "name": "Morthos",
+            "path": "/entries/MorthosLv1100000/biography",
+            "value_es": " Morthos' investigation into her complex draconic-infernal ancestry led her to an academic life, but it soon became apparent that the fools in charge were keeping many secrets from",
+            "value_en": " Morthos' investigation into her complex draconic-infernal ancestry led her to an academic life, but it soon became apparent that the fools in charge were keeping many secrets from"
+          },
+          {
+            "id": "MorthosLv1100000",
+            "name": "Morthos",
+            "path": "/entries/MorthosLv1100000/folder",
+            "value_es": "Level 11",
+            "value_en": "Level 11"
+          },
+          {
+            "id": "MorthosLv1100000",
+            "name": "Morthos",
+            "path": "/entries/MorthosLv1100000/items/jyERrKQhMdboctcH/name",
+            "value_es": "Tiefling, Infernal",
+            "value_en": "Tiefling, Infernal"
+          }
+        ]
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 196,
+        "likely_untranslated_strings_in_es": 87,
+        "same_name_count": 90,
+        "html_mismatch_count": 47,
+        "macro_mismatch_count": 72
+      }
+    },
+    {
+      "file_es": "dnd5e.equipment24.json",
+      "file_en": "dnd5e.equipment24-en.json",
+      "summary": {
+        "entry_count_es": 634,
+        "entry_count_en": 635,
+        "folder_count_es": 44,
+        "folder_count_en": 44,
+        "top_level_keys_es": [
+          "label",
+          "mapping",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [
+          {
+            "id": "dmgManualOfGolem",
+            "name_en": "Manual of Golems"
+          }
+        ],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 2,
+        "top_entries_with_nested_missing_fields_in_es": [
+          {
+            "id": "dmgCarrionCrawle",
+            "name": "Mucosidad de reptador carroñero",
+            "missing_field_count": 1
+          },
+          {
+            "id": "phbagBallBearing",
+            "name": "Bolas de acero",
+            "missing_field_count": 1
+          }
+        ],
+        "folder_value_issues": []
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 7,
+        "top_entries_with_likely_untranslated_strings": [
+          {
+            "id": "dmgDustOfDisappe",
+            "name": "Polvo de desaparición",
+            "issue_count": 1
+          },
+          {
+            "id": "dmgEarthRingOfEl",
+            "name": "Anillo de control elemental (tierra)",
+            "issue_count": 1
+          },
+          {
+            "id": "dmgFireRingOfEle",
+            "name": "Anillo de control elemental (fuego)",
+            "issue_count": 1
+          },
+          {
+            "id": "dmgPotionOfInvis",
+            "name": "Poción de invisibilidad",
+            "issue_count": 1
+          },
+          {
+            "id": "phbagPerfume0000",
+            "name": "Perfume",
+            "issue_count": 1
+          },
+          {
+            "id": "phbagVial0000000",
+            "name": "Vial",
+            "issue_count": 1
+          },
+          {
+            "id": "yoRKNd2QddQp1XuX",
+            "name": "Perfume",
+            "issue_count": 1
+          }
+        ],
+        "examples": [
+          {
+            "id": "dmgDustOfDisappe",
+            "name": "Polvo de desaparición",
+            "path": "/entries/dmgDustOfDisappe/effects/MC5GAZMrAc4wSvAS/name",
+            "value_es": "Invisible",
+            "value_en": "Invisible"
+          },
+          {
+            "id": "dmgEarthRingOfEl",
+            "name": "Anillo de control elemental (tierra)",
+            "path": "/entries/dmgEarthRingOfEl/effects/cN85nWiTzfGzWR7D/name",
+            "value_es": "Charmed",
+            "value_en": "Charmed"
+          },
+          {
+            "id": "dmgFireRingOfEle",
+            "name": "Anillo de control elemental (fuego)",
+            "path": "/entries/dmgFireRingOfEle/effects/cN85nWiTzfGzWR7D/name",
+            "value_es": "Charmed",
+            "value_en": "Charmed"
+          },
+          {
+            "id": "dmgPotionOfInvis",
+            "name": "Poción de invisibilidad",
+            "path": "/entries/dmgPotionOfInvis/effects/tsRnLFf1HtqAPphv/name",
+            "value_es": "Invisible",
+            "value_en": "Invisible"
+          },
+          {
+            "id": "phbagPerfume0000",
+            "name": "Perfume",
+            "path": "/entries/phbagPerfume0000/name",
+            "value_es": "Perfume",
+            "value_en": "Perfume"
+          },
+          {
+            "id": "phbagVial0000000",
+            "name": "Vial",
+            "path": "/entries/phbagVial0000000/name",
+            "value_es": "Vial",
+            "value_en": "Vial"
+          },
+          {
+            "id": "yoRKNd2QddQp1XuX",
+            "name": "Perfume",
+            "path": "/entries/yoRKNd2QddQp1XuX/name",
+            "value_es": "Perfume",
+            "value_en": "Perfume"
+          }
+        ]
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 2,
+        "likely_untranslated_strings_in_es": 7,
+        "same_name_count": 4,
+        "html_mismatch_count": 5,
+        "macro_mismatch_count": 6
+      }
+    },
+    {
+      "file_es": "dnd5e.feats24.json",
+      "file_en": "dnd5e.feats24-en.json",
+      "summary": {
+        "entry_count_es": 17,
+        "entry_count_en": 17,
+        "folder_count_es": 4,
+        "folder_count_en": 4,
+        "top_level_keys_es": [
+          "label",
+          "mapping",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 0,
+        "top_entries_with_nested_missing_fields_in_es": [],
+        "folder_value_issues": []
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 0,
+        "top_entries_with_likely_untranslated_strings": [],
+        "examples": []
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 0,
+        "likely_untranslated_strings_in_es": 0,
+        "same_name_count": 0,
+        "html_mismatch_count": 0,
+        "macro_mismatch_count": 0
+      }
+    },
+    {
+      "file_es": "dnd5e.content24.json",
+      "file_en": "dnd5e.content24-en.json",
+      "summary": {
+        "entry_count_es": 53,
+        "entry_count_en": 53,
+        "folder_count_es": 12,
+        "folder_count_en": 12,
+        "top_level_keys_es": [
+          "label",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 0,
+        "top_entries_with_nested_missing_fields_in_es": [],
+        "folder_value_issues": []
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 8,
+        "top_entries_with_likely_untranslated_strings": [
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "issue_count": 30
+          },
+          {
+            "id": "phbAppendixClass",
+            "name": "Apéndice: Detalles de clase",
+            "issue_count": 12
+          },
+          {
+            "id": "dmgMagicItemList",
+            "name": "Listas de objetos mágicos",
+            "issue_count": 6
+          },
+          {
+            "id": "phbAppendixBackg",
+            "name": "Apéndice: Detalles de trasfondo",
+            "issue_count": 5
+          },
+          {
+            "id": "phbActions000000",
+            "name": "Acciones",
+            "issue_count": 2
+          },
+          {
+            "id": "phbAppendixDRule",
+            "name": "Apéndice D: Referencias de reglas",
+            "issue_count": 2
+          },
+          {
+            "id": "phbAppendixCRule",
+            "name": "Glosario de reglas",
+            "issue_count": 1
+          },
+          {
+            "id": "phbBackgroundDes",
+            "name": "Trasfondos de personaje",
+            "issue_count": 1
+          }
+        ],
+        "examples": [
+          {
+            "id": "dmgMagicItemList",
+            "name": "Listas de objetos mágicos",
+            "path": "/entries/dmgMagicItemList/pages/72JPQib8zeo3bhZJ/name",
+            "value_es": "K-O",
+            "value_en": "K-O"
+          },
+          {
+            "id": "dmgMagicItemList",
+            "name": "Listas de objetos mágicos",
+            "path": "/entries/dmgMagicItemList/pages/IT9XH2oNs3kN5fG5/name",
+            "value_es": "A-B",
+            "value_en": "A-B"
+          },
+          {
+            "id": "dmgMagicItemList",
+            "name": "Listas de objetos mágicos",
+            "path": "/entries/dmgMagicItemList/pages/QkZq96gbQRbKYqaE/name",
+            "value_es": "F-J",
+            "value_en": "F-J"
+          },
+          {
+            "id": "dmgMagicItemList",
+            "name": "Listas de objetos mágicos",
+            "path": "/entries/dmgMagicItemList/pages/VOWtRob5c30WnPly/name",
+            "value_es": "T-W",
+            "value_en": "T-W"
+          },
+          {
+            "id": "dmgMagicItemList",
+            "name": "Listas de objetos mágicos",
+            "path": "/entries/dmgMagicItemList/pages/cSVasXKNN05bQklo/name",
+            "value_es": "P-Q",
+            "value_en": "P-Q"
+          },
+          {
+            "id": "dmgMagicItemList",
+            "name": "Listas de objetos mágicos",
+            "path": "/entries/dmgMagicItemList/pages/i1YfxyzK7FmZLYvf/name",
+            "value_es": "D-E",
+            "value_en": "D-E"
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/09MGKnX2pmlDjmdl/text",
+            "value_es": " Mage       Archmage      ",
+            "value_en": " Mage       Archmage      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/0H7Jo2EpoR64vzip/text",
+            "value_es": " Bronze Dragon Wyrmling       Young Bronze Dragon       Adult Bronze Dragon       Ancient Bronze Dragon      ",
+            "value_en": " Bronze Dragon Wyrmling       Young Bronze Dragon       Adult Bronze Dragon       Ancient Bronze Dragon      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/14Q0pyxQsCAWoZzo/text",
+            "value_es": " Awakened Shrub       Awakened Tree      ",
+            "value_en": " Awakened Shrub       Awakened Tree      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/39KwfdzA13BzHkac/text",
+            "value_es": " Shrieker Fungus       Violet Fungus    ",
+            "value_en": " Shrieker Fungus       Violet Fungus    "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/3aopi18MGbDzmWZ5/text",
+            "value_es": " Red Dragon Wyrmling       Young Red Dragon       Adult Red Dragon       Ancient Red Dragon      ",
+            "value_en": " Red Dragon Wyrmling       Young Red Dragon       Adult Red Dragon       Ancient Red Dragon      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/80kEKa3Nic5cGn3f/text",
+            "value_es": " Zombie       Ogre Zombie      ",
+            "value_en": " Zombie       Ogre Zombie      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/9Ek1sZ0PfUSb0o6k/text",
+            "value_es": " Vampire Familiar      Vampire Spawn     Vampire     ",
+            "value_en": " Vampire Familiar      Vampire Spawn     Vampire     "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/AEAFZ04se5eTU3zO/text",
+            "value_es": " Black Dragon Wyrmling       Young Black Dragon       Adult Black Dragon       Ancient Black Dragon    ",
+            "value_en": " Black Dragon Wyrmling       Young Black Dragon       Adult Black Dragon       Ancient Black Dragon    "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/Jc6zaXWczN31hE7N/text",
+            "value_es": " Copper Dragon Wyrmling       Young Copper Dragon       Adult Copper Dragon       Ancient Copper Dragon      ",
+            "value_en": " Copper Dragon Wyrmling       Young Copper Dragon       Adult Copper Dragon       Ancient Copper Dragon      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/Lw1NWxwPXcogtFng/text",
+            "value_es": " Sphinx of Wonder       Sphinx of Lore       Sphinx of Valor      ",
+            "value_en": " Sphinx of Wonder       Sphinx of Lore       Sphinx of Valor      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/OQm0oXqDIN8O51fv/text",
+            "value_es": " Dust Mephit       Ice Mephit       Magma Mephit       Steam Mephit      ",
+            "value_en": " Dust Mephit       Ice Mephit       Magma Mephit       Steam Mephit      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/Sx4qcQcPDQULERBu/text",
+            "value_es": " Silver Dragon Wyrmling       Young Silver Dragon       Adult Silver Dragon       Ancient Silver Dragon      ",
+            "value_en": " Silver Dragon Wyrmling       Young Silver Dragon       Adult Silver Dragon       Ancient Silver Dragon      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/aZiLko1zh4zt4P23/text",
+            "value_es": " Blue Dragon Wyrmling     Young Blue Dragon       Adult Blue Dragon       Ancient Blue Dragon      ",
+            "value_en": " Blue Dragon Wyrmling     Young Blue Dragon       Adult Blue Dragon       Ancient Blue Dragon      "
+          },
+          {
+            "id": "mmMonstersAtoZ00",
+            "name": "Monstruos de la A a la Z",
+            "path": "/entries/mmMonstersAtoZ00/pages/aa7MouLFWuPhlFxo/text",
+            "value_es": " Pirate       Pirate Captain      ",
+            "value_en": " Pirate       Pirate Captain      "
+          }
+        ]
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 0,
+        "likely_untranslated_strings_in_es": 59,
+        "same_name_count": 0,
+        "html_mismatch_count": 9,
+        "macro_mismatch_count": 10
+      }
+    },
+    {
+      "file_es": "dnd5e.monsterfeatures24.json",
+      "file_en": "dnd5e.monsterfeatures24.en.json",
+      "summary": {
+        "entry_count_es": 390,
+        "entry_count_en": 391,
+        "folder_count_es": 4,
+        "folder_count_en": 4,
+        "top_level_keys_es": [
+          "label",
+          "mapping",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [
+          {
+            "id": "mmEarthGlide0000",
+            "name_en": "Earth Glide"
+          }
+        ],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 124,
+        "top_entries_with_nested_missing_fields_in_es": [
+          {
+            "id": "mmLoathsomeLimbs",
+            "name": "Extremidades repugnantes",
+            "missing_field_count": 6
+          },
+          {
+            "id": "mmRoar0000000000",
+            "name": "Rugido",
+            "missing_field_count": 3
+          },
+          {
+            "id": "mmCrush000000000",
+            "name": "Aplastar",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmParalyzingBrea",
+            "name": "Aliento paralizante",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmPetrifyingBite",
+            "name": "Mordisco petrificante",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmPetrifyingBrea",
+            "name": "Aliento petrificante",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmPetrifyingGaze",
+            "name": "Mirada petrificante",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmSleepBreath000",
+            "name": "Aliento somnífero",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmSwallow0000000",
+            "name": "Tragar",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmWhirlwindOfSan",
+            "name": "Torbellino de arena",
+            "missing_field_count": 2
+          },
+          {
+            "id": "mmAcidAbsorption",
+            "name": "Absorción de ácido",
+            "missing_field_count": 1
+          },
+          {
+            "id": "mmAdhesive000000",
+            "name": "Adhesivo (solo en forma de objeto)",
+            "missing_field_count": 1
+          },
+          {
+            "id": "mmAnimateTrees00",
+            "name": "Animar árboles",
+            "missing_field_count": 1
+          },
+          {
+            "id": "mmAntennae000000",
+            "name": "Antenas",
+            "missing_field_count": 1
+          },
+          {
+            "id": "mmAttach00000000",
+            "name": "Aferrar",
+            "missing_field_count": 1
+          }
+        ],
+        "folder_value_issues": []
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 4,
+        "top_entries_with_likely_untranslated_strings": [
+          {
+            "id": "mmMindInvasion00",
+            "name": "Invasión mental",
+            "issue_count": 1
+          },
+          {
+            "id": "mmMindJolt000000",
+            "name": "Sacudida mental",
+            "issue_count": 1
+          },
+          {
+            "id": "mmMistyStep00000",
+            "name": "Paso brumoso",
+            "issue_count": 1
+          },
+          {
+            "id": "mmVanish00000000",
+            "name": "Desvanecerse",
+            "issue_count": 1
+          }
+        ],
+        "examples": [
+          {
+            "id": "mmMindInvasion00",
+            "name": "Invasión mental",
+            "path": "/entries/mmMindInvasion00/activities/SxaXUPLBRHtYL9As/name",
+            "value_es": "Mind Spike",
+            "value_en": "Mind Spike"
+          },
+          {
+            "id": "mmMindJolt000000",
+            "name": "Sacudida mental",
+            "path": "/entries/mmMindJolt000000/activities/f3Q5Cky4bKFVdOT2/name",
+            "value_es": "Mind Spike",
+            "value_en": "Mind Spike"
+          },
+          {
+            "id": "mmMistyStep00000",
+            "name": "Paso brumoso",
+            "path": "/entries/mmMistyStep00000/activities/sstmyMnemXbXqI5Y/name",
+            "value_es": "Misty Step",
+            "value_en": "Misty Step"
+          },
+          {
+            "id": "mmVanish00000000",
+            "name": "Desvanecerse",
+            "path": "/entries/mmVanish00000000/effects/oY6W5ijpozecYGkq/name",
+            "value_es": "Invisible",
+            "value_en": "Invisible"
+          }
+        ]
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 139,
+        "likely_untranslated_strings_in_es": 4,
+        "same_name_count": 0,
+        "html_mismatch_count": 1,
+        "macro_mismatch_count": 6
+      }
+    },
+    {
+      "file_es": "dnd5e.spells24.json",
+      "file_en": "dnd5e.spells24-en.json",
+      "summary": {
+        "entry_count_es": 341,
+        "entry_count_en": 341,
+        "folder_count_es": 11,
+        "folder_count_en": 11,
+        "top_level_keys_es": [
+          "label",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 0,
+        "top_entries_with_nested_missing_fields_in_es": [],
+        "folder_value_issues": []
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 4,
+        "top_entries_with_likely_untranslated_strings": [
+          {
+            "id": "phbsplShillelagh",
+            "name": "Shillelagh",
+            "issue_count": 4
+          },
+          {
+            "id": "phbsplGreaterInv",
+            "name": "Invisibilidad mejorada",
+            "issue_count": 1
+          },
+          {
+            "id": "phbsplInvisibili",
+            "name": "Invisibilidad",
+            "issue_count": 1
+          },
+          {
+            "id": "phbsplMislead000",
+            "name": "Engañar",
+            "issue_count": 1
+          }
+        ],
+        "examples": [
+          {
+            "id": "phbsplGreaterInv",
+            "name": "Invisibilidad mejorada",
+            "path": "/entries/phbsplGreaterInv/effects/NDpw6r63ZdEgks1a/name",
+            "value_es": "Invisible",
+            "value_en": "Invisible"
+          },
+          {
+            "id": "phbsplInvisibili",
+            "name": "Invisibilidad",
+            "path": "/entries/phbsplInvisibili/effects/9svfDetqjhsFP3ey/name",
+            "value_es": "Invisible",
+            "value_en": "Invisible"
+          },
+          {
+            "id": "phbsplMislead000",
+            "name": "Engañar",
+            "path": "/entries/phbsplMislead000/effects/3mTWrCYjgS8jIDRU/name",
+            "value_es": "Invisible",
+            "value_en": "Invisible"
+          },
+          {
+            "id": "phbsplShillelagh",
+            "name": "Shillelagh",
+            "path": "/entries/phbsplShillelagh/effects/Oy8fnNNzPmehxXio/name",
+            "value_es": "Shillelagh (1d10)",
+            "value_en": "Shillelagh (1d10)"
+          },
+          {
+            "id": "phbsplShillelagh",
+            "name": "Shillelagh",
+            "path": "/entries/phbsplShillelagh/effects/QPsqj6jfS0iXSrTs/name",
+            "value_es": "Shillelagh (1d8)",
+            "value_en": "Shillelagh (1d8)"
+          },
+          {
+            "id": "phbsplShillelagh",
+            "name": "Shillelagh",
+            "path": "/entries/phbsplShillelagh/effects/X9xoN8qHUiCc4SZR/name",
+            "value_es": "Shillelagh (2d6)",
+            "value_en": "Shillelagh (2d6)"
+          },
+          {
+            "id": "phbsplShillelagh",
+            "name": "Shillelagh",
+            "path": "/entries/phbsplShillelagh/effects/advnpQaBnsbuv02y/name",
+            "value_es": "Shillelagh (1d12)",
+            "value_en": "Shillelagh (1d12)"
+          }
+        ]
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 0,
+        "likely_untranslated_strings_in_es": 7,
+        "same_name_count": 3,
+        "html_mismatch_count": 4,
+        "macro_mismatch_count": 9
+      }
+    },
+    {
+      "file_es": "dnd5e.tables24.json",
+      "file_en": "dnd5e.tables24-en.json",
+      "summary": {
+        "entry_count_es": 66,
+        "entry_count_en": 66,
+        "folder_count_es": 10,
+        "folder_count_en": 10,
+        "top_level_keys_es": [
+          "label",
+          "folders",
+          "entries"
+        ],
+        "top_level_keys_en": [
+          "label",
+          "folders",
+          "entries"
+        ]
+      },
+      "structural": {
+        "entries_missing_in_es": [],
+        "entries_missing_in_en": [],
+        "entries_with_nested_missing_fields_in_es": 0,
+        "top_entries_with_nested_missing_fields_in_es": [],
+        "folder_value_issues": []
+      },
+      "translation": {
+        "entries_with_likely_untranslated_strings": 1,
+        "top_entries_with_likely_untranslated_strings": [
+          {
+            "id": "phbFiendishLegac",
+            "name": "Legado infernal",
+            "issue_count": 1
+          }
+        ],
+        "examples": [
+          {
+            "id": "phbFiendishLegac",
+            "name": "Legado infernal",
+            "path": "/entries/phbFiendishLegac/results/3-3",
+            "value_es": "Tiefling, Infernal",
+            "value_en": "Tiefling, Infernal"
+          }
+        ]
+      },
+      "coverage_deltas": {
+        "missing_translatable_fields_in_es": 0,
+        "likely_untranslated_strings_in_es": 1,
+        "same_name_count": 0,
+        "html_mismatch_count": 0,
+        "macro_mismatch_count": 0
+      }
+    }
+  ],
+  "not_compared": [
+    {
+      "file_es": "dnd5e.origins24.json",
+      "reason": "No se encontró par EN cargado en /mnt/data"
+    }
+  ]
+}

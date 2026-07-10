@@ -1,0 +1,152 @@
+[
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+    "heading": "Quaggoth",
+    "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We",
+    "status": "invalid",
+    "reason": "page_missing",
+    "current_target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We",
+    "current_status": "missing_page",
+    "recommended_next_step": "needs_family_page_or_actor_for_quaggoth"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+    "heading": "Quaggoth Thonot",
+    "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1",
+    "status": "invalid",
+    "reason": "page_missing",
+    "current_target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1",
+    "current_status": "missing_page",
+    "recommended_next_step": "needs_family_page_or_actor_for_quaggoth"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+    "heading": "Pixie",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ujVreuOcy0MnjDAw",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ujVreuOcy0MnjDAw",
+    "current_status": "external",
+    "recommended_next_step": "needs_local_page_or_actor_for_pixie_family"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+    "heading": "Pixie Wonderbringer",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gHeGDz5NYixiINRC",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gHeGDz5NYixiINRC",
+    "current_status": "external",
+    "recommended_next_step": "needs_local_page_or_actor_for_pixie_family"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.3lN8zNGucKxT5vRS.systemText.content",
+    "heading": "Beholder Lairs",
+    "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS",
+    "status": "invalid",
+    "reason": "page_missing",
+    "current_target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS",
+    "current_status": "missing_page",
+    "recommended_next_step": "needs_local_lair_page_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.7ZwTS15VL3A4r2R0.systemText.content",
+    "heading": "Arch-hag Lairs",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XUDAXmTKXhJtUipt",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XUDAXmTKXhJtUipt",
+    "current_status": "external",
+    "recommended_next_step": "needs_hag_lair_page_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+    "heading": "Githzerai Monk",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wHWuZewIMuhrbzR3",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wHWuZewIMuhrbzR3",
+    "current_status": "external",
+    "recommended_next_step": "needs_gith_family_content_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+    "heading": "Githzerai Zerth",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ImbrTxpqMFgtntYq",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ImbrTxpqMFgtntYq",
+    "current_status": "external",
+    "recommended_next_step": "needs_gith_family_content_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+    "heading": "Githzerai Psion",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kB2VUVf8bOiGsaoi",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kB2VUVf8bOiGsaoi",
+    "current_status": "external",
+    "recommended_next_step": "needs_gith_family_content_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+    "heading": "Adventures with Gith",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RhoVhoLvTjz5x9kC",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RhoVhoLvTjz5x9kC",
+    "current_status": "external",
+    "recommended_next_step": "manual_review"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+    "heading": "Empyrean Iota",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UfP3XBh5DPF3cHCM",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UfP3XBh5DPF3cHCM",
+    "current_status": "external",
+    "recommended_next_step": "needs_empyrean_content_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+    "heading": "Empyrean",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.48cwdwrUBvwJfXPn",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.48cwdwrUBvwJfXPn",
+    "current_status": "external",
+    "recommended_next_step": "needs_empyrean_content_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.DHkkEOXbxYvM9oDP.systemText.content",
+    "heading": "Demilich Lairs",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.73nRmWoJvYKGQFhw",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.73nRmWoJvYKGQFhw",
+    "current_status": "external",
+    "recommended_next_step": "needs_demilich_lair_page_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+    "heading": "Manes",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.THQIg50PcHdnwG4d",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.THQIg50PcHdnwG4d",
+    "current_status": "external",
+    "recommended_next_step": "needs_manes_family_content_or_dependency"
+  },
+  {
+    "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+    "heading": "Manes Vaporspawn",
+    "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnHk70BN9bhrV1CG",
+    "status": "external",
+    "reason": "pack_missing",
+    "current_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnHk70BN9bhrV1CG",
+    "current_status": "external",
+    "recommended_next_step": "needs_manes_family_content_or_dependency"
+  }
+]

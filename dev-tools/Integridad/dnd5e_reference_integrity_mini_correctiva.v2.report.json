@@ -1,0 +1,1750 @@
+{
+  "_meta": {
+    "generated_at_utc": "2026-03-26T23:39:36.952123+00:00",
+    "base_files": {
+      "content24": "dnd5e.content24.json",
+      "actors24": "dnd5e.actors24.json"
+    },
+    "scope": [
+      "v2 semiautomática para dnd5e.content24",
+      "resolución de embeds rotos a mmAppendixMonste en dnd5e.actors24",
+      "incluye arrastre de la mini-correctiva de referencias v1 para Zombie/Skeleton en actors24"
+    ],
+    "methodology": [
+      "Retarget solo cuando el destino actual es inferible de forma razonablemente única.",
+      "Prioridad de resolución en content24: heading HTML previo -> key de la página origen si el embed es el primero del bloque.",
+      "Prioridad de resolución en actors24 para mmAppendixMonste: heading previo -> mmAppendixMonste actual si existiera -> fallback a mmMonstersAtoZ00 por heading/key -> fallback final por búsqueda inversa del actor embebido en la página destino actual.",
+      "Las referencias relativas locales de content24 se expanden a rutas absolutas cuando apuntan a una página existente del mismo JournalEntry.",
+      "No se fuerzan reemplazos cuando la página objetivo no existe en el dataset actual."
+    ]
+  },
+  "summary": {
+    "content24": {
+      "before": {
+        "total": 1893,
+        "valid": 1579,
+        "broken": 314
+      },
+      "after": {
+        "total": 1893,
+        "valid": 1668,
+        "broken": 225
+      },
+      "changes_total": 128,
+      "changes_by_kind": {
+        "mmaz_embed_retarget": 89,
+        "relative_to_absolute_same_entry": 39
+      },
+      "changes_breakdown": {
+        "internal_old_mmaz_id_to_current_mmaz_id": 21,
+        "external_monster_manual_to_internal_content24": 68,
+        "relative_same_entry_to_absolute": 39
+      },
+      "remaining_broken_total": 225,
+      "remaining_broken_mmMonstersAtoZ00_related": 196
+    },
+    "actors24": {
+      "before": {
+        "total": 3204,
+        "valid": 3128,
+        "broken": 76
+      },
+      "after": {
+        "total": 3204,
+        "valid": 3163,
+        "broken": 41
+      },
+      "changes_total": 35,
+      "changes_by_kind": {
+        "carryover_v1_actor_ref_fix": 5,
+        "mmAppendixMonste_embed_retarget": 30
+      },
+      "mmAppendix_resolution_breakdown": {
+        "heading_mmaz_name_fallback": 8,
+        "actor_embed_reverse_fallback": 11,
+        "heading_mmaz_key_fallback": 11
+      },
+      "remaining_broken_total": 41,
+      "remaining_broken_mmAppendixMonste_related": 0
+    }
+  },
+  "details": {
+    "content24_changes": [
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.0B3uI9PTzjAVI0vv.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KJkoHa6ASqqSjrFX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0B3uI9PTzjAVI0vv",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Gelatinous Cube"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.2bADxJuWILSLbKnL.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Tg5WKzTIgNAHo1Wq",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2bADxJuWILSLbKnL",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Lemure"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.BK2fFx2HQtSJinWc",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2DfEnIm8DZ3RUXYD",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Planetar"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.39KwfdzA13BzHkac.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6RdlNz0OFdYqFwgH",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.39KwfdzA13BzHkac",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Fungi"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.3aopi18MGbDzmWZ5.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DMYEpWr3wvK4RLih",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3aopi18MGbDzmWZ5",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Red Dragons"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.3jj30B8y8b0KajI2.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.B5wMYkbLXefYyuOS",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3jj30B8y8b0KajI2",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Clay Golem"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.65CntoJ7zvQIx01s.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XSbY1pakVSOrMX5q",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.65CntoJ7zvQIx01s",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Bearded Devil"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.6uMySCQYSC9akp91.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OZ4pczqo9wAgj4CD",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6uMySCQYSC9akp91",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Nightmare"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.6Xu0DgMDkEhIlqgg.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.SYPUI0R76sVilXaV",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6Xu0DgMDkEhIlqgg",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Sprite"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.75LcKiIsCIrohlPV.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Tnu6KW8hvlaLqaV3",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.75LcKiIsCIrohlPV",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Rust Monster"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.80kEKa3Nic5cGn3f.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.l9Nak3iZRRAfQo0B",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.80kEKa3Nic5cGn3f",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Zombies"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.9Ek1sZ0PfUSb0o6k.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.4EtOTIaHnhnS9jA5",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.9Ek1sZ0PfUSb0o6k",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Vampires"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.a5EpOcLCNws9jXXz.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6c0Aa15WAeqtY3hl",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.a5EpOcLCNws9jXXz",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Incubus"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.aFgWcIHzszJvMczu.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XvhPdtq14MUqgYVO",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aFgWcIHzszJvMczu",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Stone Giant"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.aFgWcIHzszJvMczu.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1FyvNuYRqfEBdGNl",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.z8nL1R6ydHEM4fNR",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Stirge"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.AgCaArPy6j8On17a.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0tyzoFzNK6DuXsbD",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AgCaArPy6j8On17a",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Knights"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.aqxr51qyAtsTzrPn.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.NTrXiS2nr1jrYq0F",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aqxr51qyAtsTzrPn",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Centaur"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.AT1WFd5AeDretysm.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Kzvd8PBUBkJG5zSg",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AT1WFd5AeDretysm",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Tarrasque"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.aZiLko1zh4zt4P23.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.eOmRGDXv0BqCZbVA",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aZiLko1zh4zt4P23",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Blue Dragons"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.Bcq4yzQxVc6hDwxv.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3Il3CvacAVpf6Rch",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Bcq4yzQxVc6hDwxv",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Water Elemental"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.bTUDs1G1E2Rxoq9k.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6zzvqtvuJNJMye3A",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.bTUDs1G1E2Rxoq9k",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Horned Devil"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.cfaxLaO73jh8D8fE.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1BWrTscJDUOd8yLf",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.cfaxLaO73jh8D8fE",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Werewolf"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.cvBRoWNl38kmSVAd.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.yUJyNvAzX9dNTgOY",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.cvBRoWNl38kmSVAd",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Toughs"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.CZhyuaLCB8xtFYyA.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Ia0dhEMIJJ7PVLVn",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.CZhyuaLCB8xtFYyA",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Sea Hag"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.CZhyuaLCB8xtFYyA.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AXb6rgRnpN7qGWWX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QSlsqIPbYl4uICvq",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Scout"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.dCnwfsBJ3GawLyxe.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ZpeSDtD5WDWXd8J9",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.dCnwfsBJ3GawLyxe",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Marilith"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.DrdLFfrbGG5cZy9L.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2gFebLtp90s1VxzM",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DrdLFfrbGG5cZy9L",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Gnoll"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.dtrk5pI0tl7LIEyr.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jor6W6Cw6F6LxOtX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.dtrk5pI0tl7LIEyr",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Specter"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.e3scXeedo3gCxvre.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ML5Eu2aqnDTUWcSo",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.e3scXeedo3gCxvre",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Grick"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.E5iDh5xWQ2KCEMgV.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XW2WF8vjTcmnKF17",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.E5iDh5xWQ2KCEMgV",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Storm Giant"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.eC7HENHOpIGQoctq.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.MTUsn5tNpmZEIy7W",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.eC7HENHOpIGQoctq",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Ettin"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.eeg9raqppRQ13zOy.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.yWXH5nyv3LFDwBAv",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.e3scXeedo3gCxvre",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Grick"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.ELp83NN658cUf6RO.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AjhsGC1wSZXs1xkE",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ELp83NN658cUf6RO",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Invisible Stalker"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.FDv1NYEzGuK8yk6M.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.quXy2WM17LbbHjxu",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FDv1NYEzGuK8yk6M",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Pit Fiend"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.g6utOXxz572cn6zQ.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.bEeY8cAxTOypsyl1",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.g6utOXxz572cn6zQ",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Troll"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.GhZmhPTyPgB8ry5C.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Ux3UEbQ2Xe3VpAVd",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GhZmhPTyPgB8ry5C",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Efreeti"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.HdDBchzgJSumNmtU.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mE8wcG0Ohf1FLESk",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HdDBchzgJSumNmtU",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Djinni"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.HE0kTsH3SdDpczmv.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.4l5kLEeNLKSnzNoN",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HE0kTsH3SdDpczmv",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Hezrou"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.Hfq86WdpWcb3vhql.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HJOkVF1j68fs3m7Y",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2bADxJuWILSLbKnL",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Lemure"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.HXrP0VKGl6qyA7N5.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DN8RNyJ7NsoA7TnO",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HXrP0VKGl6qyA7N5",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Gibbering Mouther"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.Ien9YD2TwbezGYBh.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.BLKyHDLfoZP7Tm9h",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Ien9YD2TwbezGYBh",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Wight"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.iUTxd2FG3EnoTpsm.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Bduky50I4knEL2On",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.iUTxd2FG3EnoTpsm",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Mummies"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.Jc6zaXWczN31hE7N.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.M7bvUVFcncRjraJP",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Jc6zaXWczN31hE7N",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Copper Dragons"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.jDgvwqagylAaxKt3.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FO4z6Rte4lAlNGNG",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jDgvwqagylAaxKt3",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Brass Dragons"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.K9SWarlAwdXslP7x.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.995pf31VOwItrbXB",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.K9SWarlAwdXslP7x",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Owlbear"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.KDWLIurYLocdvkK4.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.eFGs6u803PtWG5k7",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KDWLIurYLocdvkK4",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Homunculus"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.kps2oSHEpq6gRHB3.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.5LyhJwnpglaWlV03",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kps2oSHEpq6gRHB3",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Minotaur of Baphomet"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.KWbzkTnSU0FxRxoU.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XJ3VpoOXcjYl1EV9",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KWbzkTnSU0FxRxoU",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Ghost"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.KWbzkTnSU0FxRxoU.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.4F193kyn5e9M7Hof",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnyO7BzCzqqz7ZI5",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Ghast"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.lnvPSdpmEDhJ5R3m.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.oIXTiU1B2cJqnVtP",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lnvPSdpmEDhJ5R3m",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Blink Dog"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.lTHYTnUozD9zcWVu.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.xb3Ofr2UYoMpRNcH",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lTHYTnUozD9zcWVu",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Priests"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.MFmZUIbvV3cIl5a6.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.9wPwyBWpNGzAL7yb",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.MFmZUIbvV3cIl5a6",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Wraith"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.MFmZUIbvV3cIl5a6.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KQj16GboSsgX6Jhe",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.tZtIR5GiKLh8uwaf",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Worg"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.mju7ANQw1s3x7aCb.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sYgETXS9CrfFfM2w",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mju7ANQw1s3x7aCb",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Wererat"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.mW4OVjI55EMQbcUE.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.4EtOTIaHnhnS9jA5",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mW4OVjI55EMQbcUE",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Vrock"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.mWcROUZcRLMN8Hxl.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Shm8WcUiuPAfkSZc",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.t9hzKBCxFAkt0w1p",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Azer Sentinel"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.NC2baa46dbJyUkUK.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.PwPfB4jnIWSKBdz0",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.NC2baa46dbJyUkUK",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Guardian Naga"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.O8rRo03FXskNIFlr.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.JPdmXY7WGZdIPlJo",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.O8rRo03FXskNIFlr",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Spy"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.OA8oAxiFp2tj27i4.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Tp3r2uMnilo9SUIu",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OA8oAxiFp2tj27i4",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Drider"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.OA8oAxiFp2tj27i4.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.YeZoNZxhdDHR3iC2",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ld6ImmsNezopmAiG",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Dretch"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.of3oLVlwvYX6ybm5.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HsF8MsussxXOooen",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.of3oLVlwvYX6ybm5",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Ochre Jelly"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.OQm0oXqDIN8O51fv.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.N1jHJAYmaoJPz0NW",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OQm0oXqDIN8O51fv",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Mephits"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.OZ69A7wRsDxfLscr.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.g8rZSNVG7tURaQgk",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OZ69A7wRsDxfLscr",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Hell Hound"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.pc8cX3dReRJJEsiQ.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.dSmoOrvVQ3rqd1IQ",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.pc8cX3dReRJJEsiQ",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Shambling Mound"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.pdWbT1UdTD148Nji.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.YHhY8teRtbcSR64M",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.pdWbT1UdTD148Nji",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Dryad"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.veNtTec5Xx4Cu1Y9",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.q2zX8PdjPV8FRmAs",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Manticore"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.qgqsaCYASrFoI4Uf.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.g2nO7BdHr87x4LcU",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qgqsaCYASrFoI4Uf",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Cultists"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.QSJdmYIwWUqBtNuw.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.hgLZCXL2IF6jYYTr",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QSJdmYIwWUqBtNuw",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Animated Objects"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.QXzCEhyjXN2tBrTA.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.iJ1Og14jr9j6RJ6b",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QXzCEhyjXN2tBrTA",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Hippogriff"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.RH9YYPySDKpPC1V4.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ub0nTAbrWB4Lv64X",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RH9YYPySDKpPC1V4",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Cloud Giant"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.riHODSUMg7fpAh5e.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Zh9j3VBgGnsvq9x4",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.riHODSUMg7fpAh5e",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Half-Dragon"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.RXdpcdlHks9CDB6g.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DmKKsAs8j6WW7lQ2",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RXdpcdlHks9CDB6g",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Death Dog"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.SiK8FIXEn3NIWZ9B.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vYZwsyU9V1RdbFAm",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.K9SWarlAwdXslP7x",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Owlbear"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.suHSIeLVLizTYPgT.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.hXIUJSLqt2xdkd3a",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.suHSIeLVLizTYPgT",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Werebear"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.Sx4qcQcPDQULERBu.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.PvFjj9fYSOERAgJV",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Sx4qcQcPDQULERBu",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Silver Dragons"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.t9hzKBCxFAkt0w1p.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kB9xuOKJSZ9Dnp98",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.V5baGKbVj377IR8d",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Axe Beak"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.V5baGKbVj377IR8d.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.e87Q14xxD5s8sJrv",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.V5baGKbVj377IR8d",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Axe Beak"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.vw6icAkUuQJ80NCq.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AqBgo4Po2QO1WBkC",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vw6icAkUuQJ80NCq",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Fire Elemental"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.w7m4OUspECB22dxr.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wspNxVE4KofrKKnm",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.w7m4OUspECB22dxr",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Winter Wolf"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.wmX9SvP3L9iJJcMa.systemText.content",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.9jo3t6ifQrGm5CPI",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wmX9SvP3L9iJJcMa",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Mimic"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.wWsjCZ54lUjU4iyd.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1AB1kcMsMnE3ucAr",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wWsjCZ54lUjU4iyd",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Aboleth"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.xJIzo0wJVAxE6OD2.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sYX3rL43R3oTYo86",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.xJIzo0wJVAxE6OD2",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Ice Devil"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.xTFPEcoBtBOgDqgY.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.YVet3pmxbtmVY8H9",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.xTFPEcoBtBOgDqgY",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Xorn"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.XV5BjYEJaMWINegZ.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.PkE84hL7046zeNb2",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XV5BjYEJaMWINegZ",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Chimera"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.y5QmKEt8q0NY1PWb.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1Hp2MOUaAODie8ex",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.y5QmKEt8q0NY1PWb",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Oni"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.y5QmKEt8q0NY1PWb.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kqE5GUlHs8pLCwvw",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GBHy7deHQGI2YVBb",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Ogre"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.ynmjvFoain2bPeDT.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6GoEsoHTiVUdeAKu",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ynmjvFoain2bPeDT",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Salamanders"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.zNzVq7B6Yt1dcY0z.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.IMrvogdwbM9y1eDJ",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+        "resolution_basis": "source_page",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Green Dragons"
+      },
+      {
+        "kind": "mmaz_embed_retarget",
+        "path": "entries.mmMonstersAtoZ00.pages.zNzVq7B6Yt1dcY0z.systemText.content",
+        "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3CtaZvXT0QtPFi3T",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Bb3ZEkljniXdO5Zr",
+        "resolution_basis": "heading",
+        "match_mode": "key_exact",
+        "matched_heading_or_source_key": "Gray Ooze"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.dmgDmsToolbox000.pages.xgLA30rErlkjIPAK.text",
+        "from": ".xgLA30rErlkjIPAK#frigid-water",
+        "to": "Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#frigid-water",
+        "entry_id": "dmgDmsToolbox000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.dmgEnsuringFunFo.pages.4lDNRk5n5HMopbPT.text",
+        "from": ".yBdkX7XGvlRVcyya#antisocial-behavior",
+        "to": "Compendium.dnd5e.content24.JournalEntry.dmgEnsuringFunFo.JournalEntryPage.yBdkX7XGvlRVcyya#antisocial-behavior",
+        "entry_id": "dmgEnsuringFunFo"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.dmgMagicItems000.pages.AMFpeeVHTKXvGbHA.text",
+        "from": ".AMFpeeVHTKXvGbHA#conflict",
+        "to": "Compendium.dnd5e.content24.JournalEntry.dmgMagicItems000.JournalEntryPage.AMFpeeVHTKXvGbHA#conflict",
+        "entry_id": "dmgMagicItems000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbAppendixCRule.pages.St3ANvrKOgxECnTn.text",
+        "from": ".bCU0JHnmZsZf1SHp",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.bCU0JHnmZsZf1SHp",
+        "entry_id": "phbAppendixCRule"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbAppendixCRule.pages.St3ANvrKOgxECnTn.text",
+        "from": ".vuK6Tth0DFgU74A6",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.vuK6Tth0DFgU74A6",
+        "entry_id": "phbAppendixCRule"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbAppendixCRule.pages.St3ANvrKOgxECnTn.text",
+        "from": ".Brc9AnUXBeg0MTX6",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.Brc9AnUXBeg0MTX6",
+        "entry_id": "phbAppendixCRule"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbAppendixCRule.pages.St3ANvrKOgxECnTn.text",
+        "from": ".BMoxmXB8pX6bOBus",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.BMoxmXB8pX6bOBus",
+        "entry_id": "phbAppendixCRule"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbAppendixCRule.pages.St3ANvrKOgxECnTn.text",
+        "from": ".DksBBFbqPY2FCReT",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.DksBBFbqPY2FCReT",
+        "entry_id": "phbAppendixCRule"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbBackgroundDes.pages.lXqvtf9mIp8RYjFr.text",
+        "from": ".7DAvTQlrw7OTsgpX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbBackgroundDes.JournalEntryPage.7DAvTQlrw7OTsgpX",
+        "entry_id": "phbBackgroundDes"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbBackgroundDes.pages.lXqvtf9mIp8RYjFr.text",
+        "from": ".PnqnUJNaPQUZPlLR",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbBackgroundDes.JournalEntryPage.PnqnUJNaPQUZPlLR",
+        "entry_id": "phbBackgroundDes"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbBackgroundDes.pages.lXqvtf9mIp8RYjFr.text",
+        "from": ".Vsc9EKUUGboSI6jy",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbBackgroundDes.JournalEntryPage.Vsc9EKUUGboSI6jy",
+        "entry_id": "phbBackgroundDes"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbBackgroundDes.pages.lXqvtf9mIp8RYjFr.text",
+        "from": ".l8iMjw1XZgyqWFFf",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbBackgroundDes.JournalEntryPage.l8iMjw1XZgyqWFFf",
+        "entry_id": "phbBackgroundDes"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbCreatingAChar.pages.DE7Ff0cOkQgid3fG.text",
+        "from": ".Vz5QcYKA74tWkDqy",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.Vz5QcYKA74tWkDqy",
+        "entry_id": "phbCreatingAChar"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbCreatingAChar.pages.iHbj5aJvc1T7i5YI.text",
+        "from": ".vcs4jfEKRxPCsgXm",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm",
+        "entry_id": "phbCreatingAChar"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbCreatingAChar.pages.l4eqkEUGLVS2jBhO.text",
+        "from": ".9o8NbQ1Ph2xCxlQh",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh",
+        "entry_id": "phbCreatingAChar"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbD20Tests00000.pages.6zGMb84U7IQkPCmn.text",
+        "from": ".zU9fgQbLaVbJvPRX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbD20Tests00000.JournalEntryPage.zU9fgQbLaVbJvPRX",
+        "entry_id": "phbD20Tests00000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbD20Tests00000.pages.cpCaIOAmJIyrHlKu.text",
+        "from": ".zU9fgQbLaVbJvPRX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbD20Tests00000.JournalEntryPage.zU9fgQbLaVbJvPRX",
+        "entry_id": "phbD20Tests00000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbD20Tests00000.pages.EbGnSXpG5SdKusf9.text",
+        "from": ".zU9fgQbLaVbJvPRX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbD20Tests00000.JournalEntryPage.zU9fgQbLaVbJvPRX",
+        "entry_id": "phbD20Tests00000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbD20Tests00000.pages.URxmJwlkoRnD517f.text",
+        "from": ".zU9fgQbLaVbJvPRX",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbD20Tests00000.JournalEntryPage.zU9fgQbLaVbJvPRX",
+        "entry_id": "phbD20Tests00000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbEquipment0000.pages.dWQ2ZTLOuKr3PMAx.text",
+        "from": ".z1wx4cNO7AfqyNof",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.z1wx4cNO7AfqyNof",
+        "entry_id": "phbEquipment0000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbEquipment0000.pages.flJnTPWIwTrAzqTi.text",
+        "from": ".adlJqek4sIyJePKO",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.adlJqek4sIyJePKO",
+        "entry_id": "phbEquipment0000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbMountsAndVehi.pages.zivUMCaCPRLSXGNI.text",
+        "from": ".NVPIUDJEdFDaErTg",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbMountsAndVehi.JournalEntryPage.NVPIUDJEdFDaErTg",
+        "entry_id": "phbMountsAndVehi"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".Duq9xnLywFNK3gv1",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.Duq9xnLywFNK3gv1",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".4zCNgk0JSKVzv9Y9",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.4zCNgk0JSKVzv9Y9",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".h9oGyt2Wh9mp0xbg",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.h9oGyt2Wh9mp0xbg",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".BKZ4ViHHUMxaqPz4",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.BKZ4ViHHUMxaqPz4",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".l4PycBAExkT2g62X",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.l4PycBAExkT2g62X",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".I5mX89tfojsyQmdA",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.I5mX89tfojsyQmdA",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".8t4u8CWYbxubXflR",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.8t4u8CWYbxubXflR",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".qUxclCvBClnEafEY",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.qUxclCvBClnEafEY",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpeciesDescri.pages.7iLsgz6RUQJVpUsH.text",
+        "from": ".xiCNZr3S4OmJezyv",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri.JournalEntryPage.xiCNZr3S4OmJezyv",
+        "entry_id": "phbSpeciesDescri"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".wwia6Wwo4BgE9GSI",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI",
+        "entry_id": "phbSpells0000000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".SkHptN2PTzFGDaEj",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj",
+        "entry_id": "phbSpells0000000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".LhvuDQEyrCdg5EfU",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU",
+        "entry_id": "phbSpells0000000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".8yD9Jgp404hfZ9ie",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie",
+        "entry_id": "phbSpells0000000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".5HnIk6HsrSxkvkz5",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5",
+        "entry_id": "phbSpells0000000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".VfZ5mH2ZuyFq82Ga",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.VfZ5mH2ZuyFq82Ga",
+        "entry_id": "phbSpells0000000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".sSzagq8GvYXpfmfs",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs",
+        "entry_id": "phbSpells0000000"
+      },
+      {
+        "kind": "relative_to_absolute_same_entry",
+        "path": "entries.phbSpells0000000.pages.yspaGdvukcwiodvl.text",
+        "from": ".6AnqLUowgdsqMFvz",
+        "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz",
+        "entry_id": "phbSpells0000000"
+      }
+    ],
+    "actors24_changes": [
+      {
+        "kind": "carryover_v1_actor_ref_fix",
+        "path": "entries.mmLich0000000000.items.5ChYAsKeTMNZ7Z0X.description",
+        "from": "Compendium.dnd5e.actors24.Actor.phbmobZombie0000",
+        "to": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
+        "occurrences_replaced": 1
+      },
+      {
+        "kind": "carryover_v1_actor_ref_fix",
+        "path": "entries.mmLich0000000000.items.5ChYAsKeTMNZ7Z0X.description",
+        "from": "Compendium.dnd5e.actors24.Actor.phbmobSkeleton00",
+        "to": "Compendium.dnd5e.actors24.Actor.mmSkeleton000000",
+        "occurrences_replaced": 1
+      },
+      {
+        "kind": "carryover_v1_actor_ref_fix",
+        "path": "entries.mmLich0000000000.items.VGnFSkQ3oz0By0ef.description",
+        "from": "Compendium.dnd5e.actors24.Actor.phbmobZombie0000",
+        "to": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
+        "occurrences_replaced": 1
+      },
+      {
+        "kind": "carryover_v1_actor_ref_fix",
+        "path": "entries.mmMummyLord00000.items.TR4icqSOLRCzde5j.description",
+        "from": "Compendium.dnd5e.actors24.Actor.phbmobZombie0000",
+        "to": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
+        "occurrences_replaced": 1
+      },
+      {
+        "kind": "carryover_v1_actor_ref_fix",
+        "path": "entries.mmMummyLord00000.items.TR4icqSOLRCzde5j.description",
+        "from": "Compendium.dnd5e.actors24.Actor.phbmobSkeleton00",
+        "to": "Compendium.dnd5e.actors24.Actor.mmSkeleton000000",
+        "occurrences_replaced": 1
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmAncientGreenDr.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HxHIj9RZWeGNXKxV",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Dragones verdes"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmAncientGreenDr.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.f6FP49T1ELv3aASd",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Green Dragons"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmAncientGreenDr.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.kjE0Ff31hZsDdeye",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Green Dragons"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmBalor000000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.dstDspmI7LdrCsxy",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mWcROUZcRLMN8Hxl",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Balor"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmBarbedDevil000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.95Oeqtw6UgtSLiO1",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Vzpho8zJkNsHQU7y",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Barbed Devil"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmBeardedDevil00.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.PTpNAXCUpaUdNbcx",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.65CntoJ7zvQIx01s",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Bearded Devil"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmBoneDevil00000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.LhlUSSOMbbHHTi5e",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.WK7w7PlQ02LoGhOb",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Diablo óseo"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmChainDevil0000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.ZshK0GnbqU7TpaWe",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Z6lIT7pPpdBRIMP0",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Chain Devil"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmDretch00000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Tp3r2uMnilo9SUIu",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ld6ImmsNezopmAiG",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Dretch"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmDretch00000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.YeZoNZxhdDHR3iC2",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ld6ImmsNezopmAiG",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Dretch"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmErinyes0000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.YXZP2A00UrCViGCe",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Ci0k7DXfjeh9FjN3",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Erinyes"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmGlabrezu000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.ywxoKSaj2hlvewVQ",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.BY9PswYVqCcQbMAx",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Glabrezu"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmHellHound00000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.sTelJLU6cHPQ8gzx",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OZ69A7wRsDxfLscr",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Sabueso infernal"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmHezrou00000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.GK0Mj5JDYx9OSir8",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HE0kTsH3SdDpczmv",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Hezrou"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmHornedDevil000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.zZ2RDYRFRDDrRizJ",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.bTUDs1G1E2Rxoq9k",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Diablo cornudo"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmIceDevil000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.sA9Jx5SXPoQvmnOO",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.xJIzo0wJVAxE6OD2",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Diablo de hielo"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmLamia000000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Lawk1h1Wf49rxX8U",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.nXprTG3DeAMemuUe",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Lamia"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmLemure00000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.StGSoy9GntE0mCiY",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2bADxJuWILSLbKnL",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Lemure"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmLemure00000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HJOkVF1j68fs3m7Y",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2bADxJuWILSLbKnL",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Lemure"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmMarilith000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.I4KPmOfsuEucKfST",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.dCnwfsBJ3GawLyxe",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Marilith"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmNalfeshnee0000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bG2lzFCLqlpghJF8",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3TpDSG1lYJiOmnGl",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Nalfeshnee"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmNightHag000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.OZ4pczqo9wAgj4CD",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HQ1QoVmxUAsjDiOO",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Bruja nocturna"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmNightmare00000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.TEIsR6Zs2MO6qtpO",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6uMySCQYSC9akp91",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Pesadilla"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmOni00000000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Z00uEF13gQr3y7sl",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.y5QmKEt8q0NY1PWb",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Oni"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmPitFiend000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bBzXVjiSjkZzn8oA",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FDv1NYEzGuK8yk6M",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Pit Fiend"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmRakshasa000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.DMYEpWr3wvK4RLih",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mkv392EfPeTaa3de",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Rakshasa"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmSahuaginWarrio.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.6GoEsoHTiVUdeAKu",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vhOJQTnDz9Sf1W7L",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Sahuagin"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmSahuaginWarrio.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.e7E1JhVR2AaUl70T",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vhOJQTnDz9Sf1W7L",
+        "resolution_basis": "actor_embed_reverse_fallback",
+        "matched_heading_or_actor_hint": "Sahuagin"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmSpiritNaga0000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.SYPUI0R76sVilXaV",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mGuNH8XAxdLVXBbu",
+        "resolution_basis": "heading_mmaz_name_fallback",
+        "matched_heading_or_actor_hint": "Naga espiritual"
+      },
+      {
+        "kind": "mmAppendixMonste_embed_retarget",
+        "path": "entries.mmVrock000000000.biography",
+        "from": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.yqpU1D8Hjb3YzIHu",
+        "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mW4OVjI55EMQbcUE",
+        "resolution_basis": "heading_mmaz_key_fallback",
+        "matched_heading_or_actor_hint": "Vrock"
+      }
+    ],
+    "content24_remaining_unresolved_examples": [
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.09MGKnX2pmlDjmdl.systemText.content",
+        "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.85wfFNgms1hLuQ0m",
+        "heading": "Lizardfolk Geomancer",
+        "source_page_name": "Magos",
+        "source_page_key": "Mages"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.09MGKnX2pmlDjmdl.systemText.content",
+        "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2w4jxh9j1P9Lr9d1",
+        "heading": "Lizardfolk Sovereign",
+        "source_page_name": "Magos",
+        "source_page_key": "Mages"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.0B3uI9PTzjAVI0vv.systemText.content",
+        "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rOTJWyJC8aZdsngw",
+        "heading": "Gargoyle Ambushes",
+        "source_page_name": "Cubo gelatinoso",
+        "source_page_key": "Gelatinous Cube"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.nAKAMLWRU0p3mOg4",
+        "heading": "Brass Dragon Wyrmling",
+        "source_page_name": "Dragones de bronce",
+        "source_page_key": "Bronze Dragons"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GRZTySs2c5SdcjrF",
+        "heading": "Young Brass Dragon",
+        "source_page_name": "Dragones de bronce",
+        "source_page_key": "Bronze Dragons"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sNzT62I9lI6DI0eu",
+        "heading": "Adult Brass Dragon",
+        "source_page_name": "Dragones de bronce",
+        "source_page_key": "Bronze Dragons"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TaM3BPlTPJMh6g8d",
+        "heading": "Ancient Brass Dragon",
+        "source_page_name": "Dragones de bronce",
+        "source_page_key": "Bronze Dragons"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qiYpaclDMsKS9soI",
+        "heading": "Brass Dragon Lairs",
+        "source_page_name": "Dragones de bronce",
+        "source_page_key": "Bronze Dragons"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+        "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We",
+        "heading": "Quaggoth",
+        "source_page_name": "Cuásit",
+        "source_page_key": "Quasit"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+        "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1",
+        "heading": "Quaggoth Thonot",
+        "source_page_name": "Cuásit",
+        "source_page_key": "Quasit"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.2bADxJuWILSLbKnL.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.giSj09GeYhBxyMFk",
+        "heading": "Larva",
+        "source_page_name": "Lemur",
+        "source_page_key": "Lemure"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.2bADxJuWILSLbKnL.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qP19tiUEj4k2lfOF",
+        "heading": "Swarm of Larvae",
+        "source_page_name": "Lemur",
+        "source_page_key": "Lemure"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ujVreuOcy0MnjDAw",
+        "heading": "Pixie",
+        "source_page_name": "Planetar",
+        "source_page_key": "Planetar"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gHeGDz5NYixiINRC",
+        "heading": "Pixie Wonderbringer",
+        "source_page_name": "Planetar",
+        "source_page_key": "Planetar"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.3lN8zNGucKxT5vRS.systemText.content",
+        "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS",
+        "heading": "Beholder Lairs",
+        "source_page_name": "Bersérkeres",
+        "source_page_key": "Berserkers"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.a1SVfhxGUb1T0Gu7",
+        "heading": "Myconid Sprout",
+        "source_page_name": "Nalfeshnee",
+        "source_page_key": "Nalfeshnee"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.9OKSyLIKsVJsSOyM",
+        "heading": "Myconid Adult",
+        "source_page_name": "Nalfeshnee",
+        "source_page_key": "Nalfeshnee"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.8DA87xVN0cOsW49g",
+        "heading": "Myconid Spore Servant",
+        "source_page_name": "Nalfeshnee",
+        "source_page_key": "Nalfeshnee"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FWxT2ugGptk5ySLD",
+        "heading": "Myconid Sovereign",
+        "source_page_name": "Nalfeshnee",
+        "source_page_key": "Nalfeshnee"
+      },
+      {
+        "path": "entries.mmMonstersAtoZ00.pages.3WSN4TTWARjvUkgR.systemText.content",
+        "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TJfHa9mcPEnVs0gn",
+        "heading": "Animated Armor",
+        "source_page_name": "Ankheg",
+        "source_page_key": "Ankheg"
+      }
+    ],
+    "actors24_remaining_unresolved_examples": [
+      {
+        "path": "entries.BeiroLv010000000.items.YmZz6v61uh3fpiNE.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de ojo de buey}",
+        "target": "Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW",
+        "opts": "",
+        "label": "Linterna de ojo de buey",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.BeiroLv050000000.items.YmZz6v61uh3fpiNE.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}",
+        "target": "Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW",
+        "opts": "",
+        "label": "Bullseye Lantern",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.BeiroLv110000000.items.YmZz6v61uh3fpiNE.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}",
+        "target": "Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW",
+        "opts": "",
+        "label": "Bullseye Lantern",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.BeiroLv170000000.items.YmZz6v61uh3fpiNE.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de haz concentrado}",
+        "target": "Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW",
+        "opts": "",
+        "label": "Linterna de haz concentrado",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.KruskLv010000000.items.zM5NTPosh6bJYgrL.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}",
+        "target": "Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE",
+        "opts": "",
+        "label": "Olla de hierro",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.KruskLv050000000.items.zM5NTPosh6bJYgrL.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}",
+        "target": "Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE",
+        "opts": "",
+        "label": "Olla de hierro",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.KruskLv110000000.items.zM5NTPosh6bJYgrL.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}",
+        "target": "Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE",
+        "opts": "",
+        "label": "Olla de hierro",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.KruskLv170000000.items.zM5NTPosh6bJYgrL.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}",
+        "target": "Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE",
+        "opts": "",
+        "label": "Olla de hierro",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RandalLv01000000.items.WtW4C15JW74zrx7Y.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}",
+        "target": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "opts": "",
+        "label": "Ropa de viajero",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RandalLv05000000.items.WtW4C15JW74zrx7Y.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}",
+        "target": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "opts": "",
+        "label": "Ropa de viajero",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RandalLv11000000.items.WtW4C15JW74zrx7Y.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viaje}",
+        "target": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "opts": "",
+        "label": "Ropa de viaje",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RandalLv17000000.items.WtW4C15JW74zrx7Y.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viaje}",
+        "target": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "opts": "",
+        "label": "Ropa de viaje",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RiswynnLv0100000.items.Tk7xDq98Zy4XYPrW.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Farol con capucha}",
+        "target": "Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE",
+        "opts": "",
+        "label": "Farol con capucha",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RiswynnLv0500000.items.Tk7xDq98Zy4XYPrW.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Farol con capucha}",
+        "target": "Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE",
+        "opts": "",
+        "label": "Farol con capucha",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RiswynnLv1100000.items.Tk7xDq98Zy4XYPrW.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Farol con capucha}",
+        "target": "Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE",
+        "opts": "",
+        "label": "Farol con capucha",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.RiswynnLv1700000.items.Tk7xDq98Zy4XYPrW.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Farol con caperuza}",
+        "target": "Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE",
+        "opts": "",
+        "label": "Farol con caperuza",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.SefrisLv01000000.items.7nXny2GAGk5pBk1d.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}",
+        "target": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "opts": "",
+        "label": "Ropa de viajero",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.SefrisLv01000000.items.LGqdCjSUGKny0Jz2.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{reglas sobre lanzamiento de conjuros}",
+        "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+        "opts": "",
+        "label": "reglas sobre lanzamiento de conjuros",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.SefrisLv05000000.items.7nXny2GAGk5pBk1d.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropas de viajero}",
+        "target": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "opts": "",
+        "label": "Ropas de viajero",
+        "reason": "missing"
+      },
+      {
+        "path": "entries.SefrisLv05000000.items.LGqdCjSUGKny0Jz2.description",
+        "macro": "UUID",
+        "raw": "@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{reglas de lanzamiento de conjuros}",
+        "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+        "opts": "",
+        "label": "reglas de lanzamiento de conjuros",
+        "reason": "missing"
+      }
+    ]
+  }
+}

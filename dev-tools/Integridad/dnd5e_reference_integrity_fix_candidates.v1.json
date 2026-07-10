@@ -1,0 +1,19 @@
+{
+  "fix_candidates": [
+    {
+      "from": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+      "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.iBFe4NyaCUinDoz3",
+      "reason": "Candidato probable por etiqueta 'reglas de lanzamiento de conjuros' -> 'Lanzar conjuros'"
+    },
+    {
+      "from": "Compendium.dnd5e.actors24.Actor.phbmobZombie0000",
+      "to": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
+      "reason": "Candidato por coincidencia de etiqueta 'Zombi'"
+    },
+    {
+      "from": "Compendium.dnd5e.actors24.Actor.phbmobSkeleton00",
+      "to": "Compendium.dnd5e.actors24.Actor.mmSkeleton000000",
+      "reason": "Candidato por coincidencia de etiqueta 'Esqueleto'"
+    }
+  ]
+}

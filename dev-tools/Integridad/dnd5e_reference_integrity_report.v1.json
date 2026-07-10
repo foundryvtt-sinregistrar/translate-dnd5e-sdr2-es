@@ -1,0 +1,589 @@
+{
+  "_meta": {
+    "generated_at_utc": "2026-03-26T16:13:19.938382+00:00",
+    "scope": [
+      "dnd5e.origins24",
+      "dnd5e.feats24",
+      "dnd5e.monsterfeatures24",
+      "dnd5e.tables24",
+      "dnd5e.classes24",
+      "dnd5e.spells24",
+      "dnd5e.equipment24",
+      "dnd5e.content24",
+      "dnd5e.actors24"
+    ],
+    "methodology": [
+      "Se han recorrido todos los strings de los JSON dnd5e.* suministrados.",
+      "Se han validado @UUID[...] y @Embed[...] contra los ids presentes en los packs del dataset actual.",
+      "Se han validado referencias relativas como @UUID[.pageId] y [[/item .itemId]] cuando el contexto permitía resolverlas.",
+      "Las referencias a packs externos se separan en: dependencia externa no declarada y pack auxiliar del sistema no incluido en este dataset.",
+      "Una referencia marcada como 'external' no implica necesariamente rotura en runtime, pero sí requiere revisión de dependencia/alcance."
+    ],
+    "global_stats": {
+      "total_references": 6530,
+      "valid_internal": 6120,
+      "valid_internal_breakdown": {
+        "absolute_compendium_refs": 6080,
+        "relative_local_refs": 40
+      },
+      "broken_internal": 108,
+      "external_refs": 302,
+      "external_breakdown": {
+        "undeclared_external_module": 217,
+        "system_aux_pack_not_in_dataset": 85
+      }
+    }
+  },
+  "global_findings": {
+    "severity": "alta",
+    "top_issues": [
+      "dnd5e.content24 concentra la mayoría de roturas internas y la totalidad de la sintaxis sospechosa de @Embed.",
+      "dnd5e.actors24 concentra la mayoría de referencias rotas hacia páginas de lore y algunos ids antiguos de actores.",
+      "El módulo no registra dnd5e.equipment24 en Babele aunque el archivo existe.",
+      "module.json no declara ninguna dependencia para dnd-monster-manual.content."
+    ],
+    "recommended_global_improvements": [
+      {
+        "id": "register-equipment24",
+        "severity": "high",
+        "title": "Registrar dnd5e.equipment24 en Babele",
+        "evidence": "Existe dnd5e.equipment24.json pero no aparece en babele-register.js.",
+        "impact": "Los enlaces @UUID hacia equipment24 pueden abrir contenido sin traducir aunque el JSON exista."
+      },
+      {
+        "id": "declare-or-remove-monster-manual-dependency",
+        "severity": "high",
+        "title": "Declarar o eliminar la dependencia dnd-monster-manual.content",
+        "evidence": "Hay 217 referencias hacia Compendium.dnd-monster-manual.content en dnd5e.content24 y module.json no declara esa dependencia.",
+        "impact": "Si el pack externo no está instalado, los embeds de lore/appendix fallarán."
+      },
+      {
+        "id": "repair-content24-systemtext-embed-syntax",
+        "severity": "high",
+        "title": "Corregir la sintaxis de @Embed en content24.systemText.content",
+        "evidence": "Se detectaron 208 embeds con opciones fuera de los corchetes, patrón '@Embed[...] caption=false ...'.",
+        "impact": "Foundry puede no parsear correctamente esos embeds."
+      }
+    ]
+  },
+  "files": {
+    "dnd5e.origins24": {
+      "severity": "baja",
+      "stats": {
+        "total_refs": 100,
+        "valid_internal_absolute": 98,
+        "valid_internal_relative": 0,
+        "broken_internal": 0,
+        "external_refs": 2,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 2,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.feats24": 5,
+        "dnd5e.equipment24": 19,
+        "dnd5e.content24": 26,
+        "dnd5e.items": 2,
+        "dnd5e.spells24": 48
+      },
+      "external_target_packs": {
+        "dnd5e.items": 2
+      },
+      "top_missing_targets": [],
+      "examples": [],
+      "suggested_improvements": [
+        "Mantener, pero revisar las 2 referencias heredadas a dnd5e.items y migrarlas a dnd5e.equipment24 si existe equivalente 2024."
+      ]
+    },
+    "dnd5e.feats24": {
+      "severity": "limpia",
+      "stats": {
+        "total_refs": 3,
+        "valid_internal_absolute": 3,
+        "valid_internal_relative": 0,
+        "broken_internal": 0,
+        "external_refs": 0,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 0,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.content24": 3
+      },
+      "external_target_packs": {},
+      "top_missing_targets": [],
+      "examples": [],
+      "suggested_improvements": [
+        "Sin roturas detectadas en el dataset suministrado. Solo conviene mantener una pasada de preflight en cada release."
+      ]
+    },
+    "dnd5e.monsterfeatures24": {
+      "severity": "limpia",
+      "stats": {
+        "total_refs": 71,
+        "valid_internal_absolute": 71,
+        "valid_internal_relative": 0,
+        "broken_internal": 0,
+        "external_refs": 0,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 0,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.spells24": 58,
+        "dnd5e.actors24": 13
+      },
+      "external_target_packs": {},
+      "top_missing_targets": [],
+      "examples": [],
+      "suggested_improvements": [
+        "Sin roturas detectadas. Mantener preflight de @UUID/@Embed antes de publicar."
+      ]
+    },
+    "dnd5e.tables24": {
+      "severity": "limpia",
+      "stats": {
+        "total_refs": 147,
+        "valid_internal_absolute": 147,
+        "valid_internal_relative": 0,
+        "broken_internal": 0,
+        "external_refs": 0,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 0,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.equipment24": 54,
+        "dnd5e.actors24": 64,
+        "dnd5e.spells24": 28,
+        "dnd5e.content24": 1
+      },
+      "external_target_packs": {},
+      "top_missing_targets": [],
+      "examples": [],
+      "suggested_improvements": [
+        "Sin roturas detectadas. Mantener validación específica de rutas Item.ActiveEffect porque el pack depende mucho de ellas."
+      ]
+    },
+    "dnd5e.classes24": {
+      "severity": "media",
+      "stats": {
+        "total_refs": 327,
+        "valid_internal_absolute": 324,
+        "valid_internal_relative": 0,
+        "broken_internal": 1,
+        "external_refs": 2,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 2,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.content24": 83,
+        "dnd5e.classes24": 14,
+        "dnd5e.equipment24": 73,
+        "dnd5e.feats24": 11,
+        "dnd5e.spells24": 133,
+        "dnd5e.actors24": 11,
+        "dnd5e.items": 2
+      },
+      "external_target_packs": {
+        "dnd5e.items": 2
+      },
+      "top_missing_targets": [
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "source_path": "entries.phbwlkPactMagic0.description",
+          "macro": "UUID",
+          "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage mh3akteBDiLegqFK not found under dnd5e.content24:phbSpells0000000",
+          "raw": "@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{reglas de lanzamiento de conjuros}"
+        }
+      ],
+      "suggested_improvements": [
+        "Corregir la referencia rota a JournalEntryPage mh3akteBDiLegqFK. El candidato más probable en el dataset actual es phbSpells0000000 → iBFe4NyaCUinDoz3 ('Lanzar conjuros').",
+        "Revisar las 2 referencias heredadas a dnd5e.items y migrarlas a equipment24 cuando exista equivalente 2024."
+      ]
+    },
+    "dnd5e.spells24": {
+      "severity": "baja",
+      "stats": {
+        "total_refs": 84,
+        "valid_internal_absolute": 78,
+        "valid_internal_relative": 0,
+        "broken_internal": 0,
+        "external_refs": 6,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 6,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.actors24": 22,
+        "dnd5e.spells24": 50,
+        "dnd5e.monsters": 6,
+        "dnd5e.tables24": 6
+      },
+      "external_target_packs": {
+        "dnd5e.monsters": 6
+      },
+      "top_missing_targets": [],
+      "examples": [],
+      "suggested_improvements": [
+        "Las 6 referencias a dnd5e.monsters parecen dependencias de packs auxiliares del sistema. Decidir si se mantienen como dependencia explícita o se migran a actors24."
+      ]
+    },
+    "dnd5e.equipment24": {
+      "severity": "baja",
+      "stats": {
+        "total_refs": 701,
+        "valid_internal_absolute": 691,
+        "valid_internal_relative": 0,
+        "broken_internal": 0,
+        "external_refs": 10,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 10,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.content24": 45,
+        "dnd5e.equipment24": 406,
+        "dnd5e.spells24": 177,
+        "dnd5e.tables24": 24,
+        "dnd5e.actors24": 39,
+        "dnd5e.items": 10
+      },
+      "external_target_packs": {
+        "dnd5e.items": 10
+      },
+      "top_missing_targets": [],
+      "examples": [],
+      "suggested_improvements": [
+        "Registrar este pack en babele-register.js; ahora mismo el JSON existe pero no se carga en Babele.",
+        "Revisar las 10 referencias a dnd5e.items y migrarlas a equipment24 si ya hay versión 2024 equivalente."
+      ]
+    },
+    "dnd5e.content24": {
+      "severity": "alta",
+      "stats": {
+        "total_refs": 1893,
+        "valid_internal_absolute": 1540,
+        "valid_internal_relative": 39,
+        "broken_internal": 68,
+        "external_refs": 246,
+        "undeclared_external_module": 217,
+        "system_aux_pack_not_in_dataset": 29,
+        "suspicious_macro_syntax": 208
+      },
+      "target_pack_counts": {
+        "dnd5e.content24": 226,
+        "dnd5e.equipment24": 781,
+        "dnd5e.actors24": 390,
+        "dnd5e.tables24": 32,
+        "dnd5e.monsters": 29,
+        "dnd-monster-manual.content": 217,
+        "dnd5e.origins24": 10,
+        "dnd5e.classes24": 118,
+        "dnd5e.spells24": 33,
+        "dnd5e.feats24": 18
+      },
+      "external_target_packs": {
+        "dnd5e.monsters": 29,
+        "dnd-monster-manual.content": 217
+      },
+      "top_missing_targets": [
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.4EtOTIaHnhnS9jA5",
+          "count": 2
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sTeJ3Fyus2oyLaRk",
+          "count": 2
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.85wfFNgms1hLuQ0m",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2w4jxh9j1P9Lr9d1",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KJkoHa6ASqqSjrFX",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rOTJWyJC8aZdsngw",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DMYEpWr3wvK4RLih",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.09MGKnX2pmlDjmdl.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.85wfFNgms1hLuQ0m",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage 85wfFNgms1hLuQ0m not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.85wfFNgms1hLuQ0m]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.09MGKnX2pmlDjmdl.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2w4jxh9j1P9Lr9d1",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage 2w4jxh9j1P9Lr9d1 not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2w4jxh9j1P9Lr9d1]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.0B3uI9PTzjAVI0vv.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KJkoHa6ASqqSjrFX",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage KJkoHa6ASqqSjrFX not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KJkoHa6ASqqSjrFX caption=false cite=false]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.0B3uI9PTzjAVI0vv.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rOTJWyJC8aZdsngw",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage rOTJWyJC8aZdsngw not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rOTJWyJC8aZdsngw]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage 1x1Q6MFjBz5OV6We not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage b8zQK1l4RqhjLPj1 not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.3aopi18MGbDzmWZ5.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DMYEpWr3wvK4RLih",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage DMYEpWr3wvK4RLih not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DMYEpWr3wvK4RLih caption=false cite=false]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.3lN8zNGucKxT5vRS.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage KR7cEJQa2N3FpOsS not found under dnd5e.content24:mmMonstersAtoZ00",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.nAKAMLWRU0p3mOg4",
+          "status": "undeclared_external_module",
+          "detail": "pack dnd-monster-manual.content not in supplied dnd5e dataset",
+          "raw": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.nAKAMLWRU0p3mOg4]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GRZTySs2c5SdcjrF",
+          "status": "undeclared_external_module",
+          "detail": "pack dnd-monster-manual.content not in supplied dnd5e dataset",
+          "raw": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GRZTySs2c5SdcjrF]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sNzT62I9lI6DI0eu",
+          "status": "undeclared_external_module",
+          "detail": "pack dnd-monster-manual.content not in supplied dnd5e dataset",
+          "raw": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sNzT62I9lI6DI0eu]"
+        },
+        {
+          "source_path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+          "macro": "EMBED",
+          "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TaM3BPlTPJMh6g8d",
+          "status": "undeclared_external_module",
+          "detail": "pack dnd-monster-manual.content not in supplied dnd5e dataset",
+          "raw": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TaM3BPlTPJMh6g8d]"
+        }
+      ],
+      "suggested_improvements": [
+        "Reparar los 208 embeds con sintaxis '@Embed[...] caption=false ...' y mover todas las opciones dentro de los corchetes.",
+        "Resolver 68 referencias internas rotas a páginas de mmMonstersAtoZ00; parecen ids obsoletos dentro de systemText.content.",
+        "Resolver o declarar la dependencia externa dnd-monster-manual.content (217 refs).",
+        "Revisar las 29 referencias a dnd5e.monsters para decidir si siguen siendo válidas en la línea 2024 o deben migrarse a actors24.",
+        "Seguir preservando la clave key sin traducir; no es un fallo de referencia pero evita romper índices internos."
+      ]
+    },
+    "dnd5e.actors24": {
+      "severity": "alta",
+      "stats": {
+        "total_refs": 3204,
+        "valid_internal_absolute": 3128,
+        "valid_internal_relative": 1,
+        "broken_internal": 39,
+        "external_refs": 36,
+        "undeclared_external_module": 0,
+        "system_aux_pack_not_in_dataset": 36,
+        "suspicious_macro_syntax": 0
+      },
+      "target_pack_counts": {
+        "dnd5e.content24": 576,
+        "dnd5e.feats24": 28,
+        "dnd5e.equipment24": 1254,
+        "dnd5e.spells24": 1175,
+        "dnd5e.tables24": 12,
+        "dnd5e.actors24": 99,
+        "dnd5e.classes24": 23,
+        "dnd5e.items": 24,
+        "dnd5e.monsters": 12
+      },
+      "external_target_packs": {
+        "dnd5e.items": 24,
+        "dnd5e.monsters": 12
+      },
+      "top_missing_targets": [
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "count": 4
+        },
+        {
+          "target": "Compendium.dnd5e.actors24.Actor.phbmobZombie0000",
+          "count": 3
+        },
+        {
+          "target": "Compendium.dnd5e.actors24.Actor.phbmobSkeleton00",
+          "count": 2
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HxHIj9RZWeGNXKxV",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.f6FP49T1ELv3aASd",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.kjE0Ff31hZsDdeye",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.dstDspmI7LdrCsxy",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.95Oeqtw6UgtSLiO1",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.PTpNAXCUpaUdNbcx",
+          "count": 1
+        },
+        {
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.LhlUSSOMbbHHTi5e",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "source_path": "entries.SefrisLv01000000.items.LGqdCjSUGKny0Jz2.description",
+          "macro": "UUID",
+          "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage mh3akteBDiLegqFK not found under dnd5e.content24:phbSpells0000000",
+          "raw": "@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{reglas sobre lanzamiento de conjuros}"
+        },
+        {
+          "source_path": "entries.SefrisLv05000000.items.LGqdCjSUGKny0Jz2.description",
+          "macro": "UUID",
+          "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage mh3akteBDiLegqFK not found under dnd5e.content24:phbSpells0000000",
+          "raw": "@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{reglas de lanzamiento de conjuros}"
+        },
+        {
+          "source_path": "entries.SefrisLv11000000.items.LGqdCjSUGKny0Jz2.description",
+          "macro": "UUID",
+          "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage mh3akteBDiLegqFK not found under dnd5e.content24:phbSpells0000000",
+          "raw": "@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{reglas de lanzamiento de conjuros}"
+        },
+        {
+          "source_path": "entries.SefrisLv17000000.items.LGqdCjSUGKny0Jz2.description",
+          "macro": "UUID",
+          "target": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage mh3akteBDiLegqFK not found under dnd5e.content24:phbSpells0000000",
+          "raw": "@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{reglas sobre lanzamiento de conjuros}"
+        },
+        {
+          "source_path": "entries.mmAncientGreenDr.biography",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HxHIj9RZWeGNXKxV",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage HxHIj9RZWeGNXKxV not found under dnd5e.content24:mmAppendixMonste",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HxHIj9RZWeGNXKxV caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
+        },
+        {
+          "source_path": "entries.mmAncientGreenDr.biography",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.f6FP49T1ELv3aASd",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage f6FP49T1ELv3aASd not found under dnd5e.content24:mmAppendixMonste",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.f6FP49T1ELv3aASd caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
+        },
+        {
+          "source_path": "entries.mmAncientGreenDr.biography",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.kjE0Ff31hZsDdeye",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage kjE0Ff31hZsDdeye not found under dnd5e.content24:mmAppendixMonste",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.kjE0Ff31hZsDdeye caption=false cite=false]"
+        },
+        {
+          "source_path": "entries.mmBalor000000000.biography",
+          "macro": "EMBED",
+          "target": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.dstDspmI7LdrCsxy",
+          "status": "missing_nested",
+          "detail": "JournalEntryPage dstDspmI7LdrCsxy not found under dnd5e.content24:mmAppendixMonste",
+          "raw": "@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.dstDspmI7LdrCsxy caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
+        }
+      ],
+      "suggested_improvements": [
+        "Corregir las referencias rotas a Actor.phbmobZombie0000 y Actor.phbmobSkeleton00. En el dataset actual los candidatos son mmZombie00000000 y mmSkeleton000000.",
+        "Corregir las 30 referencias rotas a páginas de content24 (sobre todo mmAppendixMonste y la página de 'Lanzar conjuros').",
+        "Revisar las 36 referencias heredadas a dnd5e.items/dnd5e.monsters y decidir si se migran a equipment24/actors24.",
+        "Mantener el uso de referencias relativas [[/item .itemId]]; la validación local las encontró correctas."
+      ]
+    }
+  }
+}

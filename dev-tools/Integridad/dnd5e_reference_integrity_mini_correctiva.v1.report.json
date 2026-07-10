@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "generated_at_utc": "2026-03-26T22:47:27Z",
+    "type": "mini_correctiva_automatica_de_referencias",
+    "scope": [
+      "dnd5e.actors24.json",
+      "dnd5e.classes24.json"
+    ],
+    "policy": [
+      "Solo se aplican correcciones exactas cuando el destino correcto es inequívoco en el dataset actual.",
+      "No se modifican referencias externas ni referencias rotas sin un mapeo fiable.",
+      "No se toca dnd5e.content24.json en esta mini correctiva por falta de mapeo seguro para sus ids obsoletos."
+    ]
+  },
+  "global_summary": {
+    "files_processed": 2,
+    "files_changed": 2,
+    "total_replacements": 10,
+    "safe_unique_replacements": 3,
+    "not_auto_fixed_yet": [
+      "Referencias rotas masivas a páginas obsoletas dentro de dnd5e.content24.json",
+      "Embeds de actors24 hacia mmAppendixMonste sin correspondencia inequívoca",
+      "Referencias externas a dnd-monster-manual.content",
+      "Referencias heredadas a dnd5e.items y dnd5e.monsters"
+    ]
+  },
+  "files": [
+    {
+      "file": "dnd5e.actors24.json",
+      "output_file": "dnd5e.actors24.references.mini-correctiva.v1.json",
+      "changed": true,
+      "replacement_count": 9,
+      "changes": [
+        {
+          "from": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.iBFe4NyaCUinDoz3",
+          "count": 4,
+          "reason": "Página válida actual en content24: 'Lanzar conjuros'"
+        },
+        {
+          "from": "Compendium.dnd5e.actors24.Actor.phbmobZombie0000",
+          "to": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
+          "count": 3,
+          "reason": "Actor válido actual en actors24: 'Zombi'"
+        },
+        {
+          "from": "Compendium.dnd5e.actors24.Actor.phbmobSkeleton00",
+          "to": "Compendium.dnd5e.actors24.Actor.mmSkeleton000000",
+          "count": 2,
+          "reason": "Actor válido actual en actors24: 'Esqueleto'"
+        }
+      ],
+      "sha256_before": "b1af3a3ee21b95f06cfa52a0a7a3a991627bd1991d6a57c9e20648ef3cc62326",
+      "sha256_after": "b41687821f6961fa48fbd0fa411d5ff64c59c2f710c192f43e2c236863c296d1"
+    },
+    {
+      "file": "dnd5e.classes24.json",
+      "output_file": "dnd5e.classes24.references.mini-correctiva.v1.json",
+      "changed": true,
+      "replacement_count": 1,
+      "changes": [
+        {
+          "from": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK",
+          "to": "Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.iBFe4NyaCUinDoz3",
+          "count": 1,
+          "reason": "Página válida actual en content24: 'Lanzar conjuros'"
+        }
+      ],
+      "sha256_before": "97455d08037ad385556f60496287503b870021f96f34e6a2f037e6d626de1ca3",
+      "sha256_after": "53c810aba660041042bb68a8ec7d656e6d13900fe53774faa2ddebd92625102e"
+    }
+  ]
+}

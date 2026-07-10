@@ -1,0 +1,125 @@
+{
+  "artifact": "integracion-fina.v1",
+  "scope": "Consolidación de la mejor versión disponible por archivo, combinando mini correctivas ES y correctivas de integridad de referencias cuando existen.",
+  "files": [
+    {
+      "target": "dnd5e.content24.json",
+      "source": "dnd5e.content24.es.integracion-fina.v1.json",
+      "bytes": 898178,
+      "sha256": "1c101f2695c6d0f4f5340aa8b934cbd821a7980e11942d8cbb2ffac0f76b6d10",
+      "integration": {
+        "text_base": "dnd5e.content24.es.mini-correctiva.v2.1.no-key-translation.json",
+        "reference_overlay": "dnd5e.content24.references.mini-correctiva.v6.external-mm.json",
+        "overlay_paths_applied": 135,
+        "overlay_mismatches": 0,
+        "notes": [
+          "No se han traducido valores de clave key.",
+          "Mantiene 15 embeds externos a dnd-monster-manual.content como dependencia opcional."
+        ]
+      }
+    },
+    {
+      "target": "dnd5e.actors24.json",
+      "source": "dnd5e.actors24.es.integracion-fina.v1.json",
+      "bytes": 3714275,
+      "sha256": "ace8eda3574991a728d3d96e0cc67b54787907edadadb792e29f38c62f9042d3",
+      "integration": {
+        "text_base": "dnd5e.actors24.es.mini-correctiva.v2.json",
+        "reference_overlay": "dnd5e.actors24.references.mini-correctiva.v2.json",
+        "overlay_paths_applied": 28,
+        "overlay_mismatches": 0
+      }
+    },
+    {
+      "target": "dnd5e.classes24.json",
+      "source": "dnd5e.classes24.es.integracion-fina.v1.json",
+      "bytes": 321557,
+      "sha256": "0ede8d51d39f534e69f3551029fc84efd8f56aca8d4cc7765df2372e0bf43ba6",
+      "integration": {
+        "text_base": "dnd5e.classes24.es.mini-correctiva.v2.json",
+        "reference_overlay": "dnd5e.classes24.references.mini-correctiva.v1.json",
+        "overlay_paths_applied": 1,
+        "overlay_mismatches": 0
+      }
+    },
+    {
+      "target": "dnd5e.equipment24.json",
+      "source": "dnd5e.equipment24.es.mini-correctiva.v2.json",
+      "bytes": 502339,
+      "sha256": "abb52342a1956ac8bea741b78eaaa735596f1d64f4430f2d2f0797d65a22fa50",
+      "integration": {
+        "text_base": "dnd5e.equipment24.es.mini-correctiva.v2.json",
+        "reference_overlay": null
+      }
+    },
+    {
+      "target": "dnd5e.feats24.json",
+      "source": "dnd5e.feats24.es.mini-correctiva.v2.json",
+      "bytes": 15231,
+      "sha256": "5640510721e13385ea9db13158e905b04251668daa2a1364c1ac58131a6730b4",
+      "integration": {
+        "text_base": "dnd5e.feats24.es.mini-correctiva.v2.json",
+        "reference_overlay": null
+      }
+    },
+    {
+      "target": "dnd5e.monsterfeatures24.json",
+      "source": "dnd5e.monsterfeatures24.es.mini-correctiva.v2.json",
+      "bytes": 334400,
+      "sha256": "c44152ea0012d4bb5796437fb0f33edbbe852d9c5fcb2597c4cad707a7ca7a6b",
+      "integration": {
+        "text_base": "dnd5e.monsterfeatures24.es.mini-correctiva.v2.json",
+        "reference_overlay": null
+      }
+    },
+    {
+      "target": "dnd5e.origins24.json",
+      "source": "dnd5e.origins24.es.mini-correctiva.v2.json",
+      "bytes": 78940,
+      "sha256": "44c44cf7c7e70a35fe79f4f006e63e9dbfde72d0bbe1fb22c10c79652d4a632a",
+      "integration": {
+        "text_base": "dnd5e.origins24.es.mini-correctiva.v2.json",
+        "reference_overlay": null
+      }
+    },
+    {
+      "target": "dnd5e.spells24.json",
+      "source": "dnd5e.spells24.es.mini-correctiva.v2.json",
+      "bytes": 453317,
+      "sha256": "619fa81d4e3af001448dc9f0bbc390736f3a20701c4c630d1fdc0c081ff95c0f",
+      "integration": {
+        "text_base": "dnd5e.spells24.es.mini-correctiva.v2.json",
+        "reference_overlay": null
+      }
+    },
+    {
+      "target": "dnd5e.tables24.json",
+      "source": "dnd5e.tables24.es.mini-correctiva.v2.json",
+      "bytes": 66544,
+      "sha256": "ade535fe33355cb7b05b97b09b9380df75f6643c6c9138475d60c05618574b35",
+      "integration": {
+        "text_base": "dnd5e.tables24.es.mini-correctiva.v2.json",
+        "reference_overlay": null
+      }
+    }
+  ],
+  "support_files": [
+    {
+      "target": "scripts/babele-register.js",
+      "source": "babele-register.integracion-fina.v1.js",
+      "note": "Añade registro de dnd5e.equipment24."
+    },
+    {
+      "target": "module.json",
+      "source": "module.integracion-fina.v1.recommended-mm.json",
+      "note": "Añade dnd-monster-manual como recomendación opcional."
+    }
+  ],
+  "checks": {
+    "content_key_fields_changed": 0,
+    "content_external_mm_embeds": 15,
+    "actors_old_zombie_links": 0,
+    "actors_old_skeleton_links": 0,
+    "classes_old_spellcasting_page": 0
+  }
+}

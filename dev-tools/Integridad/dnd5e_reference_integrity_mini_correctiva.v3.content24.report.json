@@ -1,0 +1,1577 @@
+{
+  "_meta": {
+    "task": "dnd5e content24 reference integrity mini correctiva v3 semiautomática/manual-guiada",
+    "source_file": "dnd5e.content24.references.mini-correctiva.v2.json"
+  },
+  "summary": {
+    "before_unresolved_content_like_embeds": 208,
+    "applied_changes": 90,
+    "retargeted": 78,
+    "syntax_only_normalized": 12,
+    "unique_paths_touched": 41,
+    "remaining_unresolved_content_like_embeds": 118,
+    "before_counts": {
+      "external::pack_missing": 149,
+      "invalid::page_missing": 47,
+      "valid::ok": 12
+    },
+    "after_counts": {
+      "external::pack_missing": 84,
+      "invalid::page_missing": 34
+    },
+    "resolution_bases": {
+      "heading_text_unique_best": 51,
+      "same_page_id_elsewhere": 39
+    }
+  },
+  "applied_changes": [
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+      "heading": "Brass Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.nAKAMLWRU0p3mOg4",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jDgvwqagylAaxKt3",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+      "heading": "Young Brass Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GRZTySs2c5SdcjrF",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jDgvwqagylAaxKt3",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+      "heading": "Adult Brass Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sNzT62I9lI6DI0eu",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jDgvwqagylAaxKt3",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+      "heading": "Ancient Brass Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TaM3BPlTPJMh6g8d",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jDgvwqagylAaxKt3",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3WSN4TTWARjvUkgR.systemText.content",
+      "heading": "Animated Armor",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TJfHa9mcPEnVs0gn",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QSJdmYIwWUqBtNuw",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3WSN4TTWARjvUkgR.systemText.content",
+      "heading": "Animated Broom",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.VCMAJo0381v0a8gb",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QSJdmYIwWUqBtNuw",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3WSN4TTWARjvUkgR.systemText.content",
+      "heading": "Animated Flying Sword",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.hOHBUNv71AbHmuOU",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.hOHBUNv71AbHmuOU",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3WSN4TTWARjvUkgR.systemText.content",
+      "heading": "Animated Rug of Smothering",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Pbu9kEMJQNGcJlDo",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QSJdmYIwWUqBtNuw",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.AEAFZ04se5eTU3zO.systemText.content",
+      "heading": "Berserker",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.W16gTtESSKym2RPY",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.W16gTtESSKym2RPY",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.aFgWcIHzszJvMczu.systemText.content",
+      "heading": "Stirge",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.z8nL1R6ydHEM4fNR",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.z8nL1R6ydHEM4fNR",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Bcq4yzQxVc6hDwxv.systemText.content",
+      "heading": "Warrior Infantry",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Tg6q9tEwUMz6alIf",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Tg6q9tEwUMz6alIf",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Bcq4yzQxVc6hDwxv.systemText.content",
+      "heading": "Warrior Veteran",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Dqm3ro7bU8A7sM4B",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wD72m9uZOS5e32E0",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Bm2ZYgxlO9mRp8Py.systemText.content",
+      "heading": "Bugbear Stalker",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lMvm5fxnuHBDhxD2",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.lMvm5fxnuHBDhxD2",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Bm2ZYgxlO9mRp8Py.systemText.content",
+      "heading": "Bugbear Warrior",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aZNE3q6npBVVLIa1",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.aZNE3q6npBVVLIa1",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.bqLhFAoXv884wD4A.systemText.content",
+      "heading": "Slaad Tadpole",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b21ZhbjLPDZojvRz",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.b21ZhbjLPDZojvRz",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BRyYSNRwXDseFWPv.systemText.content",
+      "heading": "Priest Acolyte",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.uMFZ7CGSEvFrVOyM",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lTHYTnUozD9zcWVu",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BRyYSNRwXDseFWPv.systemText.content",
+      "heading": "Priest",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.83KrukAfzLNQrK5L",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lTHYTnUozD9zcWVu",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.CsuPeVqOrFXTv1R7.systemText.content",
+      "heading": "Green Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DP4aGqWKWJxG1bE8",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.CsuPeVqOrFXTv1R7.systemText.content",
+      "heading": "Young Green Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2dp42pGJ1XUApqak",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.CsuPeVqOrFXTv1R7.systemText.content",
+      "heading": "Adult Green Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ggmtfOCGQgeBhX26",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.CsuPeVqOrFXTv1R7.systemText.content",
+      "heading": "Ancient Green Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.f6FP49T1ELv3aASd",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.CZhyuaLCB8xtFYyA.systemText.content",
+      "heading": "Scout",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QSlsqIPbYl4uICvq",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QSlsqIPbYl4uICvq",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.eeg9raqppRQ13zOy.systemText.content",
+      "heading": "Grick",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.e3scXeedo3gCxvre",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.e3scXeedo3gCxvre",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.FDv1NYEzGuK8yk6M.systemText.content",
+      "heading": "Pirate",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0wZfG9paOUWsIK3C",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.0wZfG9paOUWsIK3C",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.FDv1NYEzGuK8yk6M.systemText.content",
+      "heading": "Pirate Captain",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OI716HLJMqdzlKdZ",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.OI716HLJMqdzlKdZ",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.fhipU7AVeuhyW2uu.systemText.content",
+      "heading": "Knight",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.8ypc00V48Je5p3JY",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.8ypc00V48Je5p3JY",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.goSlSnDEGaHdlsQF.systemText.content",
+      "heading": "Gnoll Warrior",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.LKcAv2xpFiGs8zUr",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.LKcAv2xpFiGs8zUr",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Hfq86WdpWcb3vhql.systemText.content",
+      "heading": "Lemure",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2bADxJuWILSLbKnL",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2bADxJuWILSLbKnL",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ien9YD2TwbezGYBh.systemText.content",
+      "heading": "White Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.EELGWO5bZ7HjIhjY",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mnYg929awNFAxcse",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ien9YD2TwbezGYBh.systemText.content",
+      "heading": "Young White Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.5hB2C7GTQi4facDL",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mnYg929awNFAxcse",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ien9YD2TwbezGYBh.systemText.content",
+      "heading": "Adult White Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TTfBXSz1OddabtdM",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mnYg929awNFAxcse",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ien9YD2TwbezGYBh.systemText.content",
+      "heading": "Ancient White Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Ayz7UfYkqj9WMBkl",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mnYg929awNFAxcse",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KDWLIurYLocdvkK4.systemText.content",
+      "heading": "Hobgoblin Warrior",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qn7hUk5eNskZNKk9",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.qn7hUk5eNskZNKk9",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KDWLIurYLocdvkK4.systemText.content",
+      "heading": "Hobgoblin Captain",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kr2tx1DFAcwGmzKR",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.kr2tx1DFAcwGmzKR",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KWbzkTnSU0FxRxoU.systemText.content",
+      "heading": "Ghast",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnyO7BzCzqqz7ZI5",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnyO7BzCzqqz7ZI5",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KXTWkTyyCY4sFLZ3.systemText.content",
+      "heading": "Black Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.iE49waOfpKA4oHnC",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.iE49waOfpKA4oHnC",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KXTWkTyyCY4sFLZ3.systemText.content",
+      "heading": "Young Black Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ijzoMEowLIlXAWFU",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AEAFZ04se5eTU3zO",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KXTWkTyyCY4sFLZ3.systemText.content",
+      "heading": "Adult Black Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.SQc2W3nrWbI05SlX",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AEAFZ04se5eTU3zO",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KXTWkTyyCY4sFLZ3.systemText.content",
+      "heading": "Ancient Black Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.IS3Fu9OgbF3akCJJ",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AEAFZ04se5eTU3zO",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.M1mfkIm7eKnJA45P.systemText.content",
+      "heading": "Mage",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.G2fA16d9pkedAKnr",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.G2fA16d9pkedAKnr",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.M1mfkIm7eKnJA45P.systemText.content",
+      "heading": "Archmage",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XgwCvqpKKFam6ioR",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.09MGKnX2pmlDjmdl",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.mDah1TlOfj7AO685.systemText.content",
+      "heading": "Tough",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vQksq6TlqGNyyl5l",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vQksq6TlqGNyyl5l",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.mDah1TlOfj7AO685.systemText.content",
+      "heading": "Tough Boss",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.T47eTnRd4tadGFU9",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.T47eTnRd4tadGFU9",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.MFmZUIbvV3cIl5a6.systemText.content",
+      "heading": "Worg",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.tZtIR5GiKLh8uwaf",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.tZtIR5GiKLh8uwaf",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.mWcROUZcRLMN8Hxl.systemText.content",
+      "heading": "Azer Sentinel",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.t9hzKBCxFAkt0w1p",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.t9hzKBCxFAkt0w1p",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.NJONx1Rup0q8vfYP.systemText.content",
+      "heading": "Red Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.u7L682ldreJy4PlC",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.u7L682ldreJy4PlC",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.NJONx1Rup0q8vfYP.systemText.content",
+      "heading": "Young Red Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.LsnRaIsmjInxG6NW",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3aopi18MGbDzmWZ5",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.NJONx1Rup0q8vfYP.systemText.content",
+      "heading": "Adult Red Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.81ihWzHnwzZEfEfa",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3aopi18MGbDzmWZ5",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.NJONx1Rup0q8vfYP.systemText.content",
+      "heading": "Ancient Red Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2rLkCQ4pLH4RKO4V",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3aopi18MGbDzmWZ5",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.O8rRo03FXskNIFlr.systemText.content",
+      "heading": "Sphinx of Wonder",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.knvt7pCk5slbRRf0",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.knvt7pCk5slbRRf0",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.O8rRo03FXskNIFlr.systemText.content",
+      "heading": "Sphinx of Lore",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.fKMxrzT2eWlAqDAn",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Lw1NWxwPXcogtFng",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.O8rRo03FXskNIFlr.systemText.content",
+      "heading": "Sphinx of Valor",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lb8l0oAUq5gHE7SE",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Lw1NWxwPXcogtFng",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.OA8oAxiFp2tj27i4.systemText.content",
+      "heading": "Dretch",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ld6ImmsNezopmAiG",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ld6ImmsNezopmAiG",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.olGFjcp4lo32fJWk.systemText.content",
+      "heading": "Kobold Warrior",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.khL20BavkkD4YZGY",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.khL20BavkkD4YZGY",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.pMjvawJX5WY4VLKK.systemText.content",
+      "heading": "Gold Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.EYVuimt0yYV7FDtr",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zHMPI5TdgKnJWs99",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.pMjvawJX5WY4VLKK.systemText.content",
+      "heading": "Young Gold Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.8K8p4I5btAbrfTNR",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zHMPI5TdgKnJWs99",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.pMjvawJX5WY4VLKK.systemText.content",
+      "heading": "Adult Gold Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.xU39aBETjUzCKRMu",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zHMPI5TdgKnJWs99",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.pMjvawJX5WY4VLKK.systemText.content",
+      "heading": "Ancient Gold Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aQvoYpH6UK83WfF1",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zHMPI5TdgKnJWs99",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.QV5odPhFTckpZOZN.systemText.content",
+      "heading": "Dust Mephit",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.hX5LRqqZKKcvWC4l",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OQm0oXqDIN8O51fv",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.QV5odPhFTckpZOZN.systemText.content",
+      "heading": "Ice Mephit",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.EMol37CIB1HCkHpJ",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OQm0oXqDIN8O51fv",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.QV5odPhFTckpZOZN.systemText.content",
+      "heading": "Magma Mephit",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QvLBV3IvfwSLB6e2",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OQm0oXqDIN8O51fv",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.QV5odPhFTckpZOZN.systemText.content",
+      "heading": "Steam Mephit",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.G3d4GDT0FWo30AdL",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.G3d4GDT0FWo30AdL",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.riHODSUMg7fpAh5e.systemText.content",
+      "heading": "Guard",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.IzCvcbHgZ8uPj9TU",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.IzCvcbHgZ8uPj9TU",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.riHODSUMg7fpAh5e.systemText.content",
+      "heading": "Guard Captain",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vTvxvndvzT5NYBJi",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vTvxvndvzT5NYBJi",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.SiK8FIXEn3NIWZ9B.systemText.content",
+      "heading": "Owlbear",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.K9SWarlAwdXslP7x",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.K9SWarlAwdXslP7x",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.t9hzKBCxFAkt0w1p.systemText.content",
+      "heading": "Axe Beak",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.V5baGKbVj377IR8d",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.V5baGKbVj377IR8d",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ttyP63f4ZpvFn6J4.systemText.content",
+      "heading": "Bronze Dragon Wyrmling",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ajynsa5CfyCvkTqU",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0H7Jo2EpoR64vzip",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ttyP63f4ZpvFn6J4.systemText.content",
+      "heading": "Young Bronze Dragon",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.B9HrF6w51Ouw5Mlb",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0H7Jo2EpoR64vzip",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ttyP63f4ZpvFn6J4.systemText.content",
+      "heading": "Adult Bronze Dragon",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.78f3FEWOBLP7r9Te",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0H7Jo2EpoR64vzip",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ttyP63f4ZpvFn6J4.systemText.content",
+      "heading": "Ancient Bronze Dragon",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.LtM1392nQ9TJRZaT",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0H7Jo2EpoR64vzip",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.uSMwwTTplaQEO9fd.systemText.content",
+      "heading": "Copper Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lTZn2r3AIookCsvp",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.lTZn2r3AIookCsvp",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.uSMwwTTplaQEO9fd.systemText.content",
+      "heading": "Young Copper Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rf7XkQDPecZGRgUs",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Jc6zaXWczN31hE7N",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.uSMwwTTplaQEO9fd.systemText.content",
+      "heading": "Adult Copper Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.65HPUh59Y7xmtgsE",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Jc6zaXWczN31hE7N",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.uSMwwTTplaQEO9fd.systemText.content",
+      "heading": "Ancient Copper Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.JZSMBqM2jcAR6Id8",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Jc6zaXWczN31hE7N",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.V5baGKbVj377IR8d.systemText.content",
+      "heading": "Awakened Shrub",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.NX5fqyiagrUG461O",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.14Q0pyxQsCAWoZzo",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.V5baGKbVj377IR8d.systemText.content",
+      "heading": "Awakened Tree",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Pw4j0m1k0tVffhD2",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.14Q0pyxQsCAWoZzo",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.WK7w7PlQ02LoGhOb.systemText.content",
+      "heading": "Blue Dragon Wyrmling",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GVSCBsxQxqj2LjpV",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aZiLko1zh4zt4P23",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.WK7w7PlQ02LoGhOb.systemText.content",
+      "heading": "Young Blue Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ZSbk7sRomEX38jns",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aZiLko1zh4zt4P23",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.WK7w7PlQ02LoGhOb.systemText.content",
+      "heading": "Adult Blue Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.dWfTqDzedhTCxeLU",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aZiLko1zh4zt4P23",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.WK7w7PlQ02LoGhOb.systemText.content",
+      "heading": "Ancient Blue Dragon",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.9wP9DzFRsF8qd1zv",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.aZiLko1zh4zt4P23",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.xqFT4a6u74XouKIn.systemText.content",
+      "heading": "Silver Dragon Wyrmling",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HwVckgQCUMSXFgQx",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HwVckgQCUMSXFgQx",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.xqFT4a6u74XouKIn.systemText.content",
+      "heading": "Young Silver Dragon",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UpCNZu2zMpPUgijm",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Sx4qcQcPDQULERBu",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.xqFT4a6u74XouKIn.systemText.content",
+      "heading": "Adult Silver Dragon",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.PhEr0qvx0sUA4mGl",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Sx4qcQcPDQULERBu",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.xqFT4a6u74XouKIn.systemText.content",
+      "heading": "Ancient Silver Dragon",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0X2En0mZCehSaM3E",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Sx4qcQcPDQULERBu",
+      "basis": "heading_text_unique_best",
+      "from_status": "invalid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.y5QmKEt8q0NY1PWb.systemText.content",
+      "heading": "Ogre",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GBHy7deHQGI2YVBb",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GBHy7deHQGI2YVBb",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ynmjvFoain2bPeDT.systemText.content",
+      "heading": "Sahuagin Warrior",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.e7E1JhVR2AaUl70T",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vhOJQTnDz9Sf1W7L",
+      "basis": "heading_text_unique_best",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.zHMPI5TdgKnJWs99.systemText.content",
+      "heading": "Goblin Minion",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.x4VLvBATmEBnTTxK",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.x4VLvBATmEBnTTxK",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.zHMPI5TdgKnJWs99.systemText.content",
+      "heading": "Goblin Warrior",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ktLVwvt2KkJVB9eS",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.ktLVwvt2KkJVB9eS",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.zHMPI5TdgKnJWs99.systemText.content",
+      "heading": "Goblin Boss",
+      "from": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.bgTL13d21Sxf05VY",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bgTL13d21Sxf05VY",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "external"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.zNzVq7B6Yt1dcY0z.systemText.content",
+      "heading": "Gray Ooze",
+      "from": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Bb3ZEkljniXdO5Zr",
+      "to": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Bb3ZEkljniXdO5Zr",
+      "basis": "same_page_id_elsewhere",
+      "from_status": "valid"
+    }
+  ],
+  "remaining_guided_review": [
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.09MGKnX2pmlDjmdl.systemText.content",
+      "heading": "Lizardfolk Geomancer",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.85wfFNgms1hLuQ0m",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.09MGKnX2pmlDjmdl.systemText.content",
+      "heading": "Lizardfolk Sovereign",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2w4jxh9j1P9Lr9d1",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.0B3uI9PTzjAVI0vv.systemText.content",
+      "heading": "Gargoyle Ambushes",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rOTJWyJC8aZdsngw",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.0H7Jo2EpoR64vzip.systemText.content",
+      "heading": "Brass Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qiYpaclDMsKS9soI",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth Thonot",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2bADxJuWILSLbKnL.systemText.content",
+      "heading": "Larva",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.giSj09GeYhBxyMFk",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2bADxJuWILSLbKnL.systemText.content",
+      "heading": "Swarm of Larvae",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qP19tiUEj4k2lfOF",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+      "heading": "Pixie",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ujVreuOcy0MnjDAw",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+      "heading": "Pixie Wonderbringer",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gHeGDz5NYixiINRC",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3lN8zNGucKxT5vRS.systemText.content",
+      "heading": "Beholder Lairs",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+      "heading": "Myconid Sprout",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.a1SVfhxGUb1T0Gu7",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+      "heading": "Myconid Adult",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.9OKSyLIKsVJsSOyM",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+      "heading": "Myconid Spore Servant",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.8DA87xVN0cOsW49g",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3TpDSG1lYJiOmnGl.systemText.content",
+      "heading": "Myconid Sovereign",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FWxT2ugGptk5ySLD",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.7ZwTS15VL3A4r2R0.systemText.content",
+      "heading": "Arch-hag Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XUDAXmTKXhJtUipt",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.80kEKa3Nic5cGn3f.systemText.content",
+      "heading": "Yuan-ti Infiltrator",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.15JlAiclL3Nlcn0i",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.80kEKa3Nic5cGn3f.systemText.content",
+      "heading": "Yuan-ti Malisons",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HkPrJ2CZxoEjY3pV",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.80kEKa3Nic5cGn3f.systemText.content",
+      "heading": "Yuan-ti Abomination",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.pzNxIAuRxLZLCayw",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.9Ek1sZ0PfUSb0o6k.systemText.content",
+      "heading": "Unicorn Lairs",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sTeJ3Fyus2oyLaRk",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.AEAFZ04se5eTU3zO.systemText.content",
+      "heading": "Berserker Commander",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RMuUV76hjk3waEER",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.aFgWcIHzszJvMczu.systemText.content",
+      "heading": "Swarm of Stirges",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.3NFw8o4jC82NCkx7",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Bcq4yzQxVc6hDwxv.systemText.content",
+      "heading": "Warrior Commander",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.8KIpoR728XfNWfEB",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.bqLhFAoXv884wD4A.systemText.content",
+      "heading": "Red Slaad",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0xVNRpqlT9RMxLj0",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.bqLhFAoXv884wD4A.systemText.content",
+      "heading": "Blue Slaad",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.F4ttjJh7ZvhMRs7w",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.bqLhFAoXv884wD4A.systemText.content",
+      "heading": "Green Slaad",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1pzSK6Xdqr7zA5J0",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.bqLhFAoXv884wD4A.systemText.content",
+      "heading": "Gray Slaad",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mULRXgmLDe71q1GC",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.bqLhFAoXv884wD4A.systemText.content",
+      "heading": "Death Slaad",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.z4NUWOhiUAgzobGl",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BRyYSNRwXDseFWPv.systemText.content",
+      "heading": "Archpriest",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.IDZFM5AyIAXaIsjg",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Monk",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wHWuZewIMuhrbzR3",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Zerth",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ImbrTxpqMFgtntYq",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Psion",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kB2VUVf8bOiGsaoi",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Adventures with Gith",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RhoVhoLvTjz5x9kC",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+      "heading": "Empyrean Iota",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UfP3XBh5DPF3cHCM",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+      "heading": "Empyrean",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.48cwdwrUBvwJfXPn",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.CsuPeVqOrFXTv1R7.systemText.content",
+      "heading": "Green Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kjE0Ff31hZsDdeye",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.cvBRoWNl38kmSVAd.systemText.content",
+      "heading": "Thri-kreen Marauder",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.xwmlhxEV2Vu9M9Ua",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.cvBRoWNl38kmSVAd.systemText.content",
+      "heading": "Thri-kreen Psion",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.fE1SHSUqDnErcGS2",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.CZhyuaLCB8xtFYyA.systemText.content",
+      "heading": "Scout Captain",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.VX0oHl3h3YclLO4l",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.DHkkEOXbxYvM9oDP.systemText.content",
+      "heading": "Demilich Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.73nRmWoJvYKGQFhw",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.eeg9raqppRQ13zOy.systemText.content",
+      "heading": "Grick Ancient",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KHQHO2JXfXoBmHxq",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.FDv1NYEzGuK8yk6M.systemText.content",
+      "heading": "Pirate Admiral",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Yz7FHnVhJIOFDVQg",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.FDv1NYEzGuK8yk6M.systemText.content",
+      "heading": "Pirate Flags",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mBYKmXIJ5MfUYNKy",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.fhipU7AVeuhyW2uu.systemText.content",
+      "heading": "Questing Knight",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.eXRlMJe4EnfGxGmA",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.goSlSnDEGaHdlsQF.systemText.content",
+      "heading": "Gnoll Pack Lord",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.PyyKB1yIyjePee3Z",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.goSlSnDEGaHdlsQF.systemText.content",
+      "heading": "Gnoll Fang of Yeenoghu",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.nXilFJKZwDxzMhH5",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.goSlSnDEGaHdlsQF.systemText.content",
+      "heading": "Gnoll Demoniac",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DUrr79Kkoh6GUPO0",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.GUqJfLCvwMdf3yNq.systemText.content",
+      "heading": "Salamander Fire Snake",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.erLb5gJU2ugNhvAm",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.GUqJfLCvwMdf3yNq.systemText.content",
+      "heading": "Salamander",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.9ZConHQYKEXQhzT6",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.GUqJfLCvwMdf3yNq.systemText.content",
+      "heading": "Salamander Inferno Master",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qB2s02dzMuZWHB5M",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Hfq86WdpWcb3vhql.systemText.content",
+      "heading": "Swarm of Lemures",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2uQgVLQGiUio5qo8",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.HXrP0VKGl6qyA7N5.systemText.content",
+      "heading": "Lacedon Ghoul",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.DIgn5Jug9peaUxrv",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ien9YD2TwbezGYBh.systemText.content",
+      "heading": "White Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jHeADoGE11eL40yP",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.iGrx8vJIixPLomRP.systemText.content",
+      "heading": "Aboleth Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.hJH8stTKsGyCliPp",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.iUTxd2FG3EnoTpsm.systemText.content",
+      "heading": "Modron Marches",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FboeGzC8KgGNGkM9",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.iUTxd2FG3EnoTpsm.systemText.content",
+      "heading": "Modron Monodrone",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.NYMFEMfR4J2Csbrx",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.iUTxd2FG3EnoTpsm.systemText.content",
+      "heading": "Modron Duodrone",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.TE1Wbky3XCpEP3wx",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.iUTxd2FG3EnoTpsm.systemText.content",
+      "heading": "Modron Tridrone",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.q4DugtflSjrOm5vl",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.iUTxd2FG3EnoTpsm.systemText.content",
+      "heading": "Modron Quadrone",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.H8WzE0MNWqwC1LyK",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.iUTxd2FG3EnoTpsm.systemText.content",
+      "heading": "Modron Pentadrone",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.B1qI3xH98ZUFjZmF",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KDWLIurYLocdvkK4.systemText.content",
+      "heading": "Hobgoblin Warlord",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2UC2gnsIYudCderX",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KDWLIurYLocdvkK4.systemText.content",
+      "heading": "Hobgoblin Warfare",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gQeZtIJWO1fbrExf",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.kps2oSHEpq6gRHB3.systemText.content",
+      "heading": "Mind Flayer Colonies",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HBgcnGxoOgtor3r3",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.kps2oSHEpq6gRHB3.systemText.content",
+      "heading": "Mind Flayer",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.BCMRjr11kMY5aylP",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.kps2oSHEpq6gRHB3.systemText.content",
+      "heading": "Mind Flayer Arcanist",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vVo5ft5neZAFeeJB",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KWbzkTnSU0FxRxoU.systemText.content",
+      "heading": "Ghast Gravecaller",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.AjVj91IZEUvWaXBL",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.KXTWkTyyCY4sFLZ3.systemText.content",
+      "heading": "Black Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FEo2r1L5xVDNMdAq",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.lnvPSdpmEDhJ5R3m.systemText.content",
+      "heading": "Twig Blight",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.4iHm8iktmxV4hyP0",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.lnvPSdpmEDhJ5R3m.systemText.content",
+      "heading": "Needle Blight",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ipVmBSov2XlEc47B",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.lnvPSdpmEDhJ5R3m.systemText.content",
+      "heading": "Vine Blight",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RZfbvPmt0H5c537e",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.lnvPSdpmEDhJ5R3m.systemText.content",
+      "heading": "Tree Blight",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.D5No4Ue9PCh5HOJj",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.lnvPSdpmEDhJ5R3m.systemText.content",
+      "heading": "Gulthias Blight",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.yzTvB3ANn81bx7GJ",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.LY1ywDGQxNYk4q8B.systemText.content",
+      "heading": "Merfolk Skirmisher",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OAB2KodjH7XuPIgz",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.LY1ywDGQxNYk4q8B.systemText.content",
+      "heading": "Merfolk Wavebender",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.51K49M642lvoSKnJ",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.M1mfkIm7eKnJA45P.systemText.content",
+      "heading": "Mage Apprentice",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Lu0aXXNBNrEZuygN",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.MFmZUIbvV3cIl5a6.systemText.content",
+      "heading": "Dire Worg",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gcgESovx8SQ8NdIm",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.mW4OVjI55EMQbcUE.systemText.content",
+      "heading": "Unicorn Lairs",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sTeJ3Fyus2oyLaRk",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.mWcROUZcRLMN8Hxl.systemText.content",
+      "heading": "Azer Pyromancer",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.mZMbcB3znF204Crx",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.NJONx1Rup0q8vfYP.systemText.content",
+      "heading": "Red Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.i7877t4jjZpLevaQ",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.nXprTG3DeAMemuUe.systemText.content",
+      "heading": "Kuo-toa",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XEDbrbc4fOsasH55",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.nXprTG3DeAMemuUe.systemText.content",
+      "heading": "Kuo-toa Whip",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.VEYcunqNbjyhHOwB",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.nXprTG3DeAMemuUe.systemText.content",
+      "heading": "Kuo-toa Monitor",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.N6Prinvb9ppnSZub",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.nXprTG3DeAMemuUe.systemText.content",
+      "heading": "Kuo-toa Archpriest",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.jVLHLrDcjEGUhZmp",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.nXprTG3DeAMemuUe.systemText.content",
+      "heading": "Kuo-toa Deities",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FX5W9hFopnLnQb5b",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.nXprTG3DeAMemuUe.systemText.content",
+      "heading": "Kuo-toa Sanctuaries",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.lg1qtGDWlR15hicq",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.O8rRo03FXskNIFlr.systemText.content",
+      "heading": "Sphinx of Secrets",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.OhcZTXr50rKAYzoj",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.O8rRo03FXskNIFlr.systemText.content",
+      "heading": "Sphinx Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.GPhDyArKCA2mX2NX",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.OA8oAxiFp2tj27i4.systemText.content",
+      "heading": "Swarm of Dretches",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.oMjHuXIXawTv8iDy",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.olGFjcp4lo32fJWk.systemText.content",
+      "heading": "Winged Kobold",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.4kl1kLxpIC5DtwUH",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.pc8cX3dReRJJEsiQ.systemText.content",
+      "heading": "Shadow Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.sVyoieqYygL0nMnh",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.pMjvawJX5WY4VLKK.systemText.content",
+      "heading": "Gold Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.6DKByyj6JivNSlLh",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+      "heading": "Manes",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.THQIg50PcHdnwG4d",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+      "heading": "Manes Vaporspawn",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnHk70BN9bhrV1CG",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.qgqsaCYASrFoI4Uf.systemText.content",
+      "heading": "Crawling Claw",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.qVzJYYgD5qGPzC5T",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.qgqsaCYASrFoI4Uf.systemText.content",
+      "heading": "Swarm of Crawling Claws",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.H0hptBJtqqsq7vnK",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.QujrWUUaJVhoy2Av.systemText.content",
+      "heading": "Dracolich Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.onfvCULmDEbXGgra",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.QV5odPhFTckpZOZN.systemText.content",
+      "heading": "Mud Mephit",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.YLXmbvWLnVDKveGY",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.QV5odPhFTckpZOZN.systemText.content",
+      "heading": "Smoke Mephit",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.NwAge4RajZjmo4gX",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.rpcSorH8nprBzFup.systemText.content",
+      "heading": "Revenant",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.SxGjvNgZB5wXtNs9",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.rpcSorH8nprBzFup.systemText.content",
+      "heading": "Graveyard Revenant",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.0EftlNXoS5D6HsaH",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.rpcSorH8nprBzFup.systemText.content",
+      "heading": "Haunting Revenant",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.NalhxqwOlHZ5t2u7",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.SiK8FIXEn3NIWZ9B.systemText.content",
+      "heading": "Primeval Owlbear",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.quH68MqJ0ntD75b8",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.t9hzKBCxFAkt0w1p.systemText.content",
+      "heading": "Giant Axe Beak",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.NdMiY8UWuX76WuZd",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ttyP63f4ZpvFn6J4.systemText.content",
+      "heading": "Bronze Dragon Lairs",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.HbASCl4o2PUtmdEq",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.uSMwwTTplaQEO9fd.systemText.content",
+      "heading": "Copper Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.CcknwGjBYkv7PPRI",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.vw6icAkUuQJ80NCq.systemText.content",
+      "heading": "Faerie Dragon Adult",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.2YePImjgR84EIBWl",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.vw6icAkUuQJ80NCq.systemText.content",
+      "heading": "Faerie Dragon Youth",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.QKc0waSu0Sdmk38v",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.WK7w7PlQ02LoGhOb.systemText.content",
+      "heading": "Blue Dragon Lairs",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.FxUO6BqWDhTii6wG",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.wWsjCZ54lUjU4iyd.systemText.content",
+      "heading": "Aarakocra Aeromancer",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.PTb2n2M73OpzYRhU",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.wWsjCZ54lUjU4iyd.systemText.content",
+      "heading": "Aarakocra Skirmisher",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UC607AqpkrOUHCf6",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.xqFT4a6u74XouKIn.systemText.content",
+      "heading": "Silver Dragon Lairs",
+      "target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Mn5LFyEn1R6aeEAD",
+      "status": "invalid",
+      "reason": "page_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.y5QmKEt8q0NY1PWb.systemText.content",
+      "heading": "Ogrillon Ogre",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.PSeo538HYRWHAkpE",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ynmjvFoain2bPeDT.systemText.content",
+      "heading": "Sahuagin Priest",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.iAneRFTJ1QnBA0JK",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.ynmjvFoain2bPeDT.systemText.content",
+      "heading": "Sahuagin Baron",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.VUSDJNlrBgC3IuEK",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Z6lIT7pPpdBRIMP0.systemText.content",
+      "heading": "Centaur Warden",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.VPAlFFXi5MywskyX",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Z6lIT7pPpdBRIMP0.systemText.content",
+      "heading": "Centaur Trooper",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.C1ervmnWcTkkyyxn",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.zHMPI5TdgKnJWs99.systemText.content",
+      "heading": "Goblin Hexer",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.145GyIunaaiDfZxI",
+      "status": "external",
+      "reason": "pack_missing"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.zNzVq7B6Yt1dcY0z.systemText.content",
+      "heading": "Psychic Gray Ooze",
+      "target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.EiKKzFnkAMRwhdMA",
+      "status": "external",
+      "reason": "pack_missing"
+    }
+  ]
+}

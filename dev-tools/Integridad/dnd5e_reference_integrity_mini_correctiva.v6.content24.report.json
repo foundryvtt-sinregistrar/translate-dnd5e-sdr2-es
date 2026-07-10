@@ -1,0 +1,255 @@
+{
+  "version": "v6",
+  "scope": "manual_external_equivalences",
+  "base_file": "dnd5e.content24.references.mini-correctiva.v5.json",
+  "output_file": "dnd5e.content24.references.mini-correctiva.v6.external-mm.json",
+  "module_manifest_patch": "module.json.recommended-dnd-monster-manual.v1.json",
+  "input_remaining_cases": 15,
+  "applied_changes_total": 18,
+  "retargets_local_to_external_mm_content": 3,
+  "syntax_normalizations": 15,
+  "affected_paths": 8,
+  "conditional_resolution": "All 15 remaining cases are resolved conditionally via the official Monster Manual (2024) premium module.",
+  "requires_external_module": {
+    "id": "dnd-monster-manual",
+    "manifest": "https://r2.foundryvtt.com/packages-public/dnd-monster-manual/module.json",
+    "pack": "Compendium.dnd-monster-manual.content"
+  },
+  "remaining_without_external_module": 15,
+  "remaining_with_external_module": 0,
+  "changes": [
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth",
+      "action": "retarget_missing_local_to_external_mm_content",
+      "before_target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We",
+      "after_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth Thonot",
+      "action": "retarget_missing_local_to_external_mm_content",
+      "before_target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1",
+      "after_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth Thonot",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1 caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+      "heading": "Pixie",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ujVreuOcy0MnjDAw] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ujVreuOcy0MnjDAw caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+      "heading": "Pixie Wonderbringer",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gHeGDz5NYixiINRC] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gHeGDz5NYixiINRC caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3lN8zNGucKxT5vRS.systemText.content",
+      "heading": "Beholder Lairs",
+      "action": "retarget_missing_local_to_external_mm_content",
+      "before_target": "Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS",
+      "after_target": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3lN8zNGucKxT5vRS.systemText.content",
+      "heading": "Beholder Lairs",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.7ZwTS15VL3A4r2R0.systemText.content",
+      "heading": "Arch-hag Lairs",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XUDAXmTKXhJtUipt] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XUDAXmTKXhJtUipt caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Monk",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wHWuZewIMuhrbzR3] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wHWuZewIMuhrbzR3 caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Zerth",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ImbrTxpqMFgtntYq] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ImbrTxpqMFgtntYq caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Psion",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kB2VUVf8bOiGsaoi] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kB2VUVf8bOiGsaoi caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Adventures with Gith",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RhoVhoLvTjz5x9kC] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RhoVhoLvTjz5x9kC caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+      "heading": "Empyrean Iota",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UfP3XBh5DPF3cHCM] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UfP3XBh5DPF3cHCM caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+      "heading": "Empyrean",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.48cwdwrUBvwJfXPn] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.48cwdwrUBvwJfXPn caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.DHkkEOXbxYvM9oDP.systemText.content",
+      "heading": "Demilich Lairs",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.73nRmWoJvYKGQFhw] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.73nRmWoJvYKGQFhw caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+      "heading": "Manes",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.THQIg50PcHdnwG4d] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.THQIg50PcHdnwG4d caption=false cite=false]"
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+      "heading": "Manes Vaporspawn",
+      "action": "normalize_embed_syntax",
+      "before_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnHk70BN9bhrV1CG] caption=false cite=false]",
+      "after_embed": "@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnHk70BN9bhrV1CG caption=false cite=false]"
+    }
+  ],
+  "conditional_external_cases": [
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.1x1Q6MFjBz5OV6We caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.1Atgt2aMSTqlG5eB.systemText.content",
+      "heading": "Quaggoth Thonot",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.b8zQK1l4RqhjLPj1 caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+      "heading": "Pixie",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ujVreuOcy0MnjDAw caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.2DfEnIm8DZ3RUXYD.systemText.content",
+      "heading": "Pixie Wonderbringer",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.gHeGDz5NYixiINRC caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.3lN8zNGucKxT5vRS.systemText.content",
+      "heading": "Beholder Lairs",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.KR7cEJQa2N3FpOsS caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.7ZwTS15VL3A4r2R0.systemText.content",
+      "heading": "Arch-hag Lairs",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.XUDAXmTKXhJtUipt caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Monk",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.wHWuZewIMuhrbzR3 caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Zerth",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ImbrTxpqMFgtntYq caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Githzerai Psion",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.kB2VUVf8bOiGsaoi caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.BY9PswYVqCcQbMAx.systemText.content",
+      "heading": "Adventures with Gith",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.RhoVhoLvTjz5x9kC caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+      "heading": "Empyrean Iota",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.UfP3XBh5DPF3cHCM caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.Ci0k7DXfjeh9FjN3.systemText.content",
+      "heading": "Empyrean",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.48cwdwrUBvwJfXPn caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.DHkkEOXbxYvM9oDP.systemText.content",
+      "heading": "Demilich Lairs",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.73nRmWoJvYKGQFhw caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+      "heading": "Manes",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.THQIg50PcHdnwG4d caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    },
+    {
+      "path": "entries.mmMonstersAtoZ00.pages.q2zX8PdjPV8FRmAs.systemText.content",
+      "heading": "Manes Vaporspawn",
+      "final_embed": "Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.rnHk70BN9bhrV1CG caption=false cite=false",
+      "resolution": "external_mm_dependency",
+      "notes": "Resolved by targeting the official Monster Manual (2024) premium module content pack."
+    }
+  ]
+}

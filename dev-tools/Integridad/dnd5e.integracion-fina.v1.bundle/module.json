@@ -1,0 +1,70 @@
+{
+  "id": "translate-dnd5e-sdr2-es",
+  "title": "D&D 5e SRD 2024 Spanish Translation (Babele)",
+  "description": "Spanish translation for the official D&D 5e SRD 2024 compendiums using Babele. Includes structured mappings, activities, effects, and semantic normalization.",
+  "version": "1.13.3",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "5.2.1",
+          "verified": "5.2.5"
+        },
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.7.5",
+          "verified": "2.7.5"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd-monster-manual",
+        "type": "module",
+        "manifest": "https://foundryvtt.com/packages/dnd-monster-manual",
+        "reason": "Optional but recommended to resolve external embeds in dnd5e.content24."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/converters.js",
+    "scripts/babele-register.js"
+  ],
+  "authors": [
+    {
+      "name": "foundryvtt-sinregistrar"
+    }
+  ],
+  "url": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json",
+  "download": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest/download/translate-dnd5e-sdr2-es.zip",
+  "bugs": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/issues",
+  "readme": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/README.md",
+  "changelog": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases",
+  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/LICENSE"
+}
