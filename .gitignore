@@ -4,3 +4,7 @@ _*
 .idea
 
 dist/
+
+# Commits info
+# git diff --staged > staged.txt
+staged.txt
