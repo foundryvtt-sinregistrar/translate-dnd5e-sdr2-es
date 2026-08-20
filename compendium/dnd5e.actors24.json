@@ -31004,7 +31004,7 @@
         },
         "mmSpellcasting00": {
           "activities": {},
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, que no requieren componentes materiales y usan Carisma como característica de lanzamiento de conjuros (CD [[lookup @attributes.spell.dc]]):</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Carisma como característica de lanzamiento de conjuros (CD de salvación [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplElementali]{Elementalismo}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGaseousFor]{Forma gaseosa}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMajorImage]{Imagen mayor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Desplazamiento entre planos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTongues000]{Don de lenguas}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Muro de fuego}</em> (versión de nivel 7)</p>",
           "effects": {},
           "name": "Lanzamiento de conjuros"
         },
