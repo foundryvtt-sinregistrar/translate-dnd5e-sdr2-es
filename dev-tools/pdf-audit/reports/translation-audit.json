@@ -1645,13 +1645,6 @@
           ]
         },
         {
-          "path": "entries/mmAntennae000000/description",
-          "missing": [
-            "[[lookup @target.affects.special activity=dcSC7EuknnM0uoqY]]"
-          ],
-          "added": []
-        },
-        {
           "path": "entries/mmAntennae000000/effects/PTSwIOo5chgO4d1p/description",
           "missing": [],
           "added": [
