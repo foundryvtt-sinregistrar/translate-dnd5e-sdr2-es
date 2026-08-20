@@ -24830,7 +24830,7 @@
         },
         "mmFrightfulPrese": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Terror}</em>, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @abilities.cha.dc]]). The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Terror}</em>, sin requerir componentes materiales y usando Carisma como característica de lanzamiento de conjuros (CD de salvación [[lookup @abilities.cha.dc]]). El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "effects": {},
           "name": "Presencia aterradora"
         },
@@ -24842,7 +24842,7 @@
         },
         "mmMultiattack000": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA]{Flecha ácida}</em> (level 3 version).</p>",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede sustituir uno de ellos por un uso de [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA]{Flecha ácida}</em> (versión de nivel 3).</p>",
           "effects": {},
           "name": "Ataque Múltiple"
         },
@@ -24856,13 +24856,13 @@
           "activities": {},
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
           "effects": {},
-          "name": "Rend"
+          "name": "Desgarrar"
         },
         "mmSpellcasting00": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +9 to hit with spell attacks):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Terror}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA]{Flecha ácida}</em> (level 3 version)</p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{Hablar con los muertos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplVitriolicS]{Esfera vitriólica}</em></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Carisma como característica de lanzamiento de conjuros (CD de salvación [[lookup @attributes.spell.dc]], +9 al ataque con conjuros):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Terror}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA]{Flecha ácida}</em> (versión de nivel 3)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{Hablar con los muertos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplVitriolicS]{Esfera vitriólica}</em></p>",
           "effects": {},
-          "name": "Servicios de conjuro"
+          "name": "Lanzamiento de conjuros"
         },
         "usixW0YhBv27P281": {
           "activities": {},
@@ -24953,7 +24953,7 @@
         },
         "mmCloakedFlight0": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]</em> on itself, and it can fly up to [[lookup @range.special activity=a3NfcMs8zHADx7zs]]. The dragon can't take this action again until the start of its next turn.</p>",
+          "description": "<p>El [[lookup @name lowercase]] usa [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]</em> sobre sí mismo, y puede volar hasta [[lookup @range.special activity=a3NfcMs8zHADx7zs]]. El dragón no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "effects": {},
           "name": "Vuelo encubierto"
         },
@@ -24971,7 +24971,7 @@
         },
         "mmMultiattack000": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em>.</p>",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede sustituir uno de ellos por un uso de [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em>.</p>",
           "effects": {},
           "name": "Ataque Múltiple"
         },
@@ -24979,19 +24979,19 @@
           "activities": {},
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
           "effects": {},
-          "name": "Rend"
+          "name": "Desgarrar"
         },
         "mmSonicBoom00000": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] uses Spellcasting to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em>. The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa Lanzamiento de conjuros para lanzar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em>. El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "effects": {},
           "name": "Estallido sónico"
         },
         "mmSpellcasting00": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mano de mago}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em></p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Escudriñar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSending000]{Recado}</em></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Carisma como característica de lanzamiento de conjuros (CD de salvación [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mano de mago}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Escudriñar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSending000]{Recado}</em></p>",
           "effects": {},
-          "name": "Servicios de conjuro"
+          "name": "Lanzamiento de conjuros"
         },
         "mmTailSwipe00000": {
           "activities": {},
@@ -25055,9 +25055,9 @@
         },
         "mmBlazingLight00": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}.</em></p>",
+          "description": "<p>El [[lookup @name lowercase]] usa [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}.</em></p>",
           "effects": {},
-          "name": "Blazing Luz"
+          "name": "Luz abrasadora"
         },
         "mmFireBreath0000": {
           "activities": {},
@@ -25073,7 +25073,7 @@
         },
         "mmMultiattack000": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of (A) [[/item Sleep Breath]] or (B) [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}</em>.</p>",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede sustituir uno de ellos por un uso de (A) [[/item Sleep Breath]] o (B) [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}</em>.</p>",
           "effects": {},
           "name": "Ataque Múltiple"
         },
@@ -25087,7 +25087,7 @@
           "activities": {},
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
           "effects": {},
-          "name": "Rend"
+          "name": "Desgarrar"
         },
         "mmScorchingSands": {
           "activities": {},
@@ -25097,11 +25097,11 @@
               "name": "Failure: 1/2 Speed"
             }
           },
-          "name": "Scorching Sands"
+          "name": "Arenas abrasadoras"
         },
         "mmSleepBreath000": {
           "activities": {},
-          "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &amp;Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], cada [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] en un Cono de [[lookup @target.template.size activity=6ce9oevQRWomSVSF]] pies.</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, momento en el que repite la tirada de salvación.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minutos. Este efecto termina para el objetivo si recibe daño o si una criatura a 5 pies o menos de él realiza una acción para despertarlo.</p>",
           "effects": {
             "9t5G87DeDyAF22dr": {
               "name": "Incapacitado"
@@ -25114,9 +25114,9 @@
         },
         "mmSpellcasting00": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Ilusión menor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Hablar con los animales}</em></p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplControlWea]{Controlar el clima}</em></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Carisma como característica de lanzamiento de conjuros (CD de salvación [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Ilusión menor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide; no obtiene Puntos de Golpe Temporales del conjuro y no requiere Concentración ni Puntos de Golpe Temporales para mantenerlo), <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Hablar con los animales}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplControlWea]{Controlar el clima}</em></p>",
           "effects": {},
-          "name": "Servicios de conjuro"
+          "name": "Lanzamiento de conjuros"
         },
         "nVRTlv14fzhoDhWf": {
           "activities": {},

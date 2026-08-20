@@ -178,10 +178,6 @@
           "value": "Concentration Disadvantage"
         },
         {
-          "path": "entries/mmAdultBlackDrag/items/mmRend0000000000/name",
-          "value": "Rend"
-        },
-        {
           "path": "entries/mmAdultBlackDrag/items/usixW0YhBv27P281/effects/dnd5espellchange/name",
           "value": "Spell Changes"
         },
@@ -194,14 +190,6 @@
           "value": "Spell Changes"
         },
         {
-          "path": "entries/mmAdultBlueDrago/items/mmCloakedFlight0/description",
-          "value": "<p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]</em> on itself, and it can fly up to [[lookup @range.special activity=a3NfcMs8zHADx7zs]]. The dragon can't take this action again until the start of its next turn.</p>"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/mmRend0000000000/name",
-          "value": "Rend"
-        },
-        {
           "path": "entries/mmAdultBlueDrago/items/mmTailSwipe00000/name",
           "value": "Tail Swipe"
         },
@@ -210,20 +198,8 @@
           "value": "Spell Changes"
         },
         {
-          "path": "entries/mmAdultBrassDrag/items/mmRend0000000000/name",
-          "value": "Rend"
-        },
-        {
           "path": "entries/mmAdultBrassDrag/items/mmScorchingSands/effects/n3I76HfSH6eKLALf/name",
           "value": "Failure: 1/2 Speed"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/mmScorchingSands/name",
-          "value": "Scorching Sands"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/mmSleepBreath000/description",
-          "value": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &amp;Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>"
         },
         {
           "path": "entries/mmAdultBrassDrag/items/nVRTlv14fzhoDhWf/effects/dnd5espellchange/name",
@@ -846,46 +822,6 @@
         {
           "path": "entries/BeiroLv110000000/items/roynrqb3ev8VfZWh/description",
           "value": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Paso brumoso}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>"
-        },
-        {
-          "path": "entries/mmAdultBlackDrag/items/mmFrightfulPrese/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Terror}</em>, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @abilities.cha.dc]]). The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>"
-        },
-        {
-          "path": "entries/mmAdultBlackDrag/items/mmMultiattack000/description",
-          "value": "<p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA]{Flecha ácida}</em> (level 3 version).</p>"
-        },
-        {
-          "path": "entries/mmAdultBlackDrag/items/mmSpellcasting00/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +9 to hit with spell attacks):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Terror}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA]{Flecha ácida}</em> (level 3 version)</p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{Hablar con los muertos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplVitriolicS]{Esfera vitriólica}</em></p>"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/mmCloakedFlight0/description",
-          "value": "<p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]</em> on itself, and it can fly up to [[lookup @range.special activity=a3NfcMs8zHADx7zs]]. The dragon can't take this action again until the start of its next turn.</p>"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/mmMultiattack000/description",
-          "value": "<p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em>.</p>"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/mmSonicBoom00000/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] uses Spellcasting to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em>. The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/mmSpellcasting00/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mano de mago}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em></p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Escudriñar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSending000]{Recado}</em></p>"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/mmMultiattack000/description",
-          "value": "<p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of (A) [[/item Sleep Breath]] or (B) [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}</em>.</p>"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/mmSleepBreath000/description",
-          "value": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &amp;Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/mmSpellcasting00/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Ilusión menor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Rayo abrasador}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Hablar con los animales}</em></p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplControlWea]{Controlar el clima}</em></p>"
         },
         {
           "path": "entries/mmAdultBrassDrag/items/po1oMMVa5As09ueX/description",
