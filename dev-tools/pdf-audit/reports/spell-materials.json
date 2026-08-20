@@ -1,0 +1,942 @@
+{
+  "phbEvilAndGoodPr": {
+    "title": "Protección contra el bien y el mal",
+    "english": "a flask of Holy Water worth 25+ GP, which the spell consumes",
+    "spanish": "un frasco de agua bendita que valga al menos 25 po, que se consume como parte del conjuro"
+  },
+  "phbFaithfulHound": {
+    "title": "Mastín fiel",
+    "english": "a silver whistle",
+    "spanish": "un silbato de plata"
+  },
+  "phbMagnificentMa": {
+    "title": "Mansión magnífica",
+    "english": "a miniature door worth 15+ GP",
+    "spanish": "una puerta en miniatura que valga al menos 15 po"
+  },
+  "phbPhantasmalFor": {
+    "title": "Fuerza fantasmal",
+    "english": "a bit of fleece",
+    "spanish": "un poco de vellón"
+  },
+  "phbPrivateSanctu": {
+    "title": "Sanctasanctórum privado",
+    "english": "a thin sheet of lead",
+    "spanish": "una lámina fina de plomo"
+  },
+  "phbSanctuary0000": {
+    "title": "Santuario",
+    "english": "a shard of glass from a mirror",
+    "spanish": "un trozo de vidrio de un espejo"
+  },
+  "phbsplAid0000000": {
+    "title": "Auxilio",
+    "english": "a strip of white cloth",
+    "spanish": "una tira de tela blanca"
+  },
+  "phbsplAlarm00000": {
+    "title": "Alarma",
+    "english": "a bell and silver wire",
+    "spanish": "una campana e hilo de plata"
+  },
+  "phbsplAnimalFrie": {
+    "title": "Encantar animal",
+    "english": "a morsel of food",
+    "spanish": "unas migajas de comida"
+  },
+  "phbsplAnimalMess": {
+    "title": "Mensajero animal",
+    "english": "a morsel of food",
+    "spanish": "unas migajas de comida"
+  },
+  "phbsplAnimateDea": {
+    "title": "Animar a los muertos",
+    "english": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+    "spanish": "una gota de sangre, un pedazo de carne y una pizca de polvo de hueso"
+  },
+  "phbsplAntimagicF": {
+    "title": "Campo antimagia",
+    "english": "iron filings",
+    "spanish": "virutas de hierro"
+  },
+  "phbsplAntipathyS": {
+    "title": "Antipatía/simpatía",
+    "english": "a mix of vinegar and honey",
+    "spanish": "una mezcla de vinagre y miel"
+  },
+  "phbsplArcaneEye0": {
+    "title": "Ojo arcano",
+    "english": "a bit of bat fur",
+    "spanish": "un poco de pelo de murciélago"
+  },
+  "phbsplArcaneLock": {
+    "title": "Cerradura arcana",
+    "english": "gold dust worth 25+ GP, which the spell consumes",
+    "spanish": "polvo de oro que valga al menos 25 po, que se consume como parte del conjuro"
+  },
+  "phbsplAstralProj": {
+    "title": "Proyección astral",
+    "english": "for each of the spell’s targets, one jacinth worth 1,000+ GP and one silver bar worth 100+ GP, all of which the spell consumes",
+    "spanish": "por cada objetivo del conjuro, un jacinto que valga al menos 1000 po y un lingote de plata que valga al menos 100 po, que se consumen como parte del conjuro"
+  },
+  "phbsplAugury0000": {
+    "title": "Augurio",
+    "english": "specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP",
+    "spanish": "palitos, huesos, cartas u otros abalorios marcados de forma especial que valgan al menos 25 po"
+  },
+  "phbsplAwaken0000": {
+    "title": "Despertar",
+    "english": "an agate worth 1,000+ GP, which the spell consumes",
+    "spanish": "un ágata que valga al menos 1000 po y que se consume como parte del conjuro"
+  },
+  "phbsplBane000000": {
+    "title": "Perdicion",
+    "english": "a drop of blood",
+    "spanish": "una gota de sangre"
+  },
+  "phbsplBanishment": {
+    "title": "Destierro",
+    "english": "a pentacle",
+    "spanish": "un pentáculo"
+  },
+  "phbsplBarkskin00": {
+    "title": "Piel Robliza",
+    "english": "a handful of bark",
+    "spanish": "un puñado de corteza"
+  },
+  "phbsplBefuddleme": {
+    "title": "Ofuscación",
+    "english": "a key ring with no keys",
+    "spanish": "un llavero sin llaves"
+  },
+  "phbsplBigbysHand": {
+    "title": "Mano arcana",
+    "english": "an eggshell and a glove",
+    "spanish": "una cáscara de huevo y un guante"
+  },
+  "phbsplBless00000": {
+    "title": "Bendición",
+    "english": "a Holy Symbol worth 5+ GP",
+    "spanish": "un símbolo sagrado que valga al menos 5 po"
+  },
+  "phbsplChainLight": {
+    "title": "Relampago en cadena",
+    "english": "three silver pins",
+    "spanish": "tres alfileres de plata"
+  },
+  "phbsplChromaticO": {
+    "title": "Orbe cromático",
+    "english": "a diamond worth 50+ GP",
+    "spanish": "un diamante que valga al menos 50 po"
+  },
+  "phbsplCircleofDe": {
+    "title": "Círculo de muerte",
+    "english": "the powder of a crushed black pearl worth 500+ GP",
+    "spanish": "una perla negra pulverizada que valga al menos 500 po"
+  },
+  "phbsplClairvoyan": {
+    "title": "Clarividencia",
+    "english": "a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing",
+    "spanish": "un canalizador que valga al menos 100 po; puede ser una trompetilla enjoyada o un ojo de cristal"
+  },
+  "phbsplClone00000": {
+    "title": "Clon",
+    "english": "a diamond worth 1,000+ GP, which the spell consumes, and a sealable vessel worth 2,000+ GP that is large enough to hold the creature being cloned",
+    "spanish": "un diamante que valga al menos 1000 po, que se consume como parte del conjuro, y un recipiente sellable que valga al menos 2000 po y sea lo bastante grande como para alojar a la criatura que se clone"
+  },
+  "phbsplColorSpray": {
+    "title": "Rociada de color",
+    "english": "a pinch of colorful sand",
+    "spanish": "una pizca de arena de colores"
+  },
+  "phbsplCommune000": {
+    "title": "Comunión",
+    "english": "incense",
+    "spanish": "incienso"
+  },
+  "phbsplComprehend": {
+    "title": "Entender idiomas",
+    "english": "a pinch of soot and salt",
+    "spanish": "una pizca de hollín y sal"
+  },
+  "phbsplConeofCold": {
+    "title": "Cono de frío",
+    "english": "a small crystal or glass cone",
+    "spanish": "un cono pequeño de cristal o vidrio"
+  },
+  "phbsplConfusion0": {
+    "title": "Confusión",
+    "english": "three nut shells",
+    "spanish": "tres cáscaras de nuez"
+  },
+  "phbsplContingenc": {
+    "title": "Contingencia",
+    "english": "a gem-encrusted statuette of yourself worth 1,500+ GP",
+    "spanish": "una estatuilla de ti tallada y de - corada con gemas que valga al menos 1500 po"
+  },
+  "phbsplContinualF": {
+    "title": "Llama permanente",
+    "english": "ruby dust worth 50+ GP, which the spell consumes",
+    "spanish": "polvo de rubí que valga al menos 50 po, que se consume como parte del conjuro"
+  },
+  "phbsplControlWat": {
+    "title": "Controlar agua",
+    "english": "a mixture of water and dust",
+    "spanish": "una mezcla de agua y polvo"
+  },
+  "phbsplControlWea": {
+    "title": "Controlar el clima",
+    "english": "burning incense",
+    "spanish": "incienso para quemar"
+  },
+  "phbsplCreateUnde": {
+    "title": "Crear muerto viviente",
+    "english": "one 150+ GP black onyx stone for each corpse",
+    "spanish": "un ónice negro que valga al menos 150 po por cada cadáver"
+  },
+  "phbsplCreateorDe": {
+    "title": "Crear o destruir agua",
+    "english": "a mix of water and sand",
+    "spanish": "una mezcla de agua y arena"
+  },
+  "phbsplCreation00": {
+    "title": "Creación",
+    "english": "a paintbrush",
+    "spanish": "un pincel"
+  },
+  "phbsplDancingLig": {
+    "title": "Luces danzantes",
+    "english": "a bit of phosphorus",
+    "spanish": "una pizca de fósforo"
+  },
+  "phbsplDarkness00": {
+    "title": "Oscuridad",
+    "english": "bat fur and a piece of coal",
+    "spanish": "pelaje de murciélago y un trozo de carbón"
+  },
+  "phbsplDarkvision": {
+    "title": "Visión en la oscuridad",
+    "english": "a dried carrot",
+    "spanish": "una zanahoria seca"
+  },
+  "phbsplDelayedBla": {
+    "title": "Bola de fuego de explosión retardada",
+    "english": "a ball of bat guano and sulfur",
+    "spanish": "una pelota de guano de murcié - lago y azufre"
+  },
+  "phbsplDetectPois": {
+    "title": "Detectar venenos y enfermedades",
+    "english": "a yew leaf",
+    "spanish": "una hoja de tejo"
+  },
+  "phbsplDetectThou": {
+    "title": "Detectar pensamientos",
+    "english": "1 Copper Piece",
+    "spanish": "1 pieza de cobre"
+  },
+  "phbsplDisintegra": {
+    "title": "Desintegrar",
+    "english": "a lodestone and dust",
+    "spanish": "un imán natural y polvo"
+  },
+  "phbsplDispelEvil": {
+    "title": "Disipar el bien y el mal",
+    "english": "powdered silver and iron",
+    "spanish": "plata y hierro en polvo"
+  },
+  "phbsplDivination": {
+    "title": "Adivinación",
+    "english": "incense worth 25+ GP, which the spell consumes",
+    "spanish": "incienso que valga al menos 25 po, que se consume como parte del conjuro"
+  },
+  "phbsplDrawmijsIn": {
+    "title": "Invocación instantánea",
+    "english": "a sapphire worth 1,000+ GP",
+    "spanish": "un zafiro que valga al menos 1000 po"
+  },
+  "phbsplDream00000": {
+    "title": "Ensueño",
+    "english": "a handful of sand",
+    "spanish": "un puñado de arena"
+  },
+  "phbsplEarthquake": {
+    "title": "Terremoto",
+    "english": "a fractured rock",
+    "spanish": "una piedra fracturada"
+  },
+  "phbsplEnhanceAbi": {
+    "title": "Potenciar característica",
+    "english": "fur or a feather",
+    "spanish": "pelo de animal o una pluma"
+  },
+  "phbsplEnlargeRed": {
+    "title": "Agrandar/Reducir",
+    "english": "a pinch of powdered iron",
+    "spanish": "una pizca hierro en polvo"
+  },
+  "phbsplEvardsBlac": {
+    "title": "Tentáculos negros",
+    "english": "a tentacle",
+    "spanish": "un tentáculo"
+  },
+  "phbsplFalseLife0": {
+    "title": "Falsa vida",
+    "english": "a drop of alcohol",
+    "spanish": "una gota de alcohol"
+  },
+  "phbsplFear000000": {
+    "title": "Terror",
+    "english": "a white feather",
+    "spanish": "una pluma blanca"
+  },
+  "phbsplFeatherFal": {
+    "title": "Caída de pluma",
+    "english": "a small feather or piece of down",
+    "spanish": "una pluma pequeña o un poco de plumón"
+  },
+  "phbsplFindFamili": {
+    "title": "Encontrar familiar",
+    "english": "burning incense worth 10+ GP, which the spell consumes",
+    "spanish": "incienso para quemar que valga al menos 10 po, que se consume como parte del con - juro"
+  },
+  "phbsplFindthePat": {
+    "title": "Encontrar el camino",
+    "english": "a set of divination tools—such as cards or runes—worth 100+ GP",
+    "spanish": "un juego de herramientas de adivinación, como cartas o runas, que valga al menos 100 po"
+  },
+  "phbsplFireShield": {
+    "title": "Escudo de fuego",
+    "english": "a bit of phosphorus or a firefly",
+    "spanish": "una luciérnaga o una pizca de fósforo"
+  },
+  "phbsplFireball00": {
+    "title": "Bola de fuego",
+    "english": "a ball of bat guano and sulfur",
+    "spanish": "una pelota de guano de murcié - lago y azufre"
+  },
+  "phbsplFlameBlade": {
+    "title": "Hoja de fuego",
+    "english": "a sumac leaf",
+    "spanish": "una hoja de zumaque"
+  },
+  "phbsplFlameStrik": {
+    "title": "Golpe flamígero",
+    "english": "a pinch of sulfur",
+    "spanish": "una pizca de azufre"
+  },
+  "phbsplFlamingSph": {
+    "title": "Esfera de llamas",
+    "english": "a ball of wax",
+    "spanish": "una bola de cera"
+  },
+  "phbsplFleshtoSto": {
+    "title": "De la carne a la piedra",
+    "english": "a cockatrice feather",
+    "spanish": "una pluma de cocatriz"
+  },
+  "phbsplFly0000000": {
+    "title": "Volar",
+    "english": "a feather",
+    "spanish": "una pluma"
+  },
+  "phbsplForbiddanc": {
+    "title": "Prohibición",
+    "english": "ruby dust worth 1,000+ GP",
+    "spanish": "polvo de rubí que valga al menos 1000 po"
+  },
+  "phbsplForcecage0": {
+    "title": "Jaula de fuerza",
+    "english": "ruby dust worth 1,500+ GP, which the spell consumes",
+    "spanish": "polvo de rubí que valga al menos 1500 po, que se consume como parte del conjuro"
+  },
+  "phbsplForesight0": {
+    "title": "Presciencia",
+    "english": "a hummingbird feather",
+    "spanish": "una pluma de colibrí"
+  },
+  "phbsplFreedomofM": {
+    "title": "Libertad de movimiento",
+    "english": "a leather strap",
+    "spanish": "una tira de cuero"
+  },
+  "phbsplGaseousFor": {
+    "title": "Forma gaseosa",
+    "english": "a bit of gauze",
+    "spanish": "un poco de gasa"
+  },
+  "phbsplGate000000": {
+    "title": "Portal",
+    "english": "a diamond worth 5,000+ GP",
+    "spanish": "un diamante que valga al menos 5000 po"
+  },
+  "phbsplGentleRepo": {
+    "title": "Dulce descanso",
+    "english": "2 Copper Pieces, which the spell consumes",
+    "spanish": "2 piezas de cobre, que se consu - men como parte del conjuro"
+  },
+  "phbsplGlobeofInv": {
+    "title": "Globo de invulnerabilidad",
+    "english": "a glass bead",
+    "spanish": "una cuenta de cristal"
+  },
+  "phbsplGlyphofWar": {
+    "title": "Glifo custodio",
+    "english": "powdered diamond worth 200+ GP, which the spell consumes",
+    "spanish": "diamante en polvo que valga al menos 200 po, que se consume como parte del con - juro"
+  },
+  "phbsplGoodberry0": {
+    "title": "Buenas bayas",
+    "english": "a sprig of mistletoe",
+    "spanish": "una rama de muérdago"
+  },
+  "phbsplGrease0000": {
+    "title": "Grasa",
+    "english": "a bit of pork rind or butter",
+    "spanish": "un poco de piel de cerdo o de mantequilla"
+  },
+  "phbsplGreaterRes": {
+    "title": "Restablecimiento mayor",
+    "english": "diamond dust worth 100+ GP, which the spell consumes",
+    "spanish": "polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro"
+  },
+  "phbsplGuardsandW": {
+    "title": "Guardas y guardias",
+    "english": "a silver rod worth 10+ GP",
+    "spanish": "una vara de plata que valga al menos 10 po"
+  },
+  "phbsplGustofWind": {
+    "title": "Ráfaga de viento",
+    "english": "a legume seed",
+    "spanish": "la semilla de una legumbre"
+  },
+  "phbsplHallow0000": {
+    "title": "Consagrar",
+    "english": "incense worth 1,000+ GP, which the spell consumes",
+    "spanish": "incienso que valga al menos 1000 po, que se consume como parte del conjuro"
+  },
+  "phbsplHallucinat": {
+    "title": "Terreno alucinatorio",
+    "english": "a mushroom",
+    "spanish": "una seta"
+  },
+  "phbsplHaste00000": {
+    "title": "Acelerar",
+    "english": "a shaving of licorice root",
+    "spanish": "un viruta de raíz de regaliz"
+  },
+  "phbsplHeatMetal0": {
+    "title": "Calentar metal",
+    "english": "a piece of iron and a flame",
+    "spanish": "un trozo de hierro y una llama"
+  },
+  "phbsplHeroesFeas": {
+    "title": "Festín de héroes",
+    "english": "a gem-encrusted bowl worth 1,000+ GP, which the spell consumes",
+    "spanish": "un cuenco incrustado de gemas que valga al menos 1000 po y que se consume como parte del conjuro"
+  },
+  "phbsplHex0000000": {
+    "title": "Maleficio",
+    "english": "the petrified eye of a newt",
+    "spanish": "el ojo petrificado de un tritón"
+  },
+  "phbsplHoldMonste": {
+    "title": "Inmovilizar monstruo",
+    "english": "a straight piece of iron",
+    "spanish": "un trozo de hierro recto"
+  },
+  "phbsplHoldPerson": {
+    "title": "Inmovilizar persona",
+    "english": "a straight piece of iron",
+    "spanish": "un trozo de hierro recto"
+  },
+  "phbsplHolyAura00": {
+    "title": "Aura sagrada",
+    "english": "a reliquary worth 1,000+ GP",
+    "spanish": "un relicario que valga al menos 1000 po"
+  },
+  "phbsplHypnoticPa": {
+    "title": "Patrón hipnótico",
+    "english": "a pinch of confetti",
+    "spanish": "una pizca de confeti"
+  },
+  "phbsplIceKnife00": {
+    "title": "Cuchillo de hielo",
+    "english": "a drop of water or a piece of ice",
+    "spanish": "una gota de agua o un trozo de hielo"
+  },
+  "phbsplIceStorm00": {
+    "title": "Tormenta de hielo",
+    "english": "a mitten",
+    "spanish": "una manopla"
+  },
+  "phbsplIdentify00": {
+    "title": "Identificar",
+    "english": "a pearl worth 100+ GP",
+    "spanish": "una perla que valga al menos 100 po"
+  },
+  "phbsplIllusorySc": {
+    "title": "Texto ilusorio",
+    "english": "ink worth 10+ GP, which the spell consumes",
+    "spanish": "tinta que valga al menos 10 po, que se consume como parte del conjuro"
+  },
+  "phbsplImprisonme": {
+    "title": "Cautiverio",
+    "english": "a statuette of the target worth 5,000+ GP",
+    "spanish": "una estatuilla del objetivo que valga al menos 5000 po"
+  },
+  "phbsplInsectPlag": {
+    "title": "Plaga de insectos",
+    "english": "a locust",
+    "spanish": "una langosta"
+  },
+  "phbsplInvisibili": {
+    "title": "Invisibilidad",
+    "english": "an eyelash in gum arabic",
+    "spanish": "una pestaña envuelta en goma arábiga"
+  },
+  "phbsplJump000000": {
+    "title": "Salto",
+    "english": "a grasshopper’s hind leg",
+    "spanish": "la pata trasera de un saltamon - tes"
+  },
+  "phbsplLegendLore": {
+    "title": "Conocer las leyendas",
+    "english": "incense worth 250+ GP, which the spell consumes, and four ivory strips worth 50+ GP each",
+    "spanish": "incienso que valga al menos 250 po, que se consume como parte del conjuro, y cuatro tiras de marfil que valgan al menos 50 po"
+  },
+  "phbsplLeomundsSe": {
+    "title": "Cofre oculto",
+    "english": "a chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth 5,000+ GP, and a Tiny replica of the chest made from the same materials worth 50+ GP",
+    "spanish": "un cofre con unas dimensiones de 90 cm por 60 cm por 60 cm, construido de mate - riales raros que valgan al menos 5000 po, así como una réplica Diminuta hecha de los mismos materiales y que valga al menos 50 po"
+  },
+  "phbsplLeomundsTi": {
+    "title": "Pequeña choza",
+    "english": "a crystal bead",
+    "spanish": "una cuenta de cristal"
+  },
+  "phbsplLevitate00": {
+    "title": "Levitar",
+    "english": "a metal spring",
+    "spanish": "un muelle de metal"
+  },
+  "phbsplLight00000": {
+    "title": "Luz",
+    "english": "a firefly or phosphorescent moss",
+    "spanish": "una luciérnaga o musgo fosfores - cente"
+  },
+  "phbsplLightningB": {
+    "title": "Relámpago",
+    "english": "a bit of fur and a crystal rod",
+    "spanish": "un poco de pelaje y una vara de cristal"
+  },
+  "phbsplLocateAnim": {
+    "title": "Localizar animales o plantas",
+    "english": "fur from a bloodhound",
+    "spanish": "pelaje de un sabueso"
+  },
+  "phbsplLocateCrea": {
+    "title": "Localizar criatura",
+    "english": "fur from a bloodhound",
+    "spanish": "pelaje de un sabueso"
+  },
+  "phbsplLocateObje": {
+    "title": "Localizar objeto",
+    "english": "a forked twig",
+    "spanish": "una ramita con forma de hor - quilla"
+  },
+  "phbsplLongstride": {
+    "title": "Zancada prodigiosa",
+    "english": "a pinch of dirt",
+    "spanish": "una pizca de tierra"
+  },
+  "phbsplMageArmor0": {
+    "title": "Armadura de mago",
+    "english": "a piece of cured leather",
+    "spanish": "un trozo de piel curtida"
+  },
+  "phbsplMagicCircl": {
+    "title": "Círculo mágico",
+    "english": "salt and powdered silver worth 100+ GP, which the spell consumes",
+    "spanish": "sal y plata en polvo que valga al menos 100 po, que se consumen como parte del conjuro"
+  },
+  "phbsplMagicJar00": {
+    "title": "Urna mágica",
+    "english": "a gem, crystal, or reliquary worth 500+ GP",
+    "spanish": "una gema, un cristal o un relica - rio que valga al menos 500 po"
+  },
+  "phbsplMagicMouth": {
+    "title": "Boca mágica",
+    "english": "jade dust worth 10+ GP, which the spell consumes",
+    "spanish": "polvo de jade que valga al menos 10 po, que se consume como parte del conjuro"
+  },
+  "phbsplMajorImage": {
+    "title": "Imagen mayor",
+    "english": "a bit of fleece",
+    "spanish": "un poco de vellón"
+  },
+  "phbsplMassSugges": {
+    "title": "Sugestión en masa",
+    "english": "a snake’s tongue",
+    "spanish": "una lengua de serpiente"
+  },
+  "phbsplMelfsAcidA": {
+    "title": "Flecha ácida",
+    "english": "powdered rhubarb leaf",
+    "spanish": "ruibarbo en polvo"
+  },
+  "phbsplMending000": {
+    "title": "Reparar",
+    "english": "two lodestones",
+    "spanish": "dos imanes naturales"
+  },
+  "phbsplMessage000": {
+    "title": "Mensaje",
+    "english": "a copper wire",
+    "spanish": "un alambre de cobre"
+  },
+  "phbsplMinorIllus": {
+    "title": "Ilusión menor",
+    "english": "a bit of fleece",
+    "spanish": "un poco de vellón"
+  },
+  "phbsplMoonbeam00": {
+    "title": "Rayo de luna",
+    "english": "a moonseed leaf",
+    "spanish": "una hoja con forma de media luna"
+  },
+  "phbsplMoveEarth0": {
+    "title": "Mover la tierra",
+    "english": "a miniature shovel",
+    "spanish": "una pala en miniatura"
+  },
+  "phbsplNondetecti": {
+    "title": "Indetectable",
+    "english": "a pinch of diamond dust worth 25+ GP, which the spell consumes",
+    "spanish": "una pizca de diamante en polvo que valga al menos 25 po, que se consume como parte del conjuro"
+  },
+  "phbsplNystulsMag": {
+    "title": "Aura mágica de arcanista",
+    "english": "a small square of silk",
+    "spanish": "un pequeño cuadrado de seda"
+  },
+  "phbsplOtilukesFr": {
+    "title": "Esfera congelante",
+    "english": "a miniature crystal sphere",
+    "spanish": "una esfera de cristal en minia - tura"
+  },
+  "phbsplOtilukesRe": {
+    "title": "Esfera elástica",
+    "english": "a glass sphere",
+    "spanish": "una esfera de cristal"
+  },
+  "phbsplPasswall00": {
+    "title": "Pasamuros",
+    "english": "a pinch of sesame seeds",
+    "spanish": "una pizca de semillas de sésamo"
+  },
+  "phbsplPasswithou": {
+    "title": "Pasar sin rastro",
+    "english": "ashes from burned mistletoe",
+    "spanish": "cenizas de muérdago quemado"
+  },
+  "phbsplPlanarBind": {
+    "title": "Atadura planar",
+    "english": "a jewel worth 1,000+ GP, which the spell consumes",
+    "spanish": "una joya que valga al menos 1000 po y que se consume como parte del conjuro"
+  },
+  "phbsplPlaneShift": {
+    "title": "Desplazamiento entre planos",
+    "english": "a forked, metal rod worth 250+ GP and attuned to a plane of existence",
+    "spanish": "una vara de metal con forma de horquilla que valga al menos 250 po y esté sintonizada con un plano de existencia"
+  },
+  "phbsplPolymorph0": {
+    "title": "Polimorfar",
+    "english": "a caterpillar cocoon",
+    "spanish": "un capullo de oruga"
+  },
+  "phbsplProgrammed": {
+    "title": "Ilusión programada",
+    "english": "jade dust worth 25+ GP",
+    "spanish": "polvo de jade con un valor de al menos 25 po"
+  },
+  "phbsplProjectIma": {
+    "title": "Proyectar imagen",
+    "english": "a statuette of yourself worth 5+ GP",
+    "spanish": "una estatuilla de ti que valga al menos 5 po"
+  },
+  "phbsplRaiseDead0": {
+    "title": "Alzar a los muertos",
+    "english": "a diamond worth 500+ GP, which the spell consumes",
+    "spanish": "un diamante que valga al menos 500 po y que se consume como parte del conjuro"
+  },
+  "phbsplRarysTelep": {
+    "title": "Enlace telepático",
+    "english": "two eggs",
+    "spanish": "dos huevos"
+  },
+  "phbsplRegenerate": {
+    "title": "Regenerar",
+    "english": "a prayer wheel",
+    "spanish": "una rueda de plegarias"
+  },
+  "phbsplReincarnat": {
+    "title": "Reencarnar",
+    "english": "rare oils worth 1,000+ GP, which the spell consumes",
+    "spanish": "aceites raros que valgan al me - nos 1000 po, que se consumen como parte del con - juro"
+  },
+  "phbsplResurrecti": {
+    "title": "Resurrección",
+    "english": "a diamond worth 1,000+ GP, which the spell consumes",
+    "spanish": "un diamante que valga al menos 1000 po y que se consume como parte del conjuro"
+  },
+  "phbsplReverseGra": {
+    "title": "Invertir la gravedad",
+    "english": "a lodestone and iron filings",
+    "spanish": "un imán natural y virutas de hierro"
+  },
+  "phbsplRevivify00": {
+    "title": "Revivir",
+    "english": "a diamond worth 300+ GP, which the spell consumes",
+    "spanish": "un diamante que valga al menos 300 po y que se consume como parte del conjuro"
+  },
+  "phbsplRopeTrick0": {
+    "title": "Truco de la cuerda",
+    "english": "a segment of rope",
+    "spanish": "un trozo de cuerda"
+  },
+  "phbsplScrying000": {
+    "title": "Escudriñar",
+    "english": "a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font",
+    "spanish": "un canalizador que valga al menos 1000 po, como una bola de cristal, un espejo o una pila llena de agua"
+  },
+  "phbsplSeeInvisib": {
+    "title": "Ver invisibilidad",
+    "english": "a pinch of talc",
+    "spanish": "una pizca de talco"
+  },
+  "phbsplSending000": {
+    "title": "Recado",
+    "english": "a copper wire",
+    "spanish": "un alambre de cobre"
+  },
+  "phbsplSequester0": {
+    "title": "Recluir",
+    "english": "gem dust worth 5,000+ GP, which the spell consumes",
+    "spanish": "polvo de piedras preciosas que valga al menos 5000 po, que se consume como parte del conjuro"
+  },
+  "phbsplShapechang": {
+    "title": "Cambiar de forma",
+    "english": "a jade circlet worth 1,500+ GP",
+    "spanish": "una diadema de jade que valga al menos 1500 po"
+  },
+  "phbsplShatter000": {
+    "title": "Hacer añicos",
+    "english": "a chip of mica",
+    "spanish": "una lasca de mica"
+  },
+  "phbsplShieldofFa": {
+    "title": "Escudo de fe",
+    "english": "a prayer scroll",
+    "spanish": "un pergamino de plegarias"
+  },
+  "phbsplShillelagh": {
+    "title": "Shillelagh",
+    "english": "mistletoe",
+    "spanish": "muérdago"
+  },
+  "phbsplSilentImag": {
+    "title": "Imagen silenciosa",
+    "english": "a bit of fleece",
+    "spanish": "un poco de vellón"
+  },
+  "phbsplSimulacrum": {
+    "title": "Simulacro",
+    "english": "powdered ruby worth 1,500+ GP, which the spell consumes",
+    "spanish": "rubí en polvo que valga al menos 1500 po, que se consume como parte del conjuro"
+  },
+  "phbsplSleep00000": {
+    "title": "Dormir",
+    "english": "a pinch of sand or rose petals",
+    "spanish": "una pizca de arena o pétalos de rosa"
+  },
+  "phbsplSleetStorm": {
+    "title": "Tormenta de aguanieve",
+    "english": "a miniature umbrella",
+    "spanish": "un paraguas en miniatura"
+  },
+  "phbsplSlow000000": {
+    "title": "Ralentizar",
+    "english": "a drop of molasses",
+    "spanish": "una gota de melaza"
+  },
+  "phbsplSpeakwithD": {
+    "title": "Hablar con los muertos",
+    "english": "burning incense",
+    "spanish": "incienso para quemar"
+  },
+  "phbsplSpiderClim": {
+    "title": "Trepar cual arácnido",
+    "english": "a drop of bitumen and a spider",
+    "spanish": "una gota de betún y una araña"
+  },
+  "phbsplSpikeGrowt": {
+    "title": "Crecimiento espinoso",
+    "english": "seven thorns",
+    "spanish": "siete espinas"
+  },
+  "phbsplSpiritGuar": {
+    "title": "Espíritus guardianes",
+    "english": "a prayer scroll",
+    "spanish": "un pergamino de plegarias"
+  },
+  "phbsplStinkingCl": {
+    "title": "Nube apestosa",
+    "english": "a rotten egg",
+    "spanish": "un huevo podrido"
+  },
+  "phbsplStoneShape": {
+    "title": "Moldear la piedra",
+    "english": "soft clay",
+    "spanish": "arcilla blanda"
+  },
+  "phbsplStoneskin0": {
+    "title": "Piel pétrea",
+    "english": "diamond dust worth 100+ GP, which the spell consumes",
+    "spanish": "polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro"
+  },
+  "phbsplSuggestion": {
+    "title": "Sugestión",
+    "english": "a drop of honey",
+    "spanish": "una gota de miel"
+  },
+  "phbsplSummonDrag": {
+    "title": "Invocar dragón",
+    "english": "an object with the image of a dragon engraved on it worth 500+ GP",
+    "spanish": "un objeto con la imagen de un dragón grabada en él que valga al menos 500 po"
+  },
+  "phbsplSunbeam000": {
+    "title": "Rayo solar",
+    "english": "a magnifying glass",
+    "spanish": "una lupa"
+  },
+  "phbsplSunburst00": {
+    "title": "Explosión solar",
+    "english": "a piece of sunstone",
+    "spanish": "un trozo de heliolita"
+  },
+  "phbsplSymbol0000": {
+    "title": "Símbolo",
+    "english": "powdered diamond worth 1,000+ GP, which the spell consumes",
+    "spanish": "diamante en polvo que valga al menos 1000 po y que se consume como parte del conjuro"
+  },
+  "phbsplTashasHide": {
+    "title": "Risa horrible",
+    "english": "a tart and a feather",
+    "spanish": "una tarta y una pluma"
+  },
+  "phbsplTeleportat": {
+    "title": "Círculo de teletransportación",
+    "english": "rare inks worth 50+ GP, which the spell consumes",
+    "spanish": "tintas inusuales que valgan al menos 50 po, que se consumen como parte del conjuro"
+  },
+  "phbsplTensersFlo": {
+    "title": "Disco flotante",
+    "english": "a drop of mercury",
+    "spanish": "una gota de mercurio"
+  },
+  "phbsplTongues000": {
+    "title": "Don de lenguas",
+    "english": "a miniature ziggurat",
+    "spanish": "un zigurat en miniatura"
+  },
+  "phbsplTruePolymo": {
+    "title": "Polimorfar verdadero",
+    "english": "a drop of mercury, a dollop of gum arabic, and a wisp of smoke",
+    "spanish": "una gota de mercurio, un poco de goma arábiga y un jirón de humo"
+  },
+  "phbsplTrueResurr": {
+    "title": "Resurrección verdadera",
+    "english": "diamonds worth 25,000+ GP, which the spell consumes",
+    "spanish": "diamantes que valgan al menos 25 000 po, que se consumen como parte del conjuro"
+  },
+  "phbsplTrueSeeing": {
+    "title": "Visión veraz",
+    "english": "mushroom powder worth 25+ GP, which the spell consumes",
+    "spanish": "hongos pulverizados que valgan al menos 25 po, que se consumen como parte del con - juro"
+  },
+  "phbsplTrueStrike": {
+    "title": "Impacto certero",
+    "english": "a weapon with which you have proficiency and that is worth 1+ CP",
+    "spanish": "un arma con la que tengas compe - tencia y que valga al menos 1 pc"
+  },
+  "phbsplUnseenServ": {
+    "title": "Sirviente invisible",
+    "english": "a bit of string and of wood",
+    "spanish": "un trozo de cuerda y uno de ma- dera"
+  },
+  "phbsplVitriolicS": {
+    "title": "Esfera vitriólica",
+    "english": "a drop of bile",
+    "spanish": "una gota de bilis"
+  },
+  "phbsplWallofFire": {
+    "title": "Muro de fuego",
+    "english": "a piece of charcoal",
+    "spanish": "un trozo de carbón"
+  },
+  "phbsplWallofForc": {
+    "title": "Muro de fuerza",
+    "english": "a shard of glass",
+    "spanish": "un trozo de vidrio"
+  },
+  "phbsplWallofIce0": {
+    "title": "Muro de hielo",
+    "english": "a piece of quartz",
+    "spanish": "un trozo de cuarzo"
+  },
+  "phbsplWallofSton": {
+    "title": "Muro de piedra",
+    "english": "a cube of granite",
+    "spanish": "un cubo de granito"
+  },
+  "phbsplWallofThor": {
+    "title": "Muro de espinas",
+    "english": "a handful of thorns",
+    "spanish": "un puñado de espinas vegetales"
+  },
+  "phbsplWardingBon": {
+    "title": "Vínculo protector",
+    "english": "a pair of platinum rings worth 50+ GP each, which you and the target must wear for the duration",
+    "spanish": "un par de anillos de platino que valgan al menos 50 po cada uno y que debéis llevar puestos tanto tú como el objetivo hasta que termine el conjuro"
+  },
+  "phbsplWaterBreat": {
+    "title": "Respirar bajo el agua",
+    "english": "a short reed",
+    "spanish": "un junco corto"
+  },
+  "phbsplWaterWalk0": {
+    "title": "Caminar sobre el agua",
+    "english": "a piece of cork",
+    "spanish": "un trozo de corcho"
+  },
+  "phbsplWeb0000000": {
+    "title": "Telaraña",
+    "english": "a bit of spiderweb",
+    "spanish": "un poco de tela de araña"
+  },
+  "phbsplWindWalk00": {
+    "title": "Viajar con el viento",
+    "english": "a candle",
+    "spanish": "una vela"
+  },
+  "phbsplWindWall00": {
+    "title": "Muro de viento",
+    "english": "a fan and a feather",
+    "spanish": "un abanico y una pluma"
+  },
+  "phbswdMordenkain": {
+    "title": "Espada arcana",
+    "english": "a miniature sword worth 250+ GP",
+    "spanish": "una espada en miniatura que valga al menos 250 po"
+  }
+}
