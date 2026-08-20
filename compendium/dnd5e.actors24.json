@@ -25130,7 +25130,7 @@
         },
         "po1oMMVa5As09ueX": {
           "activities": {},
-          "description": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>",
+          "description": "<p>Cambias de forma y te conviertes en otra criatura durante la duración o hasta que uses una acción Mágica para cambiar de forma a otra forma elegible. La nueva forma debe ser de una criatura con un Valor de Desafío no superior a tu nivel o Valor de Desafío. Debes haber visto antes a ese tipo de criatura, y no puede ser un Constructo ni un No Muerto.</p><p>Cuando lanzas el conjuro, ganas una cantidad de Puntos de Golpe temporales igual a los Puntos de Golpe de la primera forma en la que cambias. Estos Puntos de Golpe temporales desaparecen si queda alguno cuando el conjuro termina.</p><p>Tus estadísticas de juego se reemplazan por el bloque de estadísticas de la forma elegida, pero conservas tu tipo de criatura; alineamiento; personalidad; puntuaciones de Inteligencia, Sabiduría y Carisma; Puntos de Golpe; Dados de Golpe; competencias; y capacidad de comunicarte. Si tienes el rasgo Lanzamiento de Conjuros, también lo conservas.</p><p>Al cambiar de forma, determinas si tu equipo cae al suelo o cambia de tamaño y forma para ajustarse a tu nueva forma mientras estés en ella.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -29676,7 +29676,7 @@
         }
       }
     },
-    "mmCouatl00000000": {
+        "mmCouatl00000000": {
       "name": "Couatl",
       "biography": "<h1></h1><p><em>Arte del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Celestial",
@@ -29766,7 +29766,7 @@
         },
         "mmBite0000000000": {
           "activities": {},
-          "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned apply=false] condition until the end of the [[lookup @name lowercase]]'s next turn.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final del siguiente turno del [[lookup @name lowercase]].</p>",
           "effects": {
             "6JlL9rZMoNowDipt": {
               "name": "Envenenado"
@@ -29776,7 +29776,7 @@
         },
         "mmConstrict00000": {
           "activities": {},
-          "description": "<p><em>Strength Saving Throw:</em><span class=\"Heading-4\"> </span>DC [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]] feet.</p><p><em>Failure:</em> [[/damage average]] damage. The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained apply=false] condition until the grapple ends.</p>",
+          "description": "<p><em>Tirada de salvación de Fuerza:</em><span class=\"Heading-4\"> </span>CD [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], una criatura [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=IgOMjRxAt7UISkJq]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño. El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD [[lookup @skills.ath.passive]] para escapar) y la condición &amp;Reference[Restrained apply=false]{Apresado} hasta que termine el agarre.</p>",
           "effects": {
             "Hd0Gy3wJtPfObERq": {
               "name": "Agarrado y Restringido"
@@ -29792,13 +29792,13 @@
         },
         "mmSpellcasting00": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)</p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateFood]{Crear comida y agua}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Ensueño}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Escudriñar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Dormir}</em></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes de conjuro y usando Sabiduría como característica de lanzamiento de conjuros (CD de salvación [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide; no obtiene Puntos de Golpe Temporales del conjuro y no requiere Concentración ni Puntos de Golpe Temporales para mantenerlo)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateFood]{Crear comida y agua}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Ensueño}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Escudriñar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Dormir}</em></p>",
           "effects": {},
-          "name": "Servicios de conjuro"
+          "name": "Lanzamiento de conjuros"
         },
         "sOJ29wIQbeRNa4Qt": {
           "activities": {},
-          "description": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>",
+          "description": "<p>Cambias de forma y te conviertes en otra criatura durante la duración o hasta que uses una acción Mágica para cambiar de forma a otra forma elegible. La nueva forma debe ser de una criatura con un Valor de Desafío no superior a tu nivel o Valor de Desafío. Debes haber visto antes a ese tipo de criatura, y no puede ser un Constructo ni un No Muerto.</p><p>Cuando lanzas el conjuro, ganas una cantidad de Puntos de Golpe temporales igual a los Puntos de Golpe de la primera forma en la que cambias. Estos Puntos de Golpe temporales desaparecen si queda alguno cuando el conjuro termina.</p><p>Tus estadísticas de juego se reemplazan por el bloque de estadísticas de la forma elegida, pero conservas tu tipo de criatura; alineamiento; personalidad; puntuaciones de Inteligencia, Sabiduría y Carisma; Puntos de Golpe; Dados de Golpe; competencias; y capacidad de comunicarte. Si tienes el rasgo Lanzamiento de Conjuros, también lo conservas.</p><p>Al cambiar de forma, determinas si tu equipo cae al suelo o cambia de tamaño y forma para ajustarse a tu nueva forma mientras estés en ella.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -30036,7 +30036,7 @@
         }
       }
     },
-    "mmDeva0000000000": {
+        "mmDeva0000000000": {
       "name": "Deva",
       "biography": "<h1></h1><p><em>Arte del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Celestial",
@@ -30088,7 +30088,7 @@
         },
         "b1uBxAcirNnGh1ik": {
           "activities": {},
-          "description": "<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> spell is active there and, if so, where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
+          "description": "<p>Mientras dure el conjuro, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Feérico, Demonio o No muerto a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, si lo está, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -30101,9 +30101,9 @@
         },
         "mmSpellcasting00": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)</p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCommune000]{Comunión}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRaiseDead0]{Alzar a los muertos}</em></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Carisma como característica de lanzamiento de conjuros (CD de salvación [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide; no obtiene Puntos de Golpe Temporales del conjuro y no requiere Concentración ni Puntos de Golpe Temporales para mantenerlo)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCommune000]{Comunión}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRaiseDead0]{Alzar a los muertos}</em></p>",
           "effects": {},
-          "name": "Servicios de conjuro"
+          "name": "Lanzamiento de conjuros"
         },
         "t2FrmBjeFeQrFYPL": {
           "activities": {},
@@ -31016,7 +31016,7 @@
         },
         "mmElementalResto": {
           "activities": {},
-          "description": "<p class=\"feature\">If the [[lookup @name lowercase]] [[lookup @item.requirements]], its body dissolves into dirt, and it gains a new body in [[/r 1d4#Days]] days, reviving with all its Hit Points somewhere on the Plane of Fire.</p>",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] [[lookup @item.requirements]], su cuerpo se disuelve en tierra y obtiene un cuerpo nuevo al cabo de [[/r 1d4#Días]] días, reviviendo con todos sus Puntos de Golpe en algún lugar del Plano del Fuego.</p>",
           "effects": {},
           "name": "Restauración elemental"
         },
@@ -36586,7 +36586,7 @@
         },
         "NKJjjt9DcNYbSJNX": {
           "activities": {},
-          "description": "<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> spell is active there and, if so, where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
+          "description": "<p>Mientras dure el conjuro, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Feérico, Demonio o No muerto a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, si lo está, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36693,9 +36693,9 @@
         },
         "ywmAOORQe290yHgp": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar heridas}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Restablecimiento menor}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Levantar maldición}</em>, using the same spellcasting ability as Spellcasting.</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar heridas}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Restablecimiento menor}</em> o <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Levantar maldición}</em>, usando la misma característica de lanzamiento que Lanzamiento de conjuros.</p>",
           "effects": {},
-          "name": "Divine Auxilio"
+          "name": "Auxilio divino"
         },
         "zdreCsDiTh8AFj6w": {
           "activities": {},

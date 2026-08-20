@@ -206,10 +206,6 @@
           "value": "Spell Changes"
         },
         {
-          "path": "entries/mmAdultBrassDrag/items/po1oMMVa5As09ueX/description",
-          "value": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>"
-        },
-        {
           "path": "entries/mmAdultBrassDrag/items/po1oMMVa5As09ueX/effects/dnd5espellchange/name",
           "value": "Spell Changes"
         },
@@ -278,18 +274,6 @@
           "value": "Spell Changes"
         },
         {
-          "path": "entries/mmCouatl00000000/items/mmBite0000000000/description",
-          "value": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned apply=false] condition until the end of the [[lookup @name lowercase]]'s next turn.</p>"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/mmConstrict00000/description",
-          "value": "<p><em>Strength Saving Throw:</em><span class=\"Heading-4\"> </span>DC [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]] feet.</p><p><em>Failure:</em> [[/damage average]] damage. The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained apply=false] condition until the grapple ends.</p>"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/sOJ29wIQbeRNa4Qt/description",
-          "value": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>"
-        },
-        {
           "path": "entries/mmCouatl00000000/items/sOJ29wIQbeRNa4Qt/effects/dnd5espellchange/name",
           "value": "Spell Changes"
         },
@@ -320,10 +304,6 @@
         {
           "path": "entries/mmEfreeti0000000/items/aDInRtd983tifrXD/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/mmEfreeti0000000/items/mmElementalResto/description",
-          "value": "<p class=\"feature\">If the [[lookup @name lowercase]] [[lookup @item.requirements]], its body dissolves into dirt, and it gains a new body in [[/r 1d4#Days]] days, reviving with all its Hit Points somewhere on the Plane of Fire.</p>"
         },
         {
           "path": "entries/mmEfreeti0000000/items/ndzmsLuNebehyo3i/effects/dnd5espellchange/name",
@@ -822,46 +802,6 @@
         {
           "path": "entries/BeiroLv110000000/items/roynrqb3ev8VfZWh/description",
           "value": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Paso brumoso}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/po1oMMVa5As09ueX/description",
-          "value": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/mmBite0000000000/description",
-          "value": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned apply=false] condition until the end of the [[lookup @name lowercase]]'s next turn.</p>"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/mmConstrict00000/description",
-          "value": "<p><em>Strength Saving Throw:</em><span class=\"Heading-4\"> </span>DC [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]] feet.</p><p><em>Failure:</em> [[/damage average]] damage. The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained apply=false] condition until the grapple ends.</p>"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/mmSpellcasting00/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)</p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateFood]{Crear comida y agua}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Ensueño}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Escudriñar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Dormir}</em></p>"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/sOJ29wIQbeRNa4Qt/description",
-          "value": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>"
-        },
-        {
-          "path": "entries/mmDeva0000000000/items/b1uBxAcirNnGh1ik/description",
-          "value": "<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> spell is active there and, if so, where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>"
-        },
-        {
-          "path": "entries/mmDeva0000000000/items/mmSpellcasting00/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>At Will:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShapechang]{Cambiar de forma}</em> (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)</p><p class=\"feature-trait\"><strong>1/Day Each:</strong> <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCommune000]{Comunión}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRaiseDead0]{Alzar a los muertos}</em></p>"
-        },
-        {
-          "path": "entries/mmEfreeti0000000/items/mmElementalResto/description",
-          "value": "<p class=\"feature\">If the [[lookup @name lowercase]] [[lookup @item.requirements]], its body dissolves into dirt, and it gains a new body in [[/r 1d4#Days]] days, reviving with all its Hit Points somewhere on the Plane of Fire.</p>"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/NKJjjt9DcNYbSJNX/description",
-          "value": "<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> spell is active there and, if so, where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/ywmAOORQe290yHgp/description",
-          "value": "<p class=\"feature\">The [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar heridas}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Restablecimiento menor}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Levantar maldición}</em>, using the same spellcasting ability as Spellcasting.</p>"
         },
         {
           "path": "entries/QuillatheLv11000/biography",
@@ -1394,6 +1334,15 @@
           "added": [
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ld6ImmsNezopmAiG caption=false cite=false classes=\"no-embed mm\"]",
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.ld6ImmsNezopmAiG caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
+          ]
+        },
+        {
+          "path": "entries/mmEfreeti0000000/items/mmElementalResto/description",
+          "missing": [
+            "[[/r 1d4#Days]]"
+          ],
+          "added": [
+            "[[/r 1d4#Días]]"
           ]
         },
         {
