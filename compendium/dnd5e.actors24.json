@@ -6120,7 +6120,7 @@
         },
         "roynrqb3ev8VfZWh": {
           "activities": {},
-          "description": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Paso brumoso}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>",
+          "description": "<p>Formas parte de un linaje que te otorga facultades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes preparado ese conjuro. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de lanzarlo de ese modo cuando terminas un Descanso Largo. También puedes lanzarlo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu característica de lanzamiento para los conjuros que lances con este rasgo (elige la característica cuando selecciones el linaje).</p><table><caption>Rasgos del linaje elfo alto</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación}. Cuando terminas un Descanso Largo, puedes reemplazarlo por otro truco de la lista de conjuros de Mago.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Paso brumoso}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota de Foundry</strong></p><p>Recibirás automáticamente los rasgos y conjuros correspondientes al seleccionar la especie y al subir de nivel.</p></section>",
           "effects": {},
           "name": "Elven Lineage, Alto Elfo"
         }
@@ -15072,7 +15072,7 @@
     },
     "QuillatheLv11000": {
       "name": "Quillathe",
-      "biography": "<p>Quillathe cleanses monsters from her woods as a hobby, but now a new force menaces her land and she must band with adventurers to defeat it.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+      "biography": "<p>Quillathe elimina monstruos de sus bosques como pasatiempo, pero ahora una nueva fuerza amenaza su tierra y debe unirse a otros aventureros para derrotarla.</p><p><em>Ilustración del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Nivel 11",
       "effects": {},
       "items": {
@@ -17249,7 +17249,7 @@
     },
     "RandalLv17000000": {
       "name": "Randal",
-      "biography": "<p>Randal worked his way through the ranks of his hometown's guard, ultimately growing restless with city life and wandering off in search of adventure.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+      "biography": "<p>Randal ascendió entre las filas de la guardia de su ciudad natal, pero acabó cansándose de la vida urbana y partió en busca de aventuras.</p><p><em>Ilustración del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Nivel 17",
       "effects": {},
       "items": {
