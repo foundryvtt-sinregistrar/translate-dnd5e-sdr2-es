@@ -3420,7 +3420,7 @@
       "effects": {
         "3mTWrCYjgS8jIDRU": {
           "name": "Invisible",
-          "description": "<p>La invisibilidad termina inmediatamente después de que hagas una tirada de ataque, inflijas daño o lances un conjuro.</p>"
+          "description": "<p>La &amp;Reference[invisible apply=false]{invisibilidad} termina inmediatamente después de que hagas una tirada de ataque, inflijas daño o lances un conjuro.</p>"
         }
       },
       "advancement": {}

@@ -3559,13 +3559,6 @@
           ]
         },
         {
-          "path": "entries/phbsptVersatile0/description",
-          "missing": [
-            "@UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]"
-          ],
-          "added": []
-        },
-        {
           "path": "entries/phbspWoodElf0000/description",
           "missing": [],
           "added": [
@@ -3653,13 +3646,6 @@
           "added": [
             "[[/damage 5d10 type=psychic]]"
           ]
-        },
-        {
-          "path": "entries/phbsplMislead000/effects/3mTWrCYjgS8jIDRU/description",
-          "missing": [
-            "&Reference[invisible apply=false]"
-          ],
-          "added": []
         },
         {
           "path": "entries/phbsplProduceFla/description",
