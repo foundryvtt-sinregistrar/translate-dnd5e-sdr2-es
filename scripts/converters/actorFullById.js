@@ -41,6 +41,14 @@ export function actorFullById(actor, translation) {
     // --- 5) Embedded items por _id
     mergeItemsByIdOnActor(actor, translation.items);
 
+    // Babele can run after D&D5e has already copied the race type into the
+    // prepared actor data. Synchronize that derived copy as well as the item.
+    const items = Array.isArray(actor.items) ? actor.items : (actor.items?.contents ?? []);
+    const race = items.find(item => item?.type === "race");
+    if (race?.system?.type?.subtype && actor.system?.details?.type) {
+        actor.system.details.type.subtype = race.system.type.subtype;
+    }
+
     return actor;
 }
 
@@ -83,6 +91,16 @@ function mergeItemsByIdOnActor(actor, tItems) {
 
         // name
         if (typeof t.name === "string") it.name = t.name;
+
+        // Character creature subtype is derived by D&D5e from the embedded
+        // race item's system.type object. Localizing only the item name leaves
+        // the prepared actor subtitle in English (for example, Dragonborn).
+        // The SRD species item name is the authoritative localized subtype.
+        if (it.type === "race" && typeof t.name === "string") {
+            it.system = it.system ?? {};
+            it.system.type = it.system.type ?? {};
+            it.system.type.subtype = t.typeSubtype ?? t.name;
+        }
 
         // description.value
         const d =
