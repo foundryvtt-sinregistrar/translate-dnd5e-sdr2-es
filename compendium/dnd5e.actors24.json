@@ -24820,13 +24820,13 @@
         },
         "mmCloudOfInsects": {
           "activities": {},
-          "description": "<p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=0OkFhjOM80ipoNKy]], one creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=0OkFhjOM80ipoNKy]] feet.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has Disadvantage on saving throws to maintain &amp;Reference[Concentration} until the end of its next turn.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=0OkFhjOM80ipoNKy]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=0OkFhjOM80ipoNKy]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene Desventaja en las tiradas de salvación para mantener la &amp;Reference[Concentration] hasta el final de su siguiente turno.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
           "effects": {
             "owuEyJBslYKvxqeX": {
               "name": "Concentration Disadvantage"
             }
           },
-          "name": "Cloud of Insects"
+          "name": "Nube de insectos"
         },
         "mmFrightfulPrese": {
           "activities": {},
@@ -24955,7 +24955,7 @@
           "activities": {},
           "description": "<p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]</em> on itself, and it can fly up to [[lookup @range.special activity=a3NfcMs8zHADx7zs]]. The dragon can't take this action again until the start of its next turn.</p>",
           "effects": {},
-          "name": "Cloaked Flight"
+          "name": "Vuelo encubierto"
         },
         "mmLegendaryResis": {
           "activities": {},
@@ -24985,7 +24985,7 @@
           "activities": {},
           "description": "<p class=\"feature\">The [[lookup @name lowercase]] uses Spellcasting to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Hacer añicos}</em>. The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>",
           "effects": {},
-          "name": "Sonic Boom"
+          "name": "Estallido sónico"
         },
         "mmSpellcasting00": {
           "activities": {},
@@ -29782,7 +29782,7 @@
               "name": "Agarrado y Restringido"
             }
           },
-          "name": "Constrict"
+          "name": "Constricción"
         },
         "mmShieldedMind00": {
           "activities": {},
