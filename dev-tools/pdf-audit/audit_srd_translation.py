@@ -34,16 +34,25 @@ FOUNDRY_TOKEN = re.compile(
 )
 
 
-def canonical_token(token: str) -> str:
+def canonical_token(token: str) -> str | None:
     """Discard translatable decoration while preserving executable payloads."""
     token = token.replace("&amp;Reference[", "&Reference[")
+    if token == "[[lookup @name lowercase]]" or token == "[[lookup @name]]":
+        return None
+    if token.startswith("[[/item "):
+        return "[[/item]]"
+    if token.startswith("&Reference["):
+        return token.lower()
     if token.startswith("[[") and "#" in token:
         token = token.split("#", 1)[0].rstrip() + "]]"
     return token
 
 
 def foundry_tokens(value: str) -> Counter[str]:
-    return Counter(canonical_token(token) for token in FOUNDRY_TOKEN.findall(value))
+    return Counter(
+        canonical for token in FOUNDRY_TOKEN.findall(value)
+        if (canonical := canonical_token(token)) is not None
+    )
 
 
 def load(path: Path) -> dict[str, Any]:

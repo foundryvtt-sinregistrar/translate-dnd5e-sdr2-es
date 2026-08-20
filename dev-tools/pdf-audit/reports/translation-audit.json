@@ -553,292 +553,236 @@
           "path": "entries/AkraLv1100000000/items/IaSKayXgEsnPU0ii/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated apply=false]"
+            "&reference[incapacitated apply=false]"
           ]
         },
         {
           "path": "entries/AothLv1100000000/items/5FWKCtyB8xQdFtiZ/description",
           "missing": [],
           "added": [
-            "&Reference[Restrained]"
+            "&reference[restrained]"
           ]
         },
         {
           "path": "entries/AothLv1100000000/items/SowupJyYHC5UjCzg/description",
           "missing": [],
           "added": [
-            "&Reference[Poisoned]"
+            "&reference[poisoned]"
           ]
         },
         {
           "path": "entries/AothLv1700000000/items/SowupJyYHC5UjCzg/description",
           "missing": [],
           "added": [
-            "&Reference[Poisoned]"
+            "&reference[poisoned]"
           ]
         },
         {
           "path": "entries/BeiroLv010000000/items/7tH6fUs83R4ijKn0/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
           "path": "entries/BeiroLv050000000/items/7tH6fUs83R4ijKn0/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
           "path": "entries/BeiroLv050000000/items/tZ2TofXVTW8yCM1p/description",
           "missing": [],
           "added": [
-            "&Reference[prone apply=false]"
+            "&reference[prone apply=false]"
           ]
         },
         {
           "path": "entries/BeiroLv110000000/items/7tH6fUs83R4ijKn0/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
           "path": "entries/BeiroLv170000000/items/2HL4IsgLGe0itaBC/description",
           "missing": [],
           "added": [
-            "&Reference[charmed apply=false]",
-            "&Reference[Frightened apply=false]"
+            "&reference[charmed apply=false]",
+            "&reference[frightened apply=false]"
           ]
         },
         {
           "path": "entries/BeiroLv170000000/items/42qyrpoJnm34LOKF/description",
           "missing": [],
           "added": [
-            "&Reference[charmed apply=false]"
+            "&reference[charmed apply=false]"
           ]
         },
         {
           "path": "entries/BeiroLv170000000/items/7tH6fUs83R4ijKn0/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
           "path": "entries/BeiroLv170000000/items/tZ2TofXVTW8yCM1p/description",
           "missing": [],
           "added": [
-            "&Reference[prone apply=false]"
+            "&reference[prone apply=false]"
           ]
         },
         {
           "path": "entries/dmgApparatusofKw/biography",
           "missing": [],
           "added": [
-            "&Reference[Grappled]"
+            "&reference[grappled]"
           ]
         },
         {
           "path": "entries/KruskLv110000000/items/O3ShYTPTqp3oWoZI/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/KruskLv110000000/items/TXOA23UuwTrqQWym/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/KruskLv110000000/items/fFRLmdbkuQ7tjCW6/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
           "path": "entries/KruskLv110000000/items/pI9mv3XAJtEo5YKF/description",
           "missing": [],
           "added": [
-            "&Reference[Frightened]"
+            "&reference[frightened]"
           ]
         },
         {
           "path": "entries/KruskLv170000000/items/O3ShYTPTqp3oWoZI/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/KruskLv170000000/items/TXOA23UuwTrqQWym/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/KruskLv170000000/items/fFRLmdbkuQ7tjCW6/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
           "path": "entries/KruskLv170000000/items/pI9mv3XAJtEo5YKF/description",
           "missing": [],
           "added": [
-            "&Reference[Frightened]"
+            "&reference[frightened]"
           ]
         },
         {
           "path": "entries/MerricLv01000000/items/4RXzjEOjPViC4Kiy/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/MerricLv05000000/items/4RXzjEOjPViC4Kiy/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/MerricLv05000000/items/cRzJKLl7icKo2JN3/description",
           "missing": [],
           "added": [
-            "&Reference[Restrained]"
+            "&reference[restrained]"
           ]
         },
         {
           "path": "entries/MerricLv11000000/items/4RXzjEOjPViC4Kiy/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/MerricLv17000000/items/4RXzjEOjPViC4Kiy/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/MerricLv17000000/items/Zoy98jtfNBKPsDSb/description",
           "missing": [],
           "added": [
-            "&Reference[Opportunity Attacks]"
+            "&reference[opportunity attacks]"
           ]
-        },
-        {
-          "path": "entries/mmAboleth0000000/items/mmProbingTelepat/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
         },
         {
           "path": "entries/mmAdultBlackDrag/items/mmCloudOfInsects/description",
           "missing": [
-            "&Reference[Concentration} until the end of its next turn.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]"
+            "&reference[concentration} until the end of its next turn.</p><p><em>failure or success:</em> the [[lookup @name lowercase]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "&Reference[Concentration]"
+            "&reference[concentration]"
           ]
         },
         {
           "path": "entries/mmAdultRedDragon/items/96FsmcQizygzJObm/description",
           "missing": [],
           "added": [
-            "&Reference[Prone]"
+            "&reference[prone]"
           ]
         },
         {
           "path": "entries/mmAdultRedDragon/items/XdmqM6EC8IQGORA7/description",
           "missing": [],
           "added": [
-            "&Reference[Prone]"
+            "&reference[prone]"
           ]
         },
         {
           "path": "entries/mmAdultSilverDra/items/FGKQ5cIUuEwLPYE3/description",
           "missing": [],
           "added": [
-            "&Reference[Paralyzed]"
+            "&reference[paralyzed]"
           ]
         },
         {
           "path": "entries/mmAdultSilverDra/items/gjsupslJSKQGlNdY/description",
           "missing": [],
           "added": [
-            "&Reference[Paralyzed]"
-          ]
-        },
-        {
-          "path": "entries/mmAdultWhiteDrag/items/J6PEYQgS9LHDoTaq/description",
-          "missing": [
-            "&Reference[frightened apply=false]",
-            "&Reference[dash]"
-          ],
-          "added": [
-            "&Reference[Frightened apply=false]",
-            "&Reference[Dash]"
-          ]
-        },
-        {
-          "path": "entries/mmAncientBlackDr/items/5JLSjcBWRU5O5oKu/description",
-          "missing": [
-            "&Reference[frightened apply=false]",
-            "&Reference[dash]"
-          ],
-          "added": [
-            "&Reference[Frightened apply=false]",
-            "&Reference[Dash]"
+            "&reference[paralyzed]"
           ]
         },
         {
           "path": "entries/mmAncientBlackDr/items/mmCloudOfInsects/description",
           "missing": [
-            "&Reference[Concentration} until the end of its next turn.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]"
+            "&reference[concentration} until the end of its next turn.</p><p><em>failure or success:</em> the [[lookup @name lowercase]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "&Reference[Concentration]"
-          ]
-        },
-        {
-          "path": "entries/mmAncientBlueDra/items/FlUeG3M3TNcZ4aNj/description",
-          "missing": [
-            "&Reference[invisible apply=false]"
-          ],
-          "added": [
-            "&Reference[Invisible apply=false]"
-          ]
-        },
-        {
-          "path": "entries/mmAncientBlueDra/items/mmSonicBoom00000/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
-        },
-        {
-          "path": "entries/mmAncientBrassDr/items/mmBlazingLight00/description",
-          "missing": [
-            "[[/item Scorching Ray]]"
-          ],
-          "added": [
-            "[[/item Rayo abrasador]]"
+            "&reference[concentration]"
           ]
         },
         {
@@ -853,13 +797,6 @@
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z caption=false cite=false classes=\"no-embed mm free-rules-embed\"]",
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.zNzVq7B6Yt1dcY0z caption=false cite=false]"
           ]
-        },
-        {
-          "path": "entries/mmAssassin000000/items/mmEvasion0000000/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
         },
         {
           "path": "entries/mmBalor000000000/biography",
@@ -898,57 +835,12 @@
           ]
         },
         {
-          "path": "entries/mmCentaurTrooper/items/mmTramplingCharg/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
-        },
-        {
           "path": "entries/mmChainDevil0000/biography",
           "missing": [
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.ZshK0GnbqU7TpaWe caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
           ],
           "added": [
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.Z6lIT7pPpdBRIMP0 caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
-          ]
-        },
-        {
-          "path": "entries/mmChainDevil0000/items/mmUnnervingGaze0/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
-        },
-        {
-          "path": "entries/mmChuul000000000/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Pincer]]",
-            "[[/item Paralyzing Tentacles]]"
-          ],
-          "added": [
-            "[[/item Pinza]]",
-            "[[/item Tentáculos Paralizantes]]"
-          ]
-        },
-        {
-          "path": "entries/mmClayGolem00000/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Slam]]"
-          ],
-          "added": [
-            "[[/item Golpe]]"
-          ]
-        },
-        {
-          "path": "entries/mmCloaker0000000/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Attach]]",
-            "[[/item Tail]]"
-          ],
-          "added": [
-            "[[/item Adherirse]]",
-            "[[/item Cola]]"
           ]
         },
         {
@@ -963,20 +855,6 @@
           ]
         },
         {
-          "path": "entries/mmEfreeti0000000/items/mmSpellcasting00/description",
-          "missing": [
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]",
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplElementali]",
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplGaseousFor]",
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]",
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplMajorImage]",
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]",
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplTongues000]",
-            "@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]"
-          ],
-          "added": []
-        },
-        {
           "path": "entries/mmErinyes0000000/biography",
           "missing": [
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.YXZP2A00UrCViGCe caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
@@ -986,40 +864,24 @@
           ]
         },
         {
-          "path": "entries/mmGiantEagle0000/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Rend]]"
-          ],
-          "added": [
-            "[[/item Desgarrar]]"
-          ]
-        },
-        {
           "path": "entries/mmGiantRat000000/items/mmPackTactics000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
-        },
-        {
-          "path": "entries/mmGiantSpider000/items/mmWebWalker00000/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
         },
         {
           "path": "entries/mmGiantVulture00/items/mmPackTactics000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/mmGibberingMouth/items/mmGibbering00000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
@@ -1035,7 +897,7 @@
           "path": "entries/mmGuardianNaga00/items/BYnLrTSNv9m2NrU2/description",
           "missing": [],
           "added": [
-            "&Reference[truesight]"
+            "&reference[truesight]"
           ]
         },
         {
@@ -1078,23 +940,21 @@
           "path": "entries/mmKoboldWarrior0/items/mmPackTactics000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/mmKraken00000000/items/mmFling000000000/description",
           "missing": [],
           "added": [
-            "&Reference[Grappled apply=false]"
+            "&reference[grappled apply=false]"
           ]
         },
         {
           "path": "entries/mmKraken00000000/items/mmSwallow0000000/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
+          "missing": [],
           "added": [
-            "&Reference[Grappled apply=false]"
+            "&reference[grappled apply=false]"
           ]
         },
         {
@@ -1185,15 +1045,6 @@
           ]
         },
         {
-          "path": "entries/mmNothic00000000/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Claw]]"
-          ],
-          "added": [
-            "[[/item Garra]]"
-          ]
-        },
-        {
           "path": "entries/mmOni00000000000/biography",
           "missing": [
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Z00uEF13gQr3y7sl caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
@@ -1201,13 +1052,6 @@
           "added": [
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.y5QmKEt8q0NY1PWb caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
           ]
-        },
-        {
-          "path": "entries/mmPhaseSpider000/items/mmWebWalker00000/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
         },
         {
           "path": "entries/mmPitFiend000000/biography",
@@ -1222,33 +1066,22 @@
           "path": "entries/mmPitFiend000000/items/5irtCzIrQGv5EGRw/description",
           "missing": [],
           "added": [
-            "&Reference[Paralyzed apply=false]"
+            "&reference[paralyzed apply=false]"
           ]
         },
         {
           "path": "entries/mmPitFiend000000/items/mmFearAura000000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated apply=false]"
-          ]
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Radiant Sword]]",
-            "[[/item Holy Burst]]"
-          ],
-          "added": [
-            "[[/item Espada radiante]]",
-            "[[/item Explosión sagrada]]"
+            "&reference[incapacitated apply=false]"
           ]
         },
         {
           "path": "entries/mmPseudodragon00/items/mmSting000000000/description",
           "missing": [],
           "added": [
-            "&Reference[Poisoned apply=false]",
-            "&Reference[Unconscious apply=false]"
+            "&reference[poisoned apply=false]",
+            "&reference[unconscious apply=false]"
           ]
         },
         {
@@ -1261,30 +1094,10 @@
           ]
         },
         {
-          "path": "entries/mmRakshasa000000/items/mmGreaterMagicRe/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
-        },
-        {
           "path": "entries/mmReefShark00000/items/mmPackTactics000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated apply=false]"
-          ]
-        },
-        {
-          "path": "entries/mmRoper000000000/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Tentacle]]",
-            "[[/item Reel]]",
-            "[[/item Bite]]"
-          ],
-          "added": [
-            "[[/item Tentáculo]]",
-            "[[/item Recoger]]",
-            "[[/item Mordisco]]"
+            "&reference[incapacitated apply=false]"
           ]
         },
         {
@@ -1296,15 +1109,6 @@
           "added": [
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vhOJQTnDz9Sf1W7L caption=false cite=false classes=\"no-embed mm free-rules-embed\"]",
             "@Embed[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00.JournalEntryPage.vhOJQTnDz9Sf1W7L caption=false cite=false classes=\"no-embed mm free-rules-embed\"]"
-          ]
-        },
-        {
-          "path": "entries/mmShieldGuardian/items/mmMultiattack000/description",
-          "missing": [
-            "[[/item Fist]]"
-          ],
-          "added": [
-            "[[/item Puño]]"
           ]
         },
         {
@@ -1320,14 +1124,14 @@
           "path": "entries/mmTough000000000/items/mmPackTactics000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated apply=false]"
+            "&reference[incapacitated apply=false]"
           ]
         },
         {
           "path": "entries/mmToughBoss00000/items/mmPackTactics000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated apply=false]"
+            "&reference[incapacitated apply=false]"
           ]
         },
         {
@@ -1343,61 +1147,50 @@
           "path": "entries/PerrinLv01000000/items/ER14IzcXYpPQASGF/description",
           "missing": [],
           "added": [
-            "&Reference[Hide]"
+            "&reference[hide]"
           ]
         },
         {
           "path": "entries/PerrinLv05000000/items/ER14IzcXYpPQASGF/description",
           "missing": [],
           "added": [
-            "&Reference[Hide]"
+            "&reference[hide]"
           ]
         },
         {
           "path": "entries/PerrinLv11000000/items/ER14IzcXYpPQASGF/description",
           "missing": [],
           "added": [
-            "&Reference[Frightened]",
-            "&Reference[Hide]"
+            "&reference[frightened]",
+            "&reference[hide]"
           ]
         },
         {
           "path": "entries/PerrinLv11000000/items/xscYzaz6cIe5obYq/description",
           "missing": [],
           "added": [
-            "&Reference[prone]"
+            "&reference[prone]"
           ]
         },
         {
           "path": "entries/PerrinLv17000000/items/YAfvhSQNsUX4fWTM/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
-          ]
-        },
-        {
-          "path": "entries/phbmobDraconicSp/items/phbaoiMultiattac/description",
-          "missing": [
-            "[[/item Rend]]",
-            "[[/item Breath Weapon]]"
-          ],
-          "added": [
-            "[[/item Desgarrar]]",
-            "[[/item Arma de aliento]]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/RiswynnLv0100000/items/2k0T89gikUZqXOhx/description",
           "missing": [],
           "added": [
-            "&Reference[Poisoned]"
+            "&reference[poisoned]"
           ]
         },
         {
           "path": "entries/RiswynnLv0500000/items/2k0T89gikUZqXOhx/description",
           "missing": [],
           "added": [
-            "&Reference[Poisoned]"
+            "&reference[poisoned]"
           ]
         },
         {
@@ -1441,43 +1234,43 @@
           "path": "entries/phbftrSurvivor00/description",
           "missing": [],
           "added": [
-            "&Reference[Bloodied]",
-            "&Reference[Bloodied]"
+            "&reference[bloodied]",
+            "&reference[bloodied]"
           ]
         },
         {
           "path": "entries/phbmnkEvasion000/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/phbmnkOpenHandTe/description",
           "missing": [],
           "added": [
-            "&Reference[Prone]"
+            "&reference[prone]"
           ]
         },
         {
           "path": "entries/phbmnkStunningSt/description",
           "missing": [],
           "added": [
-            "&Reference[Stunned]"
+            "&reference[stunned]"
           ]
         },
         {
           "path": "entries/phbmnkSuperiorDe/description",
           "missing": [],
           "added": [
-            "&Reference[Incapacitated]"
+            "&reference[incapacitated]"
           ]
         },
         {
           "path": "entries/phbpdnDevotionAu/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
@@ -1750,28 +1543,28 @@
           "path": "entries/dmgFwpOnyxDogRar/description",
           "missing": [],
           "added": [
-            "&Reference[Blindsight]"
+            "&reference[blindsight]"
           ]
         },
         {
           "path": "entries/dmgLolthsSting00/description",
           "missing": [],
           "added": [
-            "&Reference[Poisoned apply=false]"
+            "&reference[poisoned apply=false]"
           ]
         },
         {
           "path": "entries/dmgShieldOfTheCa/description",
           "missing": [],
           "added": [
-            "&Reference[Prone apply=false]"
+            "&reference[prone apply=false]"
           ]
         },
         {
           "path": "entries/phbagChain000000/description",
           "missing": [],
           "added": [
-            "&Reference[Restrained]"
+            "&reference[restrained]"
           ]
         },
         {
@@ -1785,7 +1578,7 @@
           "path": "entries/phbagManacles000/description",
           "missing": [],
           "added": [
-            "&Reference[Restrained]"
+            "&reference[restrained]"
           ]
         }
       ]
@@ -1829,20 +1622,10 @@
       "mojibake": [],
       "foundryTokenChanges": [
         {
-          "path": "entries/mmAberrantGround/description",
-          "missing": [
-            "[[lookup @name]]"
-          ],
-          "added": [
-            "[[lookup @name lowercase]]"
-          ]
-        },
-        {
           "path": "entries/mmAcidAbsorption/effects/2G2gdLkIBFrb71Iv/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "&Reference[Acid]"
+            "&reference[acid]"
           ]
         },
         {
@@ -1851,8 +1634,6 @@
             "[[/check ability=str skill=ath format=long]]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @skills.ath.passive]]"
           ]
         },
@@ -1860,7 +1641,6 @@
           "path": "entries/mmAnimateTrees00/effects/lPONVotWP8yhuuWe/description",
           "missing": [],
           "added": [
-            "[[lookup @name]]",
             "[[lookup @range.value activity=EceTNjzjKWdrMNAy]]"
           ]
         },
@@ -1875,7 +1655,6 @@
           "path": "entries/mmAntennae000000/effects/PTSwIOo5chgO4d1p/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=dcSC7EuknnM0uoqY]]",
             "[[lookup @save.dc.value activity=dcSC7EuknnM0uoqY]]"
           ]
@@ -1886,21 +1665,8 @@
           "added": [
             "[[/attack extended]]",
             "[[/damage average extended]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=6iLqAufAeEqDOlGs]]",
             "[[lookup @check.dc.value activity=6iLqAufAeEqDOlGs]]"
-          ]
-        },
-        {
-          "path": "entries/mmAversionToFire/effects/kJYNjmfI0RpvF7CQ/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]"
           ]
         },
         {
@@ -1910,8 +1676,6 @@
             "[[lookup @save.dc.value activity=SzU2lwdbqgoFMuBM]]",
             "[[lookup @target.affects.type activity=SzU2lwdbqgoFMuBM]]",
             "[[lookup @target.template.size activity=SzU2lwdbqgoFMuBM]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]"
           ]
         },
@@ -1920,11 +1684,6 @@
           "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=kWKwiAYgyeKBLMNJ]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=kWKwiAYgyeKBLMNJ]]",
             "[[lookup @range.value activity=kWKwiAYgyeKBLMNJ]]",
             "[[/damage average]]",
@@ -1936,8 +1695,7 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
@@ -1946,26 +1704,19 @@
             "[[/check ability=cha skill=per dc=@abilities.str.dc]]"
           ],
           "added": [
-            "&Reference[Bloodied]",
-            "&Reference[Bloodied]"
+            "&reference[bloodied]",
+            "&reference[bloodied]"
           ]
         },
         {
           "path": "entries/mmBerserk0000000/effects/8SBNBxgUqwEyYJcK/description",
           "missing": [
-            "&Reference[Bloodied apply=false]"
+            "&reference[bloodied apply=false]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Bloodied]",
-            "&Reference[Bloodied]",
-            "&Reference[Bloodied]",
+            "&reference[bloodied]",
+            "&reference[bloodied]",
+            "&reference[bloodied]",
             "[[/r 1d6]]",
             "[[lookup @range.value activity=tnkOsrSwEElO2kZM]]"
           ]
@@ -1975,8 +1726,7 @@
           "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=soAO2jRWos8FsxeU]]",
-            "[[lookup @target.template.size activity=soAO2jRWos8FsxeU]]",
-            "[[lookup @name lowercase]]"
+            "[[lookup @target.template.size activity=soAO2jRWos8FsxeU]]"
           ]
         },
         {
@@ -1986,8 +1736,7 @@
             "[[lookup @save.dc.value activity=JfU8KFZkAJxWtrhk]]",
             "[[lookup @target.template.size activity=JfU8KFZkAJxWtrhk]]",
             "[[lookup @range.value activity=JfU8KFZkAJxWtrhk]]",
-            "[[/damage average]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average]]"
           ]
         },
         {
@@ -2002,9 +1751,7 @@
           "path": "entries/mmCacophony00000/effects/5cNk7YVIesN5RiIh/description",
           "missing": [],
           "added": [
-            "[[lookup @save.dc.value activity=pyvvXqoxJsjkkP38]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
+            "[[lookup @save.dc.value activity=pyvvXqoxJsjkkP38]]"
           ]
         },
         {
@@ -2012,8 +1759,6 @@
           "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=3o27u4Ww7SmCgc8k]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=3o27u4Ww7SmCgc8k]]"
           ]
         },
@@ -2046,19 +1791,9 @@
           "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=0OkFhjOM80ipoNKy]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=0OkFhjOM80ipoNKy]]",
             "[[/damage average]]",
-            "&Reference[Concentration]"
-          ]
-        },
-        {
-          "path": "entries/mmConferFireResi/effects/uf0s4DJcB5yQbQvN/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
+            "&reference[concentration]"
           ]
         },
         {
@@ -2067,8 +1802,6 @@
           "added": [
             "[[lookup @save.dc.value activity=9vCVJrzUZL0ra4w2]]",
             "[[lookup @target.affects.labels.statblock activity=9vCVJrzUZL0ra4w2]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=9vCVJrzUZL0ra4w2]]",
             "[[/damage average]]"
           ]
@@ -2082,12 +1815,11 @@
           "added": [
             "[[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]]",
             "[[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=IgOMjRxAt7UISkJq]]",
             "[[/damage average]]",
-            "&Reference[Grappled apply=false]",
+            "&reference[grappled apply=false]",
             "[[lookup @skills.ath.passive]]",
-            "&Reference[Restrained apply=false]"
+            "&reference[restrained apply=false]"
           ]
         },
         {
@@ -2096,8 +1828,6 @@
           "added": [
             "[[lookup @save.dc.value activity=1Hy8CdhpwQlLxDPq]]",
             "[[lookup @target.affects.special activity=1Hy8CdhpwQlLxDPq]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=1Hy8CdhpwQlLxDPq]]",
             "[[/healing average activity=1waYTjY3NAIGZgrI]]"
           ]
@@ -2106,10 +1836,6 @@
           "path": "entries/mmCorrosiveForm0/effects/caD7IB1k2XLnkUDS/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]",
             "@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]"
           ]
@@ -2118,21 +1844,17 @@
           "path": "entries/mmCreateWhirlwin/description",
           "missing": [],
           "added": [
-            "&Reference[Concentration]"
+            "&reference[concentration]"
           ]
         },
         {
           "path": "entries/mmCreateWhirlwin/effects/cM3NSnDUlURCQP4q/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.type capitalize activity=TYNKL0QDItFpbR2G]]",
             "[[lookup @target.template.size activity=TYNKL0QDItFpbR2G]]",
             "[[lookup @target.template.height activity=TYNKL0QDItFpbR2G]]",
-            "&Reference[Concentration]",
+            "&reference[concentration]",
             "[[lookup @save.dc.value activity=TYNKL0QDItFpbR2G]]",
             "[[/damage average]]"
           ]
@@ -2143,12 +1865,6 @@
           "added": [
             "[[/attack extended]]",
             "[[/damage average extended]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/check format=long]]"
           ]
         },
@@ -2158,13 +1874,8 @@
           "added": [
             "[[/attack extended]]",
             "[[/damage average extended]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Blinded apply=false]",
-            "&Reference[suffocating apply=false]",
+            "&reference[blinded apply=false]",
+            "&reference[suffocating apply=false]",
             "[[/check format=long]]"
           ]
         },
@@ -2180,16 +1891,13 @@
           "path": "entries/mmDarknessAura00/description",
           "missing": [],
           "added": [
-            "&Reference[Concentration]"
+            "&reference[concentration]"
           ]
         },
         {
           "path": "entries/mmDeadlyLeap0000/effects/6922OmgCjpz242Ib/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @save.dc.value activity=IPCXEQoTuaAG5l52]]",
             "[[lookup @target.affects.type activity=IPCXEQoTuaAG5l52]]",
             "[[/damage average]]"
@@ -2210,11 +1918,6 @@
           "added": [
             "[[lookup @save.dc.value activity=zdXAMnjaOcsVmLZP]]",
             "[[lookup @target.affects.type activity=zdXAMnjaOcsVmLZP]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=zdXAMnjaOcsVmLZP]]",
             "[[lookup @target.template.size activity=zdXAMnjaOcsVmLZP]]"
           ]
@@ -2235,9 +1938,6 @@
           "added": [
             "[[lookup @save.dc.value activity=8LmlZfevSQkOxGSN]]",
             "[[lookup @target.affects.type activity=8LmlZfevSQkOxGSN]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=8LmlZfevSQkOxGSN]]"
           ]
         },
@@ -2246,20 +1946,15 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
           "path": "entries/mmEngulf00000000/effects/vsa7d6xWOAvWdOWM/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @save.dc.value activity=5o0Bh8PQaojx5XMx]]",
-            "&Reference[Total Cover]",
+            "&reference[total cover]",
             "[[/damage average activity=Exfa4q7O4SvXjGt7]]"
           ]
         },
@@ -2268,9 +1963,6 @@
           "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=n8nEah4vbrEPphNF]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=n8nEah4vbrEPphNF]]",
             "[[/damage average]]"
           ]
@@ -2281,8 +1973,6 @@
           "added": [
             "[[lookup @save.dc.value activity=66IPjaLIJqqwvmrL]]",
             "[[lookup @target.affects.labels.statblock activity=66IPjaLIJqqwvmrL]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=66IPjaLIJqqwvmrL]]"
           ]
         },
@@ -2290,8 +1980,6 @@
           "path": "entries/mmFearAura000000/effects/Sb7G5OyhGbjLUoWo/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.size activity=oT8238p9jXwVy76c]]",
             "[[lookup @save.dc.value activity=oT8238p9jXwVy76c]]",
             "[[lookup @target.affects.special activity=oT8238p9jXwVy76c]]"
@@ -2302,8 +1990,7 @@
           "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=vRnhmBCQqIwIlfS4]]",
-            "[[lookup @target.template.size activity=vRnhmBCQqIwIlfS4]]",
-            "[[lookup @name lowercase]]"
+            "[[lookup @target.template.size activity=vRnhmBCQqIwIlfS4]]"
           ]
         },
         {
@@ -2311,27 +1998,18 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
           "path": "entries/mmFling000000000/effects/UovyViBfR9aAlt0y/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
             "[[lookup @target.affects.special activity=E7YKnUIWsavrnNzK]]",
             "[[lookup @range.value activity=E7YKnUIWsavrnNzK]]",
             "[[lookup @range.special activity=E7YKnUIWsavrnNzK]]",
             "[[lookup @save.dc.value activity=E7YKnUIWsavrnNzK]]",
             "[[/damage average]]"
-          ]
-        },
-        {
-          "path": "entries/mmFreeze00000000/effects/B3otZdkyUcUlgrmk/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]"
           ]
         },
         {
@@ -2341,8 +2019,6 @@
             "[[lookup @save.dc.value activity=U2i9u4ELjeLQfePP]]",
             "[[lookup @target.affects.type activity=U2i9u4ELjeLQfePP]]",
             "[[lookup @target.template.size activity=U2i9u4ELjeLQfePP]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=U2i9u4ELjeLQfePP]]",
             "[[/damage average]]"
           ]
@@ -2353,8 +2029,6 @@
           "added": [
             "[[lookup @save.dc.value activity=Ttrajc4RC5Ut7pkj]]",
             "[[lookup @target.affects.labels.statblock activity=Ttrajc4RC5Ut7pkj]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=Ttrajc4RC5Ut7pkj]]",
             "[[/damage average]]"
           ]
@@ -2366,7 +2040,6 @@
             "[[/attack extended]]",
             "[[/damage extended average]]",
             "[[lookup @target.affects.special activity=iBenqFiBu40bUxkH]]",
-            "[[lookup @name lowercase]]",
             "[[/damage 2d8 average type=piercing]]"
           ]
         },
@@ -2398,19 +2071,11 @@
           ]
         },
         {
-          "path": "entries/mmGreaterMagicRe/description",
-          "missing": [
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
-        },
-        {
           "path": "entries/mmHammerThrow000/effects/Jvy5UeJBi7Y0WmAp/description",
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
@@ -2419,9 +2084,6 @@
           "added": [
             "[[lookup @save.dc.value activity=v8KiqUloIE5eocSu]]",
             "[[lookup @target.template.size activity=v8KiqUloIE5eocSu]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]"
           ]
         },
@@ -2432,9 +2094,6 @@
             "[[lookup @save.dc.value activity=GP5MnIyXCVZ4ZMTQ]]",
             "[[lookup @target.affects.type activity=GP5MnIyXCVZ4ZMTQ]]",
             "[[lookup @target.template.size activity=GP5MnIyXCVZ4ZMTQ]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]",
             "[[lookup @duration.value activity=GP5MnIyXCVZ4ZMTQ]]",
             "[[lookup @duration.units activity=GP5MnIyXCVZ4ZMTQ]]"
@@ -2446,9 +2105,8 @@
           "added": [
             "[[/attack extended]]",
             "[[/damage average]]",
-            "&Reference[Bonus Action]",
-            "&Reference[Reaction]",
-            "[[lookup @name lowercase]]"
+            "&reference[bonus action]",
+            "&reference[reaction]"
           ]
         },
         {
@@ -2456,37 +2114,22 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
           "path": "entries/mmInkCloud000000/effects/JttKvsdAlGpcrFx0/description",
           "missing": [
-            "&Reference[Blinded apply=false]"
+            "&reference[blinded apply=false]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.size activity=1MiIPcVuCpfgBIkS]]"
           ]
-        },
-        {
-          "path": "entries/mmLoathsomeLimbs/description",
-          "missing": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
         },
         {
           "path": "entries/mmLoathsomeLimbs/effects/PFledLQkQ75osOlZ/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -2494,9 +2137,6 @@
           "path": "entries/mmLoathsomeLimbs/effects/AVZPkC07GONXpRMe/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -2504,9 +2144,6 @@
           "path": "entries/mmLoathsomeLimbs/effects/l1PiPpfAiF9TWs88/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -2514,9 +2151,6 @@
           "path": "entries/mmLoathsomeLimbs/effects/DCB7xWKhKSEmZHNn/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -2524,9 +2158,6 @@
           "path": "entries/mmLoathsomeLimbs/effects/9Tc60NhDJH43WdEU/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -2534,9 +2165,6 @@
           "path": "entries/mmLoathsomeLimbs/effects/drQriWAwmwosemzp/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -2544,18 +2172,10 @@
           "path": "entries/mmLuringSong0000/effects/gJscxYD5nf7GlEo8/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @save.dc.value activity=dxxqZP7Vo01te3QB]]",
             "[[lookup @target.affects.special activity=dxxqZP7Vo01te3QB]]",
             "[[lookup @target.template.size activity=dxxqZP7Vo01te3QB]]",
-            "&Reference[OpportunityAttacks]"
+            "&reference[opportunityattacks]"
           ]
         },
         {
@@ -2566,17 +2186,7 @@
             "[[lookup @target.affects.type activity=zPMfwwIoTFzIrN5H]]",
             "[[lookup @target.template.size activity=zPMfwwIoTFzIrN5H]]",
             "[[lookup @target.template.units activity=zPMfwwIoTFzIrN5H]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]"
-          ]
-        },
-        {
-          "path": "entries/mmMistyEscape000/effects/SGrTBpl938UIe4e3/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
           ]
         },
         {
@@ -2586,10 +2196,7 @@
             "[[lookup @save.dc.value activity=Mng39fcFDc4I1AzY]]",
             "[[lookup @target.affects.type activity=Mng39fcFDc4I1AzY]]",
             "[[lookup @target.template.size activity=Mng39fcFDc4I1AzY]]",
-            "[[lookup @target.template.units activity=Mng39fcFDc4I1AzY]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
+            "[[lookup @target.template.units activity=Mng39fcFDc4I1AzY]]"
           ]
         },
         {
@@ -2598,9 +2205,6 @@
             "[[/damage 1d12 Acid average]]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.affects.type activity=clFFG8uDBSFzxIo8]]",
             "[[lookup @target.template.size activity=clFFG8uDBSFzxIo8]]",
             "[[lookup @target.template.units activity=clFFG8uDBSFzxIo8]]",
@@ -2613,7 +2217,6 @@
           "added": [
             "[[lookup @save.dc.value activity=Y9H9ImnMcffBZlH3]]",
             "[[lookup @target.affects.type activity=Y9H9ImnMcffBZlH3]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=Y9H9ImnMcffBZlH3]]",
             "[[lookup @duration.value activity=Y9H9ImnMcffBZlH3]]",
             "[[lookup @duration.units activity=Y9H9ImnMcffBZlH3]]",
@@ -2625,8 +2228,7 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
@@ -2636,8 +2238,6 @@
             "[[lookup @save.dc.value activity=Blm8nddvCOH69bL8]]",
             "[[lookup @target.affects.type activity=Blm8nddvCOH69bL8]]",
             "[[lookup @target.template.size activity=Blm8nddvCOH69bL8]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=Blm8nddvCOH69bL8]]",
             "[[/damage average]]"
           ]
@@ -2647,21 +2247,14 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
           "path": "entries/mmOozeCube000000/effects/Nqpxg74Yw9uEVMxQ/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Total Cover]",
+            "&reference[total cover]",
             "[[lookup @range.value activity=EcTOfXWsDJRHLydy]]",
             "[[lookup @range.units activity=EcTOfXWsDJRHLydy]]",
             "[[/check dc=12 ability=str skill=ath format=long]]",
@@ -2675,7 +2268,7 @@
             "[[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]]",
             "[[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]]",
             "[[lookup @target.template.size activity=r4MGqEq5U9aaseBh]]",
-            "&Reference[Paralyzed apply=false]"
+            "&reference[paralyzed apply=false]"
           ]
         },
         {
@@ -2685,7 +2278,7 @@
             "[[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]]",
             "[[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]]",
             "[[lookup @target.template.size activity=r4MGqEq5U9aaseBh]]",
-            "&Reference[Incapacitated apply=false]"
+            "&reference[incapacitated apply=false]"
           ]
         },
         {
@@ -2694,7 +2287,6 @@
           "added": [
             "[[lookup @save.dc.value activity=p157Iqz8s0M0VilW]]",
             "[[lookup @target.affects.type activity=p157Iqz8s0M0VilW]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.size activity=p157Iqz8s0M0VilW]]",
             "[[lookup @duration.value activity=p157Iqz8s0M0VilW]]",
             "[[lookup @duration.units activity=p157Iqz8s0M0VilW]]"
@@ -2705,8 +2297,7 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
@@ -2716,7 +2307,7 @@
             "[[/attack extended]]",
             "[[/damage average extended]]",
             "[[lookup @save.dc.value activity=udF9lrpAQMvL0b9J]]",
-            "&Reference[Petrified apply=false]"
+            "&reference[petrified apply=false]"
           ]
         },
         {
@@ -2726,7 +2317,7 @@
             "[[/attack extended]]",
             "[[/damage average extended]]",
             "[[lookup @save.dc.value activity=udF9lrpAQMvL0b9J]]",
-            "&Reference[Restrained apply=false]"
+            "&reference[restrained apply=false]"
           ]
         },
         {
@@ -2736,7 +2327,7 @@
             "[[lookup @save.dc.value activity=reU3RXAk0MdPmKCl]]",
             "[[lookup @target.affects.type activity=reU3RXAk0MdPmKCl]]",
             "[[lookup @target.template.size activity=reU3RXAk0MdPmKCl]]",
-            "&Reference[Restrained apply=false]"
+            "&reference[restrained apply=false]"
           ]
         },
         {
@@ -2746,7 +2337,7 @@
             "[[lookup @save.dc.value activity=reU3RXAk0MdPmKCl]]",
             "[[lookup @target.affects.type activity=reU3RXAk0MdPmKCl]]",
             "[[lookup @target.template.size activity=reU3RXAk0MdPmKCl]]",
-            "&Reference[Petrified apply=false]"
+            "&reference[petrified apply=false]"
           ]
         },
         {
@@ -2758,9 +2349,7 @@
             "[[lookup @target.template.size activity=mN9aF1WkHQWLIN4B]]",
             "[[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]",
             "[[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Petrified apply=false]"
+            "&reference[petrified apply=false]"
           ]
         },
         {
@@ -2772,9 +2361,7 @@
             "[[lookup @target.template.size activity=mN9aF1WkHQWLIN4B]]",
             "[[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]",
             "[[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Restrained apply=false]"
+            "&reference[restrained apply=false]"
           ]
         },
         {
@@ -2794,8 +2381,6 @@
           "added": [
             "[[lookup @save.dc.value activity=r4plP8QiJxzFZZO7]]",
             "[[lookup @target.affects.labels.statblock activity=r4plP8QiJxzFZZO7]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=r4plP8QiJxzFZZO7]]"
           ]
         },
@@ -2805,40 +2390,21 @@
           "added": [
             "[[lookup @save.dc.value activity=7gmNBVjwuYTyANMe]]",
             "[[lookup @target.affects.special activity=7gmNBVjwuYTyANMe]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=7gmNBVjwuYTyANMe]]"
-          ]
-        },
-        {
-          "path": "entries/mmProtection0000/effects/4neflArm7JowxOTM/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
           ]
         },
         {
           "path": "entries/mmQuickGrapple00/effects/5yLzwp2Gu803QgI9/description",
           "missing": [
-            "&Reference[Grappled apply=false]",
+            "&reference[grappled apply=false]",
             "[[/check ability=str skill=ath format=long]]"
           ],
           "added": [
             "[[lookup @save.dc.value activity=aDWVHpJgsNPPNrDs]]",
             "[[lookup @target.affects.special activity=aDWVHpJgsNPPNrDs]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.size activity=aDWVHpJgsNPPNrDs]]",
             "[[lookup @target.template.units activity=aDWVHpJgsNPPNrDs]]",
-            "&Reference[Grappled]",
+            "&reference[grappled]",
             "[[lookup @skills.ath.passive]]"
           ]
         },
@@ -2857,8 +2423,7 @@
           "added": [
             "[[lookup @save.dc.value activity=zuf9EEVj4nI1joaH]]",
             "[[lookup @target.affects.type activity=zuf9EEVj4nI1joaH]]",
-            "[[lookup @target.template.size activity=zuf9EEVj4nI1joaH]]",
-            "[[lookup @name lowercase]]"
+            "[[lookup @target.template.size activity=zuf9EEVj4nI1joaH]]"
           ]
         },
         {
@@ -2866,16 +2431,7 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
-          ]
-        },
-        {
-          "path": "entries/mmRiposte0000000/effects/cIB1rKGRZwYjMwJn/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
@@ -2884,22 +2440,19 @@
           "added": [
             "[[lookup @save.dc.value activity=Igeu89TALGlNPXDg]]",
             "[[lookup @target.template.size activity=Igeu89TALGlNPXDg]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @duration.value activity=Igeu89TALGlNPXDg]]",
             "[[lookup @duration.units activity=Igeu89TALGlNPXDg]]",
             "[[lookup @save.dc.value activity=uFTndQPvULZVHT9R]]",
             "[[lookup @target.affects.type activity=uFTndQPvULZVHT9R]]",
             "[[lookup @target.template.size activity=uFTndQPvULZVHT9R]]",
-            "&Reference[Paralyzed apply=false]",
+            "&reference[paralyzed apply=false]",
             "[[lookup @duration.value activity=uFTndQPvULZVHT9R]]",
             "[[lookup @duration.units activity=uFTndQPvULZVHT9R]]",
             "[[lookup @save.dc.value activity=Td8ArIMDfxWDLbE9]]",
             "[[lookup @target.affects.type activity=Td8ArIMDfxWDLbE9]]",
             "[[lookup @target.template.size activity=Td8ArIMDfxWDLbE9]]",
             "[[/damage average]]",
-            "&Reference[Prone apply=false]",
+            "&reference[prone apply=false]",
             "[[lookup @damage.onSave capitalize activity=Td8ArIMDfxWDLbE9]]"
           ]
         },
@@ -2909,10 +2462,7 @@
           "added": [
             "[[lookup @save.dc.value activity=Igeu89TALGlNPXDg]]",
             "[[lookup @target.template.size activity=Igeu89TALGlNPXDg]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Frightened apply=false]",
+            "&reference[frightened apply=false]",
             "[[lookup @duration.value activity=Igeu89TALGlNPXDg]]",
             "[[lookup @duration.units activity=Igeu89TALGlNPXDg]]",
             "[[lookup @save.dc.value activity=uFTndQPvULZVHT9R]]",
@@ -2924,7 +2474,7 @@
             "[[lookup @target.affects.type activity=Td8ArIMDfxWDLbE9]]",
             "[[lookup @target.template.size activity=Td8ArIMDfxWDLbE9]]",
             "[[/damage average]]",
-            "&Reference[Prone apply=false]",
+            "&reference[prone apply=false]",
             "[[lookup @damage.onSave capitalize activity=Td8ArIMDfxWDLbE9]]"
           ]
         },
@@ -2934,16 +2484,13 @@
           "added": [
             "[[lookup @save.dc.value activity=Igeu89TALGlNPXDg]]",
             "[[lookup @target.template.size activity=Igeu89TALGlNPXDg]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Frightened apply=false]",
+            "&reference[frightened apply=false]",
             "[[lookup @duration.value activity=Igeu89TALGlNPXDg]]",
             "[[lookup @duration.units activity=Igeu89TALGlNPXDg]]",
             "[[lookup @save.dc.value activity=uFTndQPvULZVHT9R]]",
             "[[lookup @target.affects.type activity=uFTndQPvULZVHT9R]]",
             "[[lookup @target.template.size activity=uFTndQPvULZVHT9R]]",
-            "&Reference[Paralyzed apply=false]",
+            "&reference[paralyzed apply=false]",
             "[[lookup @duration.value activity=uFTndQPvULZVHT9R]]",
             "[[lookup @duration.units activity=uFTndQPvULZVHT9R]]",
             "[[lookup @save.dc.value activity=Td8ArIMDfxWDLbE9]]",
@@ -2983,17 +2530,8 @@
           "added": [
             "[[lookup @save.dc.value activity=g5fxAWhrpwohtETl]]",
             "[[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=g5fxAWhrpwohtETl]]",
             "[[/damage average]]"
-          ]
-        },
-        {
-          "path": "entries/mmShadowStealth0/effects/siHMgi75fxHCESex/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]"
           ]
         },
         {
@@ -3004,7 +2542,6 @@
             "[[lookup @target.affects.type activity=eIErvLccVVCXiCSl]]",
             "[[lookup @range.value activity=eIErvLccVVCXiCSl]]",
             "[[lookup @range.units activity=eIErvLccVVCXiCSl]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]"
           ]
         },
@@ -3012,9 +2549,6 @@
           "path": "entries/mmShimmeringShie/effects/sGQwUaOCcVnE2PA7/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.affects.type activity=sl8NoPhB0e5z6jmK]]",
             "[[lookup @range.value activity=sl8NoPhB0e5z6jmK]]",
             "[[/healing average temp]]"
@@ -3027,7 +2561,7 @@
             "[[lookup @save.dc.value activity=6ce9oevQRWomSVSF]]",
             "[[lookup @target.affects.type activity=6ce9oevQRWomSVSF]]",
             "[[lookup @target.template.size activity=6ce9oevQRWomSVSF]]",
-            "&Reference[Unconscious apply=false]",
+            "&reference[unconscious apply=false]",
             "[[lookup @duration.value activity=EZma0lCmQeTuVuAL]]"
           ]
         },
@@ -3038,7 +2572,7 @@
             "[[lookup @save.dc.value activity=6ce9oevQRWomSVSF]]",
             "[[lookup @target.affects.type activity=6ce9oevQRWomSVSF]]",
             "[[lookup @target.template.size activity=6ce9oevQRWomSVSF]]",
-            "&Reference[Incapacitated apply=false]",
+            "&reference[incapacitated apply=false]",
             "[[lookup @duration.value activity=EZma0lCmQeTuVuAL]]"
           ]
         },
@@ -3058,10 +2592,6 @@
           "added": [
             "[[/attack extended]]",
             "[[/damage average extended]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @skills.ath.passive]]",
             "[[/damage average]]"
           ]
@@ -3072,7 +2602,6 @@
           "added": [
             "[[lookup @save.dc.value activity=voqQeTnihpy3BTFf]]",
             "[[lookup @target.template.size activity=voqQeTnihpy3BTFf]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average activity=ukZveNVmvvtwbDj0]]"
           ]
         },
@@ -3081,9 +2610,6 @@
           "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=mJbwhj3beOIB3Jgj]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.size activity=mJbwhj3beOIB3Jgj]]"
           ]
         },
@@ -3101,34 +2627,23 @@
           "added": [
             "[[lookup @save.dc.value activity=eoIikvnPayaj02oN]]",
             "[[lookup @target.template.size activity=eoIikvnPayaj02oN]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]"
           ]
         },
         {
           "path": "entries/mmSwallow0000000/effects/VOHv1LyO3hHolZXo/description",
           "missing": [
-            "&Reference[Total Cover apply=false]"
+            "&reference[total cover apply=false]"
           ],
           "added": [
             "[[lookup @save.dc.value activity=YorssyWMumAsvzx3]]",
             "[[lookup @target.affects.special activity=YorssyWMumAsvzx3]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Total Cover]",
+            "&reference[total cover]",
             "[[/damage average activity=zrWNjO9mkbN28spL]]",
             "[[/save format=long activity=rGeGukkm2t2fXsoy]]",
             "[[lookup @range.value activity=rGeGukkm2t2fXsoy]]",
             "[[lookup @range.units activity=rGeGukkm2t2fXsoy]]",
-            "&Reference[Prone apply=false]"
+            "&reference[prone apply=false]"
           ]
         },
         {
@@ -3137,18 +2652,9 @@
           "added": [
             "[[lookup @save.dc.value activity=YorssyWMumAsvzx3]]",
             "[[lookup @target.affects.special activity=YorssyWMumAsvzx3]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Blinded apply=false]",
-            "&Reference[Restrained apply=false]",
-            "&Reference[Total Cover]",
+            "&reference[blinded apply=false]",
+            "&reference[restrained apply=false]",
+            "&reference[total cover]",
             "[[/damage average activity=zrWNjO9mkbN28spL]]",
             "[[/save format=long activity=rGeGukkm2t2fXsoy]]",
             "[[lookup @range.value activity=rGeGukkm2t2fXsoy]]",
@@ -3162,7 +2668,7 @@
             "[[/attack extended activity=rO8NirkWF6w9GXTc]]",
             "[[/damage average extended activity=rO8NirkWF6w9GXTc]]",
             "[[/damage average activity=hzeHzcSKHC4AvIJQ]]",
-            "&Reference[Bloodied apply=false]"
+            "&reference[bloodied apply=false]"
           ]
         },
         {
@@ -3182,7 +2688,7 @@
           "added": [
             "[[/attack extended]]",
             "[[/damage average extended]]",
-            "&Reference[Grappled apply=false]",
+            "&reference[grappled apply=false]",
             "[[lookup @skills.ath.passive]]"
           ]
         },
@@ -3203,8 +2709,6 @@
           "added": [
             "[[lookup @save.dc.value activity=VC2iSwNPNaZ7M2bT]]",
             "[[lookup @target.affects.special activity=VC2iSwNPNaZ7M2bT]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]"
           ]
         },
@@ -3213,29 +2717,27 @@
           "missing": [],
           "added": [
             "[[/attack extended]]",
-            "[[/damage average extended]]",
-            "[[lookup @name lowercase]]"
+            "[[/damage average extended]]"
           ]
         },
         {
           "path": "entries/mmThunderclap000/effects/QyuBYDW1zznn0OS4/description",
           "missing": [
-            "&Reference[Deafened apply=long]"
+            "&reference[deafened apply=long]"
           ],
           "added": [
             "[[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]]",
             "[[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]]",
             "[[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=Lq6GexegvlEVB6Dh]]",
             "[[/damage average]]",
-            "&Reference[Deafened apply=false]"
+            "&reference[deafened apply=false]"
           ]
         },
         {
           "path": "entries/mmThundercloud00/effects/zntfQrOQz4iBlh22/description",
           "missing": [
-            "&Reference[Incapacitated apply=false]"
+            "&reference[incapacitated apply=false]"
           ],
           "added": [
             "[[/attack extended]]",
@@ -3260,27 +2762,21 @@
           "added": [
             "[[lookup @save.dc.value activity=Kquf9zADg0jtKBqw]]",
             "[[lookup @target.affects.type activity=Kquf9zADg0jtKBqw]]",
-            "[[lookup @target.template.size activity=Kquf9zADg0jtKBqw]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
+            "[[lookup @target.template.size activity=Kquf9zADg0jtKBqw]]"
           ]
         },
         {
           "path": "entries/mmTramplingCharg/effects/OY3B1NBPgGcFmHGi/description",
           "missing": [
-            "&Reference[Prone apply=long]"
+            "&reference[prone apply=long]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[OpportunityAttacks]",
+            "&reference[opportunityattacks]",
             "[[lookup @target.affects.special activity=FG9rAj3Q8UTxbGLF]]",
             "[[lookup @target.affects.type activity=FG9rAj3Q8UTxbGLF]]",
             "[[lookup @save.dc.value activity=FG9rAj3Q8UTxbGLF]]",
             "[[/damage average]]",
-            "&Reference[Prone apply=false]"
+            "&reference[prone apply=false]"
           ]
         },
         {
@@ -3313,10 +2809,6 @@
           "added": [
             "[[lookup @target.affects.type activity=btp6NZvx465nxWTF]]",
             "[[lookup @target.affects.type activity=btp6NZvx465nxWTF]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.size activity=btp6NZvx465nxWTF]]",
             "[[lookup @save.dc.value activity=btp6NZvx465nxWTF]]"
           ]
@@ -3328,33 +2820,15 @@
             "[[lookup @save.dc.value activity=USxIbGZPLvfPnnoI]]",
             "[[lookup @target.affects.type activity=USxIbGZPLvfPnnoI]]",
             "[[lookup @target.template.size activity=USxIbGZPLvfPnnoI]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @duration.value activity=USxIbGZPLvfPnnoI]]",
             "[[lookup @duration.units activity=USxIbGZPLvfPnnoI]]"
-          ]
-        },
-        {
-          "path": "entries/mmVampireWeaknes/effects/v2EdEMrtcddO1p8U/description",
-          "missing": [],
-          "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
           ]
         },
         {
           "path": "entries/mmVanish00000000/effects/oY6W5ijpozecYGkq/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "&Reference[Concentration]"
+            "&reference[concentration]"
           ]
         },
         {
@@ -3363,10 +2837,7 @@
           "added": [
             "[[lookup @save.dc.value activity=FR0ETDHBas1Z5LfF]]",
             "[[lookup @target.affects.special activity=FR0ETDHBas1Z5LfF]]",
-            "[[lookup @range.value activity=FR0ETDHBas1Z5LfF]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
+            "[[lookup @range.value activity=FR0ETDHBas1Z5LfF]]"
           ]
         },
         {
@@ -3377,8 +2848,6 @@
           "added": [
             "[[lookup @save.dc.value activity=cZy0VYbCVY8aRB4z]]",
             "[[lookup @target.affects.special activity=cZy0VYbCVY8aRB4z]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average activity=cZy0VYbCVY8aRB4z]]",
             "[[lookup @skills.ath.passive]]",
             "[[/damage average activity=kDz92inkRCjGrPiz]]"
@@ -3388,8 +2857,6 @@
           "path": "entries/mmWarCry00000000/effects/qNmREVJzIbrjEJyb/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.affects.type activity=uN0VTW2Fqig7YAs9]]",
             "[[/healing average temp]]"
           ]
@@ -3407,13 +2874,12 @@
         {
           "path": "entries/mmWeb00000000000/effects/fihuYABujdt7o9uo/description",
           "missing": [
-            "&Reference[Restrained apply]"
+            "&reference[restrained apply]"
           ],
           "added": [
             "[[lookup @save.dc.value activity=6iMoUgxwYlvfKTXr]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=6iMoUgxwYlvfKTXr]]",
-            "&Reference[Restrained apply=false]"
+            "&reference[restrained apply=false]"
           ]
         },
         {
@@ -3422,40 +2888,30 @@
           "added": [
             "[[lookup @save.dc.value activity=Ln5NXBaHGKlwdoiP]]",
             "[[lookup @target.affects.type activity=Ln5NXBaHGKlwdoiP]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=Ln5NXBaHGKlwdoiP]]"
           ]
         },
         {
           "path": "entries/mmWeightOfYears0/effects/Bf6DExMyhKyPPV4x/description",
           "missing": [
-            "&Reference[Exhaustion apply=long]"
+            "&reference[exhaustion apply=long]"
           ],
           "added": [
             "[[lookup @save.dc.value activity=xZul1ImCP658OBv3]]",
             "[[lookup @target.affects.type activity=xZul1ImCP658OBv3]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=xZul1ImCP658OBv3]]",
-            "&Reference[Exhaustion apply=false]",
+            "&reference[exhaustion apply=false]",
             "[[/r 3d10]]"
           ]
         },
         {
           "path": "entries/mmWhelm000000000/effects/rN76liiHkUoMRMJN/description",
-          "missing": [
-            "&Reference[Suffocating]"
-          ],
+          "missing": [],
           "added": [
             "[[lookup @save.dc.value activity=TQchFj2VXXJgU7Lq]]",
             "[[lookup @target.affects.type activity=TQchFj2VXXJgU7Lq]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average activity=TQchFj2VXXJgU7Lq]]",
             "[[lookup @skills.ath.passive]]",
-            "&Reference[suffocating]",
             "[[/damage average activity=khxVwH3AB0sx1qRG]]",
             "[[/check ath dc=@skills.ath.passive format=long]]"
           ]
@@ -3466,8 +2922,6 @@
           "added": [
             "[[lookup @save.dc.value activity=GQzr4EMMm6kkZVdC]]",
             "[[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[/damage average]]"
           ]
         },
@@ -3475,51 +2929,32 @@
           "path": "entries/mmWhirlwindOfSan/effects/Xy0tzgObrMRF2lHm/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @range.units activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @target.affects.special activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @target.template.size activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @target.template.units activity=EsBmMUQMO4b0g6Yw]]",
-            "&Reference[Blinded apply=false]"
+            "&reference[blinded apply=false]"
           ]
         },
         {
           "path": "entries/mmWhirlwindOfSan/effects/MMp7IK5bYYPYtSdL/description",
           "missing": [
-            "&Reference[Blinded apply=long]"
+            "&reference[blinded apply=long]"
           ],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @range.value activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @range.units activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @target.affects.special activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @target.template.size activity=EsBmMUQMO4b0g6Yw]]",
             "[[lookup @target.template.units activity=EsBmMUQMO4b0g6Yw]]",
-            "&Reference[Blinded apply=false]"
+            "&reference[blinded apply=false]"
           ]
-        },
-        {
-          "path": "entries/mmWishes00000000/description",
-          "missing": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]"
-          ],
-          "added": []
         },
         {
           "path": "entries/mmWorldshakingMo/effects/ERWPInrx4mXsqrwL/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @target.template.size activity=g4W0ovZxBeUrZKb8]]",
             "[[lookup @target.template.units activity=g4W0ovZxBeUrZKb8]]"
           ]
@@ -3555,14 +2990,14 @@
           "path": "entries/phbspHighElf0000/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         },
         {
           "path": "entries/phbspWoodElf0000/description",
           "missing": [],
           "added": [
-            "&Reference[Charmed]"
+            "&reference[charmed]"
           ]
         }
       ]
@@ -3628,14 +3063,14 @@
           "path": "entries/phbsplDisguiseSe/description",
           "missing": [],
           "added": [
-            "&Reference[Study]"
+            "&reference[study]"
           ]
         },
         {
           "path": "entries/phbsplDisguiseSe/effects/SrIb7dbaZs5F4zi9/description",
           "missing": [],
           "added": [
-            "&Reference[Study]"
+            "&reference[study]"
           ]
         },
         {
@@ -3651,45 +3086,45 @@
           "path": "entries/phbsplProduceFla/description",
           "missing": [],
           "added": [
-            "&Reference[BrightLight]",
-            "&Reference[DimLight]"
+            "&reference[brightlight]",
+            "&reference[dimlight]"
           ]
         },
         {
           "path": "entries/phbsplSequester0/description",
           "missing": [],
           "added": [
-            "&Reference[Invisible]",
-            "&Reference[Unconscious apply=false]"
+            "&reference[invisible]",
+            "&reference[unconscious apply=false]"
           ]
         },
         {
           "path": "entries/phbsplSpikeGrowt/description",
           "missing": [],
           "added": [
-            "&Reference[difficultterrain]"
+            "&reference[difficultterrain]"
           ]
         },
         {
           "path": "entries/phbsplStarryWisp/description",
           "missing": [],
           "added": [
-            "&Reference[DimLight]"
+            "&reference[dimlight]"
           ]
         },
         {
           "path": "entries/phbsplStarryWisp/effects/T9kBIL7LS3j0Upwz/description",
           "missing": [],
           "added": [
-            "&Reference[DimLight]"
+            "&reference[dimlight]"
           ]
         },
         {
           "path": "entries/phbsplSunbeam000/description",
           "missing": [],
           "added": [
-            "&Reference[BrightLight]",
-            "&Reference[DimLight]"
+            "&reference[brightlight]",
+            "&reference[dimlight]"
           ]
         }
       ]
