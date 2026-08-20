@@ -15,10 +15,15 @@ compendios modernos (`*24`) con los compendios heredados del SRD 5.1.
 - Las fichas modernas muestran nombres, descripciones, actividades, efectos y
   elementos embebidos traducidos.
 - La ficha del actor Akra y sus elementos se abren correctamente en Foundry 14.
+- La validación final está documentada en `foundry14-validation.md` y confirma
+  la ejecución con Foundry 14.363, D&D 5e 5.3.3 y Babele 2.9.1.
 
 ## Trabajo prioritario
 
 ### 1. Traducir los componentes materiales de los conjuros
+
+**Estado: completado.** Se extrajeron y validaron 188 componentes materiales
+del PDF oficial; la ficha de Santuario se verificó también en Foundry.
 
 **Problema:** `system.materials.value` no forma parte de la exportación ni del
 mapeo actual. Por ello, una ficha como **Santuario** muestra el componente
@@ -43,6 +48,9 @@ inglés en «Materiales», y el auditor incluye este campo en sus resultados.
 
 ### 2. Revisar campos visibles omitidos por los exportadores
 
+**Estado: completado.** El inventario contiene 1.603 valores agrupados en 46
+rutas normalizadas y forma parte de la validación de publicación.
+
 **Problema:** la auditoría actual comprueba los campos exportados, pero Foundry
 puede mostrar otros valores de `system`, como materiales, textos especiales,
 condiciones de activación o etiquetas derivadas.
@@ -60,6 +68,9 @@ condiciones de activación o etiquetas derivadas.
 tienen propietario documentado: módulo SRD, localización de D&D 5e o Babele.
 
 ### 3. Investigar el subtipo derivado de los actores
+
+**Estado: completado.** El valor preparado por D&D 5e se corrige al renderizar
+la ficha. Akra muestra `Dracónido` y ya no muestra `Dragonborn`.
 
 **Problema:** Akra muestra `Dragonborn` junto al objeto de especie traducido como
 `Dracónido`. El valor parece derivarse de la especie o de datos preparados por
@@ -111,3 +122,7 @@ Solo después de superar todas las pruebas se debe actualizar `module.json` para
 declarar Foundry 14.363, D&D 5e 5.3.3 y Babele 2.9.1 como versiones verificadas.
 La actualización de compatibilidad debe constituir un commit independiente y
 estar respaldada por el informe de ejecución final.
+
+**Estado: autorizado por la validación final.** Las pruebas se completaron el
+20 de agosto de 2026 y permiten realizar el commit independiente de
+compatibilidad.
