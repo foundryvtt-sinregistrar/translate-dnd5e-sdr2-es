@@ -2548,48 +2548,7 @@
           "value": "Invisible"
         }
       ],
-      "likelyEnglish": [
-        {
-          "path": "entries/mmLoathsomeLimbs/description",
-          "value": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad que le falte, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere puntos de golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>"
-        },
-        {
-          "path": "entries/mmLoathsomeLimbs/effects/PFledLQkQ75osOlZ/description",
-          "value": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad que le falte, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere puntos de golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>"
-        },
-        {
-          "path": "entries/mmLoathsomeLimbs/effects/AVZPkC07GONXpRMe/description",
-          "value": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad que le falte, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere puntos de golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>"
-        },
-        {
-          "path": "entries/mmLoathsomeLimbs/effects/l1PiPpfAiF9TWs88/description",
-          "value": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad que le falte, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere puntos de golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>"
-        },
-        {
-          "path": "entries/mmLoathsomeLimbs/effects/DCB7xWKhKSEmZHNn/description",
-          "value": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad que le falte, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere puntos de golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>"
-        },
-        {
-          "path": "entries/mmLoathsomeLimbs/effects/9Tc60NhDJH43WdEU/description",
-          "value": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad que le falte, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere puntos de golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>"
-        },
-        {
-          "path": "entries/mmLoathsomeLimbs/effects/drQriWAwmwosemzp/description",
-          "value": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad que le falte, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere puntos de golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>"
-        },
-        {
-          "path": "entries/mmSpellcasting00/description",
-          "value": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes {type} y usando {ability} como característica de lanzamiento (CD de salvación de conjuro [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>{spell}</em></p><p class=\"feature-trait\"><strong>{count}/día cada uno:</strong> <em>{spell}</em></p>"
-        },
-        {
-          "path": "entries/mmSwarm000000000/description",
-          "value": "<p>El enjambre puede ocupar el espacio de otra criatura y viceversa, y el enjambre puede moverse a través de cualquier abertura lo bastante grande para un/una {creature size and type}. El enjambre no puede recuperar Puntos de golpe ni obtener Puntos de golpe temporales.</p>"
-        },
-        {
-          "path": "entries/mmWaterSusceptib/description",
-          "value": "<p class=\"feature\">El [[lookup @name lowercase]] sufre 3 (1d6) de daño de Frío por cada 5 pies que el [[lookup @name lowercase]] se mueva en agua o por cada galón de agua que se le salpique.</p><section class=\"secret\" id=\"secret-8tKSKGttxgiryprr\"><p><strong>Foundry Note</strong></p><p>Scaling is configured to roll the correct number of dice based on the distance traveled through water. 1 is default for 5 feet, 2 is for 10 feet, and so forth.</p></section>"
-        }
-      ],
+      "likelyEnglish": [],
       "mojibake": [],
       "foundryTokenChanges": [
         {
@@ -3237,11 +3196,17 @@
           ]
         },
         {
+          "path": "entries/mmLoathsomeLimbs/description",
+          "missing": [
+            "[[lookup @name lowercase]]",
+            "[[lookup @name lowercase]]"
+          ],
+          "added": []
+        },
+        {
           "path": "entries/mmLoathsomeLimbs/effects/PFledLQkQ75osOlZ/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
@@ -3255,8 +3220,6 @@
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -3264,8 +3227,6 @@
           "path": "entries/mmLoathsomeLimbs/effects/l1PiPpfAiF9TWs88/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
@@ -3279,8 +3240,6 @@
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -3291,8 +3250,6 @@
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]"
           ]
         },
@@ -3300,8 +3257,6 @@
           "path": "entries/mmLoathsomeLimbs/effects/drQriWAwmwosemzp/description",
           "missing": [],
           "added": [
-            "[[lookup @name lowercase]]",
-            "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",
             "[[lookup @name lowercase]]",

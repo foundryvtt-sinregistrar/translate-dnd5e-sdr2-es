@@ -68,6 +68,7 @@ def shape(value: Any) -> Any:
 
 def plain_text(value: str) -> str:
     value = FOUNDRY_TOKEN.sub(" ", value)
+    value = re.sub(r"\{[^{}]+\}", " ", value)
     value = re.sub(r"<[^>]+>", " ", value)
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
