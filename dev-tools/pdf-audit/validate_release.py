@@ -50,6 +50,19 @@ def main() -> None:
     if len(material_report) != 188:
         raise SystemExit(f"expected 188 PDF-backed spell materials, found {len(material_report)}")
 
+    with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as handle:
+        visible_report_path = Path(handle.name)
+    try:
+        run("audit_visible_fields.py", "--output", str(visible_report_path))
+        generated_visible_report = json.loads(visible_report_path.read_text(encoding="utf-8"))
+        tracked_visible_report = json.loads(
+            (AUDIT_DIR / "reports" / "visible-field-inventory.json").read_text(encoding="utf-8")
+        )
+        if generated_visible_report != tracked_visible_report:
+            raise SystemExit("visible field inventory is stale; regenerate it from the complete exports")
+    finally:
+        visible_report_path.unlink(missing_ok=True)
+
     with tempfile.TemporaryDirectory(prefix="srd2-audit-") as temporary:
         report = Path(temporary) / "translation-audit.json"
         run("audit_srd_translation.py", "--json", str(report))
@@ -80,6 +93,7 @@ def main() -> None:
 
     print(f"OK: {len(json_files)} JSON files and {len(PACKS)} compendium packs validated")
     print(f"OK: {len(material_report)} PDF-backed spell material components validated")
+    print("OK: visible free-text field inventory matches the complete exports")
     print("OK: no pending normalization, duplicate repair, or embedded sync changes")
 
 

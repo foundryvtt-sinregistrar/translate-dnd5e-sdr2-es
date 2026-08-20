@@ -1,0 +1,1117 @@
+{
+  "scope": "Free-text fields in complete modern SRD exports that require translation ownership",
+  "classification": {
+    "translationOwned": [
+      "chatFlavor",
+      "condition",
+      "custom",
+      "dimensions",
+      "special"
+    ],
+    "reviewRequired": [
+      "subtype"
+    ],
+    "systemOwned": "enum codes, units, damage types, creature types, sizes, abilities, and property identifiers",
+    "technical": "IDs, UUIDs, formulas, image paths, source metadata, and numeric values"
+  },
+  "packs": {
+    "dnd5e.actors24.json": {
+      "items.[].system.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 56,
+        "examples": [
+          {
+            "id": "BeiroLv010000000",
+            "value": "when you are hit by an attack roll or targeted by the Magic Missile spell"
+          },
+          {
+            "id": "BeiroLv050000000",
+            "value": "when you are hit by an attack roll or targeted by the Magic Missile spell"
+          },
+          {
+            "id": "BeiroLv050000000",
+            "value": "when you or a creature you can see within 60 feet of you falls"
+          },
+          {
+            "id": "BeiroLv110000000",
+            "value": "when you are hit by an attack roll or targeted by the Magic Missile spell"
+          },
+          {
+            "id": "BeiroLv110000000",
+            "value": "when you or a creature you can see within 60 feet of you falls"
+          }
+        ]
+      },
+      "items.[].system.activities.*.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 244,
+        "examples": [
+          {
+            "id": "AkraLv1100000000",
+            "value": "Deal damage with any Cleric cantrip"
+          },
+          {
+            "id": "AkraLv1700000000",
+            "value": "Deal damage with any Cleric cantrip"
+          },
+          {
+            "id": "AkraLv1700000000",
+            "value": "When you cast a Cleric cantrip and deal damage to a creature with it"
+          },
+          {
+            "id": "AothLv0500000000",
+            "value": "Once on each of your turns"
+          },
+          {
+            "id": "AothLv0500000000",
+            "value": "Once on each of your turns"
+          }
+        ]
+      },
+      "items.[].system.activities.*.description.chatFlavor": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity chat description",
+        "count": 52,
+        "examples": [
+          {
+            "id": "AkraLv1100000000",
+            "value": "Hit Point maximum increased by healing amount"
+          },
+          {
+            "id": "AkraLv1700000000",
+            "value": "Hit Point maximum increased by healing amount"
+          },
+          {
+            "id": "AothLv1700000000",
+            "value": "Distance moved reduced by up to 10 feet"
+          },
+          {
+            "id": "KruskLv170000000",
+            "value": "Bonus Damage: 1d8 Force vs Giant"
+          },
+          {
+            "id": "KruskLv170000000",
+            "value": "The space you left is &Reference[LightlyObscured] by smoke until the end of your next turn."
+          }
+        ]
+      },
+      "items.[].system.activities.*.duration.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 2,
+        "examples": [
+          {
+            "id": "mmAdultGoldDrago",
+            "value": "until the start of its next turn"
+          },
+          {
+            "id": "mmAncientGoldDra",
+            "value": "until the start of its next turn"
+          }
+        ]
+      },
+      "items.[].system.activities.*.range.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 22,
+        "examples": [
+          {
+            "id": "PerrinLv05000000",
+            "value": "5 feet for melee attacks or 60 feet for ranged attacks"
+          },
+          {
+            "id": "PerrinLv11000000",
+            "value": "5 feet for melee attacks or 60 feet for ranged attacks"
+          },
+          {
+            "id": "PerrinLv17000000",
+            "value": "5 feet for melee attacks or 60 feet for ranged attacks"
+          },
+          {
+            "id": "PerrinLv17000000",
+            "value": "5 feet for melee attacks or 60 feet for ranged attacks"
+          },
+          {
+            "id": "QuillatheLv11000",
+            "value": "Of the damaged creature"
+          }
+        ]
+      },
+      "items.[].system.activities.*.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 172,
+        "examples": [
+          {
+            "id": "AkraLv0500000000",
+            "value": "Undead of your choice"
+          },
+          {
+            "id": "AkraLv0500000000",
+            "value": "Create you cast a healing spell on"
+          },
+          {
+            "id": "AkraLv0500000000",
+            "value": "Blooed creatures"
+          },
+          {
+            "id": "AkraLv0500000000",
+            "value": "Undead"
+          },
+          {
+            "id": "AkraLv1100000000",
+            "value": "Undead of your choice"
+          }
+        ]
+      },
+      "items.[].system.advancement.[].configuration.restriction.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 23,
+        "examples": [
+          {
+            "id": "AothLv0100000000",
+            "value": "origin"
+          },
+          {
+            "id": "AothLv0500000000",
+            "value": "origin"
+          },
+          {
+            "id": "AothLv1100000000",
+            "value": "origin"
+          },
+          {
+            "id": "AothLv1700000000",
+            "value": "origin"
+          },
+          {
+            "id": "MorthosLv0100000",
+            "value": "metamagic"
+          }
+        ]
+      },
+      "items.[].system.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 62,
+        "examples": [
+          {
+            "id": "AkraLv0500000000",
+            "value": "0 Hit Points and isn't dead"
+          },
+          {
+            "id": "AkraLv1100000000",
+            "value": "0 Hit Points and isn't dead"
+          },
+          {
+            "id": "AkraLv1100000000",
+            "value": "unoccupied"
+          },
+          {
+            "id": "AkraLv1100000000",
+            "value": "a dead creature"
+          },
+          {
+            "id": "AkraLv1700000000",
+            "value": "0 Hit Points and isn't dead"
+          }
+        ]
+      },
+      "items.[].system.type.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 179,
+        "examples": [
+          {
+            "id": "AkraLv0100000000",
+            "value": "Dragonborn"
+          },
+          {
+            "id": "AkraLv0100000000",
+            "value": "origin"
+          },
+          {
+            "id": "AkraLv0500000000",
+            "value": "Dragonborn"
+          },
+          {
+            "id": "AkraLv0500000000",
+            "value": "origin"
+          },
+          {
+            "id": "AkraLv0500000000",
+            "value": "channelDivinity"
+          }
+        ]
+      },
+      "system.details.habitat.value.[].subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 69,
+        "examples": [
+          {
+            "id": "mmAirElemental00",
+            "value": "elementalplane of air"
+          },
+          {
+            "id": "mmAzerSentinel00",
+            "value": "elemental plane of fire"
+          },
+          {
+            "id": "mmBalor000000000",
+            "value": "abyss"
+          },
+          {
+            "id": "mmBarbedDevil000",
+            "value": "nine hells"
+          },
+          {
+            "id": "mmBeardedDevil00",
+            "value": "nine hells"
+          }
+        ]
+      },
+      "system.details.type.custom": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom type, trait, damage, or formula label",
+        "count": 34,
+        "examples": [
+          {
+            "id": "dmg3x5CarpetofFl",
+            "value": "Magic Item"
+          },
+          {
+            "id": "dmg4x6CarpetofFl",
+            "value": "Magic Item"
+          },
+          {
+            "id": "dmg5x7CarpetofFl",
+            "value": "Magic Item"
+          },
+          {
+            "id": "dmg6x9CarpetofFl",
+            "value": "Magic Item"
+          },
+          {
+            "id": "dmgIllusoryCreat",
+            "value": "Illusion"
+          }
+        ]
+      },
+      "system.details.type.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 75,
+        "examples": [
+          {
+            "id": "dmg3x5CarpetofFl",
+            "value": "carpet"
+          },
+          {
+            "id": "dmg4x6CarpetofFl",
+            "value": "carpet"
+          },
+          {
+            "id": "dmg5x7CarpetofFl",
+            "value": "carpet"
+          },
+          {
+            "id": "dmg6x9CarpetofFl",
+            "value": "carpet"
+          },
+          {
+            "id": "dmgqftFloatingWh",
+            "value": "Feather Token"
+          }
+        ]
+      },
+      "system.traits.dimensions": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "vehicle or object dimensions",
+        "count": 1,
+        "examples": [
+          {
+            "id": "dmgApparatusofKw",
+            "value": "10 x 5 x 5 feet"
+          }
+        ]
+      },
+      "system.traits.dv.custom": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom type, trait, damage, or formula label",
+        "count": 1,
+        "examples": [
+          {
+            "id": "mmRakshasa000000",
+            "value": "Piercing damage from weapons wielded by creatures under the effect of a Bless spell"
+          }
+        ]
+      },
+      "system.traits.languages.custom": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom type, trait, damage, or formula label",
+        "count": 66,
+        "examples": [
+          {
+            "id": "dmgAvatarofDeath",
+            "value": "All languages known to its summoner"
+          },
+          {
+            "id": "mmAboleth0000000",
+            "value": "telepathy 120 ft."
+          },
+          {
+            "id": "mmArchmage000000",
+            "value": "Common plus five other languages"
+          },
+          {
+            "id": "mmAwakenedShrub0",
+            "value": "plus one other language;"
+          },
+          {
+            "id": "mmAwakenedTree00",
+            "value": "plus one other language;"
+          }
+        ]
+      }
+    },
+    "dnd5e.classes24.json": {
+      "system.activities.*.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 66,
+        "examples": [
+          {
+            "id": "phbClcPotentSpel",
+            "value": "Deal damage with any Cleric cantrip"
+          },
+          {
+            "id": "phbbrbPersistent",
+            "value": "When you roll initiative"
+          },
+          {
+            "id": "phbbrbRetaliatio",
+            "value": "When you take damage from a creature within 5 feet of you"
+          },
+          {
+            "id": "phbbrdCountercha",
+            "value": "You or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition"
+          },
+          {
+            "id": "phbbrdCuttingWor",
+            "value": "Creature you can see within 60 feet makes a damage roll or succeeds on an ability check or attack roll"
+          }
+        ]
+      },
+      "system.activities.*.description.chatFlavor": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity chat description",
+        "count": 2,
+        "examples": [
+          {
+            "id": "phbmnkMonksFocus",
+            "value": "Make two [[/item Unarmed Strike]]{Unarmed Strikes}"
+          },
+          {
+            "id": "phbmnkUnarmedStr",
+            "value": "Grapple or Shove attempt"
+          }
+        ]
+      },
+      "system.activities.*.range.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 3,
+        "examples": [
+          {
+            "id": "phbmnkDeflectAtt",
+            "value": "5 feet for melee attacks or 60 feet for ranged attacks"
+          },
+          {
+            "id": "phbmnkDeflectEne",
+            "value": "5 feet for melee attacks or 60 feet for ranged attacks"
+          },
+          {
+            "id": "phbrgrSuperiorHu",
+            "value": "Of the damaged creature"
+          }
+        ]
+      },
+      "system.activities.*.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 14,
+        "examples": [
+          {
+            "id": "phbDivineStrike0",
+            "value": "When you a hit a creature with an attack roll using a weapon once per turn"
+          },
+          {
+            "id": "phbDivineStrike0",
+            "value": "When you a hit a creature with an attack roll using a weapon once per turn"
+          },
+          {
+            "id": "phbFuryPrimalStr",
+            "value": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape"
+          },
+          {
+            "id": "phbclcChannelDiv",
+            "value": "Undead of your choice"
+          },
+          {
+            "id": "phbclcDiscipleOf",
+            "value": "Create you cast a healing spell on"
+          }
+        ]
+      },
+      "system.advancement.[].configuration.restriction.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 4,
+        "examples": [
+          {
+            "id": "phbftrChampion00",
+            "value": "fightingStyle"
+          },
+          {
+            "id": "phbftrFighter000",
+            "value": "fightingStyle"
+          },
+          {
+            "id": "phbscrSorcerer00",
+            "value": "metamagic"
+          },
+          {
+            "id": "phbwlkWarlock000",
+            "value": "eldritchInvocation"
+          }
+        ]
+      },
+      "system.type.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 47,
+        "examples": [
+          {
+            "id": "phbclcChannelDiv",
+            "value": "channelDivinity"
+          },
+          {
+            "id": "phbclcSearUndead",
+            "value": "channelDivinity"
+          },
+          {
+            "id": "phbfstBlessedWar",
+            "value": "fightingStyle"
+          },
+          {
+            "id": "phbfstDruidicWar",
+            "value": "fightingStyle"
+          },
+          {
+            "id": "phbinvAgonizingB",
+            "value": "eldritchInvocation"
+          }
+        ]
+      }
+    },
+    "dnd5e.content24.json": {},
+    "dnd5e.equipment24.json": {
+      "system.activities.*.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 45,
+        "examples": [
+          {
+            "id": "dmgAbsorptionIou",
+            "value": "when a creature you can see casts a spell of 4th level or lower"
+          },
+          {
+            "id": "dmgArrowcatching",
+            "value": "an attacker makes a ranged attack roll against a target within 5 feet of you"
+          },
+          {
+            "id": "dmgBagOfBeans000",
+            "value": "Upon discovering the bag."
+          },
+          {
+            "id": "dmgBagOfBeans000",
+            "value": "Object interaction"
+          },
+          {
+            "id": "dmgBagOfBeans000",
+            "value": "Object interaction"
+          }
+        ]
+      },
+      "system.activities.*.description.chatFlavor": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity chat description",
+        "count": 38,
+        "examples": [
+          {
+            "id": "dmgApparatusOfKw",
+            "value": "Adjust up to two levers up or down"
+          },
+          {
+            "id": "dmgArrowcatching",
+            "value": "You become the target of the ranged attack."
+          },
+          {
+            "id": "dmgBagOfBeans000",
+            "value": "3d4 dry beans found in bag."
+          },
+          {
+            "id": "dmgBagOfTricks00",
+            "value": "Transformed creature determined by GM or table roll"
+          },
+          {
+            "id": "dmgCapeOfTheMoun",
+            "value": "The space you left is &Reference[LightlyObscured] by smoke until the end of your next turn."
+          }
+        ]
+      },
+      "system.activities.*.duration.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 16,
+        "examples": [
+          {
+            "id": "dmgBagOfTricks00",
+            "value": "Until the next dawn or when creature is reduced to 0 Hit Points."
+          },
+          {
+            "id": "dmgBirdQuaalsFea",
+            "value": "The bird disappears after flying its maximum distance for a day or if it drops to 0 Hit Points. You can dismiss the bird as a Magic action."
+          },
+          {
+            "id": "dmgCloakOfTheBat",
+            "value": "fail to grip the cloak’s edges while flying in this way, or if you are no longer in Dim Light or Darkness"
+          },
+          {
+            "id": "dmgDancingSword0",
+            "value": "Until the sword has made four attacks while hovering"
+          },
+          {
+            "id": "dmgDancingSword0",
+            "value": "Until the sword has made four attacks while hovering"
+          }
+        ]
+      },
+      "system.activities.*.range.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 5,
+        "examples": [
+          {
+            "id": "dmgBroomOfFlying",
+            "value": "a familiar destination you have named"
+          },
+          {
+            "id": "dmgHammerOfThund",
+            "value": "long range of 60 feet"
+          },
+          {
+            "id": "dmgRingOfDjinniS",
+            "value": "you can see"
+          },
+          {
+            "id": "dmgTalismanOfPur",
+            "value": "you can see"
+          },
+          {
+            "id": "dmgTalismanOfUlt",
+            "value": "you can see"
+          }
+        ]
+      },
+      "system.activities.*.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 82,
+        "examples": [
+          {
+            "id": "dmgAirRingOfElem",
+            "value": "Elemental"
+          },
+          {
+            "id": "dmgArrowcatching",
+            "value": "attack roll made against target"
+          },
+          {
+            "id": "dmgBagOfBeans000",
+            "value": "Held Bag of Beans"
+          },
+          {
+            "id": "dmgBagOfBeans000",
+            "value": "Dirt or sand"
+          },
+          {
+            "id": "dmgBlueElemental",
+            "value": "unoccupied space as close to the broken gem as possible"
+          }
+        ]
+      },
+      "system.type.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 18,
+        "examples": [
+          {
+            "id": "dmgAssassinsBloo",
+            "value": "ingested"
+          },
+          {
+            "id": "dmgBurntOthurFum",
+            "value": "inhaled"
+          },
+          {
+            "id": "dmgCarrionCrawle",
+            "value": "contact"
+          },
+          {
+            "id": "dmgEssenceOfEthe",
+            "value": "inhaled"
+          },
+          {
+            "id": "dmgLolthsSting00",
+            "value": "injury"
+          }
+        ]
+      }
+    },
+    "dnd5e.feats24.json": {
+      "system.activities.*.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 3,
+        "examples": [
+          {
+            "id": "phbBoonofDimensi",
+            "value": "Immediately after you take the Attack action"
+          },
+          {
+            "id": "phbBoonofFate000",
+            "value": "When you or another creature within 60 feet of you succeeds or fails a D20 Test"
+          },
+          {
+            "id": "phbBoonofSpellRe",
+            "value": "Whenever you cast a spell with a level 1-4 spell slot"
+          }
+        ]
+      },
+      "system.activities.*.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 1,
+        "examples": [
+          {
+            "id": "phbBoonofDimensi",
+            "value": "Unocuppied space"
+          }
+        ]
+      },
+      "system.type.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 16,
+        "examples": [
+          {
+            "id": "phbBoonofCombatP",
+            "value": "epicBoon"
+          },
+          {
+            "id": "phbBoonofDimensi",
+            "value": "epicBoon"
+          },
+          {
+            "id": "phbBoonofFate000",
+            "value": "epicBoon"
+          },
+          {
+            "id": "phbBoonofIrresis",
+            "value": "epicBoon"
+          },
+          {
+            "id": "phbBoonofSpellRe",
+            "value": "epicBoon"
+          }
+        ]
+      }
+    },
+    "dnd5e.monsterfeatures24.json": {
+      "system.activities.*.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 20,
+        "examples": [
+          {
+            "id": "mmAttach00000000",
+            "value": "Action taken by the target or creature within range of it"
+          },
+          {
+            "id": "mmAuraOfAuthorit",
+            "value": "doesn't have the Incapacitated condition"
+          },
+          {
+            "id": "mmBarbedHide0000",
+            "value": "start of each of its turns"
+          },
+          {
+            "id": "mmBeaks000000000",
+            "value": "swarm is not Bloodied"
+          },
+          {
+            "id": "mmBeaks000000000",
+            "value": "the swarm is &Reference[Bloodied apply=false]"
+          }
+        ]
+      },
+      "system.activities.*.description.chatFlavor": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity chat description",
+        "count": 10,
+        "examples": [
+          {
+            "id": "mmColdGale000000",
+            "value": "On Success: The target is pushed up to 30 feet straight away from the attacking creature"
+          },
+          {
+            "id": "mmDrainingKiss00",
+            "value": "Failure or Success: The target’s HP max. decreases by an amount equal to the damage taken."
+          },
+          {
+            "id": "mmDrainingSwipe0",
+            "value": "On Hit: Target's STR score decreases"
+          },
+          {
+            "id": "mmFlameWhip00000",
+            "value": "On Hit: Huge or smaller creatures pulled 25 ft. toward attacking creature."
+          },
+          {
+            "id": "mmHammerThrow000",
+            "value": "On Hit: Target pushed 15 feet away."
+          }
+        ]
+      },
+      "system.activities.*.duration.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 1,
+        "examples": [
+          {
+            "id": "mmBanish00000000",
+            "value": "until the start of its next turn"
+          }
+        ]
+      },
+      "system.activities.*.range.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 8,
+        "examples": [
+          {
+            "id": "mmCharge00000000",
+            "value": "half its Speed"
+          },
+          {
+            "id": "mmChargingHorn00",
+            "value": "half its speed"
+          },
+          {
+            "id": "mmDeathlyTelepor",
+            "value": "to an unoccupied space it can see"
+          },
+          {
+            "id": "mmDestroyMetal00",
+            "value": "touches a nonmagical metal object"
+          },
+          {
+            "id": "mmFling000000000",
+            "value": "that isn’t in the air"
+          }
+        ]
+      },
+      "system.activities.*.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 45,
+        "examples": [
+          {
+            "id": "mmAnimateTrees00",
+            "value": "Trees it can see within range"
+          },
+          {
+            "id": "mmAntennae000000",
+            "value": "nonmagical metal"
+          },
+          {
+            "id": "mmAquaticCharge0",
+            "value": "target is visible"
+          },
+          {
+            "id": "mmArcaneProwl000",
+            "value": "unoccupied space"
+          },
+          {
+            "id": "mmAttach00000000",
+            "value": "attached target"
+          }
+        ]
+      }
+    },
+    "dnd5e.origins24.json": {
+      "system.activities.*.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 6,
+        "examples": [
+          {
+            "id": "phbsptFiresBurn0",
+            "value": "When you hit a target with an attack roll and deal damage to it"
+          },
+          {
+            "id": "phbsptFrostsChil",
+            "value": "When you hit a target with an attack roll and deal damage to it"
+          },
+          {
+            "id": "phbsptHillsTumbl",
+            "value": "When you hit a Large or smaller creature with an attack roll and deal damage to it"
+          },
+          {
+            "id": "phbsptRelentless",
+            "value": "When you are reduced to 0 Hit Points but not killed outright"
+          },
+          {
+            "id": "phbsptStonesEndu",
+            "value": "When you take damage"
+          }
+        ]
+      },
+      "system.activities.*.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 1,
+        "examples": [
+          {
+            "id": "phbsptCloudsJaun",
+            "value": "Unoccupied space"
+          }
+        ]
+      },
+      "system.advancement.[].configuration.restriction.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 1,
+        "examples": [
+          {
+            "id": "phbspHuman000000",
+            "value": "origin"
+          }
+        ]
+      },
+      "system.type.subtype": {
+        "owner": "review-required",
+        "reason": "mixed enum or custom creature/species subtype; review by document type",
+        "count": 14,
+        "examples": [
+          {
+            "id": "phbspAbyssalTief",
+            "value": "Tiefling"
+          },
+          {
+            "id": "phbspChthonicTie",
+            "value": "Tiefling"
+          },
+          {
+            "id": "phbspDragonborn0",
+            "value": "Dragonborn"
+          },
+          {
+            "id": "phbspDrow0000000",
+            "value": "Elf"
+          },
+          {
+            "id": "phbspDwarf000000",
+            "value": "Dwarf"
+          }
+        ]
+      }
+    },
+    "dnd5e.spells24 (1).json": {
+      "system.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 10,
+        "examples": [
+          {
+            "id": "phbsplCounterspe",
+            "value": "when you see a creature within range casting a spell with Verbal, Somatic, or Material components"
+          },
+          {
+            "id": "phbsplCreateUnde",
+            "value": "only at night"
+          },
+          {
+            "id": "phbsplDivineSmit",
+            "value": "Immediately after hitting a target with a Melee weapon or an Unarmed Strike"
+          },
+          {
+            "id": "phbsplEnsnaringS",
+            "value": "Immediately after hitting a creature with a weapon"
+          },
+          {
+            "id": "phbsplFeatherFal",
+            "value": "when you or a creature you can see within 60 feet of you falls"
+          }
+        ]
+      },
+      "system.activities.*.activation.condition": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity trigger or usage condition",
+        "count": 18,
+        "examples": [
+          {
+            "id": "phbsplDelayedBla",
+            "value": "a creature touches the glowing bead before the spell ends"
+          },
+          {
+            "id": "phbsplDelayedBla",
+            "value": "whenever your turn ends"
+          },
+          {
+            "id": "phbsplDelayedBla",
+            "value": "when the spell ends"
+          },
+          {
+            "id": "phbsplEarthquake",
+            "value": "end of turn of initial casting"
+          },
+          {
+            "id": "phbsplEarthquake",
+            "value": "when a structure drops to 0 Hit Points"
+          }
+        ]
+      },
+      "system.activities.*.description.chatFlavor": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "activity chat description",
+        "count": 4,
+        "examples": [
+          {
+            "id": "phbsplEarthquake",
+            "value": "[[1d6]] Fissure(s)<br>[[10 * 1d10]] Feet deep"
+          },
+          {
+            "id": "phbsplElementali",
+            "value": "Fire and water beckoning lasts for 1 minute"
+          },
+          {
+            "id": "phbsplHeroesFeas",
+            "value": "Hit Point maximum increased by healing amount"
+          },
+          {
+            "id": "phbsplWish000000",
+            "value": "<em>Wish</em> lost on 1: [[/r 1d3cs1]]"
+          }
+        ]
+      },
+      "system.activities.*.range.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 5,
+        "examples": [
+          {
+            "id": "phbsplEarthquake",
+            "value": "half of the structure's height"
+          },
+          {
+            "id": "phbsplForbiddanc",
+            "value": "within the spell's area"
+          },
+          {
+            "id": "phbsplOtilukesFr",
+            "value": "if hurled with a sling, use sling's normal range"
+          },
+          {
+            "id": "phbsplPrismaticW",
+            "value": "measured from nearest point on wall or globe"
+          },
+          {
+            "id": "phbsplTsunami000",
+            "value": "moves away from you"
+          }
+        ]
+      },
+      "system.activities.*.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 10,
+        "examples": [
+          {
+            "id": "phbsplConjureFey",
+            "value": "within range of spirit"
+          },
+          {
+            "id": "phbsplDispelEvil",
+            "value": "Celestial, Elemental, Fey, Fiend, or Undead"
+          },
+          {
+            "id": "phbsplDispelEvil",
+            "value": "Celestial, Elemental, Fey, Fiend, or Undead"
+          },
+          {
+            "id": "phbsplMagicJar00",
+            "value": "target is Humanoid"
+          },
+          {
+            "id": "phbsplOtilukesFr",
+            "value": "creatures swimming on the surface"
+          }
+        ]
+      },
+      "system.range.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 1,
+        "examples": [
+          {
+            "id": "phbsplMirageArca",
+            "value": "within sight"
+          }
+        ]
+      },
+      "system.target.affects.special": {
+        "owner": "translate-dnd5e-sdr2-es",
+        "reason": "custom target, range, sense, or movement text",
+        "count": 31,
+        "examples": [
+          {
+            "id": "phbsplAntipathyS",
+            "value": "huge or smaller"
+          },
+          {
+            "id": "phbsplAstralProj",
+            "value": "you and up to eight willing creatures"
+          },
+          {
+            "id": "phbsplChainLight",
+            "value": "secondary targets must be within 30 feet of initial target"
+          },
+          {
+            "id": "phbsplControlWea",
+            "value": "weather within 5 miles"
+          },
+          {
+            "id": "phbsplCreateUnde",
+            "value": "corpse of Medium or Small Humanoid or previously created undead"
+          }
+        ]
+      }
+    },
+    "dnd5e.tables24.json": {}
+  }
+}

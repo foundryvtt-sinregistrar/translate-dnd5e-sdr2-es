@@ -46,7 +46,12 @@ export function actorFullById(actor, translation) {
     const items = Array.isArray(actor.items) ? actor.items : (actor.items?.contents ?? []);
     const race = items.find(item => item?.type === "race");
     if (race?.system?.type?.subtype && actor.system?.details?.type) {
-        actor.system.details.type.subtype = race.system.type.subtype;
+        const subtype = race.system.type.subtype;
+        if (typeof actor.updateSource === "function") {
+            actor.updateSource({ "system.details.type.subtype": subtype });
+        } else {
+            actor.system.details.type.subtype = subtype;
+        }
     }
 
     return actor;
@@ -99,7 +104,12 @@ function mergeItemsByIdOnActor(actor, tItems) {
         if (it.type === "race" && typeof t.name === "string") {
             it.system = it.system ?? {};
             it.system.type = it.system.type ?? {};
-            it.system.type.subtype = t.typeSubtype ?? t.name;
+            const subtype = t.typeSubtype ?? t.name;
+            if (typeof it.updateSource === "function") {
+                it.updateSource({ "system.type.subtype": subtype });
+            } else {
+                it.system.type.subtype = subtype;
+            }
         }
 
         // description.value
