@@ -34,6 +34,18 @@ FOUNDRY_TOKEN = re.compile(
 )
 
 
+def canonical_token(token: str) -> str:
+    """Discard translatable decoration while preserving executable payloads."""
+    token = token.replace("&amp;Reference[", "&Reference[")
+    if token.startswith("[[") and "#" in token:
+        token = token.split("#", 1)[0].rstrip() + "]]"
+    return token
+
+
+def foundry_tokens(value: str) -> Counter[str]:
+    return Counter(canonical_token(token) for token in FOUNDRY_TOKEN.findall(value))
+
+
 def load(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
@@ -114,8 +126,8 @@ def audit_pack(pack: str) -> dict[str, Any]:
         marker_count = len(ENGLISH_MARKERS.findall(spanish_plain))
         if len(spanish_plain) >= 40 and marker_count >= max(2, len(spanish_plain.split()) // 16):
             likely_english.append({"path": path_text(path), "value": spanish})
-        source_tokens = Counter(FOUNDRY_TOKEN.findall(english))
-        spanish_tokens = Counter(FOUNDRY_TOKEN.findall(spanish))
+        source_tokens = foundry_tokens(english)
+        spanish_tokens = foundry_tokens(spanish)
         if source_tokens != spanish_tokens:
             token_changes.append({
                 "path": path_text(path),

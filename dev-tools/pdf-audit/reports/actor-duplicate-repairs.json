@@ -1,0 +1,115 @@
+{
+  "replacementCount": 22,
+  "changes": [
+    {
+      "path": "entries/AkraLv0100000000/items/c9S7yrx9xsgmttDT/description",
+      "retainedTokensBefore": 9,
+      "retainedTokensAfter": 10
+    },
+    {
+      "path": "entries/AothLv0100000000/items/WiCEry3Wba40wBy8/description",
+      "retainedTokensBefore": 1,
+      "retainedTokensAfter": 2
+    },
+    {
+      "path": "entries/AothLv0500000000/items/WiCEry3Wba40wBy8/description",
+      "retainedTokensBefore": 1,
+      "retainedTokensAfter": 2
+    },
+    {
+      "path": "entries/AothLv0100000000/items/gbhec9bOvShetEsF/description",
+      "retainedTokensBefore": 3,
+      "retainedTokensAfter": 9
+    },
+    {
+      "path": "entries/AothLv0500000000/items/n8vESdT4PJtiFw1F/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 0
+    },
+    {
+      "path": "entries/BeiroLv050000000/items/7tH6fUs83R4ijKn0/description",
+      "retainedTokensBefore": 2,
+      "retainedTokensAfter": 6
+    },
+    {
+      "path": "entries/BeiroLv050000000/items/roynrqb3ev8VfZWh/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 3
+    },
+    {
+      "path": "entries/BeiroLv170000000/items/0XA5CkLnt6dr4PoT/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/MerricLv11000000/items/7nHPYFob0vjlhbfL/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 6
+    },
+    {
+      "path": "entries/MerricLv05000000/items/8CEaMaS7Vid4oDBk/description",
+      "retainedTokensBefore": 1,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/MerricLv11000000/items/8CEaMaS7Vid4oDBk/description",
+      "retainedTokensBefore": 1,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/MerricLv05000000/items/gDJAtu3CiECMqmUL/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/mmTough000000000/items/mmPackTactics000/description",
+      "retainedTokensBefore": 1,
+      "retainedTokensAfter": 2
+    },
+    {
+      "path": "entries/mmToughBoss00000/items/mmPackTactics000/description",
+      "retainedTokensBefore": 1,
+      "retainedTokensAfter": 2
+    },
+    {
+      "path": "entries/mmEfreeti0000000/items/mmWishes00000000/description",
+      "retainedTokensBefore": 1,
+      "retainedTokensAfter": 10
+    },
+    {
+      "path": "entries/MorthosLv1100000/items/WENNRbwQWmHquB6C/description",
+      "retainedTokensBefore": 8,
+      "retainedTokensAfter": 10
+    },
+    {
+      "path": "entries/MorthosLv1100000/items/WpjSNZPHSbxP1Ec6/description",
+      "retainedTokensBefore": 3,
+      "retainedTokensAfter": 4
+    },
+    {
+      "path": "entries/MorthosLv1100000/items/hDmqXRxCXMBcbElp/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/RandalLv17000000/items/xIRi7FOBGCPOAgMC/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/ZannaLv110000000/items/8p8X2ChcgO9vy5LK/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/ZannaLv170000000/items/8p8X2ChcgO9vy5LK/description",
+      "retainedTokensBefore": 0,
+      "retainedTokensAfter": 1
+    },
+    {
+      "path": "entries/ZannaLv110000000/items/evZPcnHU6tlxfN7P/description",
+      "retainedTokensBefore": 3,
+      "retainedTokensAfter": 4
+    }
+  ]
+}
