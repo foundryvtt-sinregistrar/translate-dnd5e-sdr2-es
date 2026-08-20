@@ -20853,7 +20853,7 @@
               "name": "Maldito: Carisma"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Maldición"
@@ -20872,7 +20872,7 @@
               "name": "Comunicación Universal"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Lenguas"
@@ -24115,7 +24115,7 @@
               "name": "Astucia Gnómica"
             },
             "KNWLGPsZSHtINp6L": {
-              "name": "Gnomish Cunning"
+              "name": "Astucia gnómica"
             }
           },
           "name": "Astucia gnómica"
@@ -24823,7 +24823,7 @@
           "description": "<p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=0OkFhjOM80ipoNKy]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=0OkFhjOM80ipoNKy]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene Desventaja en las tiradas de salvación para mantener la &amp;Reference[Concentration] hasta el final de su siguiente turno.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
           "effects": {
             "owuEyJBslYKvxqeX": {
-              "name": "Concentration Disadvantage"
+              "name": "Desventaja en Concentración"
             }
           },
           "name": "Nube de insectos"
@@ -24869,7 +24869,7 @@
           "description": "<p>Cada criatura en un Cono de 30 pies debe superar una tirada de salvación de Sabiduría o soltar lo que esté sujetando y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada realiza la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, a menos que no haya ningún lugar al que moverse. Si la criatura termina su turno en un espacio donde no tenga línea de visión contigo, la criatura realiza una tirada de salvación de Sabiduría. Si tiene éxito, el conjuro termina sobre esa criatura.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "ijiWLu6EJZmEJPOZ": {
               "name": "Terror"
@@ -24946,7 +24946,7 @@
           "description": "<p>Envías un mensaje corto de 25 palabras o menos a una criatura a la que hayas conocido o a una criatura descrita por alguien que la haya conocido. El objetivo oye el mensaje en su mente, te reconoce como emisor si te conoce y puede responder de manera similar inmediatamente. El conjuro permite a los objetivos comprender el significado de tu mensaje.</p><p>Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo está en un plano distinto al tuyo, hay un 5 por ciento de probabilidad de que el mensaje no llegue. Sabes si la entrega falla.</p><p>Al recibir tu mensaje, una criatura puede bloquear tu capacidad de volver a alcanzarla con este conjuro durante 8 horas. Si intentas enviar otro mensaje durante ese tiempo, aprendes que estás bloqueado y el conjuro falla.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Recado"
@@ -24997,14 +24997,14 @@
           "activities": {},
           "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de [[/item Rend]].</p>",
           "effects": {},
-          "name": "Tail Swipe"
+          "name": "Coletazo"
         },
         "ovjYLr2qHJA652lq": {
           "activities": {},
           "description": "<p>Un estruendo estalla desde un punto de tu elección dentro del alcance. Cada criatura en una Esfera de 10 pies de radio centrada allí hace una tirada de salvación de Constitución, recibiendo 3d8 de daño de Trueno con una salvación fallida o la mitad con una salvación exitosa. Un Constructo tiene Desventaja en la salvación.</p><p>Un objeto no mágico que no esté siendo llevado o vestido también recibe el daño si está en el área del conjuro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d8 por cada nivel de espacio de conjuro por encima de 2.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Hacer añicos"
@@ -25094,7 +25094,7 @@
           "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] daño, y la Velocidad del objetivo se reduce a la mitad hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "effects": {
             "n3I76HfSH6eKLALf": {
-              "name": "Failure: 1/2 Speed"
+              "name": "Fallo: mitad de Velocidad"
             }
           },
           "name": "Arenas abrasadoras"
@@ -25123,7 +25123,7 @@
           "description": "<p>Tomas el control del clima en un radio de 5 millas a tu alrededor mientras dure el conjuro. Debes estar al aire libre para lanzar este conjuro, y termina antes de tiempo si entras en un lugar cerrado.</p><p>Cuando lanzas el conjuro, cambias las condiciones meteorológicas actuales, que determina el DM. Puedes cambiar la precipitación, la temperatura y el viento. Las nuevas condiciones tardan 1d4 × 10 minutos en entrar en efecto. Una vez lo hagan, puedes volver a cambiar las condiciones. Cuando el conjuro termina, el clima regresa gradualmente a la normalidad.</p><p>Cuando cambias las condiciones meteorológicas, busca una condición actual en las tablas siguientes y cambia su etapa en uno, hacia arriba o hacia abajo. Al cambiar el viento, también puedes cambiar su dirección.</p><details><summary><strong>Precipitación</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes ligeras</td></tr><tr><td>3</td><td>Cubierto o niebla a ras de suelo</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, granizo intenso o ventisca</td></tr></tbody></table></details><details><summary><strong>Temperatura</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Ola de calor</td></tr><tr><td>2</td><td>Caluroso</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Frío</td></tr><tr><td>6</td><td>Gélido</td></tr></tbody></table></details><details><summary><strong>Viento</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Calma</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Vendaval</td></tr><tr><td>5</td><td>Tormenta</td></tr></tbody></table></details>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Controlar el clima"
@@ -25133,7 +25133,7 @@
           "description": "<p>Cambias de forma y te conviertes en otra criatura durante la duración o hasta que uses una acción Mágica para cambiar de forma a otra forma elegible. La nueva forma debe ser de una criatura con un Valor de Desafío no superior a tu nivel o Valor de Desafío. Debes haber visto antes a ese tipo de criatura, y no puede ser un Constructo ni un No Muerto.</p><p>Cuando lanzas el conjuro, ganas una cantidad de Puntos de Golpe temporales igual a los Puntos de Golpe de la primera forma en la que cambias. Estos Puntos de Golpe temporales desaparecen si queda alguno cuando el conjuro termina.</p><p>Tus estadísticas de juego se reemplazan por el bloque de estadísticas de la forma elegida, pero conservas tu tipo de criatura; alineamiento; personalidad; puntuaciones de Inteligencia, Sabiduría y Carisma; Puntos de Golpe; Dados de Golpe; competencias; y capacidad de comunicarte. Si tienes el rasgo Lanzamiento de Conjuros, también lo conservas.</p><p>Al cambiar de forma, determinas si tu equipo cae al suelo o cambia de tamaño y forma para ajustarse a tu nueva forma mientras estés en ella.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Cambiar de forma"
@@ -25143,7 +25143,7 @@
           "description": "<p>Activarás uno de los efectos siguientes. Hasta que el conjuro termine, puedes activar cualquiera de los dos efectos como acción Mágica en tus turnos posteriores.</p><p><strong>Sentir pensamientos.</strong> Percibes la presencia de pensamientos a 30 pies o menos de ti, pertenecientes a criaturas que conocen idiomas o que son telepáticas. No lees los pensamientos, pero sabes que hay una criatura pensante presente.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p><p><strong>Leer pensamientos.</strong> Elige como objetivo a una criatura que puedas ver a 30 pies o menos de ti, o a una criatura a 30 pies o menos de ti que hayas detectado con la opción Sentir pensamientos. Aprendes qué es lo que ocupa más la mente del objetivo ahora mismo. Si el objetivo no conoce ningún idioma y no es telepático, no aprendes nada.</p><p>Como acción Mágica en tu siguiente turno, puedes intentar profundizar más en la mente del objetivo. Si profundizas, el objetivo realiza una tirada de salvación de Sabiduría. Si falla, distingues el razonamiento, las emociones y algo que pesa mucho en su mente (como una preocupación, amor u odio). Si tiene éxito, el conjuro termina. En cualquier caso, el objetivo sabe que estás hurgando en su mente y, hasta que apartes tu atención de la mente del objetivo, el objetivo puede realizar una acción en su turno para hacer una [[/check ability=int skill=arc dc=@attributes.spell.dc]] tirada contra tu CD de salvación de conjuros, terminando el conjuro si tiene éxito.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Detectar pensamientos"
@@ -26280,7 +26280,7 @@
           "description": "<p>Cada criatura en un Cono de 30 pies debe superar una tirada de salvación de Sabiduría o soltar lo que esté sujetando y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada realiza la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, a menos que no haya ningún lugar al que moverse. Si la criatura termina su turno en un espacio donde no tenga línea de visión contigo, la criatura realiza una tirada de salvación de Sabiduría. Si tiene éxito, el conjuro termina sobre esa criatura.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "ijiWLu6EJZmEJPOZ": {
               "name": "Terror"
@@ -26415,7 +26415,7 @@
           "description": "<p>Un estruendo estalla desde un punto de tu elección dentro del alcance. Cada criatura en una Esfera de 10 pies de radio centrada allí hace una tirada de salvación de Constitución, recibiendo 3d8 de daño de Trueno con una salvación fallida o la mitad con una salvación exitosa. Un Constructo tiene Desventaja en la salvación.</p><p>Un objeto no mágico que no esté siendo llevado o vestido también recibe el daño si está en el área del conjuro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d8 por cada nivel de espacio de conjuro por encima de 2.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Hacer añicos"
@@ -26428,7 +26428,7 @@
               "name": "Invisible"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Invisibilidad"
@@ -29676,7 +29676,7 @@
         }
       }
     },
-        "mmCouatl00000000": {
+    "mmCouatl00000000": {
       "name": "Couatl",
       "biography": "<h1></h1><p><em>Arte del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Celestial",
@@ -29759,7 +29759,7 @@
           "description": "<p>Activarás uno de los efectos siguientes. Hasta que el conjuro termine, puedes activar cualquiera de los dos efectos como acción Mágica en tus turnos posteriores.</p><p><strong>Sentir pensamientos.</strong> Percibes la presencia de pensamientos a 30 pies o menos de ti, pertenecientes a criaturas que conocen idiomas o que son telepáticas. No lees los pensamientos, pero sabes que hay una criatura pensante presente.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p><p><strong>Leer pensamientos.</strong> Elige como objetivo a una criatura que puedas ver a 30 pies o menos de ti, o a una criatura a 30 pies o menos de ti que hayas detectado con la opción Sentir pensamientos. Aprendes qué es lo que ocupa más la mente del objetivo ahora mismo. Si el objetivo no conoce ningún idioma y no es telepático, no aprendes nada.</p><p>Como acción Mágica en tu siguiente turno, puedes intentar profundizar más en la mente del objetivo. Si profundizas, el objetivo realiza una tirada de salvación de Sabiduría. Si falla, distingues el razonamiento, las emociones y algo que pesa mucho en su mente (como una preocupación, amor u odio). Si tiene éxito, el conjuro termina. En cualquier caso, el objetivo sabe que estás hurgando en su mente y, hasta que apartes tu atención de la mente del objetivo, el objetivo puede realizar una acción en su turno para hacer una [[/check ability=int skill=arc dc=@attributes.spell.dc]] tirada contra tu CD de salvación de conjuros, terminando el conjuro si tiene éxito.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Detectar pensamientos"
@@ -29801,7 +29801,7 @@
           "description": "<p>Cambias de forma y te conviertes en otra criatura durante la duración o hasta que uses una acción Mágica para cambiar de forma a otra forma elegible. La nueva forma debe ser de una criatura con un Valor de Desafío no superior a tu nivel o Valor de Desafío. Debes haber visto antes a ese tipo de criatura, y no puede ser un Constructo ni un No Muerto.</p><p>Cuando lanzas el conjuro, ganas una cantidad de Puntos de Golpe temporales igual a los Puntos de Golpe de la primera forma en la que cambias. Estos Puntos de Golpe temporales desaparecen si queda alguno cuando el conjuro termina.</p><p>Tus estadísticas de juego se reemplazan por el bloque de estadísticas de la forma elegida, pero conservas tu tipo de criatura; alineamiento; personalidad; puntuaciones de Inteligencia, Sabiduría y Carisma; Puntos de Golpe; Dados de Golpe; competencias; y capacidad de comunicarte. Si tienes el rasgo Lanzamiento de Conjuros, también lo conservas.</p><p>Al cambiar de forma, determinas si tu equipo cae al suelo o cambia de tamaño y forma para ajustarse a tu nueva forma mientras estés en ella.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Cambiar de forma"
@@ -29811,7 +29811,7 @@
           "description": "<p>Puedes ver y oír a una criatura que elijas que esté en el mismo plano de existencia que tú. El objetivo hace una tirada de salvación de Sabiduría, que se modifica (consulta las tablas siguientes) según cuánto conozcas al objetivo y el tipo de vínculo físico que tengas con él. El objetivo no sabe contra qué está haciendo la salvación, solo que se siente inquieto.</p><table><thead><tr><td>Tu conocimiento del objetivo es…</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>Indirecto (has oído hablar del objetivo)</td><td>+5</td></tr><tr><td>Directo (has conocido al objetivo)</td><td>+0</td></tr><tr><td>Extenso (conoces bien al objetivo)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>Tienes del objetivo…</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>Imagen u otra semejanza</td><td>−2</td></tr><tr><td>Prenda u otra posesión</td><td>−4</td></tr><tr><td>Parte del cuerpo, mechón de pelo o recorte de uña</td><td>−10</td></tr></tbody></table><p>Con una salvación exitosa, el objetivo no se ve afectado y no puedes usar este conjuro sobre él de nuevo durante 24 horas.</p><p>Con una salvación fallida, el conjuro crea un sensor Invisible e intangible a 10 pies o menos del objetivo. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve con el objetivo, permaneciendo a 10 pies o menos de él durante la duración. Si algo puede ver el sensor, aparece como un orbe luminoso del tamaño aproximado de tu puño.</p><p>En lugar de apuntar a una criatura, puedes apuntar a una ubicación que hayas visto. Cuando lo haces, el sensor aparece en esa ubicación y no se mueve.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Escudriñar"
@@ -30036,7 +30036,7 @@
         }
       }
     },
-        "mmDeva0000000000": {
+    "mmDeva0000000000": {
       "name": "Deva",
       "biography": "<h1></h1><p><em>Arte del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Celestial",
@@ -30091,7 +30091,7 @@
           "description": "<p>Mientras dure el conjuro, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Feérico, Demonio o No muerto a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, si lo está, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "pOgbtXbKVGdbwjjE": {
               "name": "Detectar el bien y el mal"
@@ -30116,7 +30116,7 @@
               "name": "Resurrección Sickness (Day 2)"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "etY0sDrXe6DcFEzc": {
               "name": "Resurrección Sickness (Day 1)"
@@ -31025,7 +31025,7 @@
           "description": "<p>Tú y hasta ocho criaturas voluntarias que se den la mano formando un círculo sois transportados a un plano de existencia diferente. Puedes especificar un destino objetivo en términos generales, como la Ciudad de Bronce en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y apareces en o cerca de ese destino, según determine el DM.</p><p>Alternativamente, si conoces la secuencia de sigilos de un círculo de teletransporte en otro plano de existencia, este conjuro puede llevaros a ese círculo. Si el círculo de teletransporte es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos junto al círculo.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Desplazamiento entre planos"
@@ -31035,7 +31035,7 @@
           "description": "<p>Creas la imagen de un objeto, una criatura u otro fenómeno visible que no sea mayor que un Cubo de 20 pies. La imagen aparece en un lugar que puedas ver dentro del alcance y dura mientras dure el conjuro. Parece real, incluidos sonidos, olores y temperatura apropiados a lo representado, pero no puede infligir daño ni causar condiciones.</p><p>Si estás dentro del alcance de la ilusión, puedes realizar una acción Mágica para hacer que la imagen se mueva a cualquier otro punto dentro del alcance. A medida que la imagen cambia de ubicación, puedes alterar su apariencia para que sus movimientos parezcan naturales para la imagen. Por ejemplo, si creas una imagen de una criatura y la mueves, puedes alterar la imagen para que parezca que está caminando. Del mismo modo, puedes hacer que la ilusión emita distintos sonidos en distintos momentos, incluso hacer que mantenga una conversación, por ejemplo.</p><p>La interacción física con la imagen revela que es una ilusión, pues las cosas pueden atravesarla. Una criatura que realice la acción Estudiar para examinar la imagen puede determinar que es una ilusión con una tirada exitosa de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuro. Si una criatura descubre que la ilusión lo es, puede ver a través de la imagen y sus demás cualidades sensoriales se vuelven tenues para esa criatura.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El conjuro dura hasta que sea disipado, sin requerir Concentración, si se lanza con un espacio de conjuro de nivel 4 o superior.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Imagen mayor"
@@ -31048,7 +31048,7 @@
               "name": "Comunicación Universal"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Don de lenguas"
@@ -33796,7 +33796,7 @@
           "description": "<p>Creas un muro de hielo sobre una superficie sólida dentro del alcance. Puedes formarlo como una cúpula hemisférica o una esfera con un radio de hasta 10 pies, o bien dar forma a una superficie plana compuesta por diez paneles de 10 pies cuadrados. Cada panel debe ser contiguo a otro panel. En cualquier forma, el muro tiene 1 pie de grosor y dura mientras dure el conjuro.</p><p>Si el muro atraviesa el espacio de una criatura cuando aparece, la criatura es empujada a un lado del muro (tú eliges a cuál) y realiza una tirada de salvación de Destreza, recibiendo 10d6 de daño de Frío si falla la salvación o la mitad si la supera.</p><p>El muro es un objeto que puede ser dañado y, por tanto, abierto. Tiene CA 12 y 30 Puntos de Golpe por cada sección de 10 pies, y tiene Inmunidad al daño de Frío, Veneno y Psíquico, y Vulnerabilidad al daño de Fuego. Reducir a 0 Puntos de Golpe una sección de 10 pies del muro la destruye y deja tras de sí una lámina de aire gélido en el espacio que ocupaba el muro.</p><p>Una criatura que se mueva a través de la lámina de aire gélido por primera vez en un turno realiza una tirada de salvación de Constitución, recibiendo 5d6 de daño de Frío si falla la salvación o la mitad si la supera.</p><p><strong>Uso de un espacio de conjuro de nivel superior.</strong> El daño que inflige el muro cuando aparece aumenta en 2d6 y el daño por atravesar la lámina de aire gélido aumenta en 1d6 por cada nivel de espacio de conjuro por encima de 6.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Muro de hielo"
@@ -33878,7 +33878,7 @@
           "description": "<p>Creas una esfera de niebla de 20 pies de radio centrada en un punto dentro del alcance. La esfera está &amp;Reference[heavilyobscured]. Dura mientras dure el conjuro o hasta que un viento fuerte (como el creado por <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Ráfaga de viento}</em>) disperse la niebla.</p><p><strong>Uso de un espacio de conjuro de nivel superior.</strong> El radio de la niebla aumenta en 20 pies por cada nivel de espacio de conjuro por encima de 1.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Nube de niebla"
@@ -33899,7 +33899,7 @@
               "name": "Invisible"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Invisibilidad"
@@ -33951,7 +33951,7 @@
           "description": "<p>Creas un patrón retorcido de colores en un cubo de 30 pies dentro del alcance. El patrón aparece por un instante y se desvanece. Cada criatura en el área que pueda ver el patrón debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false] durante la duración. Mientras esté Hechizada, la criatura tiene la condición &amp;Reference[incapacitated apply=false] y una Velocidad de 0.</p><p>El conjuro termina para una criatura afectada si esta recibe cualquier daño o si otra persona usa una acción para sacarla de su estupor.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "mjAs8ssQlgp0AQOp": {
               "name": "Hipnotizado"
@@ -33964,7 +33964,7 @@
           "description": "<p>Haces objetivo a una criatura que conoces en el mismo plano de existencia. Tú o una criatura dispuesta a la que toques entra en un estado de trance para actuar como mensajero onírico. Mientras está en trance, el mensajero tiene la condición &amp;Reference[Incapacitated apply=false] y una Velocidad de 0.</p><p>Si el objetivo está dormido, el mensajero aparece en los sueños del objetivo y puede conversar con él mientras permanezca dormido, durante la duración del conjuro. El mensajero también puede moldear el entorno del sueño, creando paisajes, objetos y otras imágenes. El mensajero puede salir del trance en cualquier momento, terminando el conjuro. El objetivo recuerda el sueño perfectamente al despertar.</p><p>Si el objetivo está despierto cuando lanzas el conjuro, el mensajero lo sabe y puede terminar el trance (y el conjuro) o esperar a que el objetivo se duerma, momento en el que el mensajero entra en sus sueños.</p><p>Puedes hacer que el mensajero resulte aterrador para el objetivo. Si lo haces, el mensajero puede entregar un mensaje de no más de diez palabras y, entonces, el objetivo realiza una tirada de salvación de Sabiduría. Con una salvación fallida, el objetivo no obtiene ningún beneficio de su descanso y recibe 3d6 de daño psíquico al despertar.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "x52Ga7U45IJOPFxK": {
               "name": "Estado de Trance"
@@ -33980,7 +33980,7 @@
               "name": "Disfrazado"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Disfrazarse"
@@ -33990,7 +33990,7 @@
           "description": "<p>Entras en las regiones fronterizas del Plano Etéreo, donde se superpone con tu plano actual. Permaneces en el Etéreo Fronterizo durante la duración. Durante este tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada pie de movimiento cuesta 1 pie adicional. Puedes percibir el plano que dejaste, que se ve gris, y no puedes ver nada allí a más de 60 pies.</p><p>Mientras estás en el Plano Etéreo, solo puedes afectar y ser afectado por criaturas, objetos y efectos de ese plano. Las criaturas que no estén en el Plano Etéreo no pueden percibirte ni interactuar contigo a menos que un rasgo les conceda la capacidad de hacerlo.</p><p>Cuando el conjuro termina, regresas al plano que dejaste en el lugar que se corresponde con tu espacio en el Etéreo Fronterizo. Si apareces en un espacio ocupado, eres desplazado al espacio desocupado más cercano y recibes daño de fuerza igual al doble del número de pies que hayas sido movido.</p><p>Este conjuro termina al instante si lo lanzas mientras estás en el Plano Etéreo o en un plano que no limita con él, como uno de los Planos Exteriores.</p><p><strong>Uso de un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo hasta tres criaturas dispuestas (incluyéndote) por cada nivel de espacio de conjuro por encima de 7. Las criaturas deben estar a 10 pies de ti cuando lanzas el conjuro.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "louTI4Z9bNUYBa8K": {
               "name": "Eteridad"
@@ -36549,7 +36549,7 @@
           "description": "<p>Tocas a una criatura y terminas una condición sobre ella: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed] o &amp;Reference[poisoned].</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Restablecimiento menor"
@@ -36559,7 +36559,7 @@
           "description": "<p>Tocas a una criatura y terminas una condición sobre ella: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed] o &amp;Reference[poisoned].</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Restablecimiento menor"
@@ -36569,7 +36569,7 @@
           "description": "<p>Elige una criatura, objeto o efecto mágico dentro del alcance. Cualquier conjuro en curso de nivel 3 o inferior sobre el objetivo termina. Por cada conjuro en curso de nivel 4 o superior sobre el objetivo, haz una prueba de característica usando tu característica de lanzamiento de conjuros (CD 10 + el nivel de ese conjuro). Si la prueba tiene éxito, el conjuro termina.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Terminas automáticamente un conjuro sobre el objetivo si el nivel de ese conjuro es igual o inferior al nivel del espacio de conjuro que uses.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Disipar magia"
@@ -36579,7 +36579,7 @@
           "description": "<p>Tomas el control del clima en un radio de 5 millas a tu alrededor mientras dure el conjuro. Debes estar al aire libre para lanzar este conjuro, y termina antes de tiempo si entras en un lugar cerrado.</p><p>Cuando lanzas el conjuro, cambias las condiciones meteorológicas actuales, que determina el DM. Puedes cambiar la precipitación, la temperatura y el viento. Las nuevas condiciones tardan 1d4 × 10 minutos en entrar en efecto. Una vez lo hagan, puedes volver a cambiar las condiciones. Cuando el conjuro termina, el clima regresa gradualmente a la normalidad.</p><p>Cuando cambias las condiciones meteorológicas, busca una condición actual en las tablas siguientes y cambia su etapa en uno, hacia arriba o hacia abajo. Al cambiar el viento, también puedes cambiar su dirección.</p><details><summary><strong>Precipitación</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes ligeras</td></tr><tr><td>3</td><td>Cubierto o niebla a ras de suelo</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, granizo intenso o ventisca</td></tr></tbody></table></details><details><summary><strong>Temperatura</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Ola de calor</td></tr><tr><td>2</td><td>Caluroso</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Frío</td></tr><tr><td>6</td><td>Gélido</td></tr></tbody></table></details><details><summary><strong>Viento</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Calma</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Vendaval</td></tr><tr><td>5</td><td>Tormenta</td></tr></tbody></table></details>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Controlar el clima"
@@ -36589,7 +36589,7 @@
           "description": "<p>Mientras dure el conjuro, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Feérico, Demonio o No muerto a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, si lo está, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "pOgbtXbKVGdbwjjE": {
               "name": "Detectar el bien y el mal"
@@ -36605,7 +36605,7 @@
               "name": "Bendicioned"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Bendicion"
@@ -36615,7 +36615,7 @@
           "description": "<p>Con tu toque, terminan todas las maldiciones que afecten a una criatura u objeto. Si el objeto es un objeto mágico maldito, su maldición permanece, pero el conjuro rompe el Vínculo (Sintonización) de su propietario con el objeto para que pueda retirarse o desecharse.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Levantar maldición"
@@ -36625,7 +36625,7 @@
           "description": "<p>Una criatura que tocas recupera una cantidad de Puntos de Golpe igual a 2d8 + tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> La curación aumenta en 2d8 por cada nivel del espacio de conjuro por encima de 1.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Curar heridas"
@@ -36638,7 +36638,7 @@
               "name": "Disipando el Bien y el Mal"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Disipar el bien y el mal"
@@ -36648,7 +36648,7 @@
           "description": "<p>Una criatura a tu elección que puedas ver dentro del alcance recupera Puntos de Golpe iguales a 2d4 más tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> La curación aumenta en 2d4 por cada nivel del espacio de conjuro por encima de 1.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Palabra de curación"
@@ -36657,14 +36657,14 @@
           "activities": {},
           "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] muere fuera del Monte Celestia, su cuerpo desaparece, y obtiene un nuevo cuerpo al instante, reviviendo con todos sus puntos de golpe en algún lugar del Monte Celestia.</p>",
           "effects": {},
-          "name": "Exalted Restoration"
+          "name": "Restablecimiento exaltado"
         },
         "qi4FBfGudzDz6Lei": {
           "activities": {},
           "description": "<p>Te pones en contacto con una deidad o un representante divino y formulas hasta tres preguntas que puedan responderse con sí o no. Debes formular tus preguntas antes de que el conjuro termine. Recibes una respuesta correcta por cada pregunta.</p><p>Los seres divinos no son necesariamente omniscientes, así que podrías recibir “incierto” como respuesta si una pregunta se refiere a información que queda fuera del conocimiento de la deidad. En los casos en que una respuesta de una sola palabra pueda ser engañosa o contraria a los intereses de la deidad, el DM podría ofrecer una frase corta como respuesta.</p><p>Si lanzas este conjuro más de una vez antes de terminar un Descanso Largo, hay una probabilidad acumulativa del 25% por cada lanzamiento después del primero de que no recibas respuesta.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Comunión"
@@ -36680,7 +36680,7 @@
               "name": "Resurrección Sickness (Day 2)"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "etY0sDrXe6DcFEzc": {
               "name": "Resurrección Sickness (Day 1)"
@@ -36705,7 +36705,7 @@
               "name": "Invisible"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Invisibilidad"
@@ -39062,7 +39062,7 @@
           "description": "<p>Alteras el tiempo alrededor de hasta seis criaturas de tu elección en un cubo de 40 pies dentro del alcance. Cada objetivo debe superar una tirada de salvación de Sabiduría o queda afectado por este conjuro durante su duración.</p><p>La Velocidad de un objetivo afectado se reduce a la mitad, sufre un penalizador de −2 a la CA y a las tiradas de salvación de Destreza, y no puede realizar Reacciones. En sus turnos, puede realizar una acción o una acción adicional, pero no ambas, y solo puede hacer un ataque si realiza la acción Atacar. Si lanza un conjuro con componente Somático, hay una probabilidad del [[/r 1d100cs&lt;=25#Slowed spell cast success]]{25 percent} de que el conjuro falle debido a que el objetivo realiza los gestos demasiado lentamente.</p><p>Un objetivo afectado repite la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p><section id=\"secret-2RobIVhv3tn7gmU7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>La tirada integrada de arriba devolverá 1 si tuvo éxito o 0 si falló.</p></section>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             },
             "z1lkguBohjqXRSHm": {
               "name": "Ralentizared"
@@ -39083,7 +39083,7 @@
           "description": "<p>Tocas un objeto Grande o menor que no esté siendo llevado o transportado por otra criatura. Hasta que el conjuro termine, el objeto emite Luz brillante en un radio de 20 pies y Luz tenue durante 20 pies adicionales. La luz puede ser del color que quieras.</p><p>Cubrir el objeto con algo opaco bloquea la luz. El conjuro termina si lo lanzas de nuevo.</p>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Luz"
@@ -39093,7 +39093,7 @@
           "description": "<p>Tomas el control del tiempo atmosférico en un radio de 5 millas a tu alrededor durante la duración. Debes estar al aire libre para lanzar este conjuro, y termina antes de tiempo si entras en un interior.</p><p>Cuando lanzas el conjuro, cambias las condiciones meteorológicas actuales, que determina el DM. Puedes cambiar la precipitación, la temperatura y el viento. Se tarda 1d4 × 10 minutos en que las nuevas condiciones surtan efecto. Una vez lo hacen, puedes cambiar las condiciones de nuevo. Cuando el conjuro termina, el tiempo vuelve gradualmente a la normalidad.</p><p>Cuando cambies las condiciones, busca una condición actual en las siguientes tablas y cambia su nivel en uno, hacia arriba o hacia abajo. Al cambiar el viento, puedes cambiar su dirección.</p><details><summary><strong>Precipitación</strong></summary><table><thead><tr><td>Nivel</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes ligeras</td></tr><tr><td>3</td><td>Cubierto o niebla a ras de suelo</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, granizo intenso o ventisca</td></tr></tbody></table></details><details><summary><strong>Temperatura</strong></summary><table><thead><tr><td>Nivel</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Ola de calor</td></tr><tr><td>2</td><td>Caluroso</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Frío</td></tr><tr><td>6</td><td>Helador</td></tr></tbody></table></details><details><summary><strong>Viento</strong></summary><table><thead><tr><td>Nivel</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Calma</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Vendaval</td></tr><tr><td>5</td><td>Tormenta</td></tr></tbody></table></details>",
           "effects": {
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Controlar el clima"
@@ -39106,7 +39106,7 @@
               "name": "Detectar magia"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Detectar magia"
@@ -39146,7 +39146,7 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo tiene las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Deafened apply=false] hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p>",
           "effects": {
             "R2yhnEJ7lKT4VSvK": {
-              "name": "Blinded & Deafened"
+              "name": "Cegado y ensordecido"
             }
           },
           "name": "Rayo"
@@ -39200,10 +39200,10 @@
           "description": "<p>Un Humanoide que puedas ver dentro del alcance debe superar una tirada de salvación de Sabiduría o tendrá la condición &amp;Reference[Charmed apply=false] durante la duración. El objetivo tiene Ventaja en la tirada de salvación si tú o tus aliados estáis combatiéndolo. Cada vez que el objetivo recibe daño, repite la tirada de salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p><p>Tienes un vínculo telepático con el objetivo Hechizado mientras ambos estéis en el mismo plano de existencia. En tu turno, puedes usar este vínculo para dar órdenes al objetivo (no requiere acción), como \"Ataca a esa criatura\", \"Muévete allí\" o \"Trae ese objeto\". El objetivo hace todo lo posible por obedecer en su turno. Si completa una orden y no recibe más instrucciones, actúa y se mueve como quiera, centrándose en protegerse.</p><p>Puedes ordenar al objetivo que realice una Reacción, pero debes gastar tu propia Reacción para hacerlo.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Tu Concentración puede durar más con un espacio de conjuro de nivel 6 (hasta 10 minutos), 7 (hasta 1 hora) u 8+ (hasta 8 horas).</p>",
           "effects": {
             "Edq07kTLIVkuDjtn": {
-              "name": "Dominated"
+              "name": "Dominado"
             },
             "dnd5espellchange": {
-              "name": "Spell Changes"
+              "name": "Cambios de conjuro"
             }
           },
           "name": "Dominar persona"
@@ -39698,22 +39698,22 @@
           "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] termina cualquier turno Ensangrentado y recibió 15+ de daño cortante durante ese turno, una de las extremidades del [[lookup @name lowercase]] es cercenada, cae en el espacio del [[lookup @name lowercase]] y se convierte en una <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Extremidad de trol}</strong>. La extremidad actúa inmediatamente después del turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] tiene 1 nivel de &amp;Reference[Exhaustion apply=false] por cada extremidad perdida, y le vuelven a crecer extremidades de reemplazo la próxima vez que recupere Puntos de Golpe.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo proporciona una condición de <strong>Efecto activo</strong> en la pestaña Efectos de la hoja de personaje para habilitar cada nivel de Agotamiento. Como la condición puede aplicarse varias veces, el DM debe gestionar manualmente el nivel de Agotamiento. Hay un efecto activo disponible para cada nivel de agotamiento.</p></section>",
           "effects": {
             "9Tc60NhDJH43WdEU": {
-              "name": "Exhaustion 5"
+              "name": "Agotamiento 5"
             },
             "AVZPkC07GONXpRMe": {
-              "name": "Exhaustion 2"
+              "name": "Agotamiento 2"
             },
             "DCB7xWKhKSEmZHNn": {
-              "name": "Exhaustion 4"
+              "name": "Agotamiento 4"
             },
             "PFledLQkQ75osOlZ": {
-              "name": "Exhaustion 1"
+              "name": "Agotamiento 1"
             },
             "drQriWAwmwosemzp": {
-              "name": "Exhaustion Dead"
+              "name": "Muerte por agotamiento"
             },
             "l1PiPpfAiF9TWs88": {
-              "name": "Exhaustion 3"
+              "name": "Agotamiento 3"
             }
           },
           "name": "Extremidades repugnantes"

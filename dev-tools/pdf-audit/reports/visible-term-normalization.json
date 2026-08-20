@@ -1,0 +1,359 @@
+{
+  "changes": [
+    {
+      "path": "entries/SefrisLv11000000/items/RmVrU2Pz9bQrcqD6/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/SefrisLv11000000/items/SwWNG0pfGWJQOfPo/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/ZannaLv170000000/items/gAKclcRLKyBxUZWM/effects/KNWLGPsZSHtINp6L/name",
+      "english": "Gnomish Cunning",
+      "spanish": "Astucia gnómica",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBlackDrag/items/mmCloudOfInsects/effects/owuEyJBslYKvxqeX/name",
+      "english": "Concentration Disadvantage",
+      "spanish": "Desventaja en Concentración",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBlackDrag/items/usixW0YhBv27P281/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBlueDrago/items/cOqihNCpkVz9XXGx/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBlueDrago/items/mmTailSwipe00000/name",
+      "english": "Tail Swipe",
+      "spanish": "Coletazo",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBlueDrago/items/ovjYLr2qHJA652lq/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBrassDrag/items/mmScorchingSands/effects/n3I76HfSH6eKLALf/name",
+      "english": "Failure: 1/2 Speed",
+      "spanish": "Fallo: mitad de Velocidad",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBrassDrag/items/nVRTlv14fzhoDhWf/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBrassDrag/items/po1oMMVa5As09ueX/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAdultBrassDrag/items/y7iGAk2LDr32QTmX/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAncientBlackDr/items/VVUgABLlS8lQwH7N/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAncientBlueDra/items/LFH0YeP80unYWTS8/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmAncientBlueDra/items/j529u2kIzgwyFvaW/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmCouatl00000000/items/fvUMKr2MYY3v76q0/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmCouatl00000000/items/sOJ29wIQbeRNa4Qt/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmCouatl00000000/items/sSktU9MJhyaviFo2/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmDeva0000000000/items/b1uBxAcirNnGh1ik/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmDeva0000000000/items/t2FrmBjeFeQrFYPL/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmEfreeti0000000/items/ndzmsLuNebehyo3i/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmEfreeti0000000/items/sMeC6D0sckQCpKZZ/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmEfreeti0000000/items/v3qfyzDskfnhgYm9/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmIceDevil000000/items/QQwZ5SZ1p1qFIToL/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmIceMephit00000/items/pH1Rf3FfwlD3EELa/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmImp00000000000/items/BGYUyh36nOQKX4Pr/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmIncubus0000000/items/4pZ322c02dDoRQXF/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmIncubus0000000/items/CM68DGw3MVinKTAz/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmIncubus0000000/items/Epzabor9RV5yUeqA/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmIncubus0000000/items/cuHZ2sYkluUF9oHO/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/0KRZWGRmZw1gbdm1/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/6WQAwKYqmxkMKSGL/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/7H9hxFRjh2YaEVHN/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/LcdboPtDut4HQJfr/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/NKJjjt9DcNYbSJNX/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/WWhaUIpBX0pg9wIY/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/ZZ5w3O15nYKw2PG8/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/anpZyBksu302DAWs/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/fkctWMs3HtVhRarn/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/m13Jk0xxCRfVybrr/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/mmExaltedRestora/name",
+      "english": "Exalted Restoration",
+      "spanish": "Restablecimiento exaltado",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/qi4FBfGudzDz6Lei/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/sHGzr73GjWhM74N0/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmPlanetar000000/items/zdreCsDiTh8AFj6w/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmStoneGolem0000/items/rHwlDG85kUcrUFdg/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmStormGiant0000/items/FuybodXmPwcWpHYX/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmStormGiant0000/items/P1YPgugYe3pgj9DW/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmStormGiant0000/items/a7WqdxaUOqFULucH/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmStormGiant0000/items/mmThunderbolt000/effects/R2yhnEJ7lKT4VSvK/name",
+      "english": "Blinded & Deafened",
+      "spanish": "Cegado y ensordecido",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmSuccubus000000/items/ngMn9mjUa63VWbHY/effects/Edq07kTLIVkuDjtn/name",
+      "english": "Dominated",
+      "spanish": "Dominado",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmSuccubus000000/items/ngMn9mjUa63VWbHY/effects/dnd5espellchange/name",
+      "english": "Spell Changes",
+      "spanish": "Cambios de conjuro",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/9Tc60NhDJH43WdEU/name",
+      "english": "Exhaustion 5",
+      "spanish": "Agotamiento 5",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/AVZPkC07GONXpRMe/name",
+      "english": "Exhaustion 2",
+      "spanish": "Agotamiento 2",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/DCB7xWKhKSEmZHNn/name",
+      "english": "Exhaustion 4",
+      "spanish": "Agotamiento 4",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/PFledLQkQ75osOlZ/name",
+      "english": "Exhaustion 1",
+      "spanish": "Agotamiento 1",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/drQriWAwmwosemzp/name",
+      "english": "Exhaustion Dead",
+      "spanish": "Muerte por agotamiento",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/l1PiPpfAiF9TWs88/name",
+      "english": "Exhaustion 3",
+      "spanish": "Agotamiento 3",
+      "pack": "actors24"
+    },
+    {
+      "path": "entries/dmgCarrionCrawle/effects/a9KfUV3KbbB5wrFY/name",
+      "english": "Poisoned and Paralyzed",
+      "spanish": "Envenenado y paralizado",
+      "pack": "equipment24"
+    },
+    {
+      "path": "entries/phbagBallBearing/effects/zW4roNKVL8HcoNwV/name",
+      "english": "Tripped",
+      "spanish": "Derribado",
+      "pack": "equipment24"
+    }
+  ],
+  "replacementCount": 59
+}

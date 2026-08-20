@@ -162,68 +162,20 @@
           "value": "Aboleth"
         },
         {
-          "path": "entries/mmAdultBlackDrag/items/mmCloudOfInsects/effects/owuEyJBslYKvxqeX/name",
-          "value": "Concentration Disadvantage"
-        },
-        {
-          "path": "entries/mmAdultBlackDrag/items/usixW0YhBv27P281/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
           "path": "entries/mmAdultBlueDrago/items/7gDzjW0xMFSlUZyE/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/cOqihNCpkVz9XXGx/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/mmTailSwipe00000/name",
-          "value": "Tail Swipe"
-        },
-        {
-          "path": "entries/mmAdultBlueDrago/items/ovjYLr2qHJA652lq/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/mmScorchingSands/effects/n3I76HfSH6eKLALf/name",
-          "value": "Failure: 1/2 Speed"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/nVRTlv14fzhoDhWf/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/po1oMMVa5As09ueX/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmAdultBrassDrag/items/y7iGAk2LDr32QTmX/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
         },
         {
           "path": "entries/mmAdultGreenDrag/items/uphk5wRe7cRCXMDE/name",
           "value": "Geas"
         },
         {
-          "path": "entries/mmAncientBlackDr/items/VVUgABLlS8lQwH7N/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
           "path": "entries/mmAncientBlueDra/items/FlUeG3M3TNcZ4aNj/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
         },
         {
-          "path": "entries/mmAncientBlueDra/items/LFH0YeP80unYWTS8/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
           "path": "entries/mmAncientBlueDra/items/j529u2kIzgwyFvaW/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/mmAncientBlueDra/items/j529u2kIzgwyFvaW/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
         },
         {
           "path": "entries/mmAncientGreenDr/items/xS0qNh6JLxK7c7tU/name",
@@ -258,28 +210,8 @@
           "value": "Couatl"
         },
         {
-          "path": "entries/mmCouatl00000000/items/fvUMKr2MYY3v76q0/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/sOJ29wIQbeRNa4Qt/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmCouatl00000000/items/sSktU9MJhyaviFo2/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
           "path": "entries/mmDeva0000000000/name",
           "value": "Deva"
-        },
-        {
-          "path": "entries/mmDeva0000000000/items/b1uBxAcirNnGh1ik/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmDeva0000000000/items/t2FrmBjeFeQrFYPL/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
         },
         {
           "path": "entries/mmDjinni00000000/items/k0eU3EIGLCIUzIni/effects/9svfDetqjhsFP3ey/name",
@@ -292,18 +224,6 @@
         {
           "path": "entries/mmEfreeti0000000/items/aDInRtd983tifrXD/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/mmEfreeti0000000/items/ndzmsLuNebehyo3i/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmEfreeti0000000/items/sMeC6D0sckQCpKZZ/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmEfreeti0000000/items/v3qfyzDskfnhgYm9/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
         },
         {
           "path": "entries/mmEttercap000000/name",
@@ -334,36 +254,8 @@
           "value": "Hezrou"
         },
         {
-          "path": "entries/mmIceDevil000000/items/QQwZ5SZ1p1qFIToL/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmIceMephit00000/items/pH1Rf3FfwlD3EELa/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
           "path": "entries/mmImp00000000000/items/BGYUyh36nOQKX4Pr/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/mmImp00000000000/items/BGYUyh36nOQKX4Pr/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmIncubus0000000/items/4pZ322c02dDoRQXF/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmIncubus0000000/items/CM68DGw3MVinKTAz/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmIncubus0000000/items/Epzabor9RV5yUeqA/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmIncubus0000000/items/cuHZ2sYkluUF9oHO/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
         },
         {
           "path": "entries/mmInvisibleStalk/effects/dnd5einvisible00/name",
@@ -426,64 +318,8 @@
           "value": "Planetar"
         },
         {
-          "path": "entries/mmPlanetar000000/items/0KRZWGRmZw1gbdm1/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/6WQAwKYqmxkMKSGL/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/7H9hxFRjh2YaEVHN/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/LcdboPtDut4HQJfr/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/NKJjjt9DcNYbSJNX/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/WWhaUIpBX0pg9wIY/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/ZZ5w3O15nYKw2PG8/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/anpZyBksu302DAWs/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/fkctWMs3HtVhRarn/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/m13Jk0xxCRfVybrr/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/mmExaltedRestora/name",
-          "value": "Exalted Restoration"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/qi4FBfGudzDz6Lei/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/sHGzr73GjWhM74N0/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
           "path": "entries/mmPlanetar000000/items/zdreCsDiTh8AFj6w/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/mmPlanetar000000/items/zdreCsDiTh8AFj6w/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
         },
         {
           "path": "entries/mmQuasit00000000/items/32LONl1rUCtttKkg/effects/9svfDetqjhsFP3ey/name",
@@ -508,58 +344,6 @@
         {
           "path": "entries/mmSprite00000000/items/FAek73jM5CyQOO60/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/mmStoneGolem0000/items/rHwlDG85kUcrUFdg/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmStormGiant0000/items/FuybodXmPwcWpHYX/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmStormGiant0000/items/P1YPgugYe3pgj9DW/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmStormGiant0000/items/a7WqdxaUOqFULucH/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmStormGiant0000/items/mmThunderbolt000/effects/R2yhnEJ7lKT4VSvK/name",
-          "value": "Blinded & Deafened"
-        },
-        {
-          "path": "entries/mmSuccubus000000/items/ngMn9mjUa63VWbHY/effects/Edq07kTLIVkuDjtn/name",
-          "value": "Dominated"
-        },
-        {
-          "path": "entries/mmSuccubus000000/items/ngMn9mjUa63VWbHY/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/9Tc60NhDJH43WdEU/name",
-          "value": "Exhaustion 5"
-        },
-        {
-          "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/AVZPkC07GONXpRMe/name",
-          "value": "Exhaustion 2"
-        },
-        {
-          "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/DCB7xWKhKSEmZHNn/name",
-          "value": "Exhaustion 4"
-        },
-        {
-          "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/PFledLQkQ75osOlZ/name",
-          "value": "Exhaustion 1"
-        },
-        {
-          "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/drQriWAwmwosemzp/name",
-          "value": "Exhaustion Dead"
-        },
-        {
-          "path": "entries/mmTroll000000000/items/mmLoathsomeLimbs/effects/l1PiPpfAiF9TWs88/name",
-          "value": "Exhaustion 3"
         },
         {
           "path": "entries/mmVrock000000000/name",
@@ -722,14 +506,6 @@
           "value": "Trance"
         },
         {
-          "path": "entries/SefrisLv11000000/items/RmVrU2Pz9bQrcqD6/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
-          "path": "entries/SefrisLv11000000/items/SwWNG0pfGWJQOfPo/effects/dnd5espellchange/name",
-          "value": "Spell Changes"
-        },
-        {
           "path": "entries/SefrisLv11000000/items/eZK3orhrHFASQokw/effects/9svfDetqjhsFP3ey/name",
           "value": "Invisible"
         },
@@ -768,10 +544,6 @@
         {
           "path": "entries/ZannaLv170000000/name",
           "value": "Zanna"
-        },
-        {
-          "path": "entries/ZannaLv170000000/items/gAKclcRLKyBxUZWM/effects/KNWLGPsZSHtINp6L/name",
-          "value": "Gnomish Cunning"
         }
       ],
       "likelyEnglish": [],
@@ -2385,10 +2157,6 @@
       },
       "exactUntranslated": [
         {
-          "path": "entries/dmgCarrionCrawle/effects/a9KfUV3KbbB5wrFY/name",
-          "value": "Poisoned and Paralyzed"
-        },
-        {
           "path": "entries/dmgDmtEuryale000/name",
           "value": "Euryale"
         },
@@ -2399,10 +2167,6 @@
         {
           "path": "entries/dmgPotionOfInvis/effects/tsRnLFf1HtqAPphv/name",
           "value": "Invisible"
-        },
-        {
-          "path": "entries/phbagBallBearing/effects/zW4roNKVL8HcoNwV/name",
-          "value": "Tripped"
         },
         {
           "path": "entries/phbagPerfume0000/name",
