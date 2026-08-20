@@ -57,7 +57,8 @@
   },
   "esmodules": [
     "scripts/converters.js",
-    "scripts/babele-register.js"
+    "scripts/babele-register.js",
+    "scripts/runtime-fixes.js"
   ],
   "authors": [
     {
