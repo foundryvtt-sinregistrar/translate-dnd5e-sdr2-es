@@ -82,10 +82,6 @@
           "value": "Beiro"
         },
         {
-          "path": "entries/BeiroLv010000000/biography",
-          "value": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
-        },
-        {
           "path": "entries/BeiroLv010000000/items/fMYUhyHT1w4QKHse/name",
           "value": "Trance"
         },
@@ -150,20 +146,12 @@
           "value": "Merric"
         },
         {
-          "path": "entries/MerricLv11000000/biography",
-          "value": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her imposing stature makes her a force to be reckoned with in combat, it is her violent outbursts of rage that truly set her apart.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
-        },
-        {
           "path": "entries/MerricLv11000000/items/nv4C6lqP8VYdEcVb/name",
           "value": "Vigilante"
         },
         {
           "path": "entries/MerricLv17000000/name",
           "value": "Merric"
-        },
-        {
-          "path": "entries/MerricLv17000000/biography",
-          "value": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her imposing stature makes her a force to be reckoned with in combat, it is her violent outbursts of rage that truly set her apart.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
         },
         {
           "path": "entries/MerricLv17000000/items/nv4C6lqP8VYdEcVb/name",
@@ -596,10 +584,6 @@
         {
           "path": "entries/MorthosLv1100000/name",
           "value": "Morthos"
-        },
-        {
-          "path": "entries/MorthosLv1100000/biography",
-          "value": "<p>Morthos' investigation into her complex draconic-infernal ancestry led her to an academic life, but it soon became apparent that the fools in charge were keeping many secrets from her.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
         },
         {
           "path": "entries/MorthosLv1700000/name",
