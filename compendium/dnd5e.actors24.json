@@ -6102,19 +6102,19 @@
         },
         "3bTXoHwVoP1ZjuAL": {
           "activities": {},
-          "description": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p>",
+          "description": "<p>Tienes Ventaja en las tiradas de salvación que realizas para evitar o finalizar la condición &amp;Reference[Charmed].</p>",
           "effects": {},
           "name": "Linaje feérico"
         },
         "BPahbbr4D0oqYX2P": {
           "activities": {},
-          "description": "<p>You have proficiency in the Insight, Perception, or Survival skill.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice after selecting this species.</p></section>",
+          "description": "<p>Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá que elijas la habilidad tras seleccionar esta especie.</p></section>",
           "effects": {},
           "name": "Sentidos agudos"
         },
         "fMYUhyHT1w4QKHse": {
           "activities": {},
-          "description": "<p>You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+          "description": "<p>No necesitas dormir y la magia no puede hacer que te duermas. Puedes completar un Descanso Largo en 4 horas si pasas ese tiempo en una meditación similar a un trance, durante la cual permaneces consciente.</p>",
           "effects": {},
           "name": "Trance"
         },
@@ -8802,7 +8802,7 @@
         },
         "MJHCYF0EfmvmvSjn": {
           "activities": {},
-          "description": "<p>For the duration, sunlight spreads from a point within range and fills a 60-foot-radius Sphere. The sunlight's area is Bright Light and sheds Dim Light for an additional 60 feet.</p><p>Alternatively, you cast the spell on an object that isn't being worn or carried, causing the sunlight to fill a 60-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the sunlight.</p><p>If any of this spell's area overlaps with an area of Darkness created by a spell of level 3 or lower, that other spell is dispelled.</p>",
+          "description": "<p>Mientras dure el conjuro, la luz del sol se extiende desde un punto dentro del alcance y llena una esfera de 60 pies de radio. El área de la luz del sol es Luz Brillante y emite Luz Tenue durante 60 pies adicionales.</p><p>Alternativamente, lanzas el conjuro sobre un objeto que no esté siendo llevado ni transportado, haciendo que la luz del sol llene una emanación de 60 pies que se origina en ese objeto. Cubrir ese objeto con algo opaco, como un cuenco o un yelmo, bloquea la luz del sol.</p><p>Si alguna parte del área de este conjuro se solapa con un área de Oscuridad creada por un conjuro de nivel 3 o inferior, ese otro conjuro se disipa.</p>",
           "effects": {},
           "name": "Luz del día"
         }
@@ -24808,13 +24808,13 @@
         },
         "mmAcidBreath0000": {
           "activities": {},
-          "description": "<p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], each [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] in a [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]]-foot-long, [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-foot-wide Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], cada [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] en una Línea de [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]] pies de largo y [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]] pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] daño.</p><p><em>Éxito:</em> Mitad de daño.</p>",
           "effects": {},
           "name": "Aliento ácido"
         },
         "mmAmphibious0000": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] can breathe air and water.</p>",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>",
           "effects": {},
           "name": "Anfibio"
         },
@@ -24836,7 +24836,7 @@
         },
         "mmLegendaryResis": {
           "activities": {},
-          "description": "<p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>",
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede decidir superarla en su lugar.</p>",
           "effects": {},
           "name": "Resistencia legendaria"
         },
@@ -24848,7 +24848,7 @@
         },
         "mmPounce00000000": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>",
+          "description": "<p>El [[lookup @name lowercase]] se mueve hasta la mitad de su Velocidad y realiza un ataque de [[/item Rend]].</p>",
           "effects": {},
           "name": "Abalanzarse"
         },
@@ -24866,7 +24866,7 @@
         },
         "usixW0YhBv27P281": {
           "activities": {},
-          "description": "<p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>",
+          "description": "<p>Cada criatura en un Cono de 30 pies debe superar una tirada de salvación de Sabiduría o soltar lo que esté sujetando y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada realiza la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, a menos que no haya ningún lugar al que moverse. Si la criatura termina su turno en un espacio donde no tenga línea de visión contigo, la criatura realiza una tirada de salvación de Sabiduría. Si tiene éxito, el conjuro termina sobre esa criatura.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -24943,7 +24943,7 @@
         },
         "cOqihNCpkVz9XXGx": {
           "activities": {},
-          "description": "<p>You send a short message of 25 words or fewer to a creature you have met or a creature described to you by someone who has met it. The target hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables targets to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive. You know if the delivery fails.</p><p>Upon receiving your message, a creature can block your ability to reach it again with this spell for 8 hours. If you try to send another message during that time, you learn that you are blocked, and the spell fails.</p>",
+          "description": "<p>Envías un mensaje corto de 25 palabras o menos a una criatura a la que hayas conocido o a una criatura descrita por alguien que la haya conocido. El objetivo oye el mensaje en su mente, te reconoce como emisor si te conoce y puede responder de manera similar inmediatamente. El conjuro permite a los objetivos comprender el significado de tu mensaje.</p><p>Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo está en un plano distinto al tuyo, hay un 5 por ciento de probabilidad de que el mensaje no llegue. Sabes si la entrega falla.</p><p>Al recibir tu mensaje, una criatura puede bloquear tu capacidad de volver a alcanzarla con este conjuro durante 8 horas. Si intentas enviar otro mensaje durante ese tiempo, aprendes que estás bloqueado y el conjuro falla.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -24959,13 +24959,13 @@
         },
         "mmLegendaryResis": {
           "activities": {},
-          "description": "<p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>",
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede decidir superarla en su lugar.</p>",
           "effects": {},
           "name": "Resistencia legendaria"
         },
         "mmLightningBreat": {
           "activities": {},
-          "description": "<p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-foot-wide [[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]].</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], cada [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] en un(a) [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]] pies de largo, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]] pies de ancho [[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]].</p><p><em>Fallo: </em>[[/damage average]] daño.</p><p><em>Éxito:</em> Mitad de daño.</p>",
           "effects": {},
           "name": "Aliento de relámpago"
         },
@@ -24995,13 +24995,13 @@
         },
         "mmTailSwipe00000": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]] makes one [[/item Rend]] attack.</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de [[/item Rend]].</p>",
           "effects": {},
           "name": "Tail Swipe"
         },
         "ovjYLr2qHJA652lq": {
           "activities": {},
-          "description": "<p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>",
+          "description": "<p>Un estruendo estalla desde un punto de tu elección dentro del alcance. Cada criatura en una Esfera de 10 pies de radio centrada allí hace una tirada de salvación de Constitución, recibiendo 3d8 de daño de Trueno con una salvación fallida o la mitad con una salvación exitosa. Un Constructo tiene Desventaja en la salvación.</p><p>Un objeto no mágico que no esté siendo llevado o vestido también recibe el daño si está en el área del conjuro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d8 por cada nivel de espacio de conjuro por encima de 2.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -25061,13 +25061,13 @@
         },
         "mmFireBreath0000": {
           "activities": {},
-          "description": "<p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-foot-long, [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-foot-wide Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en una Línea de [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]] pies de largo y [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]] pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] daño.</p><p><em>Éxito:</em> Mitad de daño.</p>",
           "effects": {},
           "name": "Aliento de fuego"
         },
         "mmLegendaryResis": {
           "activities": {},
-          "description": "<p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>",
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede decidir superarla en su lugar.</p>",
           "effects": {},
           "name": "Resistencia legendaria"
         },
@@ -25079,7 +25079,7 @@
         },
         "mmPounce00000000": {
           "activities": {},
-          "description": "<p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>",
+          "description": "<p>El [[lookup @name lowercase]] se mueve hasta la mitad de su Velocidad y realiza un ataque de [[/item Rend]].</p>",
           "effects": {},
           "name": "Abalanzarse"
         },
@@ -25091,7 +25091,7 @@
         },
         "mmScorchingSands": {
           "activities": {},
-          "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=g5fxAWhrpwohtETl]] feet.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target's Speed is halved until the end of its next turn.</p><p class=\"feature\"><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] daño, y la Velocidad del objetivo se reduce a la mitad hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "effects": {
             "n3I76HfSH6eKLALf": {
               "name": "Failure: 1/2 Speed"
@@ -25120,7 +25120,7 @@
         },
         "nVRTlv14fzhoDhWf": {
           "activities": {},
-          "description": "<p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate wind</td></tr><tr><td>3</td><td>Strong wind</td></tr><tr><td>4</td><td>Gale</td></tr><tr><td>5</td><td>Storm</td></tr></tbody></table></details>",
+          "description": "<p>Tomas el control del clima en un radio de 5 millas a tu alrededor mientras dure el conjuro. Debes estar al aire libre para lanzar este conjuro, y termina antes de tiempo si entras en un lugar cerrado.</p><p>Cuando lanzas el conjuro, cambias las condiciones meteorológicas actuales, que determina el DM. Puedes cambiar la precipitación, la temperatura y el viento. Las nuevas condiciones tardan 1d4 × 10 minutos en entrar en efecto. Una vez lo hagan, puedes volver a cambiar las condiciones. Cuando el conjuro termina, el clima regresa gradualmente a la normalidad.</p><p>Cuando cambias las condiciones meteorológicas, busca una condición actual en las tablas siguientes y cambia su etapa en uno, hacia arriba o hacia abajo. Al cambiar el viento, también puedes cambiar su dirección.</p><details><summary><strong>Precipitación</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes ligeras</td></tr><tr><td>3</td><td>Cubierto o niebla a ras de suelo</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, granizo intenso o ventisca</td></tr></tbody></table></details><details><summary><strong>Temperatura</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Ola de calor</td></tr><tr><td>2</td><td>Caluroso</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Frío</td></tr><tr><td>6</td><td>Gélido</td></tr></tbody></table></details><details><summary><strong>Viento</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Calma</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Vendaval</td></tr><tr><td>5</td><td>Tormenta</td></tr></tbody></table></details>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -25140,7 +25140,7 @@
         },
         "y7iGAk2LDr32QTmX": {
           "activities": {},
-          "description": "<p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't know any languages and isn't telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target's mind, the target can take an action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your spell save DC, ending the spell on a success.</p>",
+          "description": "<p>Activarás uno de los efectos siguientes. Hasta que el conjuro termine, puedes activar cualquiera de los dos efectos como acción Mágica en tus turnos posteriores.</p><p><strong>Sentir pensamientos.</strong> Percibes la presencia de pensamientos a 30 pies o menos de ti, pertenecientes a criaturas que conocen idiomas o que son telepáticas. No lees los pensamientos, pero sabes que hay una criatura pensante presente.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p><p><strong>Leer pensamientos.</strong> Elige como objetivo a una criatura que puedas ver a 30 pies o menos de ti, o a una criatura a 30 pies o menos de ti que hayas detectado con la opción Sentir pensamientos. Aprendes qué es lo que ocupa más la mente del objetivo ahora mismo. Si el objetivo no conoce ningún idioma y no es telepático, no aprendes nada.</p><p>Como acción Mágica en tu siguiente turno, puedes intentar profundizar más en la mente del objetivo. Si profundizas, el objetivo realiza una tirada de salvación de Sabiduría. Si falla, distingues el razonamiento, las emociones y algo que pesa mucho en su mente (como una preocupación, amor u odio). Si tiene éxito, el conjuro termina. En cualquier caso, el objetivo sabe que estás hurgando en su mente y, hasta que apartes tu atención de la mente del objetivo, el objetivo puede realizar una acción en su turno para hacer una [[/check ability=int skill=arc dc=@attributes.spell.dc]] tirada contra tu CD de salvación de conjuros, terminando el conjuro si tiene éxito.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -26277,7 +26277,7 @@
         },
         "VVUgABLlS8lQwH7N": {
           "activities": {},
-          "description": "<p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>",
+          "description": "<p>Cada criatura en un Cono de 30 pies debe superar una tirada de salvación de Sabiduría o soltar lo que esté sujetando y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada realiza la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, a menos que no haya ningún lugar al que moverse. Si la criatura termina su turno en un espacio donde no tenga línea de visión contigo, la criatura realiza una tirada de salvación de Sabiduría. Si tiene éxito, el conjuro termina sobre esa criatura.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -26412,7 +26412,7 @@
         },
         "LFH0YeP80unYWTS8": {
           "activities": {},
-          "description": "<p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>",
+          "description": "<p>Un estruendo estalla desde un punto de tu elección dentro del alcance. Cada criatura en una Esfera de 10 pies de radio centrada allí hace una tirada de salvación de Constitución, recibiendo 3d8 de daño de Trueno con una salvación fallida o la mitad con una salvación exitosa. Un Constructo tiene Desventaja en la salvación.</p><p>Un objeto no mágico que no esté siendo llevado o vestido también recibe el daño si está en el área del conjuro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d8 por cada nivel de espacio de conjuro por encima de 2.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -26422,7 +26422,7 @@
         },
         "j529u2kIzgwyFvaW": {
           "activities": {},
-          "description": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p>",
+          "description": "<p>Una criatura a la que toques tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo a una criatura adicional por cada nivel del espacio de conjuro por encima de 2.</p>",
           "effects": {
             "9svfDetqjhsFP3ey": {
               "name": "Invisible"
@@ -29756,7 +29756,7 @@
         },
         "fvUMKr2MYY3v76q0": {
           "activities": {},
-          "description": "<p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't know any languages and isn't telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target's mind, the target can take an action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your spell save DC, ending the spell on a success.</p>",
+          "description": "<p>Activarás uno de los efectos siguientes. Hasta que el conjuro termine, puedes activar cualquiera de los dos efectos como acción Mágica en tus turnos posteriores.</p><p><strong>Sentir pensamientos.</strong> Percibes la presencia de pensamientos a 30 pies o menos de ti, pertenecientes a criaturas que conocen idiomas o que son telepáticas. No lees los pensamientos, pero sabes que hay una criatura pensante presente.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una fina lámina de plomo.</p><p><strong>Leer pensamientos.</strong> Elige como objetivo a una criatura que puedas ver a 30 pies o menos de ti, o a una criatura a 30 pies o menos de ti que hayas detectado con la opción Sentir pensamientos. Aprendes qué es lo que ocupa más la mente del objetivo ahora mismo. Si el objetivo no conoce ningún idioma y no es telepático, no aprendes nada.</p><p>Como acción Mágica en tu siguiente turno, puedes intentar profundizar más en la mente del objetivo. Si profundizas, el objetivo realiza una tirada de salvación de Sabiduría. Si falla, distingues el razonamiento, las emociones y algo que pesa mucho en su mente (como una preocupación, amor u odio). Si tiene éxito, el conjuro termina. En cualquier caso, el objetivo sabe que estás hurgando en su mente y, hasta que apartes tu atención de la mente del objetivo, el objetivo puede realizar una acción en su turno para hacer una [[/check ability=int skill=arc dc=@attributes.spell.dc]] tirada contra tu CD de salvación de conjuros, terminando el conjuro si tiene éxito.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -29779,14 +29779,14 @@
           "description": "<p><em>Strength Saving Throw:</em><span class=\"Heading-4\"> </span>DC [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]] feet.</p><p><em>Failure:</em> [[/damage average]] damage. The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained apply=false] condition until the grapple ends.</p>",
           "effects": {
             "Hd0Gy3wJtPfObERq": {
-              "name": "Grappled and Restrained"
+              "name": "Agarrado y Restringido"
             }
           },
           "name": "Constrict"
         },
         "mmShieldedMind00": {
           "activities": {},
-          "description": "<p class=\"feature\">The [[lookup @name lowercase]]'s thoughts can't be read by any means, and other creatures can communicate with it telepathically only if it allows them.</p>",
+          "description": "<p class=\"feature\">Los pensamientos del [[lookup @name lowercase]] no pueden leerse por ningún medio, y otras criaturas solo pueden comunicarse con él telepáticamente si él se lo permite.</p>",
           "effects": {},
           "name": "Mente protegida"
         },
@@ -29808,7 +29808,7 @@
         },
         "sSktU9MJhyaviFo2": {
           "activities": {},
-          "description": "<p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>",
+          "description": "<p>Puedes ver y oír a una criatura que elijas que esté en el mismo plano de existencia que tú. El objetivo hace una tirada de salvación de Sabiduría, que se modifica (consulta las tablas siguientes) según cuánto conozcas al objetivo y el tipo de vínculo físico que tengas con él. El objetivo no sabe contra qué está haciendo la salvación, solo que se siente inquieto.</p><table><thead><tr><td>Tu conocimiento del objetivo es…</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>Indirecto (has oído hablar del objetivo)</td><td>+5</td></tr><tr><td>Directo (has conocido al objetivo)</td><td>+0</td></tr><tr><td>Extenso (conoces bien al objetivo)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>Tienes del objetivo…</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>Imagen u otra semejanza</td><td>−2</td></tr><tr><td>Prenda u otra posesión</td><td>−4</td></tr><tr><td>Parte del cuerpo, mechón de pelo o recorte de uña</td><td>−10</td></tr></tbody></table><p>Con una salvación exitosa, el objetivo no se ve afectado y no puedes usar este conjuro sobre él de nuevo durante 24 horas.</p><p>Con una salvación fallida, el conjuro crea un sensor Invisible e intangible a 10 pies o menos del objetivo. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve con el objetivo, permaneciendo a 10 pies o menos de él durante la duración. Si algo puede ver el sensor, aparece como un orbe luminoso del tamaño aproximado de tu puño.</p><p>En lugar de apuntar a una criatura, puedes apuntar a una ubicación que hayas visto. Cuando lo haces, el sensor aparece en esa ubicación y no se mueve.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -30107,7 +30107,7 @@
         },
         "t2FrmBjeFeQrFYPL": {
           "activities": {},
-          "description": "<p>With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died.</p><p>The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
+          "description": "<p>Con un toque, devuelves la vida a una criatura muerta si lleva muerta no más de 10 días y no era No Muerta cuando murió.</p><p>La criatura vuelve a la vida con 1 Punto de Golpe. Este conjuro también neutraliza cualquier veneno que afectara a la criatura en el momento de la muerte.</p><p>Este conjuro cierra todas las heridas mortales, pero no restaura partes del cuerpo perdidas. Si a la criatura le faltan partes del cuerpo u órganos esenciales para su supervivencia —su cabeza, por ejemplo—, el conjuro falla automáticamente.</p><p>Volver de la muerte es una dura prueba. El objetivo sufre un penalizador de −4 a las Pruebas de d20. Cada vez que el objetivo termina un Descanso Largo, el penalizador se reduce en 1 hasta que se convierte en 0.</p>",
           "effects": {
             "0EAyGy8YaKbvgvkm": {
               "name": "Resurrección Sickness (Day 3)"
@@ -31018,11 +31018,11 @@
           "activities": {},
           "description": "<p class=\"feature\">If the [[lookup @name lowercase]] [[lookup @item.requirements]], its body dissolves into dirt, and it gains a new body in [[/r 1d4#Days]] days, reviving with all its Hit Points somewhere on the Plane of Fire.</p>",
           "effects": {},
-          "name": "Elemental Restoration"
+          "name": "Restauración elemental"
         },
         "ndzmsLuNebehyo3i": {
           "activities": {},
-          "description": "<p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination, as determined by the DM.</p><p>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.</p>",
+          "description": "<p>Tú y hasta ocho criaturas voluntarias que se den la mano formando un círculo sois transportados a un plano de existencia diferente. Puedes especificar un destino objetivo en términos generales, como la Ciudad de Bronce en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y apareces en o cerca de ese destino, según determine el DM.</p><p>Alternativamente, si conoces la secuencia de sigilos de un círculo de teletransporte en otro plano de existencia, este conjuro puede llevaros a ese círculo. Si el círculo de teletransporte es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos junto al círculo.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -31032,7 +31032,7 @@
         },
         "sMeC6D0sckQCpKZZ": {
           "activities": {},
-          "description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can't deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>",
+          "description": "<p>Creas la imagen de un objeto, una criatura u otro fenómeno visible que no sea mayor que un Cubo de 20 pies. La imagen aparece en un lugar que puedas ver dentro del alcance y dura mientras dure el conjuro. Parece real, incluidos sonidos, olores y temperatura apropiados a lo representado, pero no puede infligir daño ni causar condiciones.</p><p>Si estás dentro del alcance de la ilusión, puedes realizar una acción Mágica para hacer que la imagen se mueva a cualquier otro punto dentro del alcance. A medida que la imagen cambia de ubicación, puedes alterar su apariencia para que sus movimientos parezcan naturales para la imagen. Por ejemplo, si creas una imagen de una criatura y la mueves, puedes alterar la imagen para que parezca que está caminando. Del mismo modo, puedes hacer que la ilusión emita distintos sonidos en distintos momentos, incluso hacer que mantenga una conversación, por ejemplo.</p><p>La interacción física con la imagen revela que es una ilusión, pues las cosas pueden atravesarla. Una criatura que realice la acción Estudiar para examinar la imagen puede determinar que es una ilusión con una tirada exitosa de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuro. Si una criatura descubre que la ilusión lo es, puede ver a través de la imagen y sus demás cualidades sensoriales se vuelven tenues para esa criatura.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El conjuro dura hasta que sea disipado, sin requerir Concentración, si se lanza con un espacio de conjuro de nivel 4 o superior.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -31042,10 +31042,10 @@
         },
         "v3qfyzDskfnhgYm9": {
           "activities": {},
-          "description": "<p>This spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that knows at least one language can understand it if that creature can hear the speech or see the signing.</p>",
+          "description": "<p>Este conjuro otorga a la criatura que tocas la capacidad de entender cualquier idioma hablado o signado que oiga o vea. Además, cuando el objetivo se comunica hablando o signando, cualquier criatura que conozca al menos un idioma puede entenderlo si puede oír el habla o ver el lenguaje de señas.</p>",
           "effects": {
             "bmESvtHHL0Su7gn4": {
-              "name": "Universal Communication"
+              "name": "Comunicación Universal"
             },
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36546,7 +36546,7 @@
         },
         "0KRZWGRmZw1gbdm1": {
           "activities": {},
-          "description": "<p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>",
+          "description": "<p>Tocas a una criatura y terminas una condición sobre ella: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed] o &amp;Reference[poisoned].</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36556,7 +36556,7 @@
         },
         "6WQAwKYqmxkMKSGL": {
           "activities": {},
-          "description": "<p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>",
+          "description": "<p>Tocas a una criatura y terminas una condición sobre ella: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed] o &amp;Reference[poisoned].</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36566,7 +36566,7 @@
         },
         "7H9hxFRjh2YaEVHN": {
           "activities": {},
-          "description": "<p>Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.</p>",
+          "description": "<p>Elige una criatura, objeto o efecto mágico dentro del alcance. Cualquier conjuro en curso de nivel 3 o inferior sobre el objetivo termina. Por cada conjuro en curso de nivel 4 o superior sobre el objetivo, haz una prueba de característica usando tu característica de lanzamiento de conjuros (CD 10 + el nivel de ese conjuro). Si la prueba tiene éxito, el conjuro termina.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Terminas automáticamente un conjuro sobre el objetivo si el nivel de ese conjuro es igual o inferior al nivel del espacio de conjuro que uses.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36576,7 +36576,7 @@
         },
         "LcdboPtDut4HQJfr": {
           "activities": {},
-          "description": "<p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate wind</td></tr><tr><td>3</td><td>Strong wind</td></tr><tr><td>4</td><td>Gale</td></tr><tr><td>5</td><td>Storm</td></tr></tbody></table></details>",
+          "description": "<p>Tomas el control del clima en un radio de 5 millas a tu alrededor mientras dure el conjuro. Debes estar al aire libre para lanzar este conjuro, y termina antes de tiempo si entras en un lugar cerrado.</p><p>Cuando lanzas el conjuro, cambias las condiciones meteorológicas actuales, que determina el DM. Puedes cambiar la precipitación, la temperatura y el viento. Las nuevas condiciones tardan 1d4 × 10 minutos en entrar en efecto. Una vez lo hagan, puedes volver a cambiar las condiciones. Cuando el conjuro termina, el clima regresa gradualmente a la normalidad.</p><p>Cuando cambias las condiciones meteorológicas, busca una condición actual en las tablas siguientes y cambia su etapa en uno, hacia arriba o hacia abajo. Al cambiar el viento, también puedes cambiar su dirección.</p><details><summary><strong>Precipitación</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes ligeras</td></tr><tr><td>3</td><td>Cubierto o niebla a ras de suelo</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, granizo intenso o ventisca</td></tr></tbody></table></details><details><summary><strong>Temperatura</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Ola de calor</td></tr><tr><td>2</td><td>Caluroso</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Frío</td></tr><tr><td>6</td><td>Gélido</td></tr></tbody></table></details><details><summary><strong>Viento</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Calma</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Vendaval</td></tr><tr><td>5</td><td>Tormenta</td></tr></tbody></table></details>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36599,7 +36599,7 @@
         },
         "WWhaUIpBX0pg9wIY": {
           "activities": {},
-          "description": "<p>You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
+          "description": "<p>Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo realice una tirada de ataque o una tirada de salvación antes de que el conjuro termine, el objetivo añade 1d4 a la tirada de ataque o a la tirada de salvación.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una criatura adicional por cada nivel del espacio de conjuro por encima de 1.</p>",
           "effects": {
             "1dzvDffEh8wZ0oQy": {
               "name": "Bendicioned"
@@ -36612,7 +36612,7 @@
         },
         "ZZ5w3O15nYKw2PG8": {
           "activities": {},
-          "description": "<p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded.</p>",
+          "description": "<p>Con tu toque, terminan todas las maldiciones que afecten a una criatura u objeto. Si el objeto es un objeto mágico maldito, su maldición permanece, pero el conjuro rompe el Vínculo (Sintonización) de su propietario con el objeto para que pueda retirarse o desecharse.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36622,7 +36622,7 @@
         },
         "anpZyBksu302DAWs": {
           "activities": {},
-          "description": "<p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d8 for each spell slot level above 1.</p>",
+          "description": "<p>Una criatura que tocas recupera una cantidad de Puntos de Golpe igual a 2d8 + tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> La curación aumenta en 2d8 por cada nivel del espacio de conjuro por encima de 1.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36632,10 +36632,10 @@
         },
         "fkctWMs3HtVhRarn": {
           "activities": {},
-          "description": "<p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.</p><p><strong>Break Enchantment.</strong> As a Magic action, you touch a creature that is possessed by or has the &amp;Reference[Charmed] or &amp;Reference[Frightened] condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.</p><p><strong>Dismissal.</strong> As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.</p>",
+          "description": "<p>Mientras dure el conjuro, los Celestiales, Elementales, Feéricos, Demonios y No muertos tienen Desventaja en las tiradas de ataque contra ti. Puedes terminar el conjuro antes de tiempo usando una de las siguientes funciones especiales.</p><p><strong>Romper encantamiento.</strong> Como acción Mágica, tocas a una criatura que esté poseída o que tenga la condición &amp;Reference[Charmed] o &amp;Reference[Frightened] provocada por una o más criaturas de los tipos anteriores. El objetivo deja de estar poseído, Hechizado o Asustado por tales criaturas.</p><p><strong>Destierro.</strong> Como acción Mágica, eliges como objetivo a una criatura que puedas ver a 5 pies o menos de ti y que tenga uno de los tipos de criatura anteriores. El objetivo debe superar una tirada de salvación de Carisma o es enviado de vuelta a su plano natal si no está ya allí. Si no están en su plano natal, los No muertos son enviados a Shadowfell y los Feéricos son enviados a Feywild.</p>",
           "effects": {
             "RMeb9TUrFdhXMTzz": {
-              "name": "Dispelling Evil and Good"
+              "name": "Disipando el Bien y el Mal"
             },
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36645,7 +36645,7 @@
         },
         "m13Jk0xxCRfVybrr": {
           "activities": {},
-          "description": "<p>A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d4 for each spell slot level above 1.</p>",
+          "description": "<p>Una criatura a tu elección que puedas ver dentro del alcance recupera Puntos de Golpe iguales a 2d4 más tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> La curación aumenta en 2d4 por cada nivel del espacio de conjuro por encima de 1.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36655,13 +36655,13 @@
         },
         "mmExaltedRestora": {
           "activities": {},
-          "description": "<p class=\"feature\">If the [[lookup @name lowercase]] dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.</p>",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] muere fuera del Monte Celestia, su cuerpo desaparece, y obtiene un nuevo cuerpo al instante, reviviendo con todos sus puntos de golpe en algún lugar del Monte Celestia.</p>",
           "effects": {},
           "name": "Exalted Restoration"
         },
         "qi4FBfGudzDz6Lei": {
           "activities": {},
-          "description": "<p>You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</p><p>Divine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.</p>",
+          "description": "<p>Te pones en contacto con una deidad o un representante divino y formulas hasta tres preguntas que puedan responderse con sí o no. Debes formular tus preguntas antes de que el conjuro termine. Recibes una respuesta correcta por cada pregunta.</p><p>Los seres divinos no son necesariamente omniscientes, así que podrías recibir “incierto” como respuesta si una pregunta se refiere a información que queda fuera del conocimiento de la deidad. En los casos en que una respuesta de una sola palabra pueda ser engañosa o contraria a los intereses de la deidad, el DM podría ofrecer una frase corta como respuesta.</p><p>Si lanzas este conjuro más de una vez antes de terminar un Descanso Largo, hay una probabilidad acumulativa del 25% por cada lanzamiento después del primero de que no recibas respuesta.</p>",
           "effects": {
             "dnd5espellchange": {
               "name": "Spell Changes"
@@ -36671,7 +36671,7 @@
         },
         "sHGzr73GjWhM74N0": {
           "activities": {},
-          "description": "<p>With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died.</p><p>The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
+          "description": "<p>Con un toque, devuelves la vida a una criatura muerta si lleva muerta no más de 10 días y no era No Muerta cuando murió.</p><p>La criatura vuelve a la vida con 1 Punto de Golpe. Este conjuro también neutraliza cualquier veneno que afectara a la criatura en el momento de la muerte.</p><p>Este conjuro cierra todas las heridas mortales, pero no restaura partes del cuerpo perdidas. Si a la criatura le faltan partes del cuerpo u órganos esenciales para su supervivencia —su cabeza, por ejemplo—, el conjuro falla automáticamente.</p><p>Volver de la muerte es una dura prueba. El objetivo sufre un penalizador de −4 a las Pruebas de d20. Cada vez que el objetivo termina un Descanso Largo, el penalizador se reduce en 1 hasta que se convierte en 0.</p>",
           "effects": {
             "0EAyGy8YaKbvgvkm": {
               "name": "Resurrección Sickness (Day 3)"
@@ -36699,7 +36699,7 @@
         },
         "zdreCsDiTh8AFj6w": {
           "activities": {},
-          "description": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p>",
+          "description": "<p>Una criatura a la que toques tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo a una criatura adicional por cada nivel del espacio de conjuro por encima de 2.</p>",
           "effects": {
             "9svfDetqjhsFP3ey": {
               "name": "Invisible"
@@ -39403,7 +39403,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]). Hasta que el agarre termine, el objetivo tiene la condición &amp;Reference[Restrained apply=false] y no puede teletransportarse.</p>",
           "effects": {
             "wMLRjKVfS2fpTjiH": {
-              "name": "Grappled & Restrained"
+              "name": "Agarrado y Restringido"
             }
           },
           "name": "Mordisco"
@@ -39472,7 +39472,7 @@
           "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=RWBqtTjGSlEgQWCl]], [[lookup @target.affects.special activity=RWBqtTjGSlEgQWCl]] en una [[lookup @target.template.size activity=RWBqtTjGSlEgQWCl]]-[[lookup @target.template.units activity=RWBqtTjGSlEgQWCl]]. [[lookup @target.template.type capitalize activity=RWBqtTjGSlEgQWCl]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene las condiciones &amp;Reference[Deafened apply=false] y &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Éxito:</em> solo mitad de daño.</p>",
           "effects": {
             "DDrzXcjt2wWiTS9J": {
-              "name": "Deafened & Frightened"
+              "name": "Ensordecido y Asustado"
             }
           },
           "name": "Bramido atronador"
@@ -39775,7 +39775,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o menor, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]])). Mientras esté Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=falsse] y no puede ser objetivo de la Cola del [[lookup @name lowercase]].</p>",
           "effects": {
             "zlY4Bf1g2pEv81sd": {
-              "name": "Grappled & Restrained"
+              "name": "Agarrado y Restringido"
             }
           },
           "name": "Mordisco"
