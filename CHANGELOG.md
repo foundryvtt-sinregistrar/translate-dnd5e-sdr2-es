@@ -24,6 +24,23 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ---
 
+## [1.13.5] - 2026-08-20
+
+### Added
+- Official Spanish material components for all 188 SRD 5.2.1 spells that use them.
+- Runtime localization for prepared character species subtitles in Foundry VTT 14.
+
+### Changed
+- Verified compatibility with Foundry VTT 14.363, D&D 5e 5.3.3, and Babele 2.9.1.
+- Improved visible terminology, actor biographies, embedded content, effects, and activity labels using the official Spanish SRD as the reference.
+
+### Fixed
+- Restored missing internal rule links, conditions, target lookups, spellcasting lists, and duplicated actor descriptions.
+- Corrected residual English text in actors, equipment, monster features, origins, and spells.
+- Localized the prepared `Dragonborn` subtype shown on premade character sheets as `Dracónido`.
+
+---
+
 ## [1.13.4] - 2026-03-31
 
 ### Added

@@ -798,7 +798,7 @@
     },
     "phbsptVersatile0": {
       "name": "Versátil",
-      "description": "<p>Obtienes una dote de Origen a tu elección. @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Hábil} es una opción recomendada.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá que elijas la dote cuando selecciones esta Especie.</p></section>",
+      "description": "<p>Obtienes una @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{dote de Origen} a tu elección. @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Hábil} es una opción recomendada.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá que elijas la dote cuando selecciones esta Especie.</p></section>",
       "activities": {},
       "effects": {},
       "advancement": {}

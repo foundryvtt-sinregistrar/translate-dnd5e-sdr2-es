@@ -690,7 +690,7 @@
     },
     "dmgCarrionCrawle": {
       "name": "Mucosidad de reptador carroñero",
-      "description": "<p><em>Veneno de contacto</em></p><p>A creature subjected to Carrion Crawler Mucus must succeed on a CD 13 Constitución tirada de salvación or have the &amp;Reference[Poisoned apply=false] condition for 1 minuto. la criatura also has the &amp;Reference[Paralyzed apply=false] condition while Poisoned in this way. la criatura repeats la salvación at the end of each of its turns, ending the effect on itself on a success.</p>",
+      "description": "<p><em>Veneno de contacto</em></p><p>Una criatura expuesta a la mucosidad de reptador carroñero debe superar una tirada de salvación de Constitución CD 13 o tendrá la condición &amp;Reference[Poisoned apply=false]{Envenenado} durante 1 minuto. Mientras esté Envenenada de este modo, la criatura también tendrá la condición &amp;Reference[Paralyzed apply=false]{Paralizado}. La criatura repite la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, el efecto termina sobre ella.</p>",
       "activities": {
         "StL0A8FviYKfGlQ8": {
           "name": "Usar veneno"
@@ -701,7 +701,7 @@
           "name": "Envenenado y Paralizado"
         },
         "a9KfUV3KbbB5wrFY": {
-          "name": "Poisoned and Paralyzed"
+          "name": "Envenenado y paralizado"
         }
       }
     },
@@ -3247,7 +3247,7 @@
           "name": "Derribado"
         },
         "zW4roNKVL8HcoNwV": {
-          "name": "Tripped"
+          "name": "Derribado"
         }
       }
     },
@@ -3976,7 +3976,7 @@
     },
     "dmgManualOfGolem": {
       "name": "Manual de gólems",
-      "description": "<p><em>Wondrous Item, Very Rare</em></p><p>This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly by rolling on the accompanying table. To decipher and use the manual, you must be a spellcaster with at least two level 5 spell slots. A creature that can't use a <em>Manual of Golems</em> and attempts to read it takes [[/damage 6d6 type=psychic]] damage.</p><p>To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.</p><p>Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. See the <em>Monster Manual</em> for the golem's stat block. The golem is under your control, and it understands and obeys your commands.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgManualOfGolem rollable]</p><section class=\"secret\" id=\"secret-8T2YtEsnAW7JZ5Bp\"><p><strong>Foundry Note</strong></p><p>After determining the type of golem this manual creates, you may delete the other unneeded activities.</p></section>"
+      "description": "<p><em>Objeto maravilloso, muy raro</em></p><p>Este tomo contiene la información y los encantamientos necesarios para crear un tipo concreto de gólem. El DJ elige el tipo o lo determina al azar tirando en la tabla adjunta. Para descifrar y usar el manual, debes ser un lanzador de conjuros con al menos dos espacios de conjuro de nivel 5. Una criatura que no pueda usar un <em>Manual de gólems</em> e intente leerlo sufre [[/damage 6d6 type=psychic]] de daño psíquico.</p><p>Para crear un gólem, debes dedicar el tiempo indicado en la tabla, trabajando sin interrupción con el manual a mano y descansando como máximo 8 horas al día. También debes pagar el coste especificado para adquirir los suministros.</p><p>Cuando terminas de crear el gólem, el libro es consumido por llamas sobrenaturales. El gólem cobra vida cuando las cenizas del manual se esparcen sobre él. Consulta el bloque de estadísticas del gólem en el <em>Manual de Monstruos</em>. El gólem está bajo tu control, y entiende y obedece tus órdenes.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgManualOfGolem rollable]</p><section class=\"secret\" id=\"secret-8T2YtEsnAW7JZ5Bp\"><p><strong>Nota de Foundry</strong></p><p>Después de determinar el tipo de gólem que crea este manual, puedes eliminar las demás actividades que no sean necesarias.</p></section>"
     }
   }
 }
