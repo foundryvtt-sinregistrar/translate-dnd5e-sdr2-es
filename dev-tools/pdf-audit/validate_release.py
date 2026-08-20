@@ -35,6 +35,21 @@ def main() -> None:
     for path in json_files:
         json.loads(path.read_text(encoding="utf-8-sig"))
 
+    spell_pack = json.loads(
+        (ROOT / "compendium" / "dnd5e.spells24.json").read_text(encoding="utf-8-sig")
+    )
+    material_report = json.loads(
+        (AUDIT_DIR / "reports" / "spell-materials.json").read_text(encoding="utf-8")
+    )
+    if spell_pack.get("mapping", {}).get("materials") != "system.materials.value":
+        raise SystemExit("spells24 does not map translated material components")
+    for document_id, expected in material_report.items():
+        entry = spell_pack["entries"].get(document_id, {})
+        if entry.get("materials") != expected["spanish"]:
+            raise SystemExit(f"missing or stale material translation in spells24: {document_id}")
+    if len(material_report) != 188:
+        raise SystemExit(f"expected 188 PDF-backed spell materials, found {len(material_report)}")
+
     with tempfile.TemporaryDirectory(prefix="srd2-audit-") as temporary:
         report = Path(temporary) / "translation-audit.json"
         run("audit_srd_translation.py", "--json", str(report))
@@ -64,6 +79,7 @@ def main() -> None:
             report.unlink(missing_ok=True)
 
     print(f"OK: {len(json_files)} JSON files and {len(PACKS)} compendium packs validated")
+    print(f"OK: {len(material_report)} PDF-backed spell material components validated")
     print("OK: no pending normalization, duplicate repair, or embedded sync changes")
 
 

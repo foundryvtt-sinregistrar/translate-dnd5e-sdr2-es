@@ -116,11 +116,33 @@ def build_mapping() -> dict[str, dict[str, str]]:
     return result
 
 
+def apply_mapping(mapping: dict[str, dict[str, str]]) -> None:
+    pack = json.loads(PACK.read_text(encoding="utf-8-sig"))
+    pack["mapping"] = {"materials": "system.materials.value"}
+    # Keep the conventional top-level order used by Babele translation packs.
+    pack = {
+        "label": pack["label"],
+        "mapping": pack["mapping"],
+        **{key: value for key, value in pack.items() if key not in {"label", "mapping"}},
+    }
+    for document_id, values in mapping.items():
+        entry = pack["entries"][document_id]
+        entry["materials"] = values["spanish"]
+        if document_id in OFFICIAL_TITLE_OVERRIDES:
+            entry["name"] = values["title"]
+    payload = json.dumps(pack, ensure_ascii=False, indent=2) + "\n"
+    with PACK.open("w", encoding="utf-8", newline="\r\n") as handle:
+        handle.write(payload)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, help="write the mapping as UTF-8 JSON")
+    parser.add_argument("--apply", action="store_true", help="apply the mapping to the translation pack")
     arguments = parser.parse_args()
     mapping = build_mapping()
+    if arguments.apply:
+        apply_mapping(mapping)
     payload = json.dumps(mapping, ensure_ascii=False, indent=2) + "\n"
     if arguments.output:
         arguments.output.parent.mkdir(parents=True, exist_ok=True)

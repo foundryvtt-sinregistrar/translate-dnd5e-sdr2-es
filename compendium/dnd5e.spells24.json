@@ -1,5 +1,8 @@
 {
   "label": "Conjuros",
+  "mapping": {
+    "materials": "system.materials.value"
+  },
   "folders": {
     "1st Level": "Nivel 1",
     "2nd Level": "Nivel 2",
@@ -28,10 +31,11 @@
           "description": "<p>Las criaturas de esos tipos tienen Desventaja en las tiradas de ataque contra el objetivo. El objetivo tampoco puede ser poseído ni obtener de ellas las condiciones &amp;Reference[Charmed apply=false] o &amp;Reference[Frightened apply=false]. </p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un frasco de agua bendita que valga al menos 25 po, que se consume como parte del conjuro"
     },
     "phbFaithfulHound": {
-      "name": "Mastín fiel de Mordenkainen",
+      "name": "Mastín fiel",
       "description": "<p>Conjuras un perro guardián fantasma en un espacio desocupado que puedas ver dentro del alcance. El mastín permanece durante la duración o hasta que tú y él estéis a más de 300 pies el uno del otro.</p><p>Nadie salvo tú puede ver al mastín, y es intangible e invulnerable. Cuando una criatura Pequeña o mayor se acerca a 30 pies de él sin decir antes la contraseña que especificas al lanzar este conjuro, el mastín comienza a ladrar ruidosamente. El mastín tiene Visión verdadera con un alcance de 30 pies.</p><p>Al inicio de cada uno de tus turnos, el mastín intenta morder a un enemigo a 5 pies de él. Ese enemigo debe superar una tirada de salvación de Destreza o recibir 4d8 de daño de Fuerza.</p><p>En tus turnos posteriores, puedes realizar una acción Mágica para mover al mastín hasta 30 pies.</p>",
       "activities": {
         "oXwEMXLXZLw2Ub0g": {
@@ -42,10 +46,11 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un silbato de plata"
     },
     "phbMagnificentMa": {
-      "name": "Mansión magnífica de Mordenkainen",
+      "name": "Mansión magnífica",
       "description": "<div><p>Conjuras una puerta reluciente dentro del alcance que dura mientras dure el conjuro. La puerta conduce a una morada extradimensional y mide 5 pies de ancho y 10 pies de alto. Tú y cualquier criatura que designes al lanzar el conjuro podéis entrar en la morada extradimensional mientras la puerta permanezca abierta. Puedes abrirla o cerrarla (no requiere acción) si estás a 30 pies o menos de ella. Mientras está cerrada, la puerta es imperceptible.</p><p>Más allá de la puerta hay un magnífico vestíbulo, con numerosas estancias más adentro. La atmósfera de la morada es limpia, fresca y cálida.</p><p>Puedes crear el plano que quieras para la morada, pero no puede exceder 50 cubos contiguos de 10 pies. El lugar está amueblado y decorado como elijas. Contiene comida suficiente para servir un banquete de nueve platos a hasta 100 personas. Los muebles y demás objetos creados por este conjuro se disipan en humo si se sacan de la morada.</p><p>Un servicio de 100 sirvientes casi transparentes atiende a todos los que entran. Tú determinas el aspecto de esos sirvientes y su atuendo. Son invulnerables y obedecen tus órdenes. Cada sirviente puede realizar tareas que podría realizar una persona humana, pero no puede atacar ni realizar ninguna acción que dañe directamente a otra criatura. Así, los sirvientes pueden traer cosas, limpiar, remendar, doblar ropa, encender fuegos, servir comida, escanciar vino, etc. Los sirvientes no pueden abandonar la morada.</p><p>Cuando el conjuro termina, cualquier criatura u objeto que quede dentro del espacio extradimensional es expulsado a los espacios desocupados más cercanos a la entrada.</p></div>",
       "activities": {
         "N0agqO0OhJMU6cEB": {
@@ -53,7 +58,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una puerta en miniatura que valga al menos 15 po"
     },
     "phbPhantasmalFor": {
       "name": "Fuerza fantasmal",
@@ -72,10 +78,11 @@
           "description": "<p>El objetivo puede realizar una acción &amp;Reference[Study]{Estudiar} para examinar la fantasmagoría con una prueba [[/check ability=int skill=inv]] contra la CD de salvación de tu conjuro. Si la prueba tiene éxito, el objetivo se da cuenta de que la fantasmagoría es una ilusión y el conjuro termina.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de vellón"
     },
     "phbPrivateSanctu": {
-      "name": "Sanctasanctórum privado de Mordenkainen",
+      "name": "Sanctasanctórum privado",
       "description": "<div><p>Vuelves un área dentro del alcance mágicamente segura. El área es un cubo que puede ser tan pequeño como de 5 pies y tan grande como de 100 pies por lado. El conjuro dura mientras dure el conjuro.</p><p>Cuando lanzas el conjuro, decides qué tipo de seguridad proporciona el conjuro, eligiendo cualquiera de las siguientes propiedades:</p><ul><li>El sonido no puede atravesar la barrera en el borde del área protegida.</li><li>La barrera del área protegida parece oscura y brumosa, impidiendo la visión (incluida &amp;Reference[Darkvision]) a través de ella.</li><li>Los sensores creados por conjuros de Adivinación no pueden aparecer dentro del área protegida ni atravesar la barrera de su perímetro.</li><li>Las criaturas en el área no pueden ser objetivo de conjuros de Adivinación.</li><li>Nada puede teletransportarse hacia dentro o hacia fuera del área protegida.</li><li>Se bloquea el viaje planar dentro del área protegida.</li></ul><p>Lanzar este conjuro en el mismo lugar cada día durante 365 días hace que el conjuro dure hasta que sea disipado.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Puedes aumentar el tamaño del cubo en 100 pies por cada nivel del espacio de conjuro por encima de 4.</p></div>",
       "activities": {
         "MoyU67fLjbEiZLGE": {
@@ -83,7 +90,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una lámina fina de plomo"
     },
     "phbProtectionFro": {
       "name": "Protección contra energía",
@@ -134,7 +142,8 @@
           "description": "<p>Hasta que el conjuro termine, cualquier criatura que tenga como objetivo a la criatura protegida con una tirada de ataque o un conjuro dañino debe superar una [[/save ability=wis format=long]] o, de lo contrario, elegir un nuevo objetivo o perder el ataque o el conjuro.</p><p> El conjuro termina si la criatura protegida realiza una tirada de ataque, lanza un conjuro o inflige daño.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de vidrio de un espejo"
     },
     "phbsplAcidSplash": {
       "name": "Salpicadura ácida",
@@ -189,7 +198,8 @@
           "description": "<p>El máximo de Puntos de Golpe del objetivo aumenta mientras dure el conjuro.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una tira de tela blanca"
     },
     "phbsplAlarm00000": {
       "name": "Alarma",
@@ -203,7 +213,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una campana e hilo de plata"
     },
     "phbsplAlterSelf0": {
       "name": "Alterar el propio aspecto",
@@ -258,7 +269,8 @@
           "description": "<p><span style=\"font-family:Signika, sans-serif\">El objetivo tiene la condición &amp;Reference[charmed apply=false] durante la duración. Si tú o uno de tus aliados infligís daño al objetivo, el conjuro termina.</span></p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "unas migajas de comida"
     },
     "phbsplAnimalMess": {
       "name": "Mensajero animal",
@@ -274,7 +286,8 @@
           "description": "<p>La Bestia viaja durante la duración hacia el lugar especificado, recorriendo unas 25 millas por cada 24 horas, o 50 millas si la Bestia puede volar.</p><p>Cuando la Bestia llega, entrega tu mensaje a la criatura que describiste, imitando tu forma de comunicarte. Si la Bestia no llega a su destino antes de que el conjuro termine, el mensaje se pierde y la Bestia regresa a donde lanzaste el conjuro.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "unas migajas de comida"
     },
     "phbsplAnimalShap": {
       "name": "Aspectos animales",
@@ -296,7 +309,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de sangre, un pedazo de carne y una pizca de polvo de hueso"
     },
     "phbsplAnimateObj": {
       "name": "Animar objetos",
@@ -334,7 +348,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "virutas de hierro"
     },
     "phbsplAntipathyS": {
       "name": "Antipatía/simpatía",
@@ -368,7 +383,8 @@
           "description": "<p>La criatura tiene la condición &amp;Reference[Charmed apply=false]. La criatura Hechizada debe usar su movimiento en sus turnos para acercarse lo máximo posible al objetivo, moviéndose por la ruta más segura. Si la criatura está a 5 pies o menos del objetivo, no puede moverse voluntariamente para alejarse. Si el objetivo inflige daño a la criatura Hechizada, esa criatura puede realizar una tirada de salvación de Sabiduría para terminar el efecto, como se describe a continuación.</p><p><strong>Terminar el efecto.</strong> Si la criatura Asustada o Hechizada termina su turno a más de 120 pies del objetivo, la criatura realiza una tirada de salvación de Sabiduría. Si tiene éxito, la criatura deja de estar afectada por el objetivo. Una criatura que supere esta tirada de salvación es inmune a este efecto durante 1 minuto, tras lo cual puede volver a verse afectada.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una mezcla de vinagre y miel"
     },
     "phbsplArcaneEye0": {
       "name": "Ojo arcano",
@@ -379,7 +395,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de pelo de murciélago"
     },
     "phbsplArcaneLock": {
       "name": "Cerradura arcana",
@@ -390,7 +407,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de oro que valga al menos 25 po, que se consume como parte del conjuro"
     },
     "phbsplArcaneVigo": {
       "name": "Vigor arcano",
@@ -432,7 +450,8 @@
           "description": "<p>El cuerpo de cada objetivo queda atrás en un estado de animación suspendida; tiene la condición &amp;Reference[Unconscious apply=false], no necesita comida ni aire, y no envejece.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "por cada objetivo del conjuro, un jacinto que valga al menos 1000 po y un lingote de plata que valga al menos 100 po, que se consumen como parte del conjuro"
     },
     "phbsplAugury0000": {
       "name": "Augurio",
@@ -443,7 +462,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "palitos, huesos, cartas u otros abalorios marcados de forma especial que valgan al menos 25 po"
     },
     "phbsplAuraofLife": {
       "name": "Aura de vida",
@@ -470,7 +490,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un ágata que valga al menos 1000 po y que se consume como parte del conjuro"
     },
     "phbsplBane000000": {
       "name": "Perdicion",
@@ -486,7 +507,8 @@
           "description": "<p>Siempre que un objetivo realice una tirada de ataque o una tirada de salvación antes de que el conjuro termine, el objetivo debe restar 1d4 a la tirada de ataque o a la tirada de salvación.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de sangre"
     },
     "phbsplBanishment": {
       "name": "Destierro",
@@ -502,7 +524,8 @@
           "description": "<p>Mientras esté allí, el objetivo tiene la condición &amp;Reference[Incapacitated apply=false]. Cuando el conjuro termina, el objetivo reaparece en el espacio que dejó o en el espacio desocupado más cercano si ese espacio está ocupado.</p><p>Si el objetivo es una Aberración, un Celestial, un Elemental, un Feérico o un Infernal, el objetivo no regresa si el conjuro dura 1 minuto. En su lugar, es transportado a una ubicación aleatoria en un plano (a elección del DM) asociado con su tipo de criatura.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un pentáculo"
     },
     "phbsplBarkskin00": {
       "name": "Piel Robliza",
@@ -518,7 +541,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un puñado de corteza"
     },
     "phbsplBeaconofHo": {
       "name": "Señal de esperanza",
@@ -550,7 +574,8 @@
           "description": "<p>Si falla la salvación, el objetivo recibe 10d12 de daño Psíquico y no puede lanzar conjuros ni realizar la acción Mágica. Al final de cada periodo de 30 días, el objetivo repite la [[/save ability=wis]] tirada de salvación, terminando el efecto si tiene éxito. El efecto también puede terminarse mediante el conjuro <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Curar}</em> o <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Deseo}</em>.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un llavero sin llaves"
     },
     "phbsplBestowCurs": {
       "name": "Imponer maldición",
@@ -610,7 +635,7 @@
       "advancement": {}
     },
     "phbsplBigbysHand": {
-      "name": "Mano de Bigby",
+      "name": "Mano arcana",
       "description": "<p>Creas una mano Grande de energía mágica reluciente en un espacio desocupado que puedas ver dentro del alcance. La mano dura mientras dure el conjuro y se mueve a tu orden, imitando los movimientos de tu propia mano.</p><p>La mano es un objeto que tiene CA 20 y Puntos de Golpe iguales a tu máximo de Puntos de Golpe. Si cae a 0 Puntos de Golpe, el conjuro termina. La mano no ocupa su espacio.</p><p>Cuando lanzas el conjuro y como Acción Adicional en tus turnos posteriores, puedes mover la mano hasta 60 pies y luego provocar uno de los siguientes efectos:</p><p><strong>Puño cerrado </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiClenchedFi inline]</p><p><strong>Mano contundente</strong> @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiForcefulHa inline]</p><p><strong>Mano apresadora</strong> @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiGraspingHa inline classes=\"no-secrets\"]</p><p><strong>Mano interpuesta </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin inline]</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El daño de Puño cerrado aumenta en 2d8 y el daño de Mano apresadora aumenta en 2d6 por cada nivel del espacio de conjuro por encima de 5.</p>",
       "activities": {
         "dnd5eactivity000": {
@@ -618,7 +643,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una cáscara de huevo y un guante"
     },
     "phbsplBladeBarri": {
       "name": "Barrera de cuchillas",
@@ -648,7 +674,8 @@
           "description": "<p>Siempre que un objetivo realice una tirada de ataque o una tirada de salvación antes de que el conjuro termine, el objetivo añade 1d4 a la tirada de ataque o a la tirada de salvación.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un símbolo sagrado que valga al menos 5 po"
     },
     "phbsplBlight0000": {
       "name": "Marchitar",
@@ -767,7 +794,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "tres alfileres de plata"
     },
     "phbsplCharmMonst": {
       "name": "Hechizar monstruo",
@@ -826,7 +854,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un diamante que valga al menos 50 po"
     },
     "phbsplCircleofDe": {
       "name": "Círculo de muerte",
@@ -837,7 +866,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una perla negra pulverizada que valga al menos 500 po"
     },
     "phbsplClairvoyan": {
       "name": "Clarividencia",
@@ -848,7 +878,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un canalizador que valga al menos 100 po; puede ser una trompetilla enjoyada o un ojo de cristal"
     },
     "phbsplClone00000": {
       "name": "Clon",
@@ -859,7 +890,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un diamante que valga al menos 1000 po, que se consume como parte del conjuro, y un recipiente sellable que valga al menos 2000 po y sea lo bastante grande como para alojar a la criatura que se clone"
     },
     "phbsplCloudkill0": {
       "name": "Nube aniquiladora",
@@ -886,7 +918,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de arena de colores"
     },
     "phbsplCommand000": {
       "name": "Orden imperiosa",
@@ -908,7 +941,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "incienso"
     },
     "phbsplCommunewit": {
       "name": "Comunión con la naturaleza",
@@ -935,7 +969,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de hollín y sal"
     },
     "phbsplCompulsion": {
       "name": "Compulsión",
@@ -962,7 +997,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un cono pequeño de cristal o vidrio"
     },
     "phbsplConfusion0": {
       "name": "Confusión",
@@ -978,7 +1014,8 @@
           "description": "<p>El objetivo no puede realizar Acciones Adicionales ni Reacciones y debe tirar 1d10 al inicio de cada uno de sus turnos para determinar su comportamiento en ese turno, consultando la tabla siguiente.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB rollable cite=false classes=\"caption-top\"]{Comportamiento del turno}</p><p>Al final de cada uno de sus turnos, un objetivo afectado repite la [[/save ability=wis]] tirada de salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "tres cáscaras de nuez"
     },
     "phbsplConjureAni": {
       "name": "Conjurar animales",
@@ -1128,7 +1165,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una estatuilla de ti tallada y de - corada con gemas que valga al menos 1500 po"
     },
     "phbsplContinualF": {
       "name": "Llama permanente",
@@ -1139,7 +1177,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de rubí que valga al menos 50 po, que se consume como parte del conjuro"
     },
     "phbsplControlWat": {
       "name": "Controlar agua",
@@ -1153,7 +1192,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una mezcla de agua y polvo"
     },
     "phbsplControlWea": {
       "name": "Controlar el clima",
@@ -1167,7 +1207,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "incienso para quemar"
     },
     "phbsplCounterspe": {
       "name": "Contrahechizo",
@@ -1206,7 +1247,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un ónice negro que valga al menos 150 po por cada cadáver"
     },
     "phbsplCreateorDe": {
       "name": "Crear o destruir agua",
@@ -1217,7 +1259,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una mezcla de agua y arena"
     },
     "phbsplCreation00": {
       "name": "Creación",
@@ -1228,7 +1271,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un pincel"
     },
     "phbsplCureWounds": {
       "name": "Curar heridas",
@@ -1253,7 +1297,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de fósforo"
     },
     "phbsplDarkness00": {
       "name": "Oscuridad",
@@ -1264,7 +1309,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "pelaje de murciélago y un trozo de carbón"
     },
     "phbsplDarkvision": {
       "name": "Visión en la oscuridad",
@@ -1280,7 +1326,8 @@
           "description": "<p>Mientras dure el conjuro, una criatura voluntaria que tocas obtiene &amp;Reference[darkvision] con un alcance de 150 pies.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una zanahoria seca"
     },
     "phbsplDaylight00": {
       "name": "Luz del día",
@@ -1327,7 +1374,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pelota de guano de murcié - lago y azufre"
     },
     "phbsplDemiplane0": {
       "name": "Semiplano",
@@ -1386,7 +1434,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una hoja de tejo"
     },
     "phbsplDetectThou": {
       "name": "Detectar pensamientos",
@@ -1400,7 +1449,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "1 pieza de cobre"
     },
     "phbsplDimensionD": {
       "name": "Puerta dimensional",
@@ -1438,7 +1488,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un imán natural y polvo"
     },
     "phbsplDispelEvil": {
       "name": "Disipar el bien y el mal",
@@ -1460,7 +1511,8 @@
           "description": "<p>Mientras dure el conjuro, los Celestiales, Elementales, Feéricos, Demonios y No muertos tienen Desventaja en las tiradas de ataque contra ti. Puedes terminar el conjuro antes de tiempo usando una de las siguientes funciones especiales: <strong>Romper encantamiento</strong> o <strong>Destierro</strong>.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "plata y hierro en polvo"
     },
     "phbsplDispelMagi": {
       "name": "Disipar magia",
@@ -1493,7 +1545,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "incienso que valga al menos 25 po, que se consume como parte del conjuro"
     },
     "phbsplDivineFavo": {
       "name": "Favor divino",
@@ -1627,7 +1680,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un zafiro que valga al menos 1000 po"
     },
     "phbsplDream00000": {
       "name": "Ensueño",
@@ -1643,7 +1697,8 @@
           "description": "<p><span style=\"font-family:Signika, sans-serif\">Mientras está en trance, el mensajero está Incapacitado y tiene una Velocidad de 0.</span></p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un puñado de arena"
     },
     "phbsplDruidcraft": {
       "name": "Saber Druidico",
@@ -1676,7 +1731,8 @@
           "description": "<p>Si falla, la criatura recibe 12d6 de daño Contundente, tiene la condición &amp;Reference[Prone apply=false] y queda enterrada bajo los escombros, lo que requiere una prueba [[/check ability=str skill=ath dc=20]] como acción para escapar.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una piedra fracturada"
     },
     "phbsplEldritchBl": {
       "name": "Descarga sobrenatural",
@@ -1733,7 +1789,8 @@
           "description": "<p>El objetivo tiene Ventaja en las pruebas de característica realizadas con la característica elegida.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "pelo de animal o una pluma"
     },
     "phbsplEnlargeRed": {
       "name": "Agrandar/Reducir",
@@ -1753,7 +1810,8 @@
           "description": "<p>El tamaño del objetivo disminuye en una categoría—de Mediano a Pequeño, por ejemplo. Además, el objetivo tiene Desventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza. Los ataques del objetivo con sus armas reducidas o Golpes sin armas infligen 1d4 menos de daño cuando impactan (esto no puede reducir el daño por debajo de 1).</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca hierro en polvo"
     },
     "phbsplEnsnaringS": {
       "name": "Castigo apresador",
@@ -1836,7 +1894,8 @@
           "description": "<p>Una criatura &amp;Reference[Restrained apply=false] puede realizar una acción para hacer una prueba [[/check ability=str skill=ath dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros, terminando la condición sobre sí misma si tiene éxito.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un tentáculo"
     },
     "phbsplExpeditiou": {
       "name": "Retirada expeditiva",
@@ -1912,7 +1971,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de alcohol"
     },
     "phbsplFear000000": {
       "name": "Terror",
@@ -1928,7 +1988,8 @@
           "description": "<p>Una criatura &amp;Reference[frightened apply=false] realiza la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, a menos que no haya ningún lugar al que moverse. Si la criatura termina su turno en un espacio donde no tenga línea de visión contigo, la criatura realiza una tirada de salvación [[/save ability=wis]]. Si tiene éxito, el conjuro termina sobre esa criatura.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pluma blanca"
     },
     "phbsplFeatherFal": {
       "name": "Caída de pluma",
@@ -1939,7 +2000,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pluma pequeña o un poco de plumón"
     },
     "phbsplFindFamili": {
       "name": "Encontrar familiar",
@@ -1950,7 +2012,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "incienso para quemar que valga al menos 10 po, que se consume como parte del con - juro"
     },
     "phbsplFindSteed0": {
       "name": "Hallar corcel",
@@ -1991,7 +2054,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un juego de herramientas de adivinación, como cartas o runas, que valga al menos 100 po"
     },
     "phbsplFingerofDe": {
       "name": "Dedo de la muerte",
@@ -2036,7 +2100,8 @@
           "description": "<p>Cuando una criatura a 5 pies o menos de ti te golpea con una tirada de ataque cuerpo a cuerpo, el atacante recibe [[/damage 2d8 type=cold]] de daño.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una luciérnaga o una pizca de fósforo"
     },
     "phbsplFireStorm0": {
       "name": "Tormenta de fuego",
@@ -2058,7 +2123,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pelota de guano de murcié - lago y azufre"
     },
     "phbsplFlameBlade": {
       "name": "Hoja de fuego",
@@ -2072,10 +2138,11 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una hoja de zumaque"
     },
     "phbsplFlameStrik": {
-      "name": "Castigo flamígero",
+      "name": "Golpe flamígero",
       "description": "<p>Una columna vertical de fuego brillante ruge desde lo alto. Cada criatura en un Cilindro de 10 pies de radio y 40 pies de altura centrado en un punto dentro del alcance realiza una tirada de salvación de Destreza, recibiendo 5d6 de daño de Fuego y 5d6 de daño Radiante si falla o la mitad del daño si tiene éxito.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El daño de Fuego y el daño Radiante aumentan en 1d6 por cada nivel del espacio de conjuro por encima de 5.</p>",
       "activities": {
         "dnd5eactivity000": {
@@ -2083,7 +2150,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de azufre"
     },
     "phbsplFlamingSph": {
       "name": "Esfera de llamas",
@@ -2097,7 +2165,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una bola de cera"
     },
     "phbsplFleshtoSto": {
       "name": "De la carne a la piedra",
@@ -2117,7 +2186,8 @@
           "description": "<p>Si tiene éxito, su Velocidad es 0 hasta el inicio de tu siguiente turno.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pluma de cocatriz"
     },
     "phbsplFly0000000": {
       "name": "Volar",
@@ -2133,7 +2203,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pluma"
     },
     "phbsplFogCloud00": {
       "name": "Nube de oscurecimiento",
@@ -2158,7 +2229,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de rubí que valga al menos 1000 po"
     },
     "phbsplForcecage0": {
       "name": "Jaula de fuerza",
@@ -2172,10 +2244,11 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de rubí que valga al menos 1500 po, que se consume como parte del conjuro"
     },
     "phbsplForesight0": {
-      "name": "Presagio",
+      "name": "Presciencia",
       "description": "<p>Tocas a una criatura voluntaria y le otorgas una capacidad limitada de ver en el futuro inmediato. Mientras dure el conjuro, el objetivo tiene Ventaja en las Pruebas de d20, y las demás criaturas tienen Desventaja en las tiradas de ataque contra él. El conjuro termina antes de tiempo si lo vuelves a lanzar.</p>",
       "activities": {
         "R5VRso8g0xWgTq4S": {
@@ -2188,7 +2261,8 @@
           "description": "<p>Mientras dure el conjuro, el objetivo tiene Ventaja en las Pruebas de d20, y las demás criaturas tienen Desventaja en las tiradas de ataque contra él.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pluma de colibrí"
     },
     "phbsplFreedomofM": {
       "name": "Libertad de movimiento",
@@ -2204,7 +2278,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una tira de cuero"
     },
     "phbsplGaseousFor": {
       "name": "Forma gaseosa",
@@ -2220,7 +2295,8 @@
           "description": "<p>El único método de movimiento del objetivo es una Velocidad de vuelo de 10 pies y puede flotar. Puede entrar y ocupar el espacio de otra criatura. Tiene Resistencia al daño Contundente, Perforante y Cortante; Inmunidad a la condición &amp;Reference[prone apply=false]; y Ventaja en las tiradas de salvación de Fuerza, Destreza y Constitución. Puede atravesar aberturas estrechas, pero trata los líquidos como si fueran superficies sólidas.</p><p>No puede hablar ni manipular objetos, y los objetos que estuviera llevando o sosteniendo no pueden soltarse, usarse ni interactuarse. No puede atacar ni lanzar conjuros.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de gasa"
     },
     "phbsplGate000000": {
       "name": "Portal",
@@ -2240,7 +2316,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un diamante que valga al menos 5000 po"
     },
     "phbsplGeas000000": {
       "name": "Geas",
@@ -2267,7 +2344,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "2 piezas de cobre, que se consu - men como parte del conjuro"
     },
     "phbsplGiantInsec": {
       "name": "Insecto gigante",
@@ -2305,7 +2383,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una cuenta de cristal"
     },
     "phbsplGlyphofWar": {
       "name": "Glifo custodio",
@@ -2319,7 +2398,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "diamante en polvo que valga al menos 200 po, que se consume como parte del con - juro"
     },
     "phbsplGoodberry0": {
       "name": "Buenas bayas",
@@ -2330,7 +2410,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una rama de muérdago"
     },
     "phbsplGrease0000": {
       "name": "Grasa",
@@ -2341,7 +2422,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de piel de cerdo o de mantequilla"
     },
     "phbsplGreaterInv": {
       "name": "Invisibilidad mejorada",
@@ -2368,7 +2450,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro"
     },
     "phbsplGuardianof": {
       "name": "Guardián de la fe",
@@ -2393,7 +2476,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una vara de plata que valga al menos 10 po"
     },
     "phbsplGuidance00": {
       "name": "Guía",
@@ -2504,7 +2588,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "la semilla de una legumbre"
     },
     "phbsplHallow0000": {
       "name": "Consagrar",
@@ -2515,7 +2600,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "incienso que valga al menos 1000 po, que se consume como parte del conjuro"
     },
     "phbsplHallucinat": {
       "name": "Terreno alucinatorio",
@@ -2526,7 +2612,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una seta"
     },
     "phbsplHarm000000": {
       "name": "Dañar",
@@ -2560,7 +2647,8 @@
           "description": "<p>Cuando el conjuro termina, el objetivo queda &amp;Reference[incapacitated apply=false] y su Velocidad es 0 hasta el final de su siguiente turno, mientras una oleada de letargo lo invade.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un viruta de raíz de regaliz"
     },
     "phbsplHeal000000": {
       "name": "Curar",
@@ -2604,7 +2692,8 @@
           "description": "<p>Si una criatura sostiene o lleva puesto el objeto y recibe el daño, debe superar una [[/save ability=con format=long]] o soltar el objeto si puede. Si no lo suelta, tiene Desventaja en tiradas de ataque y pruebas de característica hasta el inicio de tu siguiente turno.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de hierro y una llama"
     },
     "phbsplHellishReb": {
       "name": "Reprensión infernal",
@@ -2618,7 +2707,7 @@
       "advancement": {}
     },
     "phbsplHeroesFeas": {
-      "name": "Festín de los héroes",
+      "name": "Festín de héroes",
       "description": "<p>Conjuras un banquete que aparece sobre una superficie en un Cubo de 10 pies desocupado junto a ti. Consumir el banquete lleva 1 hora y desaparece al final de ese tiempo; los efectos beneficiosos no empiezan hasta que transcurre esa hora. Hasta doce criaturas pueden participar del banquete.</p><p>Una criatura que participe obtiene varios beneficios durante 24 horas. Tiene &amp;Reference[damageResistance]{Resistencia} al daño de Veneno y es Inmune a las condiciones &amp;Reference[Frightened] y &amp;Reference[Poisoned]. Su máximo de Puntos de Golpe también aumenta en 2d10, y gana esa misma cantidad de Puntos de Golpe.</p>",
       "activities": {
         "ooQ2IAF9MIDJssGp": {
@@ -2634,7 +2723,8 @@
           "description": "<p>La criatura tiene &amp;Reference[damageResistance]{Resistencia} al daño de Veneno y es Inmune a las condiciones &amp;Reference[Frightened] y &amp;Reference[Poisoned]. Su máximo de Puntos de Golpe también aumenta en 2d10, y gana esa misma cantidad de Puntos de Golpe.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un cuenco incrustado de gemas que valga al menos 1000 po y que se consume como parte del conjuro"
     },
     "phbsplHeroism000": {
       "name": "Heroísmo",
@@ -2692,7 +2782,8 @@
           "description": "<p>El objetivo tiene Desventaja en las pruebas de característica realizadas con la característica elegida.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "el ojo petrificado de un tritón"
     },
     "phbsplHoldMonste": {
       "name": "Inmovilizar monstruo",
@@ -2708,7 +2799,8 @@
           "description": "<p>Al final de cada uno de sus turnos, el objetivo repite la [[/save ability=wis]] tirada de salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de hierro recto"
     },
     "phbsplHoldPerson": {
       "name": "Inmovilizar persona",
@@ -2724,7 +2816,8 @@
           "description": "<p>Al final de cada uno de sus turnos, el objetivo repite la [[/save ability=wis]] tirada de salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de hierro recto"
     },
     "phbsplHolyAura00": {
       "name": "Aura sagrada",
@@ -2747,7 +2840,8 @@
           "description": "<p>El atacante tiene la condición &amp;Reference[Blinded apply=false] hasta el final de su siguiente turno.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un relicario que valga al menos 1000 po"
     },
     "phbsplHuntersMar": {
       "name": "Marca del cazador",
@@ -2785,7 +2879,8 @@
           "description": "<p>Mientras esté &amp;Reference[charmed apply=false], la criatura tiene la condición &amp;Reference[incapacitated apply=false] y una Velocidad de 0.</p><p>El conjuro termina para una criatura afectada si recibe cualquier daño o si otra persona usa una acción para sacudirla y sacarla de su estupor.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de confeti"
     },
     "phbsplIceKnife00": {
       "name": "Cuchillo de hielo",
@@ -2799,7 +2894,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de agua o un trozo de hielo"
     },
     "phbsplIceStorm00": {
       "name": "Tormenta de hielo",
@@ -2810,7 +2906,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una manopla"
     },
     "phbsplIdentify00": {
       "name": "Identificar",
@@ -2821,7 +2918,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una perla que valga al menos 100 po"
     },
     "phbsplIllusorySc": {
       "name": "Texto ilusorio",
@@ -2832,7 +2930,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "tinta que valga al menos 10 po, que se consume como parte del conjuro"
     },
     "phbsplImprisonme": {
       "name": "Cautiverio",
@@ -2864,7 +2963,8 @@
           "description": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false] y no puede ser despertado.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una estatuilla del objetivo que valga al menos 5000 po"
     },
     "phbsplIncendiary": {
       "name": "Nube incendiaria",
@@ -2900,7 +3000,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una langosta"
     },
     "phbsplInvisibili": {
       "name": "Invisibilidad",
@@ -2916,7 +3017,8 @@
           "description": "<p>El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pestaña envuelta en goma arábiga"
     },
     "phbsplJump000000": {
       "name": "Salto",
@@ -2932,7 +3034,8 @@
           "description": "<p>Una vez en cada uno de sus turnos hasta que el conjuro termine, esa criatura puede saltar hasta 30 pies gastando 10 pies de movimiento.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "la pata trasera de un saltamon - tes"
     },
     "phbsplKnock00000": {
       "name": "Abrir",
@@ -2954,7 +3057,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "incienso que valga al menos 250 po, que se consume como parte del conjuro, y cuatro tiras de marfil que valgan al menos 50 po"
     },
     "phbsplLeomundsSe": {
       "name": "Cofre oculto",
@@ -2968,7 +3072,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un cofre con unas dimensiones de 90 cm por 60 cm por 60 cm, construido de mate - riales raros que valgan al menos 5000 po, así como una réplica Diminuta hecha de los mismos materiales y que valga al menos 50 po"
     },
     "phbsplLeomundsTi": {
       "name": "Pequeña choza",
@@ -2979,7 +3084,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una cuenta de cristal"
     },
     "phbsplLesserRest": {
       "name": "Restablecimiento menor",
@@ -3006,7 +3112,8 @@
           "description": "<p>El objetivo solo puede moverse empujando o tirando contra un objeto o superficie fija al alcance (como una pared o un techo), lo que le permite moverse como si estuviera trepando.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un muelle de metal"
     },
     "phbsplLight00000": {
       "name": "Luz",
@@ -3017,7 +3124,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una luciérnaga o musgo fosfores - cente"
     },
     "phbsplLightningB": {
       "name": "Relámpago",
@@ -3028,7 +3136,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de pelaje y una vara de cristal"
     },
     "phbsplLocateAnim": {
       "name": "Localizar animales o plantas",
@@ -3039,7 +3148,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "pelaje de un sabueso"
     },
     "phbsplLocateCrea": {
       "name": "Localizar criatura",
@@ -3050,7 +3160,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "pelaje de un sabueso"
     },
     "phbsplLocateObje": {
       "name": "Localizar objeto",
@@ -3061,7 +3172,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una ramita con forma de hor - quilla"
     },
     "phbsplLongstride": {
       "name": "Zancada prodigiosa",
@@ -3077,7 +3189,8 @@
           "description": "<p>La Velocidad del objetivo aumenta en 10 pies hasta que el conjuro termine.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de tierra"
     },
     "phbsplMageArmor0": {
       "name": "Armadura de mago",
@@ -3093,7 +3206,8 @@
           "description": "<p>La CA base del objetivo pasa a ser 13 + su modificador de Destreza.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de piel curtida"
     },
     "phbsplMageHand00": {
       "name": "Mano de mago",
@@ -3107,7 +3221,7 @@
       "advancement": {}
     },
     "phbsplMagicCircl": {
-      "name": "Mano de mago",
+      "name": "Círculo mágico",
       "description": "<p>Creas un Cilindro de energía mágica de 10 pies de radio y 20 pies de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Runas brillantes aparecen allí donde el Cilindro intersecta con el suelo u otra superficie.</p><p>Elige uno o más de los siguientes tipos de criaturas: Celestiales, Elementales, Feéricos, Diablos o No Muertos. El círculo afecta a una criatura del tipo elegido de las siguientes maneras:</p><ul><li>La criatura no puede entrar voluntariamente en el Cilindro por medios no mágicos. Si intenta usar teletransportación o viaje interplanar para hacerlo, primero debe superar una tirada de salvación de Carisma.</li><li>La criatura tiene Desventaja en las tiradas de ataque contra objetivos dentro del Cilindro.</li><li>Los objetivos dentro del Cilindro no pueden ser poseídos ni adquirir la condición &amp;Reference[charmed apply=false] o &amp;reference[frightened apply=false] por la criatura.</li></ul><p>Cada vez que lanzas este conjuro, puedes hacer que su magia funcione en la dirección inversa, impidiendo que una criatura del tipo especificado abandone el Cilindro y protegiendo a los objetivos fuera de él.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> La duración aumenta en 1 hora por cada nivel del espacio de conjuro por encima de 3.</p>",
       "activities": {
         "dnd5eactivity000": {
@@ -3115,7 +3229,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "sal y plata en polvo que valga al menos 100 po, que se consumen como parte del conjuro"
     },
     "phbsplMagicJar00": {
       "name": "Urna mágica",
@@ -3141,7 +3256,8 @@
           "description": "<p>El alma de la criatura poseída puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse y está &amp;Reference[Incapacitated apply=false].</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gema, un cristal o un relica - rio que valga al menos 500 po"
     },
     "phbsplMagicMissi": {
       "name": "Proyectil mágico",
@@ -3163,7 +3279,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de jade que valga al menos 10 po, que se consume como parte del conjuro"
     },
     "phbsplMagicWeapo": {
       "name": "Arma mágica",
@@ -3198,7 +3315,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de vellón"
     },
     "phbsplMassCureWo": {
       "name": "Curar heridas en masa",
@@ -3247,7 +3365,8 @@
           "description": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] mientras dure el conjuro o hasta que tú o tus aliados inflijáis daño al objetivo. Cada objetivo Hechizado persigue la sugerencia lo mejor que puede.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una lengua de serpiente"
     },
     "phbsplMaze000000": {
       "name": "Laberinto",
@@ -3296,7 +3415,8 @@
           "description": "<p>Si impactas, el objetivo recibe 4d4 de daño de Ácido y [[/damage 2d4 type=acid]] (más 1d4 por cada nivel del espacio de conjuro por encima de 2) de daño de Ácido al final de su siguiente turno.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "ruibarbo en polvo"
     },
     "phbsplMending000": {
       "name": "Reparar",
@@ -3307,7 +3427,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "dos imanes naturales"
     },
     "phbsplMessage000": {
       "name": "Mensaje",
@@ -3318,7 +3439,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un alambre de cobre"
     },
     "phbsplMeteorSwar": {
       "name": "Tormenta de meteoritos",
@@ -3372,7 +3494,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de vellón"
     },
     "phbsplMirageArca": {
       "name": "Espejismo arcano",
@@ -3461,7 +3584,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una hoja con forma de media luna"
     },
     "phbsplMoveEarth0": {
       "name": "Mover la tierra",
@@ -3475,7 +3599,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pala en miniatura"
     },
     "phbsplNondetecti": {
       "name": "Indetectable",
@@ -3491,7 +3616,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de diamante en polvo que valga al menos 25 po, que se consume como parte del conjuro"
     },
     "phbsplNystulsMag": {
       "name": "Aura mágica de arcanista",
@@ -3507,7 +3633,8 @@
           "description": "<p>Elige un tipo de criatura distinto del tipo real del objetivo. Los conjuros y otros efectos mágicos tratan al objetivo como si fuera una criatura del tipo elegido.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un pequeño cuadrado de seda"
     },
     "phbsplOtilukesFr": {
       "name": "Esfera congelante",
@@ -3532,7 +3659,8 @@
           "description": "<p>Las criaturas que estaban nadando en la superficie del agua congelada quedan atrapadas en el hielo y tienen la condición &amp;Reference[Restrained apply=false]. Una criatura atrapada puede usar una acción para hacer una prueba de [[/check ability=str skill=ath]] contra tu CD de salvación de conjuro para liberarse.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una esfera de cristal en minia - tura"
     },
     "phbsplOtilukesRe": {
       "name": "Esfera elástica",
@@ -3548,7 +3676,8 @@
           "description": "<p>Una criatura encerrada puede usar una acción para empujar contra las paredes de la esfera y así hacerla rodar a una velocidad de hasta la mitad de la Velocidad de la criatura.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una esfera de cristal"
     },
     "phbsplOttosIrres": {
       "name": "Baile irresistible",
@@ -3579,7 +3708,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de semillas de sésamo"
     },
     "phbsplPasswithou": {
       "name": "Pasar sin rastro",
@@ -3595,7 +3725,8 @@
           "description": "<p>Mientras esté en el aura, tú y cada criatura que elijas obtenéis un bonificador de +10 a las pruebas de [[/check ability=dex skill=ste]] y no dejáis huellas.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "cenizas de muérdago quemado"
     },
     "phbsplPhantasmal": {
       "name": "Asesino fantasmal",
@@ -3649,7 +3780,8 @@
           "description": "<p>Una criatura ligada debe seguir tus órdenes lo mejor que pueda. Si la criatura es Hostil, se esfuerza por retorcer tus órdenes para lograr sus propios objetivos.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una joya que valga al menos 1000 po y que se consume como parte del conjuro"
     },
     "phbsplPlaneShift": {
       "name": "Desplazamiento entre planos",
@@ -3660,7 +3792,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una vara de metal con forma de horquilla que valga al menos 250 po y esté sintonizada con un plano de existencia"
     },
     "phbsplPlantGrowt": {
       "name": "Crecimiento vegetal",
@@ -3696,7 +3829,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un capullo de oruga"
     },
     "phbsplPowerWordH": {
       "name": "Palabra de poder: sanar",
@@ -3849,7 +3983,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de jade con un valor de al menos 25 po"
     },
     "phbsplProjectIma": {
       "name": "Proyectar imagen",
@@ -3860,7 +3995,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una estatuilla de ti que valga al menos 5 po"
     },
     "phbsplProtection": {
       "name": "Protección contra veneno",
@@ -3915,7 +4051,8 @@
           "description": "<p>Volver de la muerte es una dura prueba. El objetivo sufre un penalizador de −4 a las Pruebas de d20. Cada vez que el objetivo termina un Descanso Largo, el penalizador se reduce en 1 hasta que se convierte en 0.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un diamante que valga al menos 500 po y que se consume como parte del conjuro"
     },
     "phbsplRarysTelep": {
       "name": "Enlace telepático",
@@ -3931,7 +4068,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "dos huevos"
     },
     "phbsplRayofEnfee": {
       "name": "Rayo debilitador",
@@ -3994,7 +4132,8 @@
           "description": "<p>Durante la duración, el objetivo recupera [[/healing 1 type=healing]]{1 Punto de Golpe} al inicio de cada uno de sus turnos, y cualquier parte del cuerpo seccionada vuelve a crecer al cabo de 2 minutos.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una rueda de plegarias"
     },
     "phbsplReincarnat": {
       "name": "Reencarnar",
@@ -4005,7 +4144,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "aceites raros que valgan al me - nos 1000 po, que se consumen como parte del con - juro"
     },
     "phbsplRemoveCurs": {
       "name": "Levantar maldición",
@@ -4107,7 +4247,8 @@
           "description": "<p>Hasta que completes un Descanso Largo, no puedes volver a lanzar conjuros y tienes Desventaja en las Pruebas de d20.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un diamante que valga al menos 1000 po y que se consume como parte del conjuro"
     },
     "phbsplReverseGra": {
       "name": "Invertir la gravedad",
@@ -4118,7 +4259,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un imán natural y virutas de hierro"
     },
     "phbsplRevivify00": {
       "name": "Revivir",
@@ -4129,7 +4271,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un diamante que valga al menos 300 po y que se consume como parte del conjuro"
     },
     "phbsplRopeTrick0": {
       "name": "Truco de la cuerda",
@@ -4140,7 +4283,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de cuerda"
     },
     "phbsplSacredFlam": {
       "name": "Llama sagrada",
@@ -4200,7 +4344,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un canalizador que valga al menos 1000 po, como una bola de cristal, un espejo o una pila llena de agua"
     },
     "phbsplSearingSmi": {
       "name": "Castigo abrasador",
@@ -4235,7 +4380,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de talco"
     },
     "phbsplSeeming000": {
       "name": "Apariencia",
@@ -4265,10 +4411,11 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un alambre de cobre"
     },
     "phbsplSequester0": {
-      "name": "Recluirdo",
+      "name": "Recluir",
       "description": "<p>Con un toque, secuestras mágicamente un objeto o a una criatura voluntaria. Durante la duración, el objetivo tiene la condición &amp;Reference[Invisible] y no puede ser objetivo de conjuros de Adivinación, ni detectado por magia, ni observado a distancia mediante magia.</p><p>Si el objetivo es una criatura, entra en un estado de animación suspendida; tiene la condición &amp;Reference[Unconscious apply=false], no envejece y no necesita comida, agua ni aire.</p><p>Puedes establecer una condición para que el conjuro termine antes de tiempo. La condición puede ser cualquier cosa que elijas, pero debe ocurrir o ser visible a 1 milla o menos del objetivo. Algunos ejemplos son \"después de 1.000 años\" o \"cuando despierte el tarrasque\". Este conjuro también termina si el objetivo recibe cualquier daño.</p>",
       "activities": {
         "mDRkoRyY7Fj5Wwvu": {
@@ -4281,7 +4428,8 @@
           "description": "<p>Si el objetivo es una criatura, entra en un estado de animación suspendida; tiene la condición &amp;Reference[Unconscious apply=false], no envejece y no necesita comida, agua ni aire. Este conjuro también termina si el objetivo recibe cualquier daño.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de piedras preciosas que valga al menos 5000 po, que se consume como parte del conjuro"
     },
     "phbsplShapechang": {
       "name": "Cambiar de forma",
@@ -4292,7 +4440,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una diadema de jade que valga al menos 1500 po"
     },
     "phbsplShatter000": {
       "name": "Hacer añicos",
@@ -4303,7 +4452,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una lasca de mica"
     },
     "phbsplShield0000": {
       "name": "Escudo",
@@ -4335,7 +4485,8 @@
           "description": "<p>El objetivo obtiene un bonificador de +2 a la CA durante la duración.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un pergamino de plegarias"
     },
     "phbsplShillelagh": {
       "name": "Shillelagh",
@@ -4366,7 +4517,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "muérdago"
     },
     "phbsplShiningSmi": {
       "name": "Castigo brillante",
@@ -4425,7 +4577,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de vellón"
     },
     "phbsplSimulacrum": {
       "name": "Simulacro",
@@ -4436,7 +4589,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "rubí en polvo que valga al menos 1500 po, que se consume como parte del conjuro"
     },
     "phbsplSleep00000": {
       "name": "Dormir",
@@ -4452,7 +4606,8 @@
           "description": "<p>El objetivo tiene la condición &amp;Reference[incapacitated apply=false] hasta el final de su siguiente turno; en ese momento, debe repetir la salvación. Si el objetivo falla la segunda salvación, el objetivo tiene la condición &amp;Reference[unconscious] durante la duración. El conjuro termina en un objetivo si recibe daño o si alguien a 5 pies o menos de él usa una acción para sacudirlo y sacarlo del efecto del conjuro.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una pizca de arena o pétalos de rosa"
     },
     "phbsplSleetStorm": {
       "name": "Tormenta de aguanieve",
@@ -4463,7 +4618,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un paraguas en miniatura"
     },
     "phbsplSlow000000": {
       "name": "Ralentizar",
@@ -4479,7 +4635,8 @@
           "description": "<p>La Velocidad de un objetivo afectado se reduce a la mitad, sufre un penalizador de −2 a la CA y a las tiradas de salvación de Destreza, y no puede realizar Reacciones. En sus turnos, puede realizar o bien una acción o bien una Acción adicional, no ambas, y solo puede hacer un ataque si realiza la acción Atacar. Si lanza un conjuro con componente Somático, hay una probabilidad del [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 por ciento} de que el conjuro falle como resultado de que el objetivo haga los gestos del conjuro demasiado lentamente.</p><p>Un objetivo afectado repite la salvación de [[/save ability=wis]] al final de cada uno de sus turnos, terminando el conjuro sobre sí mismo si tiene éxito.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de melaza"
     },
     "phbsplSorcerousB": {
       "name": "Estallido mágico",
@@ -4533,7 +4690,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "incienso para quemar"
     },
     "phbsplSpeakwithP": {
       "name": "Hablar con las plantas",
@@ -4565,7 +4723,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de betún y una araña"
     },
     "phbsplSpikeGrowt": {
       "name": "Crecimiento espinoso",
@@ -4576,7 +4735,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "siete espinas"
     },
     "phbsplSpiritGuar": {
       "name": "Espíritus guardianes",
@@ -4595,7 +4755,8 @@
           "description": "<p>La velocidad de la criatura se reduce a la mitad mientras esté dentro de la Emanación.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un pergamino de plegarias"
     },
     "phbsplSpiritualW": {
       "name": "Arma espiritual",
@@ -4641,7 +4802,8 @@
           "description": "<p>Mientras esté &amp;Reference[poisoned apply=false] de esta manera, la criatura no puede realizar una acción ni una Acción adicional.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un huevo podrido"
     },
     "phbsplStoneShape": {
       "name": "Moldear la piedra",
@@ -4652,7 +4814,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "arcilla blanda"
     },
     "phbsplStoneskin0": {
       "name": "Piel pétrea",
@@ -4668,7 +4831,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro"
     },
     "phbsplStormofVen": {
       "name": "Tormenta de la venganza",
@@ -4712,7 +4876,8 @@
           "description": "<p>El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de miel"
     },
     "phbsplSummonDrag": {
       "name": "Invocar dragón",
@@ -4723,7 +4888,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un objeto con la imagen de un dragón grabada en él que valga al menos 500 po"
     },
     "phbsplSunbeam000": {
       "name": "Rayo solar",
@@ -4742,7 +4908,8 @@
           "description": "<p>El objetivo tiene la condición &amp;Reference[Blinded apply=false] hasta el inicio de tu siguiente turno.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una lupa"
     },
     "phbsplSunburst00": {
       "name": "Explosión solar",
@@ -4758,7 +4925,8 @@
           "description": "<p>Una criatura &amp;Reference[Blinded apply=false] por este conjuro hace otra [[/save ability=con format=long]] al final de cada uno de sus turnos, terminando el efecto sobre sí misma con una salvación exitosa.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de heliolita"
     },
     "phbsplSymbol0000": {
       "name": "Símbolo",
@@ -4808,7 +4976,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "diamante en polvo que valga al menos 1000 po y que se consume como parte del conjuro"
     },
     "phbsplTashasHide": {
       "name": "Risa horrible",
@@ -4824,7 +4993,8 @@
           "description": "<p>Tiene las condiciones &amp;Reference[prone apply=false] y &amp;Reference[incapacitated apply=false] durante la duración. Durante ese tiempo, se ríe de manera incontrolable si es capaz de reír, y no puede terminar la condición Derribado por sí misma.</p><p>Al final de cada uno de sus turnos y cada vez que reciba daño, hace otra tirada de salvación de [[/save ability=wis dc=@attributes.spell.dc]]. El objetivo tiene ventaja en la salvación si la salvación se desencadena por daño. Con una salvación exitosa, el conjuro termina.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una tarta y una pluma"
     },
     "phbsplTelekinesi": {
       "name": "Telequinesis",
@@ -4857,7 +5027,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "tintas inusuales que valgan al menos 50 po, que se consumen como parte del conjuro"
     },
     "phbsplTensersFlo": {
       "name": "Disco flotante",
@@ -4868,7 +5039,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de mercurio"
     },
     "phbsplThaumaturg": {
       "name": "Taumaturgia",
@@ -4922,7 +5094,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un zigurat en miniatura"
     },
     "phbsplTransportv": {
       "name": "Viajar mediante plantas",
@@ -4955,7 +5128,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de mercurio, un poco de goma arábiga y un jirón de humo"
     },
     "phbsplTrueResurr": {
       "name": "Resurrección verdadera",
@@ -4966,7 +5140,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "diamantes que valgan al menos 25 000 po, que se consumen como parte del conjuro"
     },
     "phbsplTrueSeeing": {
       "name": "Visión veraz",
@@ -4982,7 +5157,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "hongos pulverizados que valgan al menos 25 po, que se consumen como parte del con - juro"
     },
     "phbsplTrueStrike": {
       "name": "Impacto certero",
@@ -5008,7 +5184,8 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un arma con la que tengas compe - tencia y que valga al menos 1 pc"
     },
     "phbsplTsunami000": {
       "name": "Tsunami",
@@ -5033,7 +5210,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de cuerda y uno de ma- dera"
     },
     "phbsplVampiricTo": {
       "name": "Toque vampírico",
@@ -5079,7 +5257,8 @@
           "description": "<p>La criatura recibe [[/damage <span style=\"font-family:Signika, sans-serif\">5d4 type=acid]] de daño al final de su siguiente turno</span></p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una gota de bilis"
     },
     "phbsplWallofFire": {
       "name": "Muro de fuego",
@@ -5096,7 +5275,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de carbón"
     },
     "phbsplWallofForc": {
       "name": "Muro de fuerza",
@@ -5110,7 +5290,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de vidrio"
     },
     "phbsplWallofIce0": {
       "name": "Muro de hielo",
@@ -5127,7 +5308,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de cuarzo"
     },
     "phbsplWallofSton": {
       "name": "Muro de piedra",
@@ -5141,7 +5323,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un cubo de granito"
     },
     "phbsplWallofThor": {
       "name": "Muro de espinas",
@@ -5158,7 +5341,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un puñado de espinas vegetales"
     },
     "phbsplWardingBon": {
       "name": "Vínculo protector",
@@ -5174,7 +5358,8 @@
           "description": "<p>Mientras el objetivo esté a 60 pies o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, y tiene Resistencia a todo el daño. Además, cada vez que reciba daño, tú recibes la misma cantidad de daño.</p><p>El conjuro termina si caes a 0 Puntos de golpe o si tú y el objetivo os separáis más de 60 pies. También termina si este conjuro se lanza de nuevo sobre cualquiera de las dos criaturas conectadas.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un par de anillos de platino que valgan al menos 50 po cada uno y que debéis llevar puestos tanto tú como el objetivo hasta que termine el conjuro"
     },
     "phbsplWaterBreat": {
       "name": "Respirar bajo el agua",
@@ -5190,10 +5375,11 @@
           "description": ""
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un junco corto"
     },
     "phbsplWaterWalk0": {
-      "name": "Caminar sobre las aguas",
+      "name": "Caminar sobre el agua",
       "description": "<p>Este conjuro otorga la capacidad de moverse sobre cualquier superficie líquida —como agua, ácido, barro, nieve, arenas movedizas o lava— como si fuese suelo sólido e inofensivo (las criaturas que crucen lava fundida aún pueden recibir daño por el calor). Hasta diez criaturas dispuestas de tu elección dentro del alcance obtienen esta capacidad durante la duración.</p><p>Un objetivo afectado debe usar una Acción adicional para pasar de la superficie del líquido al líquido en sí y viceversa, pero si el objetivo cae al líquido, atraviesa la superficie y entra en el líquido de debajo.</p>",
       "activities": {
         "dnd5eactivity000": {
@@ -5206,7 +5392,8 @@
           "description": "<p>Un objetivo afectado debe usar una Acción adicional para pasar de la superficie del líquido al líquido en sí y viceversa, pero si el objetivo cae al líquido, atraviesa la superficie y entra en el líquido de debajo.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "un trozo de corcho"
     },
     "phbsplWeb0000000": {
       "name": "Telaraña",
@@ -5217,7 +5404,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un poco de tela de araña"
     },
     "phbsplWeird00000": {
       "name": "Terror abyecto",
@@ -5252,7 +5440,8 @@
           "description": "<p>Las únicas acciones que un objetivo puede realizar en esta forma son la acción &amp;Reference[Dash] o una Acción mágica para empezar a volver a su forma normal. Volver toma 1 minuto, durante el cual el objetivo tiene la condición &amp;Reference[Stunned apply=false]. Hasta que el conjuro termine, el objetivo puede volver a la forma de nube, lo cual también requiere una Acción mágica seguida de una transformación de 1 minuto.</p>"
         }
       },
-      "advancement": {}
+      "advancement": {},
+      "materials": "una vela"
     },
     "phbsplWindWall00": {
       "name": "Muro de viento",
@@ -5266,7 +5455,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "un abanico y una pluma"
     },
     "phbsplWish000000": {
       "name": "Deseo",
@@ -5315,7 +5505,7 @@
       "advancement": {}
     },
     "phbswdMordenkain": {
-      "name": "Espada de Mordenkainen",
+      "name": "Espada arcana",
       "description": "<p>Creas una espada espectral que flota dentro del alcance. Dura durante la duración.</p><p>Cuando la espada aparece, realizas un ataque de conjuro cuerpo a cuerpo contra un objetivo a 5 pies o menos de la espada. Si impactas, el objetivo recibe daño de Fuerza igual a 4d12 más tu modificador de característica de lanzamiento de conjuros.</p><p>En tus turnos posteriores, puedes usar una Acción adicional para mover la espada hasta 30 pies a un punto que puedas ver y repetir el ataque contra el mismo objetivo o contra otro diferente.</p>",
       "activities": {
         "WkeioBGpPAaUZ66H": {
@@ -5323,7 +5513,8 @@
         }
       },
       "effects": {},
-      "advancement": {}
+      "advancement": {},
+      "materials": "una espada en miniatura que valga al menos 250 po"
     },
     "phbutlMagicalBer": {
       "name": "Buenas bayas",
