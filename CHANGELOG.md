@@ -24,6 +24,25 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ---
 
+## [1.14.1] - 2026-08-21
+
+### Changed
+- Actualizado el parche de mantenimiento de la versión compatible con Foundry VTT 14.
+- Ajustada la versión del módulo a `1.14.1`.
+
+### Fixed
+- Correcciones menores posteriores a la publicación de `1.14.0`.
+
+---
+
+## [1.14.0] - 2026-08-21
+
+### Changed
+- Actualizada la compatibilidad principal del módulo a Foundry VTT 14.
+- Actualizada la convención de versión a `1.14.0`.
+
+---
+
 ## [1.13.5] - 2026-08-20
 
 ### Added
@@ -154,8 +173,7 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/compare/v1.13.3...HEAD
-[1.13.3]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.3
-[1.13.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.2
-[1.13.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.1
-[1.13.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.0
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/compare/v1.14.1...HEAD
+[1.14.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.1
+[1.14.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.0
+[1.13.5]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.5
