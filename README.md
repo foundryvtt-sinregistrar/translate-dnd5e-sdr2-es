@@ -88,9 +88,12 @@ translate-dnd5e-sdr2-es/
 
 ## ⚙️ Requisitos
 
--   Foundry VTT v13 o v14
--   Sistema dnd5e SRD 5.2.x
--   Babele
+- Foundry VTT v13 o v14
+- Foundry v13: usar la versión `1.13.4` o una posterior compatible con v13
+- Foundry v14: usar la versión `1.14.0` o una posterior
+- Foundry v13 utiliza dnd5e SRD 5.2.x
+- Foundry v14 utiliza dnd5e 5.3.x
+- Babele
 
 ------------------------------------------------------------------------
 
@@ -121,7 +124,7 @@ Descarga la versión correspondiente a tu versión de Foundry VTT:
 
    https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json
 
-4. Instalar el módulo.
+3. Instalar el módulo.
 4. Activarlo y habilitar la traducción desde Babele.
 
 ------------------------------------------------------------------------
