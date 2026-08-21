@@ -1,12 +1,15 @@
 # 🇪🇸 D&D 5e SRD 2024 -- Español (Babele)
 
-![Foundry v13](https://img.shields.io/badge/Foundry-v13-green) ![dnd5e
-5.2.x](https://img.shields.io/badge/dnd5e-5.2.x-blue) ![Babele
-Required](https://img.shields.io/badge/Babele-required-orange) ![SRD
-5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
-[![Latest Release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest)
-[![Downloads Latest Release](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/latest/total?label=descargas%20%C3%BAltima%20release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest)
-[![Downloads Total](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/total?label=descargas%20totales)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases)
+![Foundry v13](https://img.shields.io/badge/Foundry-v13-green)
+[![Release v1.13.4](https://img.shields.io/badge/release-v1.13.4-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.4)
+![dnd5e 5.2.x](https://img.shields.io/badge/dnd5e-5.2.x-blue)
+![Babele Required](https://img.shields.io/badge/Babele-required-orange)
+![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
+![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
+[![Release v1.14.1](https://img.shields.io/badge/release-v1.14.1-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.1)
+
+[![Downloads through v1.13.4](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/downloads-v13.json)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases)
+[![Downloads from v1.13.5](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/downloads-v14.json)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases)
 
 ### Este módulo no está afiliado a Wizards of the Coast.
 ### Este módulo no incluye contenido fuera del SRD.
@@ -81,13 +84,18 @@ translate-dnd5e-sdr2-es/
 
 ## ⚙️ Requisitos
 
--   Foundry VTT v13+
+-   Foundry VTT v13 o v14
 -   Sistema dnd5e SRD 5.2.x
 -   Babele
 
 ------------------------------------------------------------------------
 
 ## 🚀 Instalación
+
+Descarga la versión correspondiente a tu versión de Foundry VTT:
+
+- Foundry VTT v13: versión `1.13.4` o posterior compatible con v13.
+- Foundry VTT v14: versión `1.14.0` o posterior
 
 ### 🔹 Opción 1 — Descargar ZIP
 
