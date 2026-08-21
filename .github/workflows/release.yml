@@ -17,7 +17,7 @@ jobs:
       # Checkout del commit apuntado por el tag (se asume que el tag se crea desde develop,
       # donde existe dev-tools/buildScripts/build_release.py)
       - name: Checkout tagged commit
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
