@@ -1,13 +1,17 @@
 /**
  * Babele registration for this translation module.
- * - Registers for both "es" and "es-ES" style language codes.
+ * - Registers only for Spanish ("es" and variants such as "es-ES").
  */
 Hooks.on("init", () => {
   const babele = game?.babele;
   if (!babele) return;
 
-  const current = game.i18n?.lang ?? "es";
-  const base = current.split("-")[0];
+  const current = game.i18n?.lang;
+  if (typeof current !== "string") return;
+
+  const base = current.split("-")[0].toLowerCase();
+  if (base !== "es") return;
+
   const langs = Array.from(new Set([current, base]));
 
   for (const lang of langs) {
