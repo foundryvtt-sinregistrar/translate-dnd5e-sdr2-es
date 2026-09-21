@@ -7,7 +7,7 @@ Hooks.once("babele.init", (babele) => {
 
   // Foundry 14 has not registered core.language during babele.init.
   // setup runs after core settings exist and before Babele loads its session
-  // in ready. Keep converter registration in babele.init.
+  // in ready. Converters are also registered during setup.
   Hooks.once("setup", () => registerSpanishCompendiums(babele));
 });
 
