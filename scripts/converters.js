@@ -9,18 +9,24 @@ import { tableResultsByRange } from "./converters/table-results.js";
 Hooks.once("babele.init", (babele) => {
     if (!babele?.registerConverters) return;
 
-    babele.registerConverters({
-        activities,
-        mergeEffects,
-        advancementById,
-        journalPagesById,
-        journalEntryFullById,
-        actorFullById,
-        tableResultsByRange
-    });
+    // core.language is available at setup, before Babele starts its ready session.
+    Hooks.once("setup", () => {
+        const language = game.settings.get("core", "language");
+        if (typeof language !== "string" || language.split("-")[0].toLowerCase() !== "es") return;
 
-    console.log(
-        "[Babele - translate-dnd5e-sdr2-es] Converters registered:",
-        Object.keys(babele.converters ?? {})
-    );
+        babele.registerConverters({
+            activities,
+            mergeEffects,
+            advancementById,
+            journalPagesById,
+            journalEntryFullById,
+            actorFullById,
+            tableResultsByRange
+        });
+
+        console.log(
+            "[Babele - translate-dnd5e-sdr2-es] Converters registered:",
+            Object.keys(babele.converters ?? {})
+        );
+    });
 });
