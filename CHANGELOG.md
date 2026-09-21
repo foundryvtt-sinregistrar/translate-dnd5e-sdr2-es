@@ -24,6 +24,23 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ---
 
+## [1.14.2] - 2026-09-21
+
+### Added
+- Auditoría global de texto visible y referencias en los nueve compendios de Foundry VTT 14.
+- Informe v2 de revisión de contenido y referencias en `INFORME-CONTENIDO-INGLES-v2.md`.
+
+### Changed
+- Actualizadas traducciones residuales en textos visibles de reglas y compendios.
+- Conservados los valores `key` en inglés cuando funcionan como claves de referencia internas.
+- Revisada la integridad de macros `@UUID`, `@Embed` y `@Reference`, incluyendo referencias locales y dependencias externas.
+
+### Fixed
+- Corregidos textos visibles que aún aparecían en inglés en contenido de monstruos.
+- Confirmada la validez JSON de los nueve compendios para Foundry VTT 14.368.
+
+---
+
 ## [1.14.1] - 2026-08-21
 
 ### Changed
@@ -173,7 +190,8 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/compare/v1.14.1...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/compare/v1.14.2...HEAD
+[1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.2
 [1.14.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.1
 [1.14.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.0
 [1.13.5]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.5
