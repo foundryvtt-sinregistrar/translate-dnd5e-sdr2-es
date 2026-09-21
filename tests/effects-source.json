@@ -1,0 +1,1130 @@
+[
+  {
+    "key": "!effects!0bR1uQAAn4EDjnrQ",
+    "_id": "0bR1uQAAn4EDjnrQ",
+    "name": "Poison Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!0bUM3GtoOpK0eR0t",
+    "_id": "0bUM3GtoOpK0eR0t",
+    "name": "Bludgeoning Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!0ivzvyzkvAecusEm",
+    "_id": "0ivzvyzkvAecusEm",
+    "name": "Surprised",
+    "description": ""
+  },
+  {
+    "key": "!effects!0tH4tAoRHFDe8jYO",
+    "_id": "0tH4tAoRHFDe8jYO",
+    "name": "Slashing Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!19CVKoFvBtMaKKLZ",
+    "_id": "19CVKoFvBtMaKKLZ",
+    "name": "Strength Check Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!1KYRLxls2nXAaKPk",
+    "_id": "1KYRLxls2nXAaKPk",
+    "name": "Perception Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!2ilzOR0oB06nL2XS",
+    "_id": "2ilzOR0oB06nL2XS",
+    "name": "Piercing Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!2zaoVr5v1OgFXDwZ",
+    "_id": "2zaoVr5v1OgFXDwZ",
+    "name": "Strength Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!34qAqi2Dynte5Fyn",
+    "_id": "34qAqi2Dynte5Fyn",
+    "name": "Lightning Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!3S76svPJwDlQqpO7",
+    "_id": "3S76svPJwDlQqpO7",
+    "name": "Damage Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!3ZUqO7Jc3IW2qumP",
+    "_id": "3ZUqO7Jc3IW2qumP",
+    "name": "Acrobatics Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!3ij8dEuXERjU4eb4",
+    "_id": "3ij8dEuXERjU4eb4",
+    "name": "Poison Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!3rwsG5WKz6EPDc9R",
+    "_id": "3rwsG5WKz6EPDc9R",
+    "name": "Paralyzed",
+    "description": ""
+  },
+  {
+    "key": "!effects!4lxRFMoPPmHBbCwo",
+    "_id": "4lxRFMoPPmHBbCwo",
+    "name": "Acid Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!4odkdDU1wBQrCMJ1",
+    "_id": "4odkdDU1wBQrCMJ1",
+    "name": "Blinded",
+    "description": ""
+  },
+  {
+    "key": "!effects!4q5ihWYljkfzL7vG",
+    "_id": "4q5ihWYljkfzL7vG",
+    "name": "Stealth Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!5HlJv9a1SWS0VAgk",
+    "_id": "5HlJv9a1SWS0VAgk",
+    "name": "Intimidation Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!6cNt7ad8fjnIpC8L",
+    "_id": "6cNt7ad8fjnIpC8L",
+    "name": "Blinded Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!6iFyLFsU5Hm6DujQ",
+    "_id": "6iFyLFsU5Hm6DujQ",
+    "name": "Force Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!7JnP4TMIbonHe8bY",
+    "_id": "7JnP4TMIbonHe8bY",
+    "name": "Deception Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!8CrdBKaIjAe1xF6T",
+    "_id": "8CrdBKaIjAe1xF6T",
+    "name": "Burning Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!8WT3CBUvNfhFJmPg",
+    "_id": "8WT3CBUvNfhFJmPg",
+    "name": "Athletics Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!8etjDfyNy6dUTzhX",
+    "_id": "8etjDfyNy6dUTzhX",
+    "name": "Bludgeoning Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!9AQYUpfcUn1TkZEn",
+    "_id": "9AQYUpfcUn1TkZEn",
+    "name": "Charmed",
+    "description": ""
+  },
+  {
+    "key": "!effects!9CT5ztM4UI3rvHSa",
+    "_id": "9CT5ztM4UI3rvHSa",
+    "name": "Psychic Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!9KCHWEiXNNU8ktGA",
+    "_id": "9KCHWEiXNNU8ktGA",
+    "name": "Cursed",
+    "description": ""
+  },
+  {
+    "key": "!effects!APHt5RDc5RWe8Y4j",
+    "_id": "APHt5RDc5RWe8Y4j",
+    "name": "Initiative Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!BLZ8YbkZq9Dc6zRI",
+    "_id": "BLZ8YbkZq9Dc6zRI",
+    "name": "Animal Handling Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!BQCAZYONY9Uj9eB8",
+    "_id": "BQCAZYONY9Uj9eB8",
+    "name": "Falling",
+    "description": ""
+  },
+  {
+    "key": "!effects!BcntWxyNzDJHNVga",
+    "_id": "BcntWxyNzDJHNVga",
+    "name": "Invisible Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!BmqLvBiBbVNa8c1c",
+    "_id": "BmqLvBiBbVNa8c1c",
+    "name": "Wisdom Check Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!C9v8c04c7YnzXcfN",
+    "_id": "C9v8c04c7YnzXcfN",
+    "name": "Medicine Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!CCSMPlFnJRU9w4gB",
+    "_id": "CCSMPlFnJRU9w4gB",
+    "name": "Grappled Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!CYzLVWmYNthDNSPS",
+    "_id": "CYzLVWmYNthDNSPS",
+    "name": "Stunned Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!D2RjtDfTGqNEpdbO",
+    "_id": "D2RjtDfTGqNEpdbO",
+    "name": "Psychic Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!DSYSCP3ffRtZLezA",
+    "_id": "DSYSCP3ffRtZLezA",
+    "name": "Stealth Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!DaRKlVGHpDwsBWWH",
+    "_id": "DaRKlVGHpDwsBWWH",
+    "name": "Charisma Check Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!DoHlDRcjgby463Pp",
+    "_id": "DoHlDRcjgby463Pp",
+    "name": "Grappled",
+    "description": ""
+  },
+  {
+    "key": "!effects!DyXvgCXfPPF6z89X",
+    "_id": "DyXvgCXfPPF6z89X",
+    "name": "Constitution Check & Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!DzXeyu6pTj9PJB54",
+    "_id": "DzXeyu6pTj9PJB54",
+    "name": "Necrotic Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!FCIOt0POaZAJF85w",
+    "_id": "FCIOt0POaZAJF85w",
+    "name": "Suffocation Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!FJgL1GTnoHJmnWfs",
+    "_id": "FJgL1GTnoHJmnWfs",
+    "name": "Constitution Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!GFI67RamgYpG4nzW",
+    "_id": "GFI67RamgYpG4nzW",
+    "name": "Force Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!GFulICtJuXMvHEYT",
+    "_id": "GFulICtJuXMvHEYT",
+    "name": "Persuasion Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!GUtgQhjgiygtu6ps",
+    "_id": "GUtgQhjgiygtu6ps",
+    "name": "Arcana Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!HbFihEh8hv0veaqU",
+    "_id": "HbFihEh8hv0veaqU",
+    "name": "Surprised Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!HjLkxDzLNBogspf9",
+    "_id": "HjLkxDzLNBogspf9",
+    "name": "Unconscious",
+    "description": ""
+  },
+  {
+    "key": "!effects!IDVBcQaAcUSBZ5Kj",
+    "_id": "IDVBcQaAcUSBZ5Kj",
+    "name": "Radiant Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!IQmn1ydzwVswM7gn",
+    "_id": "IQmn1ydzwVswM7gn",
+    "name": "Deafened Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!IdNNpjW2XJ9FdmCh",
+    "_id": "IdNNpjW2XJ9FdmCh",
+    "name": "Piercing Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!IvrsClxeIKZWJX0I",
+    "_id": "IvrsClxeIKZWJX0I",
+    "name": "Animal Handling Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!J6mYVZ6B0KmIUQ36",
+    "_id": "J6mYVZ6B0KmIUQ36",
+    "name": "Prone Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!JM8zNdUCSATRLlt8",
+    "_id": "JM8zNdUCSATRLlt8",
+    "name": "Survival Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!JZObv9fJej0DEyxQ",
+    "_id": "JZObv9fJej0DEyxQ",
+    "name": "Slashing Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!JtYhe4odaWHHAlmn",
+    "_id": "JtYhe4odaWHHAlmn",
+    "name": "Constitution Check Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!JxLxOu6GO8sSRmAD",
+    "_id": "JxLxOu6GO8sSRmAD",
+    "name": "Petrified",
+    "description": ""
+  },
+  {
+    "key": "!effects!K4DAIKRggIdidBug",
+    "_id": "K4DAIKRggIdidBug",
+    "name": "Charisma Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!KS2q2OPJNqsc420v",
+    "_id": "KS2q2OPJNqsc420v",
+    "name": "Silenced Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!KiZO2ZSYh6385Fbn",
+    "_id": "KiZO2ZSYh6385Fbn",
+    "name": "Wisdom Check Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!KicPINVPkRrEpA7u",
+    "_id": "KicPINVPkRrEpA7u",
+    "name": "Diseased",
+    "description": ""
+  },
+  {
+    "key": "!effects!KpmyjeorKeslvEsV",
+    "_id": "KpmyjeorKeslvEsV",
+    "name": "Intelligence Check Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!LbCHTFVjUXa1kTG0",
+    "_id": "LbCHTFVjUXa1kTG0",
+    "name": "Perception Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!LgYCf64lsSs9CMJT",
+    "_id": "LgYCf64lsSs9CMJT",
+    "name": "Acid Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!LgpJ3HeKlMtM2Ukr",
+    "_id": "LgpJ3HeKlMtM2Ukr",
+    "name": "Cursed Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!MG0y1VjFfKPr6hpz",
+    "_id": "MG0y1VjFfKPr6hpz",
+    "name": "Charisma Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!MZ87jWtR73ijRHYr",
+    "_id": "MZ87jWtR73ijRHYr",
+    "name": "Charisma Check Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!MoGiW6isP2TvLpeR",
+    "_id": "MoGiW6isP2TvLpeR",
+    "name": "Diseased Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!Ni7q3g4T5d8Spnyo",
+    "_id": "Ni7q3g4T5d8Spnyo",
+    "name": "Religion Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!NoRthNkIU2NffeHh",
+    "_id": "NoRthNkIU2NffeHh",
+    "name": "Falling Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!NzB1OoqkZEH4k5xj",
+    "_id": "NzB1OoqkZEH4k5xj",
+    "name": "Petrified Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!O6zfaImuJIxdGHdF",
+    "_id": "O6zfaImuJIxdGHdF",
+    "name": "Bludgeoning Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!O9xghs0pD5GnHYhZ",
+    "_id": "O9xghs0pD5GnHYhZ",
+    "name": "Cold Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!OFsq69ZhONaUlBip",
+    "_id": "OFsq69ZhONaUlBip",
+    "name": "Charisma Check & Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!OdQ1asxcW6nN7lTo",
+    "_id": "OdQ1asxcW6nN7lTo",
+    "name": "Damage Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!OpCz3oGBfDZfxAlt",
+    "_id": "OpCz3oGBfDZfxAlt",
+    "name": "Frightened",
+    "description": ""
+  },
+  {
+    "key": "!effects!Ov6uH9J75Acwill4",
+    "_id": "Ov6uH9J75Acwill4",
+    "name": "Necrotic Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!PU1nnTVTgbfk2jEx",
+    "_id": "PU1nnTVTgbfk2jEx",
+    "name": "Force Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!PXKJ0S3hSA5D4SNm",
+    "_id": "PXKJ0S3hSA5D4SNm",
+    "name": "Constitution Check & Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!PiXla1hbQnIJvSQ3",
+    "_id": "PiXla1hbQnIJvSQ3",
+    "name": "Dexterity Check Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!QM7b36MGNpZhgazC",
+    "_id": "QM7b36MGNpZhgazC",
+    "name": "Fire Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!QUmDKA6mnK7HoASC",
+    "_id": "QUmDKA6mnK7HoASC",
+    "name": "Invisible",
+    "description": ""
+  },
+  {
+    "key": "!effects!QascUtAkYgBnGi9C",
+    "_id": "QascUtAkYgBnGi9C",
+    "name": "Thunder Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!Qhs7eIvp72o05kks",
+    "_id": "Qhs7eIvp72o05kks",
+    "name": "Persuasion Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!QyJikF1or8qrvhTl",
+    "_id": "QyJikF1or8qrvhTl",
+    "name": "Fire Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!ReKGnHejsakwCPu6",
+    "_id": "ReKGnHejsakwCPu6",
+    "name": "Lightning Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!SJdbgZ9ALmmHi1Q5",
+    "_id": "SJdbgZ9ALmmHi1Q5",
+    "name": "Unconscious Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!SidJQtO4ofcIkDUn",
+    "_id": "SidJQtO4ofcIkDUn",
+    "name": "Wisdom Check & Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!UVtVRNlaslbMIsuH",
+    "_id": "UVtVRNlaslbMIsuH",
+    "name": "Prone",
+    "description": ""
+  },
+  {
+    "key": "!effects!UaSY9DRoZqru3Sj7",
+    "_id": "UaSY9DRoZqru3Sj7",
+    "name": "Acrobatics Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!UhLFe1AK4pbHb9Iq",
+    "_id": "UhLFe1AK4pbHb9Iq",
+    "name": "Dexterity Check & Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!UpzSOFh2sWTcwefA",
+    "_id": "UpzSOFh2sWTcwefA",
+    "name": "Arcana Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!UuKMsm4KI1NiwbFo",
+    "_id": "UuKMsm4KI1NiwbFo",
+    "name": "Dexterity Check & Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!VBptbH2lEwM67wkM",
+    "_id": "VBptbH2lEwM67wkM",
+    "name": "Frightened Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!VgKR27ZE6Z3Utiv7",
+    "_id": "VgKR27ZE6Z3Utiv7",
+    "name": "Damage Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!Vpqo33uPjYn9NswL",
+    "_id": "Vpqo33uPjYn9NswL",
+    "name": "Constitution Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!XGrVyCOf9Fr8WGJl",
+    "_id": "XGrVyCOf9Fr8WGJl",
+    "name": "Restrained",
+    "description": ""
+  },
+  {
+    "key": "!effects!XVELAfLOeCkAUwYX",
+    "_id": "XVELAfLOeCkAUwYX",
+    "name": "Paralyzed Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!XhPg723xAiky2qjb",
+    "_id": "XhPg723xAiky2qjb",
+    "name": "Athletics Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!YHvGddTrDsGGJJgI",
+    "_id": "YHvGddTrDsGGJJgI",
+    "name": "Performance Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!YbZ58aL2Dqf2EEBX",
+    "_id": "YbZ58aL2Dqf2EEBX",
+    "name": "Insight Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!Z3UGNBYOLEVK5m5Q",
+    "_id": "Z3UGNBYOLEVK5m5Q",
+    "name": "Insight Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!ZUJBSrYzFeQWh7kt",
+    "_id": "ZUJBSrYzFeQWh7kt",
+    "name": "Incapacitated",
+    "description": ""
+  },
+  {
+    "key": "!effects!bUADefF59IlQvJgm",
+    "_id": "bUADefF59IlQvJgm",
+    "name": "Transformed Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!be9UHtKOz7NgN7L0",
+    "_id": "be9UHtKOz7NgN7L0",
+    "name": "Performance Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!c5CkG3XDA5xfxpDM",
+    "_id": "c5CkG3XDA5xfxpDM",
+    "name": "Dehydration",
+    "description": ""
+  },
+  {
+    "key": "!effects!cTO4X1NnWJAe35E2",
+    "_id": "cTO4X1NnWJAe35E2",
+    "name": "Radiant Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!clPiz851aOUtuZ3f",
+    "_id": "clPiz851aOUtuZ3f",
+    "name": "Deafened",
+    "description": ""
+  },
+  {
+    "key": "!effects!cpzImXTyBL2ATXDS",
+    "_id": "cpzImXTyBL2ATXDS",
+    "name": "Transformed",
+    "description": ""
+  },
+  {
+    "key": "!effects!cwurJ5JjwCud9ix8",
+    "_id": "cwurJ5JjwCud9ix8",
+    "name": "Slashing Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!d5HR1BdDPtpLNO43",
+    "_id": "d5HR1BdDPtpLNO43",
+    "name": "Survival Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!dRtbQFRGRLYi4FWb",
+    "_id": "dRtbQFRGRLYi4FWb",
+    "name": "History Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!diFA6M9qKuhlvR1S",
+    "_id": "diFA6M9qKuhlvR1S",
+    "name": "Medicine Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!e46IrPKA531h2afv",
+    "_id": "e46IrPKA531h2afv",
+    "name": "Acid Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!eB29DeMuCvIVt7u4",
+    "_id": "eB29DeMuCvIVt7u4",
+    "name": "Bleeding Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!eJTAMRkJlwNRJcsk",
+    "_id": "eJTAMRkJlwNRJcsk",
+    "name": "Intelligence Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!elXQSdecvKd8LfHC",
+    "_id": "elXQSdecvKd8LfHC",
+    "name": "Thunder Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!fM3Q4tc6ehaGyk1p",
+    "_id": "fM3Q4tc6ehaGyk1p",
+    "name": "Intelligence Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!fTfZTLw6GfBiv2cG",
+    "_id": "fTfZTLw6GfBiv2cG",
+    "name": "Dehydration Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!fXEg6Lcz15Q3pybj",
+    "_id": "fXEg6Lcz15Q3pybj",
+    "name": "Necrotic Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!gs15XxV40R4iHoxD",
+    "_id": "gs15XxV40R4iHoxD",
+    "name": "Psychic Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!gw5xaEbysuecB0k8",
+    "_id": "gw5xaEbysuecB0k8",
+    "name": "Swim Speed",
+    "description": ""
+  },
+  {
+    "key": "!effects!h8FIaFzsQaEWAlAj",
+    "_id": "h8FIaFzsQaEWAlAj",
+    "name": "Fly Speed",
+    "description": ""
+  },
+  {
+    "key": "!effects!h8nkaCeMxO5JasX0",
+    "_id": "h8nkaCeMxO5JasX0",
+    "name": "Cold Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!hL2o0rv60yz35Ddk",
+    "_id": "hL2o0rv60yz35Ddk",
+    "name": "Strength Check & Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!hLfGfiLEPVONwWAr",
+    "_id": "hLfGfiLEPVONwWAr",
+    "name": "Strength Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!hVl9jSrWpidkpKgk",
+    "_id": "hVl9jSrWpidkpKgk",
+    "name": "Intelligence Check Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!hpIXGEvY1zIjQc0U",
+    "_id": "hpIXGEvY1zIjQc0U",
+    "name": "Wisdom Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!hx5WvunZugjs34hG",
+    "_id": "hx5WvunZugjs34hG",
+    "name": "Religion Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!iDKAOo77qtodPd30",
+    "_id": "iDKAOo77qtodPd30",
+    "name": "Poisoned Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!kIFsUsTmIRytNDhX",
+    "_id": "kIFsUsTmIRytNDhX",
+    "name": "Charmed Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!l3FuifHVWle5J21v",
+    "_id": "l3FuifHVWle5J21v",
+    "name": "Dexterity Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!lLZ7vmNiA6PxNUbW",
+    "_id": "lLZ7vmNiA6PxNUbW",
+    "name": "Initiative Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!lNdERhFVVABsewos",
+    "_id": "lNdERhFVVABsewos",
+    "name": "Dexterity Check Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!lvsHwbBuaREr4czg",
+    "_id": "lvsHwbBuaREr4czg",
+    "name": "Suffocation",
+    "description": ""
+  },
+  {
+    "key": "!effects!mTzcos78U4qI4P76",
+    "_id": "mTzcos78U4qI4P76",
+    "name": "History Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!mx8msprfXNy9D0oi",
+    "_id": "mx8msprfXNy9D0oi",
+    "name": "Constitution Check Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!n8MuvvdUCZV8lphM",
+    "_id": "n8MuvvdUCZV8lphM",
+    "name": "Sleight of Hand Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!nRNVi3sZeQ5Q0K00",
+    "_id": "nRNVi3sZeQ5Q0K00",
+    "name": "Radiant Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!nr5IEcqzexWM2mfR",
+    "_id": "nr5IEcqzexWM2mfR",
+    "name": "Dexterity Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!oA0sjAn5gZxPI1ci",
+    "_id": "oA0sjAn5gZxPI1ci",
+    "name": "Burrow Speed",
+    "description": ""
+  },
+  {
+    "key": "!effects!oaTpD7Z8nniaEWcB",
+    "_id": "oaTpD7Z8nniaEWcB",
+    "name": "Investigation Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!ozREFmXSIp6yaJQh",
+    "_id": "ozREFmXSIp6yaJQh",
+    "name": "Intimidation Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!pR4FqLNSJAimDQhu",
+    "_id": "pR4FqLNSJAimDQhu",
+    "name": "Incapacitated Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!phbeffAuraLife00",
+    "_id": "phbeffAuraLife00",
+    "name": "Aura of Life",
+    "description": "<p>While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can’t be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains [[/healing 1 type=healing]]{1 Hit Point}.</p>"
+  },
+  {
+    "key": "!effects!phbeffSilenced00",
+    "_id": "phbeffSilenced00",
+    "name": "Silenced",
+    "description": "<p>Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>"
+  },
+  {
+    "key": "!effects!pkByuQ5fLF5opCQ0",
+    "_id": "pkByuQ5fLF5opCQ0",
+    "name": "Fire Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!qdNUKUQH17usq2ET",
+    "_id": "qdNUKUQH17usq2ET",
+    "name": "Nature Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!rDWzxRFxThPm9sHe",
+    "_id": "rDWzxRFxThPm9sHe",
+    "name": "Wisdom Check & Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!rFipUvJNQ4QTA8I4",
+    "_id": "rFipUvJNQ4QTA8I4",
+    "name": "Stunned",
+    "description": ""
+  },
+  {
+    "key": "!effects!rOc7VlydDyh09FvR",
+    "_id": "rOc7VlydDyh09FvR",
+    "name": "Piercing Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!ryGbnbaNnIOEHvHG",
+    "_id": "ryGbnbaNnIOEHvHG",
+    "name": "Silenced",
+    "description": ""
+  },
+  {
+    "key": "!effects!s4VzIMyPYq0UNmbB",
+    "_id": "s4VzIMyPYq0UNmbB",
+    "name": "Sleight of Hand Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!sCl2mfz9UDxoXB4z",
+    "_id": "sCl2mfz9UDxoXB4z",
+    "name": "Charisma Check & Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!sLQjVYQSNAR7SoY4",
+    "_id": "sLQjVYQSNAR7SoY4",
+    "name": "Thunder Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!sOXruleMfwKrm8SK",
+    "_id": "sOXruleMfwKrm8SK",
+    "name": "Restrained Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!sQKTmjuWongUD7w1",
+    "_id": "sQKTmjuWongUD7w1",
+    "name": "Climb Speed",
+    "description": ""
+  },
+  {
+    "key": "!effects!sgfuwKLtw9XgV6h0",
+    "_id": "sgfuwKLtw9XgV6h0",
+    "name": "Intelligence Check & Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!tfvjSB5c726MJR2i",
+    "_id": "tfvjSB5c726MJR2i",
+    "name": "Strength Check & Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!uQHKYBvYqDy8x1QC",
+    "_id": "uQHKYBvYqDy8x1QC",
+    "name": "Malnutrition Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!vbQ397LPz1RzgNAO",
+    "_id": "vbQ397LPz1RzgNAO",
+    "name": "Deception Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!w9J7VZ6K2mg7Alkj",
+    "_id": "w9J7VZ6K2mg7Alkj",
+    "name": "Bleeding",
+    "description": ""
+  },
+  {
+    "key": "!effects!wAnw5y4atBxNJHUP",
+    "_id": "wAnw5y4atBxNJHUP",
+    "name": "Poisoned",
+    "description": ""
+  },
+  {
+    "key": "!effects!wIj8t3TYjeesluNg",
+    "_id": "wIj8t3TYjeesluNg",
+    "name": "Exhaustion Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!wRwIy1R51UxYOywg",
+    "_id": "wRwIy1R51UxYOywg",
+    "name": "Lightning Vulnerability",
+    "description": ""
+  },
+  {
+    "key": "!effects!x6PgAFR4cn71cXUc",
+    "_id": "x6PgAFR4cn71cXUc",
+    "name": "Investigation Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!xExoI57R83IY0TdA",
+    "_id": "xExoI57R83IY0TdA",
+    "name": "Malnutrition",
+    "description": ""
+  },
+  {
+    "key": "!effects!xL97BshhkbKAWoJ9",
+    "_id": "xL97BshhkbKAWoJ9",
+    "name": "Intelligence Check & Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!xT5krQRxdo9yJa7I",
+    "_id": "xT5krQRxdo9yJa7I",
+    "name": "Strength Check Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!y6KvIwD5qINhJpoQ",
+    "_id": "y6KvIwD5qINhJpoQ",
+    "name": "Cold Immunity",
+    "description": ""
+  },
+  {
+    "key": "!effects!ybOG05v9AYCNnkV1",
+    "_id": "ybOG05v9AYCNnkV1",
+    "name": "Wisdom Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!effects!ykvqiqfDfrq5VK1F",
+    "_id": "ykvqiqfDfrq5VK1F",
+    "name": "Burning",
+    "description": ""
+  },
+  {
+    "key": "!effects!ym9IrYvM7nCXrS7w",
+    "_id": "ym9IrYvM7nCXrS7w",
+    "name": "Poison Resistance",
+    "description": ""
+  },
+  {
+    "key": "!effects!zC8CJgO55Qj3OhMf",
+    "_id": "zC8CJgO55Qj3OhMf",
+    "name": "Nature Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!0Ch2NOcABVIoN3cQ",
+    "_id": "0Ch2NOcABVIoN3cQ",
+    "name": "Ability Check Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!BLBEEFR859fCf2zo",
+    "_id": "BLBEEFR859fCf2zo",
+    "name": "Speeds",
+    "description": ""
+  },
+  {
+    "key": "!folders!IfLBBXmSvJFGNJaF",
+    "_id": "IfLBBXmSvJFGNJaF",
+    "name": "Conditions",
+    "description": ""
+  },
+  {
+    "key": "!folders!Ix7AOd1FAYuhH9YR",
+    "_id": "Ix7AOd1FAYuhH9YR",
+    "name": "Ability Check Advantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!QfUaAOa3udWlEnHu",
+    "_id": "QfUaAOa3udWlEnHu",
+    "name": "Ability Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!S6zKFxo3qIGxZNaU",
+    "_id": "S6zKFxo3qIGxZNaU",
+    "name": "Skill Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!TxqYeqxORIBFjl3d",
+    "_id": "TxqYeqxORIBFjl3d",
+    "name": "Damage Vulnerabilities",
+    "description": ""
+  },
+  {
+    "key": "!folders!iDHeF0EnK8tpVcgP",
+    "_id": "iDHeF0EnK8tpVcgP",
+    "name": "Skill Advantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!m7bI2qqrnUPGPIjj",
+    "_id": "m7bI2qqrnUPGPIjj",
+    "name": "Damage Resistances",
+    "description": ""
+  },
+  {
+    "key": "!folders!qzel1ixDUyfRqtnx",
+    "_id": "qzel1ixDUyfRqtnx",
+    "name": "Ability Check & Save Advantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!tlwRMODOZMa8Cksf",
+    "_id": "tlwRMODOZMa8Cksf",
+    "name": "Condition Immunities",
+    "description": ""
+  },
+  {
+    "key": "!folders!w70rfvAVNHLuTPv3",
+    "_id": "w70rfvAVNHLuTPv3",
+    "name": "Damage Immunities",
+    "description": ""
+  },
+  {
+    "key": "!folders!xOsCK7cF2ShkrOva",
+    "_id": "xOsCK7cF2ShkrOva",
+    "name": "Spells",
+    "description": ""
+  },
+  {
+    "key": "!folders!zX7dq2VCicNsJHkm",
+    "_id": "zX7dq2VCicNsJHkm",
+    "name": "Ability Save Disadvantage",
+    "description": ""
+  },
+  {
+    "key": "!folders!ztAkpaLIq8dNc0jS",
+    "_id": "ztAkpaLIq8dNc0jS",
+    "name": "Ability Check & Save Disadvantage",
+    "description": ""
+  }
+]
