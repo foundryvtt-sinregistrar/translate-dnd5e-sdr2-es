@@ -4,9 +4,10 @@ import { advancementById } from "./converters/advancement-by-id.js";
 import { journalPagesById } from "./converters/journalPagesById.js";
 import { journalEntryFullById } from "./converters/journalEntryFullById.js";
 import { actorFullById } from "./converters/actorFullById.js";
+import { tableResultsByRange } from "./converters/table-results.js";
 
 Hooks.once("babele.init", (babele) => {
-  if (!babele?.registerConverters) return;
+    if (!babele?.registerConverters) return;
 
     babele.registerConverters({
         activities,
@@ -14,8 +15,12 @@ Hooks.once("babele.init", (babele) => {
         advancementById,
         journalPagesById,
         journalEntryFullById,
-        actorFullById
+        actorFullById,
+        tableResultsByRange
     });
 
-    console.log("[Babele - translate-dnd5e-sdr2-es] Converters registered:", Object.keys(babele.converters ?? {}));
+    console.log(
+        "[Babele - translate-dnd5e-sdr2-es] Converters registered:",
+        Object.keys(babele.converters ?? {})
+    );
 });

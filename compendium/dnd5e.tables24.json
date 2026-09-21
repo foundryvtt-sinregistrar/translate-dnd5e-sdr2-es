@@ -1,5 +1,13 @@
 {
   "label": "Tablas aleatorias ",
+  "mapping": {
+    "name": "name",
+    "description": "description",
+    "results": {
+      "path": "results",
+      "converter": "tableResultsByRange"
+    }
+  },
   "folders": {
     "Bag of Tricks": "Bolsa de trucos",
     "Creating a Character": "Crear un personaje",
