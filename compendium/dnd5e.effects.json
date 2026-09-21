@@ -1,0 +1,547 @@
+{
+  "label": "Efectos activos",
+  "mapping": {
+    "name": "name",
+    "description": "description"
+  },
+  "folders": {
+    "Ability Check & Save Advantage": "Ventaja en pruebas de característica y tiradas de salvación",
+    "Ability Check & Save Disadvantage": "Desventaja en pruebas de característica y tiradas de salvación",
+    "Ability Check Advantage": "Ventaja en pruebas de característica",
+    "Ability Check Disadvantage": "Desventaja en pruebas de característica",
+    "Ability Save Advantage": "Ventaja en tiradas de salvación",
+    "Ability Save Disadvantage": "Desventaja en tiradas de salvación",
+    "Condition Immunities": "Inmunidades a estados",
+    "Conditions": "Estados",
+    "Damage Immunities": "Inmunidades al daño",
+    "Damage Resistances": "Resistencias al daño",
+    "Damage Vulnerabilities": "Vulnerabilidades al daño",
+    "Skill Advantage": "Ventaja en habilidades",
+    "Skill Disadvantage": "Desventaja en habilidades",
+    "Speeds": "Velocidades",
+    "Spells": "Conjuros"
+  },
+  "entries": {
+    "e46IrPKA531h2afv": {
+      "name": "Inmunidad al daño ácido"
+    },
+    "LgYCf64lsSs9CMJT": {
+      "name": "Resistencia al daño ácido"
+    },
+    "4lxRFMoPPmHBbCwo": {
+      "name": "Vulnerabilidad al daño ácido"
+    },
+    "UaSY9DRoZqru3Sj7": {
+      "name": "Ventaja en Acrobacias"
+    },
+    "3ZUqO7Jc3IW2qumP": {
+      "name": "Desventaja en Acrobacias"
+    },
+    "IvrsClxeIKZWJX0I": {
+      "name": "Ventaja en Trato con animales"
+    },
+    "BLZ8YbkZq9Dc6zRI": {
+      "name": "Desventaja en Trato con animales"
+    },
+    "UpzSOFh2sWTcwefA": {
+      "name": "Ventaja en Conocimiento arcano"
+    },
+    "GUtgQhjgiygtu6ps": {
+      "name": "Desventaja en Conocimiento arcano"
+    },
+    "XhPg723xAiky2qjb": {
+      "name": "Ventaja en Atletismo"
+    },
+    "8WT3CBUvNfhFJmPg": {
+      "name": "Desventaja en Atletismo"
+    },
+    "phbeffAuraLife00": {
+      "name": "Aura de vida",
+      "description": "<p>Mientras estéis dentro del aura, tú y tus aliados tenéis resistencia al daño necrótico y vuestros máximos de puntos de golpe no pueden reducirse. Si un aliado con 0 puntos de golpe comienza su turno dentro del aura, recupera [[/healing 1 type=healing]]{1 punto de golpe}.</p>"
+    },
+    "w9J7VZ6K2mg7Alkj": {
+      "name": "Sangrado"
+    },
+    "eB29DeMuCvIVt7u4": {
+      "name": "Inmunidad: Sangrado"
+    },
+    "4odkdDU1wBQrCMJ1": {
+      "name": "Cegado"
+    },
+    "6cNt7ad8fjnIpC8L": {
+      "name": "Inmunidad: Cegado"
+    },
+    "0bUM3GtoOpK0eR0t": {
+      "name": "Inmunidad al daño contundente"
+    },
+    "O6zfaImuJIxdGHdF": {
+      "name": "Resistencia al daño contundente"
+    },
+    "8etjDfyNy6dUTzhX": {
+      "name": "Vulnerabilidad al daño contundente"
+    },
+    "ykvqiqfDfrq5VK1F": {
+      "name": "En llamas"
+    },
+    "8CrdBKaIjAe1xF6T": {
+      "name": "Inmunidad: En llamas"
+    },
+    "oA0sjAn5gZxPI1ci": {
+      "name": "Velocidad de excavación"
+    },
+    "OFsq69ZhONaUlBip": {
+      "name": "Ventaja en pruebas y tiradas de salvación de Carisma"
+    },
+    "sCl2mfz9UDxoXB4z": {
+      "name": "Desventaja en pruebas y tiradas de salvación de Carisma"
+    },
+    "MZ87jWtR73ijRHYr": {
+      "name": "Ventaja en pruebas de Carisma"
+    },
+    "DaRKlVGHpDwsBWWH": {
+      "name": "Desventaja en pruebas de Carisma"
+    },
+    "MG0y1VjFfKPr6hpz": {
+      "name": "Ventaja en tiradas de salvación de Carisma"
+    },
+    "K4DAIKRggIdidBug": {
+      "name": "Desventaja en tiradas de salvación de Carisma"
+    },
+    "9AQYUpfcUn1TkZEn": {
+      "name": "Hechizado"
+    },
+    "kIFsUsTmIRytNDhX": {
+      "name": "Inmunidad: Hechizado"
+    },
+    "sQKTmjuWongUD7w1": {
+      "name": "Velocidad de escalada"
+    },
+    "y6KvIwD5qINhJpoQ": {
+      "name": "Inmunidad al daño frío"
+    },
+    "O9xghs0pD5GnHYhZ": {
+      "name": "Resistencia al daño frío"
+    },
+    "h8nkaCeMxO5JasX0": {
+      "name": "Vulnerabilidad al daño frío"
+    },
+    "DyXvgCXfPPF6z89X": {
+      "name": "Ventaja en pruebas y tiradas de salvación de Constitución"
+    },
+    "PXKJ0S3hSA5D4SNm": {
+      "name": "Desventaja en pruebas y tiradas de salvación de Constitución"
+    },
+    "JtYhe4odaWHHAlmn": {
+      "name": "Ventaja en pruebas de Constitución"
+    },
+    "mx8msprfXNy9D0oi": {
+      "name": "Desventaja en pruebas de Constitución"
+    },
+    "FJgL1GTnoHJmnWfs": {
+      "name": "Ventaja en tiradas de salvación de Constitución"
+    },
+    "Vpqo33uPjYn9NswL": {
+      "name": "Desventaja en tiradas de salvación de Constitución"
+    },
+    "9KCHWEiXNNU8ktGA": {
+      "name": "Maldito"
+    },
+    "LgpJ3HeKlMtM2Ukr": {
+      "name": "Inmunidad: Maldito"
+    },
+    "VgKR27ZE6Z3Utiv7": {
+      "name": "Inmunidad al daño"
+    },
+    "3S76svPJwDlQqpO7": {
+      "name": "Resistencia al daño"
+    },
+    "OdQ1asxcW6nN7lTo": {
+      "name": "Vulnerabilidad al daño"
+    },
+    "clPiz851aOUtuZ3f": {
+      "name": "Ensordecido"
+    },
+    "IQmn1ydzwVswM7gn": {
+      "name": "Inmunidad: Ensordecido"
+    },
+    "7JnP4TMIbonHe8bY": {
+      "name": "Ventaja en Engaño"
+    },
+    "vbQ397LPz1RzgNAO": {
+      "name": "Desventaja en Engaño"
+    },
+    "c5CkG3XDA5xfxpDM": {
+      "name": "Deshidratación"
+    },
+    "fTfZTLw6GfBiv2cG": {
+      "name": "Inmunidad: Deshidratación"
+    },
+    "UhLFe1AK4pbHb9Iq": {
+      "name": "Ventaja en pruebas y tiradas de salvación de Destreza"
+    },
+    "UuKMsm4KI1NiwbFo": {
+      "name": "Desventaja en pruebas y tiradas de salvación de Destreza"
+    },
+    "lNdERhFVVABsewos": {
+      "name": "Ventaja en pruebas de Destreza"
+    },
+    "PiXla1hbQnIJvSQ3": {
+      "name": "Desventaja en pruebas de Destreza"
+    },
+    "l3FuifHVWle5J21v": {
+      "name": "Ventaja en tiradas de salvación de Destreza"
+    },
+    "nr5IEcqzexWM2mfR": {
+      "name": "Desventaja en tiradas de salvación de Destreza"
+    },
+    "KicPINVPkRrEpA7u": {
+      "name": "Enfermo"
+    },
+    "MoGiW6isP2TvLpeR": {
+      "name": "Inmunidad: Enfermo"
+    },
+    "wIj8t3TYjeesluNg": {
+      "name": "Inmunidad: Agotamiento"
+    },
+    "BQCAZYONY9Uj9eB8": {
+      "name": "Caída"
+    },
+    "NoRthNkIU2NffeHh": {
+      "name": "Inmunidad: Caída"
+    },
+    "pkByuQ5fLF5opCQ0": {
+      "name": "Inmunidad al daño fuego"
+    },
+    "QM7b36MGNpZhgazC": {
+      "name": "Resistencia al daño fuego"
+    },
+    "QyJikF1or8qrvhTl": {
+      "name": "Vulnerabilidad al daño fuego"
+    },
+    "h8FIaFzsQaEWAlAj": {
+      "name": "Velocidad de vuelo"
+    },
+    "GFI67RamgYpG4nzW": {
+      "name": "Inmunidad al daño fuerza"
+    },
+    "6iFyLFsU5Hm6DujQ": {
+      "name": "Resistencia al daño fuerza"
+    },
+    "PU1nnTVTgbfk2jEx": {
+      "name": "Vulnerabilidad al daño fuerza"
+    },
+    "OpCz3oGBfDZfxAlt": {
+      "name": "Asustado"
+    },
+    "VBptbH2lEwM67wkM": {
+      "name": "Inmunidad: Asustado"
+    },
+    "DoHlDRcjgby463Pp": {
+      "name": "Agarrado"
+    },
+    "CCSMPlFnJRU9w4gB": {
+      "name": "Inmunidad: Agarrado"
+    },
+    "mTzcos78U4qI4P76": {
+      "name": "Ventaja en Historia"
+    },
+    "dRtbQFRGRLYi4FWb": {
+      "name": "Desventaja en Historia"
+    },
+    "ZUJBSrYzFeQWh7kt": {
+      "name": "Incapacitado"
+    },
+    "pR4FqLNSJAimDQhu": {
+      "name": "Inmunidad: Incapacitado"
+    },
+    "lLZ7vmNiA6PxNUbW": {
+      "name": "Ventaja en Iniciativa"
+    },
+    "APHt5RDc5RWe8Y4j": {
+      "name": "Desventaja en Iniciativa"
+    },
+    "Z3UGNBYOLEVK5m5Q": {
+      "name": "Ventaja en Perspicacia"
+    },
+    "YbZ58aL2Dqf2EEBX": {
+      "name": "Desventaja en Perspicacia"
+    },
+    "sgfuwKLtw9XgV6h0": {
+      "name": "Ventaja en pruebas y tiradas de salvación de Inteligencia"
+    },
+    "xL97BshhkbKAWoJ9": {
+      "name": "Desventaja en pruebas y tiradas de salvación de Inteligencia"
+    },
+    "hVl9jSrWpidkpKgk": {
+      "name": "Ventaja en pruebas de Inteligencia"
+    },
+    "KpmyjeorKeslvEsV": {
+      "name": "Desventaja en pruebas de Inteligencia"
+    },
+    "fM3Q4tc6ehaGyk1p": {
+      "name": "Ventaja en tiradas de salvación de Inteligencia"
+    },
+    "eJTAMRkJlwNRJcsk": {
+      "name": "Desventaja en tiradas de salvación de Inteligencia"
+    },
+    "5HlJv9a1SWS0VAgk": {
+      "name": "Ventaja en Intimidación"
+    },
+    "ozREFmXSIp6yaJQh": {
+      "name": "Desventaja en Intimidación"
+    },
+    "x6PgAFR4cn71cXUc": {
+      "name": "Ventaja en Investigación"
+    },
+    "oaTpD7Z8nniaEWcB": {
+      "name": "Desventaja en Investigación"
+    },
+    "QUmDKA6mnK7HoASC": {
+      "name": "Invisible"
+    },
+    "BcntWxyNzDJHNVga": {
+      "name": "Inmunidad: Invisible"
+    },
+    "34qAqi2Dynte5Fyn": {
+      "name": "Inmunidad al daño relámpago"
+    },
+    "ReKGnHejsakwCPu6": {
+      "name": "Resistencia al daño relámpago"
+    },
+    "wRwIy1R51UxYOywg": {
+      "name": "Vulnerabilidad al daño relámpago"
+    },
+    "xExoI57R83IY0TdA": {
+      "name": "Desnutrición"
+    },
+    "uQHKYBvYqDy8x1QC": {
+      "name": "Inmunidad: Desnutrición"
+    },
+    "diFA6M9qKuhlvR1S": {
+      "name": "Ventaja en Medicina"
+    },
+    "C9v8c04c7YnzXcfN": {
+      "name": "Desventaja en Medicina"
+    },
+    "qdNUKUQH17usq2ET": {
+      "name": "Ventaja en Naturaleza"
+    },
+    "zC8CJgO55Qj3OhMf": {
+      "name": "Desventaja en Naturaleza"
+    },
+    "DzXeyu6pTj9PJB54": {
+      "name": "Inmunidad al daño necrótico"
+    },
+    "Ov6uH9J75Acwill4": {
+      "name": "Resistencia al daño necrótico"
+    },
+    "fXEg6Lcz15Q3pybj": {
+      "name": "Vulnerabilidad al daño necrótico"
+    },
+    "3rwsG5WKz6EPDc9R": {
+      "name": "Paralizado"
+    },
+    "XVELAfLOeCkAUwYX": {
+      "name": "Inmunidad: Paralizado"
+    },
+    "1KYRLxls2nXAaKPk": {
+      "name": "Ventaja en Percepción"
+    },
+    "LbCHTFVjUXa1kTG0": {
+      "name": "Desventaja en Percepción"
+    },
+    "YHvGddTrDsGGJJgI": {
+      "name": "Ventaja en Interpretación"
+    },
+    "be9UHtKOz7NgN7L0": {
+      "name": "Desventaja en Interpretación"
+    },
+    "GFulICtJuXMvHEYT": {
+      "name": "Ventaja en Persuasión"
+    },
+    "Qhs7eIvp72o05kks": {
+      "name": "Desventaja en Persuasión"
+    },
+    "JxLxOu6GO8sSRmAD": {
+      "name": "Petrificado"
+    },
+    "NzB1OoqkZEH4k5xj": {
+      "name": "Inmunidad: Petrificado"
+    },
+    "2ilzOR0oB06nL2XS": {
+      "name": "Inmunidad al daño perforante"
+    },
+    "IdNNpjW2XJ9FdmCh": {
+      "name": "Resistencia al daño perforante"
+    },
+    "rOc7VlydDyh09FvR": {
+      "name": "Vulnerabilidad al daño perforante"
+    },
+    "3ij8dEuXERjU4eb4": {
+      "name": "Inmunidad al daño veneno"
+    },
+    "ym9IrYvM7nCXrS7w": {
+      "name": "Resistencia al daño veneno"
+    },
+    "0bR1uQAAn4EDjnrQ": {
+      "name": "Vulnerabilidad al daño veneno"
+    },
+    "wAnw5y4atBxNJHUP": {
+      "name": "Envenenado"
+    },
+    "iDKAOo77qtodPd30": {
+      "name": "Inmunidad: Envenenado"
+    },
+    "UVtVRNlaslbMIsuH": {
+      "name": "Derribado"
+    },
+    "J6mYVZ6B0KmIUQ36": {
+      "name": "Inmunidad: Derribado"
+    },
+    "9CT5ztM4UI3rvHSa": {
+      "name": "Inmunidad al daño psíquico"
+    },
+    "gs15XxV40R4iHoxD": {
+      "name": "Resistencia al daño psíquico"
+    },
+    "D2RjtDfTGqNEpdbO": {
+      "name": "Vulnerabilidad al daño psíquico"
+    },
+    "nRNVi3sZeQ5Q0K00": {
+      "name": "Inmunidad al daño radiante"
+    },
+    "cTO4X1NnWJAe35E2": {
+      "name": "Resistencia al daño radiante"
+    },
+    "IDVBcQaAcUSBZ5Kj": {
+      "name": "Vulnerabilidad al daño radiante"
+    },
+    "hx5WvunZugjs34hG": {
+      "name": "Ventaja en Religión"
+    },
+    "Ni7q3g4T5d8Spnyo": {
+      "name": "Desventaja en Religión"
+    },
+    "XGrVyCOf9Fr8WGJl": {
+      "name": "Apresado"
+    },
+    "sOXruleMfwKrm8SK": {
+      "name": "Inmunidad: Apresado"
+    },
+    "phbeffSilenced00": {
+      "name": "Silenciado",
+      "description": "<p>Cualquier criatura u objeto que esté completamente dentro de la esfera tiene inmunidad al daño de trueno, y las criaturas tienen el estado Ensordecido mientras estén completamente dentro de ella. Allí es imposible lanzar un conjuro que incluya un componente verbal.</p>"
+    },
+    "ryGbnbaNnIOEHvHG": {
+      "name": "Silenciado"
+    },
+    "KS2q2OPJNqsc420v": {
+      "name": "Inmunidad: Silenciado"
+    },
+    "JZObv9fJej0DEyxQ": {
+      "name": "Inmunidad al daño cortante"
+    },
+    "cwurJ5JjwCud9ix8": {
+      "name": "Resistencia al daño cortante"
+    },
+    "0tH4tAoRHFDe8jYO": {
+      "name": "Vulnerabilidad al daño cortante"
+    },
+    "s4VzIMyPYq0UNmbB": {
+      "name": "Ventaja en Juego de manos"
+    },
+    "n8MuvvdUCZV8lphM": {
+      "name": "Desventaja en Juego de manos"
+    },
+    "DSYSCP3ffRtZLezA": {
+      "name": "Ventaja en Sigilo"
+    },
+    "4q5ihWYljkfzL7vG": {
+      "name": "Desventaja en Sigilo"
+    },
+    "hL2o0rv60yz35Ddk": {
+      "name": "Ventaja en pruebas y tiradas de salvación de Fuerza"
+    },
+    "tfvjSB5c726MJR2i": {
+      "name": "Desventaja en pruebas y tiradas de salvación de Fuerza"
+    },
+    "xT5krQRxdo9yJa7I": {
+      "name": "Ventaja en pruebas de Fuerza"
+    },
+    "19CVKoFvBtMaKKLZ": {
+      "name": "Desventaja en pruebas de Fuerza"
+    },
+    "2zaoVr5v1OgFXDwZ": {
+      "name": "Ventaja en tiradas de salvación de Fuerza"
+    },
+    "hLfGfiLEPVONwWAr": {
+      "name": "Desventaja en tiradas de salvación de Fuerza"
+    },
+    "rFipUvJNQ4QTA8I4": {
+      "name": "Aturdido"
+    },
+    "CYzLVWmYNthDNSPS": {
+      "name": "Inmunidad: Aturdido"
+    },
+    "lvsHwbBuaREr4czg": {
+      "name": "Asfixia"
+    },
+    "FCIOt0POaZAJF85w": {
+      "name": "Inmunidad: Asfixia"
+    },
+    "0ivzvyzkvAecusEm": {
+      "name": "Sorprendido"
+    },
+    "HbFihEh8hv0veaqU": {
+      "name": "Inmunidad: Sorprendido"
+    },
+    "d5HR1BdDPtpLNO43": {
+      "name": "Ventaja en Supervivencia"
+    },
+    "JM8zNdUCSATRLlt8": {
+      "name": "Desventaja en Supervivencia"
+    },
+    "gw5xaEbysuecB0k8": {
+      "name": "Velocidad de nado"
+    },
+    "elXQSdecvKd8LfHC": {
+      "name": "Inmunidad al daño trueno"
+    },
+    "QascUtAkYgBnGi9C": {
+      "name": "Resistencia al daño trueno"
+    },
+    "sLQjVYQSNAR7SoY4": {
+      "name": "Vulnerabilidad al daño trueno"
+    },
+    "cpzImXTyBL2ATXDS": {
+      "name": "Transformado"
+    },
+    "bUADefF59IlQvJgm": {
+      "name": "Inmunidad: Transformado"
+    },
+    "HjLkxDzLNBogspf9": {
+      "name": "Inconsciente"
+    },
+    "SJdbgZ9ALmmHi1Q5": {
+      "name": "Inmunidad: Inconsciente"
+    },
+    "rDWzxRFxThPm9sHe": {
+      "name": "Ventaja en pruebas y tiradas de salvación de Sabiduría"
+    },
+    "SidJQtO4ofcIkDUn": {
+      "name": "Desventaja en pruebas y tiradas de salvación de Sabiduría"
+    },
+    "BmqLvBiBbVNa8c1c": {
+      "name": "Ventaja en pruebas de Sabiduría"
+    },
+    "KiZO2ZSYh6385Fbn": {
+      "name": "Desventaja en pruebas de Sabiduría"
+    },
+    "ybOG05v9AYCNnkV1": {
+      "name": "Ventaja en tiradas de salvación de Sabiduría"
+    },
+    "hpIXGEvY1zIjQc0U": {
+      "name": "Desventaja en tiradas de salvación de Sabiduría"
+    }
+  }
+}
