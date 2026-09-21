@@ -1723,7 +1723,7 @@
     },
     "phbinvPactChain0": {
       "name": "Pacto de la cadena",
-      "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como acción de Magia sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales para tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Imp}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Pseudodragon}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Skeleton}, Renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Sphinx of Wonder}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Sprite} o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Venomous Snake}.</p><p>Además, cuando realizas la acción de Atacar, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Summon Familiar</strong> incluye las opciones normales de invocación, y la actividad <strong>Summon Familiar (Expanded Options)</strong> incluye las opciones adicionales.</p></section>",
+      "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como acción de Magia sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales para tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Imp}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Pseudodragon}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Skeleton}, Renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Esfinge de las Maravillas}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Sprite} o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Venomous Snake}.</p><p>Además, cuando realizas la acción de Atacar, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Summon Familiar</strong> incluye las opciones normales de invocación, y la actividad <strong>Summon Familiar (Expanded Options)</strong> incluye las opciones adicionales.</p></section>",
       "activities": {
         "uehA2kfgOCKRIqAs": {
           "name": "Encontrar Familiar"
@@ -2481,7 +2481,7 @@
     },
     "phbpdnPaladinsSm": {
       "name": "Castigo del paladín",
-      "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes terminar un Descanso largo antes de poder lanzarlo de este modo de nuevo.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando alcanzas este nivel, el conjuro Divine Smite se añade a tus conjuros como Siempre preparado y con un uso gratuito.</p></section>"
+      "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo Divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes terminar un Descanso largo antes de poder lanzarlo de este modo de nuevo.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando alcanzas este nivel, el conjuro Divine Smite se añade a tus conjuros como Siempre preparado y con un uso gratuito.</p></section>"
     },
     "phbpdnProtection": {
       "name": "Aura de protección",
@@ -2531,7 +2531,7 @@
     },
     "phbpdnSmiteOfPro": {
       "name": "Castigo de protección",
-      "description": "<p>Tu castigo mágico ahora irradia energía protectora. Siempre que lances @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo divino}, tú y tus aliados tenéis Cobertura media mientras estéis dentro de tu Aura de protección. El aura tiene este beneficio hasta el inicio de tu siguiente turno.</p><section class=\"secret\" id=\"secret-zaNpOup6oPMC6RtV\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto activo que proporciona el estado de Cobertura media, pero no se otorga automáticamente cuando las criaturas entran/salen de tu aura.</p></section>",
+      "description": "<p>Tu castigo mágico ahora irradia energía protectora. Siempre que lances @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo Divino}, tú y tus aliados tenéis Cobertura media mientras estéis dentro de tu Aura de protección. El aura tiene este beneficio hasta el inicio de tu siguiente turno.</p><section class=\"secret\" id=\"secret-zaNpOup6oPMC6RtV\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye un Efecto activo que proporciona el estado de Cobertura media, pero no se otorga automáticamente cuando las criaturas entran/salen de tu aura.</p></section>",
       "effects": {
         "EyWEQv8qPwbXyDmA": {
           "name": "Castigo de Protección"

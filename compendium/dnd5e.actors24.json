@@ -1,5 +1,24 @@
 {
   "label": "Actores",
+  "mapping": {
+    "items": {
+      "path": "items",
+      "converter": "document",
+      "documentType": "Item",
+      "cardinality": "many",
+      "mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "activities"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "advancementById"
+        }
+      }
+    },
+    "biography": "system.details.biography.value"
+  },
   "folders": {
     "Conjured Elementals": "Elementales conjurados",
     "Otherworldly Steeds": "Corceles de otro mundo",
@@ -1631,7 +1650,7 @@
               "name": "Escudo +2"
             }
           },
-          "name": "Escudo +2"
+          "name": "Escudo"
         },
         "vn7t8nrEqKMYv9ya": {
           "activities": {},
@@ -2473,7 +2492,7 @@
               "name": "Escudo +3"
             }
           },
-          "name": "Escudo +3"
+          "name": "Escudo"
         },
         "vn7t8nrEqKMYv9ya": {
           "activities": {},
@@ -2985,7 +3004,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "PC4BrUcf3LeplS7g": {
           "activities": {},
@@ -3553,7 +3572,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "PC4BrUcf3LeplS7g": {
           "activities": {},
@@ -4240,7 +4259,7 @@
               "name": "Escudo +2"
             }
           },
-          "name": "Escudo +2"
+          "name": "Escudo"
         },
         "PC4BrUcf3LeplS7g": {
           "activities": {},
@@ -7360,7 +7379,7 @@
         },
         "pMyh0eFWYivTuWyp": {
           "activities": {},
-          "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes finalizar un Descanso Largo antes de poder volver a lanzarlo de esta forma.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Al alcanzar este nivel, el conjuro Castigo Divino se añade a tus conjuros como Siempre Preparado y con un uso gratuito.</p></section>",
+          "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo Divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes finalizar un Descanso Largo antes de poder volver a lanzarlo de esta forma.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Al alcanzar este nivel, el conjuro Castigo Divino se añade a tus conjuros como Siempre Preparado y con un uso gratuito.</p></section>",
           "effects": {},
           "name": "Castigo del Paladín"
         },
@@ -7382,7 +7401,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "pmsyJQcJQAmHGUVU": {
           "activities": {},
@@ -7797,7 +7816,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Martillo de Guerra +1"
+          "name": "Martillo de Guerra"
         },
         "bfKeJhfZRZKMdKIY": {
           "activities": {},
@@ -7943,7 +7962,7 @@
         },
         "pMyh0eFWYivTuWyp": {
           "activities": {},
-          "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes terminar un Descanso Largo antes de poder volver a lanzarlo de esta manera.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando alcanzas este nivel, el conjuro Golpe Divino se añade a tus conjuros como Siempre Preparado y con un uso gratuito.</p></section>",
+          "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo Divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes terminar un Descanso Largo antes de poder volver a lanzarlo de esta manera.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando alcanzas este nivel, el conjuro Golpe Divino se añade a tus conjuros como Siempre Preparado y con un uso gratuito.</p></section>",
           "effects": {},
           "name": "Golpe del Paladín"
         },
@@ -7965,7 +7984,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "pmsyJQcJQAmHGUVU": {
           "activities": {},
@@ -8040,7 +8059,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de Placas +1"
+          "name": "Armadura de Placas"
         },
         "yI6BLDHbMW6dVosd": {
           "activities": {},
@@ -8548,7 +8567,7 @@
         },
         "iGWgp9sVKuuRX5Y2": {
           "activities": {},
-          "description": "<p>Tu golpe divino ahora irradia energía protectora. Siempre que lances @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo divino}, tú y tus aliados tenéis Media cobertura mientras estéis dentro de tu Aura de protección. El aura mantiene este beneficio hasta el comienzo de tu siguiente turno.</p><section class=\"secret\" id=\"secret-zaNpOup6oPMC6RtV\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que proporciona el estado de Media cobertura, pero no se concede automáticamente cuando las criaturas entran o salen de tu aura.</p></section>",
+          "description": "<p>Tu golpe divino ahora irradia energía protectora. Siempre que lances @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo Divino}, tú y tus aliados tenéis Media cobertura mientras estéis dentro de tu Aura de protección. El aura mantiene este beneficio hasta el comienzo de tu siguiente turno.</p><section class=\"secret\" id=\"secret-zaNpOup6oPMC6RtV\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que proporciona el estado de Media cobertura, pero no se concede automáticamente cuando las criaturas entran o salen de tu aura.</p></section>",
           "effects": {
             "EyWEQv8qPwbXyDmA": {
               "name": "Golpe de Protección"
@@ -8641,7 +8660,7 @@
         },
         "pMyh0eFWYivTuWyp": {
           "activities": {},
-          "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes terminar un Descanso Largo antes de poder volver a lanzarlo de esta manera.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando alcanzas este nivel, el conjuro Golpe Divino se añade a tus conjuros como Siempre Preparado y con un uso gratuito.</p></section>",
+          "description": "<p>Siempre tienes preparado el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Castigo Divino}. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes terminar un Descanso Largo antes de poder volver a lanzarlo de esta manera.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando alcanzas este nivel, el conjuro Golpe Divino se añade a tus conjuros como Siempre Preparado y con un uso gratuito.</p></section>",
           "effects": {},
           "name": "Golpe del Paladín"
         },
@@ -8669,7 +8688,7 @@
               "name": "Escudo +2"
             }
           },
-          "name": "Escudo +2"
+          "name": "Escudo"
         },
         "pmsyJQcJQAmHGUVU": {
           "activities": {},
@@ -8766,7 +8785,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de placas +1"
+          "name": "Armadura de placas"
         },
         "yI6BLDHbMW6dVosd": {
           "activities": {},
@@ -9312,7 +9331,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Pica +1"
+          "name": "Pica"
         },
         "7nHPYFob0vjlhbfL": {
           "activities": {},
@@ -9609,7 +9628,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Alabarda +1"
+          "name": "Alabarda"
         },
         "vYJD8S5kZvt92Wlv": {
           "activities": {},
@@ -10708,13 +10727,13 @@
               "name": "Mago De Guerra +2"
             },
             "PtLtUhHFHWFEucKI": {
-              "name": "Varita of the War Mago, +1"
+              "name": "Varita del Mago de Guerra, +1"
             },
             "SFY8CKGMj5DGVhbJ": {
-              "name": "War Mago +1"
+              "name": "Mago de Guerra +1"
             }
           },
-          "name": "Vara del mago de guerra, +2"
+          "name": "Vara del mago de guerra"
         },
         "ZEqp8PZRCOUPVwmG": {
           "activities": {},
@@ -11363,7 +11382,7 @@
               "name": "Mago De Batalla +2"
             }
           },
-          "name": "Vara del mago de batalla, +2"
+          "name": "Vara del mago de batalla"
         },
         "ZEqp8PZRCOUPVwmG": {
           "activities": {},
@@ -12280,7 +12299,7 @@
               "name": "Vara Del Mago De Guerra, +3"
             }
           },
-          "name": "Vara del mago de guerra, +3"
+          "name": "Vara del mago de guerra"
         },
         "ZEqp8PZRCOUPVwmG": {
           "activities": {},
@@ -15657,7 +15676,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         }
       }
     },
@@ -16055,7 +16074,7 @@
               "name": "Munición +2"
             }
           },
-          "name": "Flechas +2"
+          "name": "Flechas"
         },
         "WyVga5iUa1gmsOHD": {
           "activities": {},
@@ -16141,7 +16160,7 @@
               "name": "Munición +1"
             }
           },
-          "name": "Flechas +1"
+          "name": "Flechas"
         },
         "gRtGvsb8FEvgcJfy": {
           "activities": {},
@@ -16218,7 +16237,7 @@
               "name": "Arma +2"
             }
           },
-          "name": "Espada corta +2"
+          "name": "Espada corta"
         },
         "lRBFgh2CaamaP6fP": {
           "activities": {},
@@ -16413,7 +16432,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         }
       }
     },
@@ -18493,7 +18512,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         },
         "fb89Fh4dNtjBYQQ1": {
           "activities": {},
@@ -18515,7 +18534,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Arco corto +1"
+          "name": "Arco corto"
         },
         "iSK720h4AStmW1uw": {
           "activities": {},
@@ -19363,7 +19382,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         },
         "fb89Fh4dNtjBYQQ1": {
           "activities": {},
@@ -19395,7 +19414,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Arco corto +1"
+          "name": "Arco corto"
         },
         "iSK720h4AStmW1uw": {
           "activities": {},
@@ -19804,7 +19823,7 @@
         },
         "a3A08dvtpQZsDnQb": {
           "activities": {},
-          "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como Acción mágica sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales para tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Diablillo}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Seudodragón}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Esqueleto}, Renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Esfinge prodigiosa}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Duende} o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Serpiente venenosa}.</p><p>Además, cuando realizas la acción Atacar, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Invocar familiar</strong> incluye las opciones normales de invocación y la actividad <strong>Invocar familiar (opciones ampliadas)</strong> incluye las opciones adicionales.</p></section>",
+          "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como Acción mágica sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales para tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Diablillo}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Seudodragón}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Esqueleto}, Renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Esfinge de las Maravillas}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Duende} o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Serpiente venenosa}.</p><p>Además, cuando realizas la acción Atacar, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Invocar familiar</strong> incluye las opciones normales de invocación y la actividad <strong>Invocar familiar (opciones ampliadas)</strong> incluye las opciones adicionales.</p></section>",
           "effects": {},
           "name": "Pacto de la cadena"
         },
@@ -20156,7 +20175,7 @@
               "name": "Mago de Guerra +1"
             }
           },
-          "name": "Varita del Mago de Guerra, +1"
+          "name": "Varita del Mago de Guerra"
         },
         "NyFdKUuLRhUSwQwS": {
           "activities": {},
@@ -20774,7 +20793,7 @@
               "name": "Mago de Guerra +2"
             }
           },
-          "name": "Varita del mago de guerra, +2"
+          "name": "Varita del mago de guerra"
         },
         "Ntgurh8vPJgMhqGd": {
           "activities": {},
@@ -20922,7 +20941,7 @@
         },
         "a3A08dvtpQZsDnQb": {
           "activities": {},
-          "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como una acción de Magia sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales para tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Imp}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Pseudodragon}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Skeleton}, renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Sphinx of Wonder}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Sprite} o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Venomous Snake}.</p><p>Además, cuando realices la acción de Atacar, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque propio con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Invocar familiar</strong> incluye las opciones normales de invocación y la actividad <strong>Invocar familiar (opciones ampliadas)</strong> incluye las opciones adicionales.</p></section>",
+          "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como una acción de Magia sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales para tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Imp}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Pseudodragon}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Skeleton}, renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Esfinge de las Maravillas}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Sprite} o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Venomous Snake}.</p><p>Además, cuando realices la acción de Atacar, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque propio con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Invocar familiar</strong> incluye las opciones normales de invocación y la actividad <strong>Invocar familiar (opciones ampliadas)</strong> incluye las opciones adicionales.</p></section>",
           "effects": {},
           "name": "Pacto de la cadena"
         },
@@ -21648,7 +21667,7 @@
               "name": "Mago de Guerra +2"
             }
           },
-          "name": "Vara del mago de guerra, +2"
+          "name": "Vara del mago de guerra"
         },
         "Ntgurh8vPJgMhqGd": {
           "activities": {},
@@ -21818,7 +21837,7 @@
         },
         "a3A08dvtpQZsDnQb": {
           "activities": {},
-          "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como una acción Mágica sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales de tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Diablillo}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Pseudodragón}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Esqueleto}, Renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Esfinge de la maravilla}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Duendecillo}, o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Serpiente venenosa}.</p><p>Además, cuando realizas la acción de Ataque, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque propio con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Invocar familiar</strong> incluye las opciones normales de invocación y la actividad <strong>Invocar familiar (opciones ampliadas)</strong> incluye las opciones adicionales.</p></section>",
+          "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Encontrar familiar} y puedes lanzarlo como una acción Mágica sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, eliges una de las formas normales de tu familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.actors24.Actor.mmImp00000000000]{Diablillo}, @UUID[Compendium.dnd5e.actors24.Actor.mmPseudodragon00]{Pseudodragón}, @UUID[Compendium.dnd5e.actors24.Actor.mmQuasit00000000]{Quasit}, @UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Esqueleto}, Renacuajo slaad, @UUID[Compendium.dnd5e.actors24.Actor.mmSphinxOfWonder]{Esfinge de las Maravillas}, @UUID[Compendium.dnd5e.actors24.Actor.mmSprite00000000]{Duendecillo}, o @UUID[Compendium.dnd5e.actors24.Actor.mmVenomousSnake0]{Serpiente venenosa}.</p><p>Además, cuando realizas la acción de Ataque, puedes renunciar a uno de tus propios ataques para permitir que tu familiar realice un ataque propio con su Reacción.</p><section class=\"secret\" id=\"secret-aKbhLPfPD3R9Y1KL\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Invocar familiar</strong> incluye las opciones normales de invocación y la actividad <strong>Invocar familiar (opciones ampliadas)</strong> incluye las opciones adicionales.</p></section>",
           "effects": {},
           "name": "Pacto de la cadena"
         },
@@ -38344,7 +38363,7 @@
       }
     },
     "mmSphinxOfLore00": {
-      "name": "Esfinge del saber",
+      "name": "Esfinge del Saber",
       "biography": "<h1>Esfinges</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.JPdmXY7WGZdIPlJo caption=false cite=false classes=\"no-embed mm free-rules-embed\"]</p><p><em>Ilustración del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Celestial",
       "effects": {},
@@ -38524,7 +38543,7 @@
       }
     },
     "mmSphinxOfValor0": {
-      "name": "Esfinge del valor",
+      "name": "Esfinge del Valor",
       "biography": "<h1>Esfinges</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.JPdmXY7WGZdIPlJo caption=false cite=false classes=\"no-embed mm free-rules-embed\"]</p><p><em>Ilustración del token por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
       "folder": "Celestial",
       "effects": {},
@@ -38676,8 +38695,8 @@
       }
     },
     "mmSphinxOfWonder": {
-      "name": "Esfinge de las maravillas",
-      "biography": "<h1>Esfinges</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.JPdmXY7WGZdIPlJo caption=false cite=false classes=\"no-embed mm free-rules-embed\"]</p><h2>Esfinge de las maravillas</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.knvt7pCk5slbRRf0 caption=false cite=false classes=\"no-embed mm free-rules-embed\"]</p>",
+      "name": "Esfinge de las Maravillas",
+      "biography": "<h1>Esfinges</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.JPdmXY7WGZdIPlJo caption=false cite=false classes=\"no-embed mm free-rules-embed\"]</p><h2>Esfinge de las Maravillas</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.knvt7pCk5slbRRf0 caption=false cite=false classes=\"no-embed mm free-rules-embed\"]</p>",
       "folder": "Celestial",
       "effects": {},
       "items": {
