@@ -1,7 +1,7 @@
 {
   "id": "translate-dnd5e-sdr2-es",
-  "title": "D&D 5e SRD 2024 Spanish Translation (Babele)",
-  "description": "Spanish translation for the official D&D 5e SRD 2024 compendiums using Babele. Includes structured mappings, activities, effects, and semantic normalization.",
+  "title": "Translation: DnD5e SRD 5.2 2024 Spanish Translation (Babele)",
+  "description": "Spanish translation for the official D&D 5e SRD 5.2 2024 compendiums using Babele. Includes structured mappings, activities, effects, and semantic normalization.",
   "version": "1.14.1",
   "compatibility": {
     "minimum": "13",

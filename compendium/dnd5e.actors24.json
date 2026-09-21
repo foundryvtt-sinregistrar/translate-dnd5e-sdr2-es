@@ -1,5 +1,19 @@
 {
   "label": "Actores",
+  "mapping": {
+    "items": {
+      "path": "items",
+      "converter": "document",
+      "documentType": "Item",
+      "cardinality": "many",
+      "mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "activities"
+        }
+      }
+    }
+  },
   "folders": {
     "Conjured Elementals": "Elementales conjurados",
     "Otherworldly Steeds": "Corceles de otro mundo",
@@ -1631,7 +1645,7 @@
               "name": "Escudo +2"
             }
           },
-          "name": "Escudo +2"
+          "name": "Escudo"
         },
         "vn7t8nrEqKMYv9ya": {
           "activities": {},
@@ -2473,7 +2487,7 @@
               "name": "Escudo +3"
             }
           },
-          "name": "Escudo +3"
+          "name": "Escudo"
         },
         "vn7t8nrEqKMYv9ya": {
           "activities": {},
@@ -2985,7 +2999,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "PC4BrUcf3LeplS7g": {
           "activities": {},
@@ -3553,7 +3567,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "PC4BrUcf3LeplS7g": {
           "activities": {},
@@ -4240,7 +4254,7 @@
               "name": "Escudo +2"
             }
           },
-          "name": "Escudo +2"
+          "name": "Escudo"
         },
         "PC4BrUcf3LeplS7g": {
           "activities": {},
@@ -7382,7 +7396,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "pmsyJQcJQAmHGUVU": {
           "activities": {},
@@ -7797,7 +7811,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Martillo de Guerra +1"
+          "name": "Martillo de Guerra"
         },
         "bfKeJhfZRZKMdKIY": {
           "activities": {},
@@ -7965,7 +7979,7 @@
               "name": "Escudo +1"
             }
           },
-          "name": "Escudo +1"
+          "name": "Escudo"
         },
         "pmsyJQcJQAmHGUVU": {
           "activities": {},
@@ -8040,7 +8054,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de Placas +1"
+          "name": "Armadura de Placas"
         },
         "yI6BLDHbMW6dVosd": {
           "activities": {},
@@ -8669,7 +8683,7 @@
               "name": "Escudo +2"
             }
           },
-          "name": "Escudo +2"
+          "name": "Escudo"
         },
         "pmsyJQcJQAmHGUVU": {
           "activities": {},
@@ -8766,7 +8780,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de placas +1"
+          "name": "Armadura de placas"
         },
         "yI6BLDHbMW6dVosd": {
           "activities": {},
@@ -9312,7 +9326,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Pica +1"
+          "name": "Pica"
         },
         "7nHPYFob0vjlhbfL": {
           "activities": {},
@@ -9609,7 +9623,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Alabarda +1"
+          "name": "Alabarda"
         },
         "vYJD8S5kZvt92Wlv": {
           "activities": {},
@@ -10714,7 +10728,7 @@
               "name": "War Mago +1"
             }
           },
-          "name": "Vara del mago de guerra, +2"
+          "name": "Vara del mago de guerra"
         },
         "ZEqp8PZRCOUPVwmG": {
           "activities": {},
@@ -11363,7 +11377,7 @@
               "name": "Mago De Batalla +2"
             }
           },
-          "name": "Vara del mago de batalla, +2"
+          "name": "Vara del mago de batalla"
         },
         "ZEqp8PZRCOUPVwmG": {
           "activities": {},
@@ -12280,7 +12294,7 @@
               "name": "Vara Del Mago De Guerra, +3"
             }
           },
-          "name": "Vara del mago de guerra, +3"
+          "name": "Vara del mago de guerra"
         },
         "ZEqp8PZRCOUPVwmG": {
           "activities": {},
@@ -15657,7 +15671,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         }
       }
     },
@@ -16055,7 +16069,7 @@
               "name": "Munición +2"
             }
           },
-          "name": "Flechas +2"
+          "name": "Flechas"
         },
         "WyVga5iUa1gmsOHD": {
           "activities": {},
@@ -16141,7 +16155,7 @@
               "name": "Munición +1"
             }
           },
-          "name": "Flechas +1"
+          "name": "Flechas"
         },
         "gRtGvsb8FEvgcJfy": {
           "activities": {},
@@ -16218,7 +16232,7 @@
               "name": "Arma +2"
             }
           },
-          "name": "Espada corta +2"
+          "name": "Espada corta"
         },
         "lRBFgh2CaamaP6fP": {
           "activities": {},
@@ -16413,7 +16427,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         }
       }
     },
@@ -18493,7 +18507,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         },
         "fb89Fh4dNtjBYQQ1": {
           "activities": {},
@@ -18515,7 +18529,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Arco corto +1"
+          "name": "Arco corto"
         },
         "iSK720h4AStmW1uw": {
           "activities": {},
@@ -19363,7 +19377,7 @@
               "name": "Armadura +1"
             }
           },
-          "name": "Armadura de cuero tachonado +1"
+          "name": "Armadura de cuero tachonado"
         },
         "fb89Fh4dNtjBYQQ1": {
           "activities": {},
@@ -19395,7 +19409,7 @@
               "name": "Arma +1"
             }
           },
-          "name": "Arco corto +1"
+          "name": "Arco corto"
         },
         "iSK720h4AStmW1uw": {
           "activities": {},
@@ -20156,7 +20170,7 @@
               "name": "Mago de Guerra +1"
             }
           },
-          "name": "Varita del Mago de Guerra, +1"
+          "name": "Varita del Mago de Guerra"
         },
         "NyFdKUuLRhUSwQwS": {
           "activities": {},
@@ -20774,7 +20788,7 @@
               "name": "Mago de Guerra +2"
             }
           },
-          "name": "Varita del mago de guerra, +2"
+          "name": "Varita del mago de guerra"
         },
         "Ntgurh8vPJgMhqGd": {
           "activities": {},
@@ -21648,7 +21662,7 @@
               "name": "Mago de Guerra +2"
             }
           },
-          "name": "Vara del mago de guerra, +2"
+          "name": "Vara del mago de guerra"
         },
         "Ntgurh8vPJgMhqGd": {
           "activities": {},

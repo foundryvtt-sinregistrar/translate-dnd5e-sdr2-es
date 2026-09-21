@@ -4,6 +4,8 @@
  * - NO llama a Babele ni hace deep merge (evita recursión)
  * - Traducciones por _id (robusto)
  */
+import { activities } from "./activities.js";
+
 export function actorFullById(actor, translation) {
     if (!translation) return actor;
 
@@ -123,15 +125,8 @@ function mergeItemsByIdOnActor(actor, tItems) {
             it.system.description.value = d;
         }
 
-        // activities por _id: it.system.activities.{id}.name
-        if (t.activities) {
-            const tActById = normalizeByIdObject(t.activities);
-            const acts = it.system?.activities ?? {};
-            for (const [actId, act] of Object.entries(acts)) {
-                const ta = tActById[actId];
-                if (!ta) continue;
-                if (typeof ta.name === "string") acts[actId].name = ta.name;
-            }
+        if (t.activities && it.system?.activities) {
+            it.system.activities = activities(it.system.activities, t.activities);
         }
 
         // item effects por _id

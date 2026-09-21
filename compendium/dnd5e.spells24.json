@@ -1,7 +1,11 @@
 {
   "label": "Conjuros",
   "mapping": {
-    "materials": "system.materials.value"
+    "materials": "system.materials.value",
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
   },
   "folders": {
     "1st Level": "Nivel 1",

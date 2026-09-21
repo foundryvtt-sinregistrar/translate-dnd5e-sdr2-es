@@ -1,6 +1,11 @@
 {
   "label": "Dotes",
-  "mapping": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
+  },
   "folders": {
     "Epic Boon Feats": "Dotes de bendición épica",
     "Fighting Style Feats": "Dotes de estilo de combate",
