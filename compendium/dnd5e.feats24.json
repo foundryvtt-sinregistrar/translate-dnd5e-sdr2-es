@@ -4,6 +4,10 @@
     "activities": {
       "path": "system.activities",
       "converter": "activities"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancementById"
     }
   },
   "folders": {

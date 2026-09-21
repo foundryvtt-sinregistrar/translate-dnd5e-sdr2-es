@@ -10,9 +10,14 @@
         "activities": {
           "path": "system.activities",
           "converter": "activities"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "advancementById"
         }
       }
-    }
+    },
+    "biography": "system.details.biography.value"
   },
   "folders": {
     "Conjured Elementals": "Elementales conjurados",

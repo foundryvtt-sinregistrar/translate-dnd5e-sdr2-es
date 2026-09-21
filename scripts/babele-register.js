@@ -26,49 +26,7 @@ function registerSpanishCompendiums(babele) {
       babele.register({
           module: "translate-dnd5e-sdr2-es",
           lang,
-          dir: "compendium",
-          compendium: {
-              "dnd5e.content24": {
-                  label: "Reglas",
-                  path: "dnd5e.content24.json",
-                  converter: "journalEntryFullById"
-              },
-              "dnd5e.origins24": {
-                  label: "Orígenes",
-                  path: "dnd5e.origins24.json"
-                  // aquí normalmente usarías mapping dentro del JSON, o converter si lo necesitas
-              },
-              "dnd5e.classes24": {
-                  label: "Clases",
-                  path: "dnd5e.classes24.json"
-              },
-              "dnd5e.feats24": {
-                  label: "Dotes",
-                  path: "dnd5e.feats24.json"
-              },
-              "dnd5e.spells24": {
-                  label: "Conjuros",
-                  path: "dnd5e.spells24.json"
-              },
-              "dnd5e.equipment24": {
-                  label: "Equipo",
-                  path: "dnd5e.equipment24.json"
-              },
-              "dnd5e.tables24": {
-                  label: "Tablas",
-                  path: "dnd5e.tables24.json"
-                  // aquí normalmente NO hace falta mapping
-              },
-              "dnd5e.monsterfeatures24": {
-                  label: "Rasgos de monstruos",
-                  path: "dnd5e.monsterfeatures24.json"
-              },
-              "dnd5e.actors24": {
-                  label: "Actores",
-                  path: "dnd5e.actors24.json",
-                  converter: "actorFullById"
-              }
-          }
+          dir: "compendium"
       });
         console.log(`[Babele - translate-dnd5e-sdr2-es] Registered for lang="${lang}" (dir=compendium)`);
     } catch (err) {

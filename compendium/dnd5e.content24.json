@@ -1,5 +1,36 @@
 {
   "label": "Reglas",
+  "mapping": {
+    "pages": {
+      "path": "pages",
+      "converter": "document",
+      "documentType": "JournalEntryPage",
+      "cardinality": "many",
+      "mapping": {
+        "systemText": {
+          "path": "system.text",
+          "converter": "structured",
+          "cardinality": "one",
+          "mapping": {
+            "content": "content"
+          }
+        },
+        "description": {
+          "path": "system.description",
+          "converter": "structured",
+          "cardinality": "one",
+          "mapping": {
+            "value": "value",
+            "additionalHitPoints": "additionalHitPoints",
+            "additionalTraits": "additionalTraits",
+            "additionalEquipment": "additionalEquipment",
+            "subclass": "subclass"
+          }
+        },
+        "subclassHeader": "system.subclassHeader"
+      }
+    }
+  },
   "folders": {
     "Appendices": "Apéndices",
     "Chapter 1": "Capítulo 1",
@@ -2610,12 +2641,12 @@
         "phbbrbBarbarian0": {
           "name": "Bárbaro",
           "key": "Barbarian",
-          "text": "<blockquote><p>A Fierce Warrior of Primal Rage</p></blockquote><p>Barbarians are mighty warriors who are powered by primal forces of the multiverse that manifest as a Rage. More than a mere emotion—and not limited to anger—this Rage is an incarnation of a predator's ferocity, a storm's fury, and a sea's turmoil.</p><p>Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess, but also uncanny reflexes and heightened senses.</p><p>Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventure.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>This is Free Rules content that isn't covered under the Creative Commons license and may not be re-distributed outside of the game system.</p></div>"
+          "text": "<blockquote><p>Un guerrero feroz de furia primordial</p></blockquote><p>Los bárbaros son poderosos guerreros impulsados por fuerzas primordiales del multiverso que se manifiestan como una furia. Más que una simple emoción, y sin limitarse a la ira, esta furia encarna la ferocidad de un depredador, la cólera de una tormenta y la agitación del mar.</p><p>Algunos bárbaros personifican su furia como un espíritu feroz o un antepasado venerado. Otros la ven como una conexión con el dolor y la angustia del mundo, como una maraña impersonal de magia salvaje o como una expresión de lo más profundo de su ser. Para todo bárbaro, su furia es un poder que alimenta no solo su destreza en combate, sino también unos reflejos extraordinarios y unos sentidos agudizados.</p><p>Los bárbaros suelen actuar como protectores y líderes de sus comunidades. Se lanzan de cabeza al peligro para que quienes están bajo su protección no tengan que hacerlo. Su valor ante el peligro los hace especialmente aptos para la aventura.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>Este contenido pertenece a las Reglas gratuitas, no está cubierto por la licencia Creative Commons y no puede redistribuirse fuera del sistema de juego.</p></div>"
         },
         "phbbrdBard000000": {
           "name": "Bardo",
           "key": "Bard",
-          "text": "<blockquote><p>An Inspiring Performer of Music, Dance, and Magic</p></blockquote><p>Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions. Bards believe the multiverse was spoken into existence and that remnants of its Words of Creation still resound and glimmer on every plane of existence. Bardic magic attempts to harness those words, which transcend any language.</p><p>Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They become masters of many things, including performing music, working magic, and making jests.</p><p>A Bard's life is spent traveling, gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge and mastery of magic sets them apart.</p><aside class=\"notable\"><h3>A Bard's Repertoire</h3><p>Does your Bard beat a drum while chanting the deeds of ancient heroes? Strum a lute while crooning romantic tunes? Perform arias of stirring power? Recite dramatic monologues from classic tragedies? Use the rhythm of a folk dance to coordinate the movement of allies in battle? Compose naughty limericks?</p><p>When you play a Bard, consider the style of artistic performance you favor, the moods you might invoke, and the themes that inspire your own creations. Are your poems inspired by moments of natural beauty, or are they brooding reflections on loss? Do you prefer lofty hymns or rowdy tavern songs? Are you drawn to laments for the fallen or celebrations of joy? Do you dance merry jigs or perform elaborate interpretive choreography? Do you focus on one style of performance or strive to master them all?</p></aside><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>This is Free Rules content that isn't covered under the Creative Commons license and may not be re-distributed outside of the game system.</p></div>"
+          "text": "<blockquote><p>Un artista que inspira mediante la música, la danza y la magia</p></blockquote><p>Los bardos invocan la magia mediante la música, la danza y el verso, y son expertos en inspirar a otros, aliviar heridas, desmoralizar a sus enemigos y crear ilusiones. Creen que el multiverso cobró existencia a través de la palabra y que los vestigios de sus Palabras de la Creación aún resuenan y brillan en todos los planos de existencia. La magia bárdica intenta aprovechar esas palabras, que trascienden cualquier idioma.</p><p>Cualquier cosa puede inspirar una nueva canción o relato, por lo que a los bardos les fascina casi todo. Llegan a dominar muchas disciplinas, como interpretar música, obrar magia y hacer bromas.</p><p>Un bardo pasa la vida viajando, reuniendo conocimientos, contando historias y viviendo de la gratitud de su público, como cualquier otro artista. Pero la profundidad de sus conocimientos y su dominio de la magia lo distinguen de los demás.</p><aside class=\"notable\"><h3>El repertorio de un bardo</h3><p>¿Tu bardo toca un tambor mientras canta las hazañas de antiguos héroes? ¿Rasguea un laúd mientras entona melodías románticas? ¿Interpreta arias de un poder conmovedor? ¿Recita monólogos dramáticos de tragedias clásicas? ¿Utiliza el ritmo de una danza popular para coordinar los movimientos de sus aliados en combate? ¿Compone versos picantes?</p><p>Cuando interpretes a un bardo, piensa en el estilo de expresión artística que prefieres, los estados de ánimo que podrías evocar y los temas que inspiran tus propias creaciones. ¿Tus poemas se inspiran en momentos de belleza natural o son sombrías reflexiones sobre la pérdida? ¿Prefieres himnos solemnes o bulliciosas canciones de taberna? ¿Te atraen los lamentos por los caídos o las celebraciones de alegría? ¿Bailas danzas animadas o interpretas elaboradas coreografías expresivas? ¿Te centras en un estilo de interpretación o aspiras a dominarlos todos?</p></aside><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>Este contenido pertenece a las Reglas gratuitas, no está cubierto por la licencia Creative Commons y no puede redistribuirse fuera del sistema de juego.</p></div>"
         },
         "phbclcCleric0000": {
           "name": "Clérigo",
