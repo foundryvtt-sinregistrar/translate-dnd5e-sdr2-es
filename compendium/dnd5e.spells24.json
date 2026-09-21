@@ -1,7 +1,15 @@
 {
   "label": "Conjuros",
   "mapping": {
-    "materials": "system.materials.value"
+    "materials": "system.materials.value",
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancementById"
+    }
   },
   "folders": {
     "1st Level": "Nivel 1",
@@ -352,7 +360,7 @@
       "materials": "virutas de hierro"
     },
     "phbsplAntipathyS": {
-      "name": "Antipatía/simpatía",
+      "name": "Antipatía/Simpatía",
       "description": "<p>Al lanzar el conjuro, eliges si crea antipatía o simpatía, y eliges como objetivo a una criatura u objeto Enorme o más pequeño. Luego especificas un tipo de criatura, como dragones rojos, goblins o vampiros. Una criatura del tipo elegido realiza una tirada de salvación de Sabiduría cuando se acerca a 120 pies o menos del objetivo. Tu elección de antipatía o simpatía determina qué ocurre cuando esa criatura falla la tirada de salvación:</p><p><strong>Antipatía.</strong> La criatura tiene la condición &amp;Reference[Frightened apply=false]. La criatura Asustada debe usar su movimiento en sus turnos para alejarse lo máximo posible del objetivo, moviéndose por la ruta más segura.</p><p><strong>Simpatía.</strong> La criatura tiene la condición &amp;Reference[Charmed apply=false]. La criatura Hechizada debe usar su movimiento en sus turnos para acercarse lo máximo posible al objetivo, moviéndose por la ruta más segura. Si la criatura está a 5 pies o menos del objetivo, no puede moverse voluntariamente para alejarse. Si el objetivo inflige daño a la criatura Hechizada, esa criatura puede realizar una tirada de salvación de Sabiduría para terminar el efecto, como se describe a continuación.</p><p><strong>Terminar el efecto.</strong> Si la criatura Asustada o Hechizada termina su turno a más de 120 pies del objetivo, la criatura realiza una tirada de salvación de Sabiduría. Si tiene éxito, la criatura deja de estar afectada por el objetivo. Una criatura que supere esta tirada de salvación es inmune a este efecto durante 1 minuto, tras lo cual puede volver a verse afectada.</p>",
       "activities": {
         "BcL0t9o1WyOIZ5El": {
@@ -1565,7 +1573,7 @@
       "advancement": {}
     },
     "phbsplDivineSmit": {
-      "name": "Castigo divino",
+      "name": "Castigo Divino",
       "description": "<p>El objetivo recibe 2d8 de daño Radiante adicional por el ataque. El daño aumenta en 1d8 si el objetivo es un Demonio o un No muerto.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 1.</p>",
       "activities": {
         "dnd5eactivity200": {
