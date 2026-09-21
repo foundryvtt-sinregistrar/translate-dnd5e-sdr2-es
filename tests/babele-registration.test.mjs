@@ -30,16 +30,33 @@ for (const [language, expected] of [
     });
 }
 
-test("activity converter is registered through the Babele bootstrap instance", async () => {
-    let callback;
-    globalThis.Hooks = { once(event, fn) { assert.equal(event, "babele.init"); callback = fn; } };
-    try {
-        await import("../scripts/converters.js");
-        let converters;
-        callback({ registerConverters(value) { converters = value; } });
-        assert.equal(typeof converters.activities, "function");
-        assert.equal(typeof converters.actorFullById, "function");
-    } finally {
-        delete globalThis.Hooks;
-    }
-});
+for (const language of ["es", "es-ES", "en", "en-US", "fr"]) {
+    test(`converters and sheet fixes are inactive outside Spanish: ${language}`, async () => {
+        const hooks = new Map();
+        let ready = false;
+        globalThis.Hooks = { once(event, fn) { hooks.set(event, fn); } };
+        globalThis.game = { settings: { get() {
+            if (!ready) throw new Error("Settings not registered");
+            return language;
+        } } };
+        try {
+            await import(`../scripts/converters.js?lang=${language}`);
+            let converters;
+            hooks.get("babele.init")({ registerConverters(value) { converters = value; } });
+            assert.equal(converters, undefined);
+            ready = true;
+            hooks.get("setup")();
+            assert.equal(typeof converters?.activities, language.startsWith("es") ? "function" : "undefined");
+            const renderHooks = [];
+            runInNewContext(readFileSync(new URL("../scripts/runtime-fixes.js", import.meta.url), "utf8"), {
+                game: globalThis.game,
+                Hooks: { once(event, fn) { assert.equal(event, "setup"); fn(); },
+                    on(event) { renderHooks.push(event); } }
+            });
+            assert.equal(renderHooks.length, language.startsWith("es") ? 4 : 0);
+        } finally {
+            delete globalThis.Hooks;
+            delete globalThis.game;
+        }
+    });
+}

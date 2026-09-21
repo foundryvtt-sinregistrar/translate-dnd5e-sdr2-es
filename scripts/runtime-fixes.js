@@ -1,6 +1,8 @@
 /** Runtime localization fixes for D&D5e prepared values outside Babele data. */
 
 function localizeCharacterSpeciesSubtype(_application, element) {
+    const language = game.settings.get("core", "language");
+    if (typeof language !== "string" || language.split("-")[0].toLowerCase() !== "es") return;
     const root = element instanceof HTMLElement ? element : element?.[0];
     if (!root) return;
 
@@ -15,7 +17,11 @@ function localizeCharacterSpeciesSubtype(_application, element) {
 
 // ApplicationV2 uses the concrete application-class render hook. Keep the
 // generic hooks for alternate sheets and compatibility with nearby releases.
-Hooks.on("renderCharacterActorSheet", localizeCharacterSpeciesSubtype);
-Hooks.on("renderActorSheetV2", localizeCharacterSpeciesSubtype);
-Hooks.on("renderApplicationV2", localizeCharacterSpeciesSubtype);
-Hooks.on("renderActorSheet", localizeCharacterSpeciesSubtype);
+Hooks.once("setup", () => {
+    const language = game.settings.get("core", "language");
+    if (typeof language !== "string" || language.split("-")[0].toLowerCase() !== "es") return;
+    Hooks.on("renderCharacterActorSheet", localizeCharacterSpeciesSubtype);
+    Hooks.on("renderActorSheetV2", localizeCharacterSpeciesSubtype);
+    Hooks.on("renderApplicationV2", localizeCharacterSpeciesSubtype);
+    Hooks.on("renderActorSheet", localizeCharacterSpeciesSubtype);
+});
