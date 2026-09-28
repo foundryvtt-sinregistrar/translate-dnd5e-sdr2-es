@@ -1,6 +1,6 @@
 # Guía de desarrollo
 
-Proyecto: `translate-dnd5e-sdr2-es`, versión de trabajo **1.14.2**. Instalación: [README.md](README.md) y [README.en.md](README.en.md).
+Proyecto: `translate-dnd5e-sdr2-es`, versión de trabajo **1.14.3**. Instalación: [README.md](README.md) y [README.en.md](README.en.md).
 
 ## Entorno y compatibilidad
 

@@ -6,7 +6,7 @@ Traducción para Foundry VTT mediante Babele. Identificador: `translate-dnd5e-sd
 
 ## Estado
 
-Versión: **1.14.2**. Traducciones de los compendios SRD del sistema dnd5e, con correcciones de ejecución específicas. El identificador histórico `sdr2` se conserva. Las pruebas automáticas no sustituyen la revisión editorial y funcional en Foundry.
+Versión: **1.14.3**. Traducciones de los compendios SRD del sistema dnd5e, con correcciones de ejecución específicas. El identificador histórico `sdr2` se conserva. Las pruebas automáticas no sustituyen la revisión editorial y funcional en Foundry.
 
 Consulta [CHANGELOG.md](CHANGELOG.md).
 
