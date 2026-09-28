@@ -45,6 +45,8 @@ git diff --check
 
 Comprueba también un clon aislado: los módulos hermanos y las fuentes privadas del workspace pueden ocultar dependencias. Las omisiones por fuentes ausentes deben aparecer en el resultado y no equivalen a pruebas superadas. No ejecutes generadores como parte de la validación.
 
+Dos pruebas de `text-mappings.test.mjs` integran las clases reales de Babele desde `../babele/`: se omiten expresamente cuando esa instalación no existe. Las otras 16 pruebas Node funcionan en un clon aislado. Con Babele instalado, ejecuta la misma orden para comprobar también los mappings de biografía y páginas de diario.
+
 Para pruebas funcionales, registra versiones de Foundry, dnd5e, Babele y producto oficial; abre e importa documentos representativos en un mundo de prueba. Revisa enlaces, imágenes, tablas y automatizaciones. No declares una verificación completa basándote solo en JSON válido o cobertura de traducción.
 
 ## Construcción

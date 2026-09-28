@@ -16,6 +16,8 @@ Antes de actualizar herramientas comunes, compara la base registrada con la nuev
 
 ## Validación y commits
 
+La comprobación en un clon aislado detectó imports de Babele desde una carpeta hermana. Se conservan esas dos pruebas como integración con carga diferida y omisión visible si falta Babele; las otras 16 pruebas Node son independientes de esa instalación.
+
 El informe global registra los resultados definitivos, omisiones, inventario del ZIP y commits. Consulta `git log --oneline -- dev-tools/homogeneizacion/ADOPCION.md` para localizar la adopción. CI remota, pruebas funcionales en Foundry y publicación se verifican por separado; no se presentan como ejecutadas por una validación local.
 
 La rama incorpora los siete commits remotos de contadores junto al commit local de versión, sin alterar main. Se conserva el identificador sdr2 y el texto original de la licencia al renombrarla a LICENSE.md.

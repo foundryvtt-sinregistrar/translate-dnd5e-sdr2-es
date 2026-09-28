@@ -1,9 +1,10 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { advancementById } from "../scripts/converters/advancement-by-id.js";
-import { StructuredDataConverter } from "../../babele/script/converter/structured-data-converter.js";
-import { FieldMapping } from "../../babele/script/mapping/field-mapping.js";
+
+const structuredURL = new URL("../../babele/script/converter/structured-data-converter.js", import.meta.url);
+const mappingURL = new URL("../../babele/script/mapping/field-mapping.js", import.meta.url);
 
 const pack = name => JSON.parse(readFileSync(new URL(`../compendium/dnd5e.${name}.json`, import.meta.url)));
 
@@ -17,14 +18,20 @@ test("advancements translate text by ID while preserving mechanics and original 
     assert.deepEqual(source, original);
 });
 
-test("actor biography mapping applies the actual translation field", () => {
+test("Babele integration: actor biography mapping applies the actual translation field", {
+    skip: !existsSync(mappingURL)
+}, async () => {
+    const { FieldMapping } = await import(mappingURL.href);
     const data = { system: { details: { biography: { value: "Original" } } } };
     const entry = Object.values(pack("actors24").entries).find(e => e.biography);
     const mapping = new FieldMapping("biography", pack("actors24").mapping.biography);
     assert.deepEqual(mapping.map(data, entry), { system: { details: { biography: { value: entry.biography } } } });
 });
 
-test("Babele structured converter applies journal text and preserves unmapped fields", () => {
+test("Babele integration: structured converter applies journal text and preserves unmapped fields", {
+    skip: !existsSync(structuredURL)
+}, async () => {
+    const { StructuredDataConverter } = await import(structuredURL.href);
     // These page payloads contain flat string fields; emulate Foundry's non-mutating merge.
     globalThis.foundry = { utils: { mergeObject: (source, patch) => ({ ...structuredClone(source), ...patch }) } };
     try {
