@@ -2,8 +2,8 @@
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-source = json.loads((ROOT / "tests/effects-source.json").read_text(encoding="utf-8"))
+ROOT = Path(__file__).resolve().parents[2]
+source = json.loads((ROOT / "dev-tools/validation/effects-source.json").read_text(encoding="utf-8"))
 abilities = dict(zip("Strength Dexterity Constitution Intelligence Wisdom Charisma".split(),
                      ["Fuerza", "Destreza", "Constitución", "Inteligencia", "Sabiduría", "Carisma"]))
 skills = dict(zip(["Acrobatics", "Animal Handling", "Arcana", "Athletics", "Deception", "History", "Insight", "Intimidation", "Investigation", "Medicine", "Nature", "Perception", "Performance", "Persuasion", "Religion", "Sleight of Hand", "Stealth", "Survival", "Initiative"],

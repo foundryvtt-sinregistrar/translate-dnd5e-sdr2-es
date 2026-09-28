@@ -1,142 +1,79 @@
-# 🇬🇧 D&D 5e SRD 2024 – Spanish Translation (Babele)
+# D&D SRD 5.2.1 — Spanish Translation
 
-![Foundry v13](https://img.shields.io/badge/Foundry-v13-green)
-[![Release v1.13.4](https://img.shields.io/badge/release-v1.13.4-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.4)
-![dnd5e 5.2.x](https://img.shields.io/badge/dnd5e-5.2.x-lightgrey)
-![Babele Required](https://img.shields.io/badge/Babele-required-orange)
-![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
+[Español](README.md) | **English**
 
-![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
-[![Release v1.14.2](https://img.shields.io/badge/release-v1.14.2-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.2)
-![dnd5e 5.3.x](https://img.shields.io/badge/dnd5e-5.3.x-blue)
-![Babele Required](https://img.shields.io/badge/Babele-required-orange)
-![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
+Translation for Foundry VTT using Babele. Module ID: `translate-dnd5e-sdr2-es`.
 
-[![Downloads v1.13](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/downloads-v13.json)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases)
-[![Downloads v1.14](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/downloads-v14.json)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases)
+## Status
 
-### This module is not affiliated with Wizards of the Coast.
-### This module does not include non-SRD content.
+Version: **1.14.2**. Translations of the dnd5e system SRD compendiums, including specific runtime fixes. The historical `sdr2` identifier is preserved. Automated tests do not replace editorial and functional review in Foundry.
 
-This module contains translations of material released under the  
-**Creative Commons Attribution 4.0 International License (CC-BY 4.0).**
+See [CHANGELOG.md](CHANGELOG.md).
 
-Dungeons & Dragons SRD 5.2.1 © Wizards of the Coast LLC.
+## Requirements
 
-------------------------------------------------------------------------
-## 📦 Description
+Versions declared in the manifest; “—” means that the corresponding limit is not declared.
 
-Spanish translation of the official **D&D 5e SRD 5.2.x (2024 rules compatible)**  
-compendiums for the Foundry VTT **dnd5e** system.
+| Dependency | Minimum | Verified |
+|---|---|---|
+| Foundry VTT | 14.367 | 14.368 |
+| dnd5e | 6.0.0 | 6.0.3 |
+| babele | 2.9.1 | 2.9.1 |
 
-Implemented using **Babele** with architecture:
+Install and enable the dependencies, purchasing official products separately when required.
 
-Mapping First → Converter Second → Normalization Layer
+The official Monster Manual module is an optional manifest recommendation for resolving external references; it is not a required dependency of the SRD translation.
 
----
+## Installation
 
-## 📦 Module Contents
+In Foundry's Setup screen, open **Add-on Modules → Install Module** and use this manifest:
 
-Structured translations for:
-
--   Classes
--   Spells
--   Feats
--   Equipment
--   Monster Features
--   Actors (Monsters, NPCs, Premades)
--   Origins
--   Tables
--   Rules (Journal Entries)
-
-------------------------------------------------------------------------
-
-## 🧠 Technical Architecture
-
-Mapping First → Converter Second → Normalization Layer
-
-### Converters
-
--   activities
--   mergeEffects
--   advancementById
-
-### Normalization v7
-
--   Canonical EN → ES glossary
--   Macro protection (@UUID, &Reference, @Embed, \[\[/r ...\]\])
--   Table and heading block protection
--   Semantic Spanish Title Case policy for structured fields
-
-------------------------------------------------------------------------
-
-## 📂 Structure
-```
-translate-dnd5e-sdr2-es/ 
-├── module.json 
-├── scripts/ 
-├── compendiums/
-└── normalization/
-```
-------------------------------------------------------------------------
-
-## ⚙️ Requirements
-
-- Foundry VTT v13 or v14
-- Foundry v13: use version `1.13.4` or later compatible with v13
-- Foundry v14: use version `1.14.0` or later
-- Foundry v13 uses dnd5e SRD 5.2.x
-- Foundry v14 uses dnd5e 5.3.x
-- Babele
-
-------------------------------------------------------------------------
-
-## 🚀 Installation
-
-### Option 1 — Download ZIP
-
-1. Go to the repository **Releases** page.
-2. Download the `.zip` for the **latest** release or a **specific** version.
-3. Extract to:
-
-```
-FoundryVTT/Data/modules/
+```text
+https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/latest/download/module.json
 ```
 
-4. Enable the module in Foundry.
-5. Enable the translation via Babele.
+For manual installation, download `translate-dnd5e-sdr2-es.zip` from [releases](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases). With Foundry stopped, extract the `translate-dnd5e-sdr2-es` folder into `Data/modules/`; the manifest must be at `Data/modules/translate-dnd5e-sdr2-es/module.json`.
 
----
+## Activation
 
-### Option 2 — Install from Foundry (Manifest URL)
+1. Open a dnd5e world.
+2. Enable Babele, its dependencies, the required official products and this translation.
+3. Select **Spanish** and reload the world.
+4. Open a translated compendium to check the result.
 
-1. In Foundry → **Add-on Modules → Install Module → Install from Manifest URL**
-2. Paste this URL:
+Registration is automatic for `es` and its regional variants. Other languages do not enable the Spanish translation.
 
-```
-https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json
-```
+## Updating
 
-3. Install the module.
-4. Enable it and activate the translation in Babele.
+Update through Foundry or replace the folder with the published ZIP while Foundry is stopped. Reload the world. Previously imported copies do not synchronize automatically: review differences before replacing documents with your own changes.
 
----
+## Included content
 
-## 📜 License
+- `dnd5e.actors24.json`.
+- `dnd5e.classes24.json`.
+- `dnd5e.content24.json`.
+- `dnd5e.effects.json`.
+- `dnd5e.equipment24.json`.
+- `dnd5e.feats24.json`.
+- `dnd5e.monsterfeatures24.json`.
+- `dnd5e.origins24.json`.
+- `dnd5e.spells24.json`.
+- `dnd5e.tables24.json`.
 
-This project contains only material released under  
-**Creative Commons Attribution 4.0 (CC-BY 4.0).**
+## Limitations
 
-No proprietary or non-SRD content is included.
+Text coverage and automated tests do not establish that every gameplay automation works. Observe the limitations listed under Status. Imported copies do not update automatically. New release URLs require a publication containing their assets; until available, use a validated ZIP. Private sources, PDFs, OCR and complete official exports are not distributed.
 
----
+## Support and contributions
 
-## 📜 Changelog
+Report problems in [issues](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/issues), including versions, affected compendium/document, steps, expected and observed results, and whether it is an imported copy.
 
-See: **CHANGELOG.md**
+## Development
 
----
+The [development guide](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/DEVELOPER.md) is available in the repository and excluded from the installable ZIP.
 
-## 👤 Author
+## License and credits
 
-foundryvtt-sinregistrar
+See the license and its terms in [LICENSE.md](LICENSE.md). This project incorporates material from the System Reference Document 5.2.1 by Wizards of the Coast LLC, under Creative Commons Attribution 4.0 (CC BY 4.0). Dungeons & Dragons SRD 5.2.1 © Wizards of the Coast LLC. The license file preserves the full attribution.
+
+Unofficial translation, not affiliated with Wizards of the Coast or Foundry VTT. Official product materials belong to their respective owners. Module author: [foundryvtt-sinregistrar](https://github.com/foundryvtt-sinregistrar).

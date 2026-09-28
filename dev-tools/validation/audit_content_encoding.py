@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 FILE = ROOT / "compendium/dnd5e.content24.json"
 source = FILE.read_text(encoding="utf-8")
 data = json.loads(source)
@@ -40,6 +40,6 @@ def scan(value, path):
         if len(hits) >= 3:
             rows.append({"path": ".".join(path), "english_markers": len(hits), "excerpt": text[:350]})
 scan(data, [])
-report = ROOT / "tests/content-english-audit.json"
+report = ROOT / "dev-tools/validation/content-english-audit.json"
 report.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"Encoding repaired and validated. {len(rows)} fields flagged for English review.")
