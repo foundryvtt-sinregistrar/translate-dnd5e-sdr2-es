@@ -16,6 +16,22 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ## [Unreleased]
 
+## [1.14.4] - 2026-10-05
+
+### Changed
+
+- Reforzada la compatibilidad de los convertidores con las colecciones indexadas por ID usadas por dnd5e 6.x, además de los arrays heredados.
+- `advancementById` admite ambos formatos en fuente y traducción, y conserva los campos mecánicos al localizar `name`/`title` y `hint`.
+- Los convertidores de efectos, diarios y resultados de tablas normalizan también contenedores indexados por ID.
+
+### Added
+
+- Pruebas de regresión para avances y efectos en formatos array y objeto.
+
+### Fixed
+
+- Evitada la omisión de traducciones de avances cuando dnd5e entrega `system.advancement` como objeto.
+
 ## [1.14.3] - 2026-09-28
 
 - Comprobados en Foundry 2453 documentos, nombres y campos explícitos; importada y revisada una muestra. Evidencia y límites en `dev-tools/homogeneizacion/VALIDACION-FOUNDRY.md`.
@@ -202,7 +218,8 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/compare/v1.14.3...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/compare/v1.14.4...HEAD
+[1.14.4]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.4
 [1.14.3]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.3
 [1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.2
 [1.14.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.1

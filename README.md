@@ -3,7 +3,7 @@
 **Versión actual — Foundry v14**
 
 ![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
-[![Release v1.14.3](https://img.shields.io/badge/release-v1.14.3-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.3)
+[![Release v1.14.4](https://img.shields.io/badge/release-v1.14.4-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.4)
 ![dnd5e 6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue)
 ![Babele 2.9.1 required](https://img.shields.io/badge/Babele-2.9.1_required-orange)
 ![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
@@ -27,7 +27,7 @@ Traducción para Foundry VTT mediante Babele. Identificador: `translate-dnd5e-sd
 
 ## Estado
 
-Versión: **1.14.3**. Traducciones de los compendios SRD del sistema dnd5e, con correcciones de ejecución específicas. El identificador histórico `sdr2` se conserva. Las pruebas automáticas no sustituyen la revisión editorial y funcional en Foundry.
+Versión: **1.14.4**. Traducciones de los compendios SRD del sistema dnd5e, con correcciones de ejecución específicas. El identificador histórico `sdr2` se conserva. Las pruebas automáticas no sustituyen la revisión editorial y funcional en Foundry.
 
 Consulta [CHANGELOG.md](CHANGELOG.md).
 
