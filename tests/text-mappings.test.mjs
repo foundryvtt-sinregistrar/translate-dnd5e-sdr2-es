@@ -18,6 +18,24 @@ test("advancements translate text by ID while preserving mechanics and original 
     assert.deepEqual(source, original);
 });
 
+test("advancements accept both legacy arrays and ID-indexed D&D5e 6 objects", () => {
+    const source = {
+        first: { _id: "first", name: "Ability Score", level: 4, configuration: { points: 2 } },
+        second: { id: "second", title: "Cantrip", level: 1, value: { chosen: ["acid-splash"] } }
+    };
+    const original = structuredClone(source);
+    const result = advancementById(source, [
+        { _id: "first", title: "Puntuación de característica", level: 20 },
+        { id: "second", hint: "Elige un truco", value: {} }
+    ]);
+
+    assert.deepEqual(result, {
+        first: { ...source.first, name: "Puntuación de característica" },
+        second: { ...source.second, hint: "Elige un truco" }
+    });
+    assert.deepEqual(source, original);
+});
+
 test("Babele integration: actor biography mapping applies the actual translation field", {
     skip: !existsSync(mappingURL)
 }, async () => {

@@ -1,7 +1,7 @@
 {
   "id": "translate-dnd5e-sdr2-es",
-  "title": "Translation: DnD5e SRD 5.2 2024 - Spanish (Babele)",
-  "description": "Spanish translation for the official D&D 5e SRD 5.2 2024 compendiums using Babele. Includes structured mappings, activities, effects, and semantic normalization.",
+  "title": "Translation: DnD5e SRD 5.2 2024 Spanish Translation (Babele)",
+  "description": "Spanish translation for the official D&amp;D 5e SRD 5.2 2024 compendiums using Babele. Includes structured mappings, activities, effects, and semantic normalization.",
   "version": "1.14.3",
   "compatibility": {
     "minimum": "14.367",
@@ -11,12 +11,14 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     },
     {
       "lang": "es",
       "name": "Español",
-      "path": "lang/es.json"
+      "path": "lang/es.json",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -60,7 +62,8 @@
   ],
   "authors": [
     {
-      "name": "foundryvtt-sinregistrar"
+      "name": "foundryvtt-sinregistrar",
+      "flags": {}
     }
   ],
   "url": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es",
@@ -69,5 +72,6 @@
   "bugs": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/issues",
   "readme": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/README.md",
   "changelog": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases",
-  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/LICENSE.md"
+  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/LICENSE.md",
+  "flags": {}
 }

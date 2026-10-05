@@ -1,5 +1,5 @@
 export function mergeEffects(source, translation) {
-  if (!Array.isArray(source) || !translation) return source;
+  if (!source || typeof source !== "object" || !translation || typeof translation !== "object") return source;
 
   const byId = {};
   const byName = {};
@@ -24,20 +24,20 @@ export function mergeEffects(source, translation) {
   const deepClone =
     globalThis.foundry?.utils?.deepClone
       ? foundry.utils.deepClone
-      : (obj) => structuredClone(obj);
+      : structuredClone;
+  const out = deepClone(source);
+  const effects = Array.isArray(out) ? out : Object.values(out);
 
-  return source.map((eff) => {
+  for (const eff of effects) {
     const id = eff?._id;
     const name = eff?.name;
 
     const patch = (id && byId[id]) ? byId[id] : (name && byName[name]) ? byName[name] : null;
-    if (!patch) return eff;
+    if (!patch) continue;
 
-    const cloned = deepClone(eff);
+    if (typeof patch.name === "string") eff.name = patch.name;
+    if (typeof patch.description === "string") eff.description = patch.description;
+  }
 
-    if (patch.name !== undefined) cloned.name = patch.name;
-    if (patch.description !== undefined) cloned.description = patch.description;
-
-    return cloned;
-  });
+  return out;
 }

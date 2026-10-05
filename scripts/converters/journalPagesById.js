@@ -15,11 +15,12 @@ export function journalPagesById(entity, translation) {
     // Nombre de la entry
     if (typeof translation.name === "string") entity.name = translation.name;
 
-    const tPages = translation.pages ?? {};
-    if (!entity.pages || !entity.pages.size) return entity;
+    const tPages = normalizeById(translation.pages);
+    const pages = normalizePages(entity.pages);
 
-    for (const page of entity.pages) {
-        const tPage = tPages[page._id];
+    for (const page of pages) {
+        const pageId = page?._id ?? page?.id;
+        const tPage = pageId ? tPages[pageId] : undefined;
         if (!tPage) continue;
 
         // Nombre de página
@@ -66,4 +67,21 @@ export function journalPagesById(entity, translation) {
     }
 
     return entity;
+}
+
+function normalizePages(value) {
+    if (!value) return [];
+    if (typeof value[Symbol.iterator] === "function") return value;
+    if (Array.isArray(value?.contents)) return value.contents;
+    if (Array.isArray(value)) return value;
+    return typeof value === "object" ? Object.values(value) : [];
+}
+
+function normalizeById(value) {
+    if (Array.isArray(value)) {
+        return Object.fromEntries(value
+            .filter(page => page && typeof page === "object" && (page._id ?? page.id))
+            .map(page => [page._id ?? page.id, page]));
+    }
+    return value && typeof value === "object" ? value : {};
 }

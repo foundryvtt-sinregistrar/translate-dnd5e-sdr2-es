@@ -23,6 +23,7 @@ export function tableResultsByRange(source, translation) {
         globalThis.structuredClone;
 
     let results;
+    let entries;
 
     if (Array.isArray(source)) {
         results = source;
@@ -30,11 +31,14 @@ export function tableResultsByRange(source, translation) {
         results = source.contents;
     } else if (typeof source?.[Symbol.iterator] === "function") {
         results = Array.from(source);
+    } else if (typeof source === "object") {
+        entries = Object.entries(source);
+        results = entries.map(([, result]) => result);
     } else {
         return source;
     }
 
-    return results.map(result => {
+    const translatedResults = results.map(result => {
         const out =
             typeof result?.toObject === "function"
                 ? result.toObject()
@@ -113,4 +117,8 @@ export function tableResultsByRange(source, translation) {
 
         return out;
     });
+
+    return entries
+        ? Object.fromEntries(entries.map(([key], index) => [key, translatedResults[index]]))
+        : translatedResults;
 }

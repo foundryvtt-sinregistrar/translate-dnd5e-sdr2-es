@@ -24,7 +24,7 @@ export function journalEntryFullById(entity, translation) {
         return [];
     })();
 
-    const tPages = translation.pages ?? {};
+    const tPages = normalizeById(translation.pages);
 
     for (const page of pages) {
         const pageId = page?._id ?? page?.id;
@@ -94,4 +94,13 @@ export function journalEntryFullById(entity, translation) {
     }
 
     return entity;
+}
+
+function normalizeById(value) {
+    if (Array.isArray(value)) {
+        return Object.fromEntries(value
+            .filter(page => page && typeof page === "object" && (page._id ?? page.id))
+            .map(page => [page._id ?? page.id, page]));
+    }
+    return value && typeof value === "object" ? value : {};
 }
