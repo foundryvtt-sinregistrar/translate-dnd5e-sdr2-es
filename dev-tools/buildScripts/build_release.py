@@ -15,7 +15,7 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-ROOT_FILES = {"module.json", "README.md", "README.en.md", "CHANGELOG.md", "LICENSE.md"}
+ROOT_FILES = {"module.json", "README.md", "README.en.md", "CHANGELOG.md", "LICENSE.md", "SECURITY.md"}
 PAYLOAD_DIRS = {"compendium", "lang", "scripts"}
 SAFE_NAME = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 SAFE_VERSION = re.compile(r"[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z]+(?:[.-][0-9A-Za-z]+)*)?")

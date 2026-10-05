@@ -37,7 +37,7 @@ class BuildReleaseTests(unittest.TestCase):
         self.write_json('compendium/items.json', {'entries': {'id': {'name': 'Original'}}})
         self.write_json('lang/es.json', {'test': 'Spanish'})
         self.write('scripts/main.js', '// committed runtime\n')
-        for name in ['README.md', 'README.en.md', 'LICENSE.md']:
+        for name in ['README.md', 'README.en.md', 'LICENSE.md', 'SECURITY.md']:
             self.write(name, '# Fixture\n')
         self.write('CHANGELOG.md', '# Changelog\n\n## [1.0.0] - 2026-09-28\n')
         self.write('.gitignore', 'dist/\n')
@@ -89,6 +89,7 @@ class BuildReleaseTests(unittest.TestCase):
             self.assertFalse(any('/tests/' in name for name in archive.namelist()))
             self.assertIn(f'{MODULE_ID}/README.en.md', archive.namelist())
             self.assertIn(f'{MODULE_ID}/LICENSE.md', archive.namelist())
+            self.assertIn(f'{MODULE_ID}/SECURITY.md', archive.namelist())
         if alias:
             self.assertEqual(versioned.read_bytes(), (folder / f'{base}.zip').read_bytes())
         else:
