@@ -1,5 +1,9 @@
 # D&D SRD 5.2.1 — Spanish Translation
 
+<p align="center">
+  <img src="docs/foundry/assets/banner-srd-2024.webp" alt="D&amp;D 5e SRD 2024 Spanish Translation — Traducción al español">
+</p>
+
 **Current version — Foundry v14**
 
 ![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
@@ -92,6 +96,16 @@ Report problems in [issues](https://github.com/foundryvtt-sinregistrar/translate
 ## Development
 
 The [development guide](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/DEVELOPER.md) is available in the repository and excluded from the installable ZIP.
+
+## Screenshots
+
+Two real examples of the Spanish localization in Foundry VTT:
+
+![Compendium browser, translated spell description and character sheet](docs/foundry/assets/screenshots/01-overview.webp)
+
+![Monster sheets and paladin features in Spanish](docs/foundry/assets/screenshots/03-monster-features.webp)
+
+See the [complete four-image gallery and publishable Foundry description](docs/foundry/README.md).
 
 ## License and credits
 

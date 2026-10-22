@@ -1,4 +1,8 @@
-# D&D SRD 5.2.1 — Traducción al español
+# D&D SRD 5.2.1 — Traducción al Español
+
+<p align="center">
+  <img src="docs/foundry/assets/banner-srd-2024.webp" alt="D&amp;D 5e SRD 2024 Spanish Translation — Traducción al español">
+</p>
 
 **Versión actual — Foundry v14**
 
@@ -94,6 +98,16 @@ Comunica errores en las [incidencias](https://github.com/foundryvtt-sinregistrar
 ## Desarrollo
 
 La [guía de desarrollo](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/blob/main/DEVELOPER.md) está disponible en el repositorio y se excluye del ZIP instalable.
+
+## Screenshots / Capturas de pantalla
+
+Dos ejemplos reales de la localización española dentro de Foundry VTT:
+
+![Compendium browser, translated spell description and character sheet / Navegador de compendios, descripción de conjuro traducido y ficha de personaje](docs/foundry/assets/screenshots/01-overview.webp)
+
+![Monster sheets and paladin features in Spanish / Fichas de monstruos y rasgos de paladín en español](docs/foundry/assets/screenshots/03-monster-features.webp)
+
+Consulta las [cuatro capturas y la descripción publicable para Foundry](docs/foundry/README.md) para ver la galería completa.
 
 ## Licencia y créditos
 
