@@ -16,6 +16,12 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ## [Unreleased]
 
+## [1.14.6] - 2026-10-27
+
+### Fixed
+
+- Se excluye `docs/` del archivo de distribucion para que el paquete validado solo contenga los recursos del modulo.
+
 ## [1.14.5] - 2026-10-27
 
 ### Changed
