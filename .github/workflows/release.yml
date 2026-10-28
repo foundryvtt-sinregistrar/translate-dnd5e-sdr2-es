@@ -27,6 +27,9 @@ jobs:
       contents: write
 
     steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - name: Download validated package
         uses: actions/download-artifact@v4
         with:
@@ -41,13 +44,26 @@ jobs:
           (cd dist && sha256sum --check SHA256SUMS.txt)
           echo "OK: release assets exist"
 
+      - name: Prepare presentation assets and release notes
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          VERSION="$(node -p 'require("./module.json").version')"
+          test "$RELEASE_TAG" = "v$VERSION"
+          cp docs/foundry/assets/banner-srd-2024.webp "dist/translate-dnd5e-sdr2-es-${VERSION}-banner.webp"
+          cp docs/foundry/assets/banner-srd-2024.webp dist/banner-srd-2024.webp
+          python -B dev-tools/buildScripts/generate_release_notes.py --output dist/release-notes.md
+
       - name: Create GitHub Release (DRAFT) and upload asset
         uses: softprops/action-gh-release@v2
         with:
           draft: true
           generate_release_notes: true
+          body_path: dist/release-notes.md
           fail_on_unmatched_files: true
           files: |
             dist/*.zip
             dist/module.json
             dist/SHA256SUMS.txt
+            dist/*-banner.webp
+            dist/banner-srd-2024.webp
