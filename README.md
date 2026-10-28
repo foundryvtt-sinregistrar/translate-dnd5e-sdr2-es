@@ -1,5 +1,7 @@
 # D&D SRD 5.2.1 — Traducción al Español
 
+**Español** | [English](README.en.md)
+
 <p align="center">
   <img src="docs/foundry/assets/banner-srd-2024.webp" alt="D&amp;D 5e SRD 2024 Spanish Translation — Traducción al español">
 </p>
@@ -7,7 +9,6 @@
 **Versión actual — Foundry v14**
 
 ![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
-[![Release v1.14.4](https://img.shields.io/badge/release-v1.14.4-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.14.4)
 ![dnd5e 6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue)
 ![Babele 2.9.1 required](https://img.shields.io/badge/Babele-2.9.1_required-orange)
 ![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
@@ -17,7 +18,6 @@
 **Compatibilidad histórica — Foundry v13**
 
 ![Foundry v13](https://img.shields.io/badge/Foundry-v13-green)
-[![Release v1.13.4](https://img.shields.io/badge/release-v1.13.4-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases/tag/v1.13.4)
 ![dnd5e 5.2.x](https://img.shields.io/badge/dnd5e-5.2.x-lightgrey)
 ![Babele Required](https://img.shields.io/badge/Babele-required-orange)
 ![SRD 5.2.1](https://img.shields.io/badge/SRD-5.2.1-lightgrey)
