@@ -2,11 +2,15 @@
 
 **Español** | [English](README.en.md)
 
+![Foundry minimum](https://img.shields.io/badge/Foundry_min-14.367%2B-green) ![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.369-blue) ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-6.0.0%2B-blue) ![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.0.6-blue) ![Babele minimum](https://img.shields.io/badge/Babele_min-2.9.1%2B-orange)
+
 <p align="center">
   <img src="docs/foundry/assets/banner-srd-2024.webp" alt="D&amp;D 5e SRD 2024 Spanish Translation — Traducción al español">
 </p>
 
 **Versión actual — Foundry v14**
+
+[![Descargas totales](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/total?label=descargas%20totales)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/releases)
 
 ![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
 ![dnd5e 6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue)
