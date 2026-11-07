@@ -16,6 +16,10 @@ The format is based on **Keep a Changelog**, and this project follows a custom v
 
 ## [Unreleased]
 
+### Changed
+
+- Compatibilidad verificada con Foundry VTT 14.370 y D&D5e 6.0.6.
+
 ## [1.14.6] - 2026-10-27
 
 ### Fixed
