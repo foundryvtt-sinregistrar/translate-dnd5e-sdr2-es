@@ -3782,6 +3782,71 @@
           "title": "Don Épico"
         }
       }
+    },
+    "phbdrdLandArid00": {
+      "name": "Terreno árido",
+      "description": "<table><caption><p>Terreno árido</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlur000000]{Contorno borroso}, @UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Manos ardientes}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Descarga de fuego}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de fuego}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlight0000]{Marchitar}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Muro de piedra}</em></p></td></tr></tbody></table>"
+    },
+    "phbdrdLandPolar0": {
+      "name": "Terreno polar",
+      "description": "<table><caption><p>Terreno polar</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{Nube de oscurecimiento}, @UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Inmovilizar persona}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Rayo de escarcha}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSleetStorm]{Tormenta de aguanieve}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Tormenta de hielo}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cono de frío}</em></p></td></tr></tbody></table>"
+    },
+    "phbdrdLandTemper": {
+      "name": "Terreno templado",
+      "description": "<table><caption><p>Terreno templado</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Paso brumoso}, @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Agarre electrizante}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Dormir}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Relámpago}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFreedomofM]{Libertad de movimiento}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTreeStride]{Paso arbóreo}</em></p></td></tr></tbody></table>"
+    },
+    "phbdrdLandTropic": {
+      "name": "Terreno tropical",
+      "description": "<table><caption><p>Terreno tropical</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAcidSplash]{Salpicadura ácida}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Rayo nauseabundo}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Telaraña}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Nube apestosa}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polimorfar}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Plaga de insectos}</em></p></td></tr></tbody></table>"
+    },
+    "phbmnkSelfrestor": {
+      "name": "Autorrestauración",
+      "description": "<p>Por pura fuerza de voluntad, puedes eliminar uno de los siguientes estados de ti mismo al final de cada uno de tus turnos: &amp;Reference[Charmed apply=false], &amp;Reference[Frightened apply=false] o &amp;Reference[Poisoned apply=false].</p><p>Además, prescindir de comida y bebida no te causa niveles de &amp;Reference[Exhaustion apply=false].</p>"
+    },
+    "phbscrElemAffAci": {
+      "name": "Afinidad elemental: ácido",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de ácido, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de ácido.</p>"
+        }
+      }
+    },
+    "phbscrElemAffCol": {
+      "name": "Afinidad elemental: frío",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de frío, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de frío.</p>"
+        }
+      }
+    },
+    "phbscrElemAffFir": {
+      "name": "Afinidad elemental: fuego",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de fuego, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de fuego.</p>"
+        }
+      }
+    },
+    "phbscrElemAffLig": {
+      "name": "Afinidad elemental: relámpago",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de relámpago, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de relámpago.</p>"
+        }
+      }
+    },
+    "phbscrElemAffPoi": {
+      "name": "Afinidad elemental: veneno",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de veneno, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de veneno.</p>"
+        }
+      }
     }
   }
 }

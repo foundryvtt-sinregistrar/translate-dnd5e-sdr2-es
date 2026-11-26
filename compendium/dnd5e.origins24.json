@@ -841,6 +841,99 @@
           "hint": "Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia."
         }
       }
+    },
+    "phbspElf00000000": {
+      "name": "Elfo",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"drow\">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"high-elves\">Altos elfos</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"wood-elves\">Elfos de los bosques</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspWoodElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Rasgos de elfo</h3><p><strong>Tipo de criatura:</strong> Humanoide<br><strong>Tamaño:</strong> Mediano (entre 5 y 6 pies de altura)<br><strong>Velocidad:</strong> 30 pies</p><p>Como elfo, tienes estos rasgos especiales.</p><p><em><strong>Visión en la oscuridad.</strong></em> Tienes &amp;Reference[Darkvision] con un alcance de 60 pies.</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptElvenLinea caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptFeyAncestr caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptKeenSenses caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptTrance0000 caption=false cite=false nameStyle=inline]</p>",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "<p>Mediano (entre 5 y 6 pies de altura)</p>"
+        }
+      }
+    },
+    "phbspGnome000000": {
+      "name": "Gnomo",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Rasgos de gnomo</h3><p><strong>Tipo de criatura:</strong> Humanoide<br><strong>Tamaño:</strong> Pequeño (entre 3 y 4 pies de altura)<br><strong>Velocidad:</strong> 30 pies</p><p>Como gnomo, tienes estos rasgos especiales.</p><p><em><strong>Visión en la oscuridad.</strong></em> Tienes &amp;Reference[Darkvision] con un alcance de 60 pies.</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptGnomishCun caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptGnomishLin caption=false cite=false nameStyle=inline]</p>",
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "<p>Pequeño (entre 3 y 4 pies de altura)</p>"
+        }
+      }
+    },
+    "phbspTiefling000": {
+      "name": "Tiflin",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"abyssal\">Abisal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Ctónico</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"infernal\">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Rasgos de tiflin</h3><p><strong>Tipo de criatura:</strong> Humanoide<br><strong>Tamaño:</strong> Mediano (entre 4 y 7 pies de altura) o Pequeño (entre 3 y 4 pies de altura), a tu elección al seleccionar esta especie<br><strong>Velocidad:</strong> 30 pies</p><p>Como tiflin, tienes estos rasgos especiales.</p><p><em><strong>Visión en la oscuridad.</strong></em> Tienes &amp;Reference[Darkvision] con un alcance de 60 pies.</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptFiendishLe caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptOtherworld caption=false cite=false nameStyle=inline]</p>",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "<p>Mediano (entre 4 y 7 pies de altura) o Pequeño (entre 3 y 4 pies de altura)</p>"
+        }
+      }
+    },
+    "phbsptDraconiAnc": {
+      "name": "Ascendencia dracónica",
+      "description": "<p>Tu linaje desciende de un dragón. Elige el tipo de dragón de la tabla Ascendientes dracónicos. Tu elección determina tu apariencia y afecta a tus rasgos Arma de aliento y Resistencia al daño.</p><table><caption><p>Ascendientes dracónicos</p></caption><thead><tr><th><p>Dragón</p></th><th><p>Tipo de daño</p></th><th><p>Dragón</p></th><th><p>Tipo de daño</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncBlac]{Dragón negro}</p></td><td><p>Ácido</p></td><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncGold]{Dragón dorado}</p></td><td><p>Fuego</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncBlue]{Dragón azul}</p></td><td><p>Relámpago</p></td><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncGree]{Dragón verde}</p></td><td><p>Veneno</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncBras]{Dragón de oropel}</p></td><td><p>Fuego</p></td><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncRed0]{Dragón rojo}</p></td><td><p>Fuego</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncBron]{Dragón de bronce}</p></td><td><p>Relámpago</p></td><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncSilv]{Dragón plateado}</p></td><td><p>Frío</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncCopp]{Dragón de cobre}</p></td><td><p>Ácido</p></td><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrgAncWhit]{Dragón blanco}</p></td><td><p>Frío</p></td></tr></tbody></table>",
+      "advancement": {
+        "XFXxfGcc0Z3nB070": {
+          "hint": "<p>Tu linaje desciende de un dragón. Elige el tipo de dragón de la tabla Ascendientes dracónicos. Tu elección determina tu apariencia y afecta a tus rasgos Arma de aliento y Resistencia al daño.</p>"
+        }
+      }
+    },
+    "phbsptDrgAncBlac": {
+      "name": "Ascendiente: dragón negro"
+    },
+    "phbsptDrgAncBlue": {
+      "name": "Ascendiente: dragón azul"
+    },
+    "phbsptDrgAncBras": {
+      "name": "Ascendiente: dragón de oropel"
+    },
+    "phbsptDrgAncBron": {
+      "name": "Ascendiente: dragón de bronce"
+    },
+    "phbsptDrgAncCopp": {
+      "name": "Ascendiente: dragón de cobre"
+    },
+    "phbsptDrgAncGold": {
+      "name": "Ascendiente: dragón dorado"
+    },
+    "phbsptDrgAncGree": {
+      "name": "Ascendiente: dragón verde"
+    },
+    "phbsptDrgAncRed0": {
+      "name": "Ascendiente: dragón rojo"
+    },
+    "phbsptDrgAncSilv": {
+      "name": "Ascendiente: dragón plateado"
+    },
+    "phbsptDrgAncWhit": {
+      "name": "Ascendiente: dragón blanco"
+    },
+    "phbsptElvenLinea": {
+      "name": "Linaje élfico",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales. Elige un linaje de la tabla Linajes élficos. Obtienes el beneficio de nivel 1 de ese linaje.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes conjuros de nivel superior, como se muestra en la tabla. Siempre tienes esos conjuros preparados. Puedes lanzarlos una vez sin gastar espacio de conjuro y recuperas la capacidad de hacerlo de ese modo cuando terminas un descanso largo. También puedes lanzar los conjuros usando cualquier espacio de conjuro que tengas del nivel apropiado. La característica que usas para lanzar conjuros con este rasgo es Inteligencia, Sabiduría o Carisma (eliges la característica al seleccionar el linaje).</p><table><caption>Linajes élficos</caption><thead><tr><td><p>Linaje</p></td><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptDrowElfLin]{Linaje élfico, drow}</p></td><td><p>El alcance de tu visión en la oscuridad aumenta a 120 pies. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Luces danzantes}.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fuego feérico}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Oscuridad}</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptHighElfLin]{Linaje élfico, alto elfo}</p></td><td><p>Conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitación}. Cada vez que terminas un descanso largo, puedes reemplazar ese truco por otro truco de la lista de conjuros de mago.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Paso brumoso}</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptWoodElfLin]{Linaje élfico, elfo de los bosques}</p></td><td><p>Tu velocidad aumenta a 35 pies. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Saber Druidico}.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Zancada prodigiosa}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pasar sin rastro}</p></td></tr></tbody></table>",
+      "advancement": {
+        "UXq1v36a9kxrZFZC": {
+          "hint": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales. Elige un linaje de la tabla Linajes élficos.</p>"
+        }
+      }
+    },
+    "phbsptFiendishLe": {
+      "name": "Legado infernal",
+      "description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales. Elige un legado de la tabla Legados infernales. Obtienes el beneficio de nivel 1 del legado elegido.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes conjuros de nivel superior, como se muestra en la tabla. Siempre tienes esos conjuros preparados. Puedes lanzarlos una vez sin gastar espacio de conjuro y recuperas la capacidad de hacerlo de ese modo cuando terminas un descanso largo. También puedes lanzar los conjuros usando cualquier espacio de conjuro que tengas del nivel apropiado. La característica que usas para lanzar conjuros con este rasgo es Inteligencia, Sabiduría o Carisma (eliges la característica al seleccionar el legado).</p><p></p><table><caption>Legados infernales</caption><thead><tr><td><p>Linaje</p></td><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptAbyssalLeg]{Legado infernal, abismal}</p></td><td>Tienes resistencia al daño de veneno. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Rociada venenosa}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Rayo nauseabundo}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Inmovilizar persona}</td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptChthonicLe]{Legado infernal, ctónico}</p></td><td>Tienes resistencia al daño necrótico. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Toque helado}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{Falsa vida}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Rayo debilitador}</td></tr><tr><td><p>@UUID[Compendium.dnd5e.origins24.Item.phbsptInfernalLe]{Legado infernal, infernal}</p></td><td>Tienes resistencia al daño de fuego. También conoces el truco @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Descarga de fuego}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Reprensión infernal}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Oscuridad}</td></tr></tbody></table>",
+      "advancement": {
+        "rQL2Qm4vq3c3DBDk": {
+          "hint": "<p>Has heredado un legado que te otorga habilidades sobrenaturales. Elige un legado de la tabla Legados infernales.</p>"
+        }
+      }
+    },
+    "phbsptGnomishLin": {
+      "name": "Linaje gnómico",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales. Elijas el que elijas, la característica que usas para lanzar conjuros con este rasgo es Inteligencia, Sabiduría o Carisma (eliges la característica al seleccionar el linaje).</p><div class=\"hide-secrets\"><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptForestGnom caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p><p>@Embed[Compendium.dnd5e.origins24.Item.phbsptRockGnomeL caption=false cite=false classes=\"subfeature\" nameStyle=inline]</p></div>",
+      "advancement": {
+        "wC1sjM4Uf7Bc9Gg3": {
+          "hint": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
+        }
+      }
     }
   }
 }

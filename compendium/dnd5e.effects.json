@@ -19,7 +19,12 @@
     "Skill Advantage": "Ventaja en habilidades",
     "Skill Disadvantage": "Desventaja en habilidades",
     "Speeds": "Velocidades",
-    "Spells": "Conjuros"
+    "Spells": "Conjuros",
+    "Dragonborn": "Dracónido",
+    "Species": "Especies",
+    "D20 Tests": "Pruebas de d20",
+    "Attack Disadvantage": "Desventaja en ataques",
+    "Attack Advantage": "Ventaja en ataques"
   },
   "entries": {
     "e46IrPKA531h2afv": {
@@ -542,6 +547,147 @@
     },
     "hpIXGEvY1zIjQc0U": {
       "name": "Desventaja en tiradas de salvación de Sabiduría"
+    },
+    "07DWCc85ojMT19wT": {
+      "name": "Velocidad reducida a la mitad"
+    },
+    "0YvRU4A8mbilmC0B": {
+      "name": "Cobertura de tres cuartos"
+    },
+    "0fiP0hZRDhFBLnTI": {
+      "name": "Desventaja en pruebas de característica"
+    },
+    "4OHj36XuznAPysXQ": {
+      "name": "Ventaja en pruebas de característica y tiradas de salvación"
+    },
+    "4ku7ow6UZeY7MjfH": {
+      "name": "Ventaja en ataques con armas a distancia"
+    },
+    "8eIW0EQsNReXFg44": {
+      "name": "Desventaja en ataques de conjuro a distancia"
+    },
+    "CD1FOholVUCPe3Df": {
+      "name": "Desventaja en tiradas de salvación"
+    },
+    "CRYQJ0hcgCVt2yOd": {
+      "name": "Ventaja en pruebas de habilidad"
+    },
+    "Ca18QV0aM0NRzYJU": {
+      "name": "Velocidad duplicada"
+    },
+    "D1wZ6JMqivuhM6T1": {
+      "name": "Desventaja en pruebas de habilidad"
+    },
+    "DovP6Uo8YmIohHeK": {
+      "name": "Retirada"
+    },
+    "EoQg3b999lrvmHSL": {
+      "name": "Desventaja en ataques con armas cuerpo a cuerpo"
+    },
+    "HsYwKCthn2Qkr6Kz": {
+      "name": "Ventaja en ataques con armas"
+    },
+    "I0SLnU350J32yLvE": {
+      "name": "Cobertura total"
+    },
+    "NAwy7XndcuYJutQU": {
+      "name": "Desventaja en ataques con armas a distancia"
+    },
+    "POcvRcUfutLQNcU6": {
+      "name": "Desventaja en ataques"
+    },
+    "Q55a8Ybd1HKqsHX6": {
+      "name": "Desventaja en ataques cuerpo a cuerpo"
+    },
+    "RiUrP3pEtoMXss7j": {
+      "name": "Ventaja en pruebas de d20"
+    },
+    "TD3ynP1vGUlJ7R5P": {
+      "name": "Ventaja en ataques"
+    },
+    "TnySzNBySPmvmwys": {
+      "name": "Ventaja en ataques cuerpo a cuerpo"
+    },
+    "UzcM4kRFU9oCbLkN": {
+      "name": "Desventaja en pruebas de d20"
+    },
+    "XlXmbPRyxOA3JqeP": {
+      "name": "Desventaja en ataques de conjuro"
+    },
+    "XoEv3BmHKAGLFX3m": {
+      "name": "Carrera"
+    },
+    "XtSh3VRWToowQQsn": {
+      "name": "Velocidad reducida a 0"
+    },
+    "friVsjzOLAFEmdaF": {
+      "name": "Cobertura media"
+    },
+    "iLB8tos2dlwQuyV8": {
+      "name": "Ventaja en ataques de conjuro"
+    },
+    "jKxOEEVt6WV0m00y": {
+      "name": "Ventaja en pruebas de característica"
+    },
+    "mA1RUuTvUaSm4urR": {
+      "name": "Desventaja en ataques con armas"
+    },
+    "nwbfJgbLbUqaPPiw": {
+      "name": "Desventaja en ataques de conjuro cuerpo a cuerpo"
+    },
+    "phbeffBreWeapAci": {
+      "name": "Arma de aliento de ácido",
+      "description": "<p>Tu arma de aliento inflige daño de ácido.</p>"
+    },
+    "phbeffBreWeapCol": {
+      "name": "Arma de aliento de frío",
+      "description": "<p>Tu arma de aliento inflige daño de frío.</p>"
+    },
+    "phbeffBreWeapFir": {
+      "name": "Arma de aliento de fuego",
+      "description": "<p>Tu arma de aliento inflige daño de fuego.</p>"
+    },
+    "phbeffBreWeapLig": {
+      "name": "Arma de aliento de relámpago",
+      "description": "<p>Tu arma de aliento inflige daño de relámpago.</p>"
+    },
+    "phbeffBreWeapPoi": {
+      "name": "Arma de aliento de veneno",
+      "description": "<p>Tu arma de aliento inflige daño de veneno.</p>"
+    },
+    "phbeffFlyingStee": {
+      "name": "Corcel volador",
+      "description": "<p>El corcel tiene una velocidad de vuelo de 60 pies si se invoca con un conjuro de nivel 4 o superior.</p>"
+    },
+    "qaDovAgXtVWOOFMy": {
+      "name": "Ventaja en tiradas de salvación"
+    },
+    "qfTVWq97wiQgSSSM": {
+      "name": "Sin ataques de oportunidad"
+    },
+    "rBv77nIMM0TmX3IV": {
+      "name": "Desventaja en pruebas de característica y tiradas de salvación"
+    },
+    "sIAO1D4o5K3yzshL": {
+      "name": "Ventaja en ataques con armas cuerpo a cuerpo"
+    },
+    "soRAWkj2Of7DvQNI": {
+      "name": "Ventaja en ataques de conjuro a distancia"
+    },
+    "t8UU3EQvrjTWQYlq": {
+      "name": "Ventaja en ataques a distancia"
+    },
+    "tZuPpkTWg8lVjxhL": {
+      "name": "Sin reacciones"
+    },
+    "v2yXsH05JMeVLKuh": {
+      "name": "Ventaja en ataques de conjuro cuerpo a cuerpo"
+    },
+    "yX7sz2cDadXezSp9": {
+      "name": "Esquiva"
+    },
+    "zd1XWsKvTdjznfzo": {
+      "name": "Desventaja en ataques a distancia"
     }
   }
 }
