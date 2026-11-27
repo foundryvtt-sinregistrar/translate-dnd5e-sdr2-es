@@ -33,7 +33,7 @@ Translation for Foundry VTT using Babele. Module ID: `translate-dnd5e-sdr2-es`.
 
 ## Status
 
-Version: **1.14.4**. Translations of the dnd5e system SRD compendiums, including specific runtime fixes. The historical `sdr2` identifier is preserved. Automated tests do not replace editorial and functional review in Foundry.
+Version: **1.14.7**. Translations of the dnd5e system SRD compendiums, including specific runtime fixes. The historical `sdr2` identifier is preserved. Automated tests do not replace editorial and functional review in Foundry.
 
 See [CHANGELOG.md](CHANGELOG.md).
 
